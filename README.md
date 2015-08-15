@@ -40,18 +40,18 @@ So let's focus on what is not simple:
 8. **Simple is elegant**: Fluancy., or code that doesn't look like a tornado! When there is nothing to take the focus away from something, it is truly elegant (e.g. Mona Lisa painting). This presents the *Architect's dilemna* (e.g. Trinity Church and an adjacent building in Boston, Mass' reflection off the church).  
 9. **Simplicity has to evolve**: We have all said, *my code simply sucks* at some point. Over time, things change, and as we change, simplicity will as well. Simple makes things easy, but its certainly not easy.  
 
-Resources:
+**Resources:**  
 * [Structure and Interpretation of Computer Programs](http://www.amazon.com/Structure-Interpretation-Computer-Programs-Engineering/dp/0262510871), book
 
 #### Writing Better jQuery Infused JavaScript ([Ken Dale](http://www.twitter.com/kendaleiv)),  [Slides](http://kendaleiv.com/jquery-js-refactor/#/)  
 
-Keys for Maintainability/Testability/Warm Fuzzies:  
+**Keys for Maintainability/Testability/Warm Fuzzies:**  
 1. **External files** (Good practice): Caching JavaScript in-browser.  
 2. **Strict mode** helps troubleshooting.  
 3. **Wrap in Life**: Function wrapped in params ```(``` and ```)```. This *thing* will immediately execute. This will shield the library from tampering (which is useful with global variables). Good resource [Atom editor](https://atom.io) (Windows/Apple).  
 4. **Shorthand Luke**: Using document.ready, changing ```click``` → ```on```, changing ```success``` → ```done``` (JavaScript process/chaining). Avoid deprecated items (see jQuery [docs](https://api.jquery.com/category/deprecated)).  
 
-Other Notes:
+**Other Notes:**
 * If you're having a problem up front, thats normal.
 * **Refactoring**: AJAX provides data and is a ```promise``` in itself.  
 * **Testing**: e.g. Jasmine for Frameworks/Libraries. Test descriptions with ```it``` using ```expect``` and ```toBe``` statements. There are custom Jasmine matches, such as ```spyOn``` (see [documentation](http://jasmine.github.io)).  
@@ -59,8 +59,8 @@ Other Notes:
 * **Other ways:** requireJS, ES6 modules (which may be the future), etc.
 * **Start**: 44 lines of code. **End:** HTML: 25 lines, JS: 127 lines. *Sometimes simplicity requires more lines of code*, for troubleshooting and for helping ourselves in the future. Used the Jasmine HTML runner.
 
-Resources: 
-* [Code](http://www.github.com/kendaleiv/jquery-js-refactor). Check out the commits to see the refactoring process from start → finish.
+**Resources:** 
+* [Code](http://www.github.com/kendaleiv/jquery-js-refactor): Check out the commits to see the refactoring process from start → finish.
 * [Slides](http://www.kendaleiv/jquery-js-refactor/#/)
 
 #### Components are the Future of the Web: It's Going to be Okay ([Tessa Thornton](http://www.twitter.com/tessthornton))  
