@@ -2,7 +2,7 @@
 Below is a list of notes compiled by [Kitty Hurley](http://www.twitter.com/geospatialem) from various conferences.
 
 ## 2015
-* [MidwestJS](https://github.com/geospatialem/conferences#midwestjs-2015-minneapolis-minn)
+* [MidwestJS](https://github.com/geospatialem/conferences#midwestjs-minneapolis-minn)
 
 
 ## [MidwestJS](http://www.midwestjs.com), Minneapolis, Minn.
