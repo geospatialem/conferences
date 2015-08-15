@@ -112,7 +112,20 @@ So let's focus on what is not simple:
 * Demo utilized [VanilaJS](http://vanilla-js.com) from scratch, and [Polymer](https://www.polymer-project.org) since it is less opinioned.
 
 #### Better Debugging in Chrome (Josh Longanecker)
-Text
+
+**Tricks + Tips**:  
+* **Scroll into view** from code → browser.  
+* **Awaits** tab: Will showcase the performance on your code.  
+* **Pretty Print**: under ```Sources``` → ```{}``` in the lower-left.  
+* Press ```Ctrl``` + ```Shift``` + ```f```: to see all functions.
+* **Breakpoints**: Conditional breakpoints, lists breakpoints to turn on/off in the right-hand window, step over breakpoints.
+* **Blackbox script**: The debugger will ignore scripts. To enable right-click the JavaScript file.
+* **Console.log(); messages**: ```console.error();```, ```console.log();```, ```console.group();```, ```console.groupEnd();```, ```console.groupLog();```, ```console.groupCollapsed();```, ```console.assert();```, etc.
+* **Preserve log**: Good practice when testing out AJAX calls (Before/After)
+* **Timeline**: ```console.time();``` and ```console.timeEnd();```.
+
+**Resources:**  
+* [Chrome documentation](https://developer.chrome.com/devtools)  
 
 #### Developing for Firefox OS: It's just the Web... or is it? ([Dan Callahan](http://www.twitter.com/callahad))
 Text
