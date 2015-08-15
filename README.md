@@ -24,7 +24,7 @@ Midwest JS is a premier technology conference focused on the JavaScript ecosyste
 * *[Better Debugging in Chrome](#better-debugging-in-chrome-josh-longanecker)*, Josh Longanecker  
 * *[Developing for Firefox OS: It's just the Web... or is it?](#developing-for-firefox-os-its-just-the-web-or-is-it-dan-callahan)*, Dan Callahan  
 * *[That's so Prototypical](#thats-so-prototypical-jordan-kasper)*, Jordan Kasper  
-* *[Enterprise JavaScript Apps with TypeScript](#enterprise-javascript-apps-with-typescript-kurt-wiersma)**, Kurt Wiersma  
+* *[Enterprise JavaScript Apps with TypeScript](#enterprise-javascript-apps-with-typescript-kurt-wiersma)*, Kurt Wiersma  
 * *[JavaScript Forensics](#javascript-forensics-todd-gardner)*, Todd Gardner  
 * *[Test Them Puzzles: What Test-Driven Learning Can Teach About JS and TDD](#test-them-puzzles-what-test-driven-learning-can-teach-about-js-and-tdd-branden-byers)*, Branden Byers  
 * *[Edge of Tomorrow: Introducing Microsoft's New Browser](#edge-of-tomorrow-introducing-microsofts-new-browser-david-giard)*, David Giard  
