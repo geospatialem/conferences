@@ -7,14 +7,31 @@ Below is a list of notes compiled by [Kitty Hurley](http://www.twitter.com/geosp
 
 ## [MidwestJS](http://www.midwestjs.com), Minneapolis, Minn.
 
-Midwest JS is a premier technology conference focused on the JavaScript ecosystem. There were a variety of talks from well­known speakers in the community in a typical presentation format. Talks were categorized and structured based on the following tracks:
+Midwest JS is a premier technology conference focused on the JavaScript ecosystem. There were a variety of talks from well­known speakers in the community in a typical presentation format. 
 
-* Beginner Track (JavaScript fundamentals, jQuery, jQuery UI, etc.)
-* Frameworks Track (Angular.js, Knockout.js, Ember.js, Backbone.js, etc.)
-* Node Track (anything based on Node.js)
-* Mobile­Track (PhoneGap, Appcelerator, etc.)
-* Testing Track (TDD, Jasmine, etc.)
-* Miscellaneous Track (Anything that doesn't fit into the others)
+**Session Tracks:*
+* *Beginner Track*: JavaScript fundamentals, jQuery, jQuery UI, etc.
+* *Frameworks Track*: Angular.js, Knockout.js, Ember.js, Backbone.js, etc.
+* *Node Track*: Aything based on Node.js
+* *Mobile­Track*: PhoneGap, Appcelerator, etc.
+* *Testing Track*: TDD, Jasmine, etc.
+* *Miscellaneous Track*: Anything that doesn't fit into the others
+
+**Sessions:**  
+* *Opening Keynote: The Art of Simplicity*, Venkat Subramaniam  
+* *Writing Better jQuery Infused JavaScript*, Ken Dale  
+* *Components are the Future of the Web: It's Going to be Okay*, Tessa Thornton  
+* *Better Debugging in Chrome*, Josh Longanecker  
+* *Developing for Firefox OS: It's just the Web... or is it?*, Dan Callahan  
+* *That's so Prototypical*, Jordan Kasper  
+* *Enterprise JavaScript Apps with TypeScript**, Kurt Wiersma  
+* *JavaScript Forensics*, Todd Gardner  
+* *Test Them Puzzles: What Test-Driven Learning Can Teach About JS and TDD*, Branden Byers  
+* *Edge of Tomorrow: Introducing Microsoft's New Browser*, David Giard  
+* *Adventures in Test-Driven Development*, Jeremy Lund  
+* *Closing Keynote: The Current State of JavaScript*, Jon DeJong  
+
+#### Keynote: The Current State of JavaScript ([Jon DeJong](http://www.twitter.com/jondejong))
 
 ### Thursday, August 13th, 2015
 #### Keynote: The Art of Simplicity ([Venkat Subramaniam](http://www.twitter.com/venkat_s))
