@@ -1,7 +1,7 @@
 # Notes from Conferences
 Below is a list of notes compiled by [Kitty Hurley](http://www.twitter.com/geospatialem) from various conferences.
 
-* MidwestJS 2015
+* [MidwestJS 2015](https://github.com/geospatialem/conferences#midwestjs-2015-minneapolis-minn)
 
 
 ## [MidwestJS](http://www.midwestjs.com) 2015, Minneapolis, Minn.
@@ -42,48 +42,65 @@ So let's focus on what is not simple:
 Resources:
 * [Structure and Interpretation of Computer Programs](http://www.amazon.com/Structure-Interpretation-Computer-Programs-Engineering/dp/0262510871), book
 
-#### Writing Better jQuery-Infused JavaScript ([Ken Dale](http://www.twitter.com/kendaleiv))
-Text
+#### Writing Better jQuery Infused JavaScript ([Ken Dale](http://www.twitter.com/kendaleiv)),  [Slides](http://kendaleiv.com/jquery-js-refactor/#/)  
+
+Keys for Maintainability/Testability/Warm Fuzzies:  
+1. **External files** (Good practice): Caching JavaScript in-browser.  
+2. **Strict mode** helps troubleshooting.  
+3. **Wrap in Life**: Function wrapped in params ```(``` and ```)```. This *thing* will immediately execute. This will shield the library from tampering (which is useful with global variables). Good resource [Atom editor](https://atom.io) (Windows/Apple).  
+4. **Shorthand Luke**: Using document.ready, changing ```click``` → ```on```, changing ```success``` → ```done``` (JavaScript process/chaining). Avoid deprecated items (see jQuery [docs](https://api.jquery.com/category/deprecated)).  
+
+Other Notes:
+* If you're having a problem up front, thats normal.
+* **Refactoring**: AJAX provides data and is a ```promise``` in itself.  
+* **Testing**: e.g. Jasmine for Frameworks/Libraries. Test descriptions with ```it``` using ```expect``` and ```toBe``` statements. There are custom Jasmine matches, such as ```spyOn``` (see [documentation](http://jasmine.github.io)).  
+* **DRY** test your code (aka **D**on't **R**epeat **Y**ourself). The opposite of DRY testing is **WET** (aka **W**e **E**njoy **T**yping).
+* **Other ways:** requireJS, ES6 modules (which may be the future), etc.
+* **Start**: 44 lines of code. **End:** HTML: 25 lines, JS: 127 lines. *Sometimes simplicity requires more lines of code*, for troubleshooting and for helping ourselves in the future.
+
+Resources: 
+* [Code](http://www.github.com/kendaleiv/jquery-js-refactor). Check out the commits to see the refactoring process from start → finish.
+* [Slides](http://www.kendaleiv/jquery-js-refactor/#/)
 
 #### Components are the Future of the Web: It's Going to be Okay ([Tessa Thornton](http://www.twitter.com/tessthornton))
 Text
 
-#### Debugging in Chrome (Josh Longanecker)
+#### Better Debugging in Chrome (Josh Longanecker)
 Text
 
-#### Development for FirefoxOS: Web ([Dan Callahan](http://www.twitter.com/callahad))
+#### Developing for Firefox OS: It's just the Web... or is it? ([Dan Callahan](http://www.twitter.com/callahad))
 Text
 
 #### That's so Prototypical ([Jordan Kasper](http://www.twitter.com/jakerella))
 Text
 
 ### Friday, August 14th, 2015
-#### Enterprise JavaScript Apps with Typescript ([Kurt Wiersma](http://www.twitter.com/kwiersma))
+#### Enterprise JavaScript Apps with TypeScript ([Kurt Wiersma](http://www.twitter.com/kwiersma))
 Text
 
 #### JavaScript Forensics ([Todd Gardner](http://www.twitter.com/toddhgardner))
 Text
 
-#### Test Them Puzzles ([Branden Byers](http://www.twitter.com/brandenbyers))
+#### Test Them Puzzles: What Test-Driven Learning Can Teach About JS and TDD ([Branden Byers](http://www.twitter.com/brandenbyers))
 Text
 
-#### Edge of Tomorrow ([David Giard](http://www.twitter.com/davidgiard))
+#### Edge of Tomorrow: Introducing Microsoft's New Browser ([David Giard](http://www.twitter.com/davidgiard))
 Text
 
 #### Adventures in Test-Driven Development ([Jeremy Lund](http://www.twitter.com/jeremy_lund))
 Text
 
 #### Keynote: The Current State of JavaScript ([Jon DeJong](http://www.twitter.com/jondejong))
-Better:  
-1. Testing: Jasmine, Sinon, Mocha/Chai  
-2. Modules (Modular): Small modules that do *one* thing.  
-3. Testing  
-4. Reusability (yes, frameworks!)  
-5. Testing  
-6. Clear dependency management  
-7. Testing  
+**Things we can do Better:**  
+1. **Testing:** Jasmine, Sinon, Mocha/Chai  
+2. **Modules (Modular)**: Small modules that do *one* thing.  
+3. **Testing**  
+4. **Reusability** (yes, frameworks!)  
+5. **Testing**  
+6. **Clear dependency management**  
+7. **Testing**  
 
-Build systems:
+*Build systems:*  
 * Grunt
 * Gulp
 * Webpack
