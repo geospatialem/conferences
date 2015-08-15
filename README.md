@@ -127,8 +127,12 @@ So let's focus on what is not simple:
 **Resources:**  
 * [Chrome documentation](https://developer.chrome.com/devtools)  
 
-#### Developing for Firefox OS: It's just the Web... or is it? ([Dan Callahan](http://www.twitter.com/callahad))
-Text
+#### Developing for Firefox OS: It's just the Web... or is it? ([Dan Callahan](http://www.twitter.com/callahad))  
+Mozilla is working with smartphones and tv's solely using web development.
+
+**Resources:**  
+* [Mozilla Developer Network](https://developer.mozilla.org/en-US)
+* [Firefox Developers](http://www.firefox.com/developer): Add instance developer *(currently in Beta)*
 
 #### That's so Prototypical ([Jordan Kasper](http://www.twitter.com/jakerella))
 Text
