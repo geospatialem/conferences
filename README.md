@@ -2,14 +2,14 @@
 Below is a list of notes compiled by [Kitty Hurley](http://www.twitter.com/geospatialem) from various conferences.
 
 ## 2015
-* [MidwestJS](https://github.com/geospatialem/conferences#midwestjs-minneapolis-minn)
+* [MidwestJS](#midwestjs-minneapolis-minn)
 
 
 ## [MidwestJS](http://www.midwestjs.com), Minneapolis, Minn.
 
 Midwest JS is a premier technology conference focused on the JavaScript ecosystem. There were a variety of talks from well­known speakers in the community in a typical presentation format. 
 
-**Session Tracks:*
+**Session Tracks:**
 * *Beginner Track*: JavaScript fundamentals, jQuery, jQuery UI, etc.
 * *Frameworks Track*: Angular.js, Knockout.js, Ember.js, Backbone.js, etc.
 * *Node Track*: Aything based on Node.js
@@ -18,20 +18,19 @@ Midwest JS is a premier technology conference focused on the JavaScript ecosyste
 * *Miscellaneous Track*: Anything that doesn't fit into the others
 
 **Sessions:**  
-* *Opening Keynote: The Art of Simplicity*, Venkat Subramaniam  
-* *Writing Better jQuery Infused JavaScript*, Ken Dale  
-* *Components are the Future of the Web: It's Going to be Okay*, Tessa Thornton  
-* *Better Debugging in Chrome*, Josh Longanecker  
-* *Developing for Firefox OS: It's just the Web... or is it?*, Dan Callahan  
-* *That's so Prototypical*, Jordan Kasper  
-* *Enterprise JavaScript Apps with TypeScript**, Kurt Wiersma  
-* *JavaScript Forensics*, Todd Gardner  
-* *Test Them Puzzles: What Test-Driven Learning Can Teach About JS and TDD*, Branden Byers  
-* *Edge of Tomorrow: Introducing Microsoft's New Browser*, David Giard  
-* *Adventures in Test-Driven Development*, Jeremy Lund  
-* *Closing Keynote: The Current State of JavaScript*, Jon DeJong  
+* *[Opening Keynote: The Art of Simplicity](#keynote-the-art-of-simplicity-venkat-subramaniam)*, Venkat Subramaniam  
+* *[Writing Better jQuery Infused JavaScript](#writing-better-jquery-infused-javascript-ken-dale--slides)*, Ken Dale  
+* *[Components are the Future of the Web: It's Going to be Okay](#components-are-the-future-of-the-web-its-going-to-be-okay-tessa-thornton)*, Tessa Thornton  
+* *[Better Debugging in Chrome](#better-debugging-in-chrome-josh-longanecker)*, Josh Longanecker  
+* *[Developing for Firefox OS: It's just the Web... or is it?](#developing-for-firefox-os-its-just-the-web-or-is-it-dan-callahan)*, Dan Callahan  
+* *[That's so Prototypical](#thats-so-prototypical-jordan-kasper)*, Jordan Kasper  
+* *[Enterprise JavaScript Apps with TypeScript](#enterprise-javascript-apps-with-typescript-kurt-wiersma)**, Kurt Wiersma  
+* *[JavaScript Forensics](#javascript-forensics-todd-gardner)*, Todd Gardner  
+* *[Test Them Puzzles: What Test-Driven Learning Can Teach About JS and TDD](#test-them-puzzles-what-test-driven-learning-can-teach-about-js-and-tdd-branden-byers)*, Branden Byers  
+* *[Edge of Tomorrow: Introducing Microsoft's New Browser](#edge-of-tomorrow-introducing-microsofts-new-browser-david-giard)*, David Giard  
+* *[Adventures in Test-Driven Development](#adventures-in-test-driven-development-jeremy-lund)*, Jeremy Lund  
+* *[Closing Keynote: The Current State of JavaScript](#keynote-the-current-state-of-javascript-jon-dejong)*, Jon DeJong  
 
-#### Keynote: The Current State of JavaScript ([Jon DeJong](http://www.twitter.com/jondejong))
 
 ### Thursday, August 13th, 2015
 #### Keynote: The Art of Simplicity ([Venkat Subramaniam](http://www.twitter.com/venkat_s))
