@@ -158,7 +158,7 @@ Mozilla is working with smartphones and tv's solely using web development.
 * **Chain of objects** (e.g. [Python DunderAlias](https://wiki.python.org/moin/DunderAlias)).
 
 ```javascript 
-//Functional Code JavaScript
+//Functional JavaScript
 function addTo (x, y) {
   return x + y;
 }
