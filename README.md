@@ -151,7 +151,50 @@ Mozilla is working with smartphones and tv's solely using web development.
 * [Firefox Developers](http://www.firefox.com/developer): Add instance developer *(currently in Beta)*
 
 #### That's so Prototypical ([Jordan Kasper](http://www.twitter.com/jakerella))
-Text
+
+* JavaScript isn't really object-oriented (*under the covers*).
+* JavaScript is a multi-paradigm language.
+* Even functions are objects (e.g. methods, properties, and null objects).
+* **Chain of objects** (e.g. [Python DunderAlias](https://wiki.python.org/moin/DunderAlias)).
+
+```javascript 
+//Functional Code JavaScript
+function addTo (x, y) {
+  return x + y;
+}
+```
+
+```javascript
+//Non-Functional JavaScript
+var x = 1;
+function addTo(y) {
+  return x + y;
+}
+```
+
+**New Keyword:**
+* Not needed, if it isn't a class.
+* Is three action: 1. **Empty Object**, 2. **Objects property prototype**, and 3. **Constructor method** (Note: The following is needed for support in IE 8/9, ```object.create shim```).
+
+**Inheritence:**
+* Property: 
+```javascript
+for (variable in object) {
+    code to be executed
+} 
+```
+* Method
+```javascript
+function person(firstName, lastName, age, eyeColor) {
+    this.firstName = firstName;  
+    this.lastName = lastName;
+    this.age = age;
+    this.eyeColor = eyeColor;
+    this.changeName = function (name) {
+        this.lastName = name;
+    }
+}
+```
 
 ### Friday, August 14th, 2015
 #### Enterprise JavaScript Apps with TypeScript ([Kurt Wiersma](http://www.twitter.com/kwiersma))
