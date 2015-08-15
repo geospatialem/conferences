@@ -54,16 +54,61 @@ Other Notes:
 * If you're having a problem up front, thats normal.
 * **Refactoring**: AJAX provides data and is a ```promise``` in itself.  
 * **Testing**: e.g. Jasmine for Frameworks/Libraries. Test descriptions with ```it``` using ```expect``` and ```toBe``` statements. There are custom Jasmine matches, such as ```spyOn``` (see [documentation](http://jasmine.github.io)).  
-* **DRY** test your code (aka **D**on't **R**epeat **Y**ourself). The opposite of DRY testing is **WET** (aka **W**e **E**njoy **T**yping).
+* **DRY** test your code (aka **D**on't **R**epeat **Y**ourself). The opposite of DRY testing is **WET** (aka **W**e **E**njoy **T**yping). Ideally have one single representation in your code base.
 * **Other ways:** requireJS, ES6 modules (which may be the future), etc.
-* **Start**: 44 lines of code. **End:** HTML: 25 lines, JS: 127 lines. *Sometimes simplicity requires more lines of code*, for troubleshooting and for helping ourselves in the future.
+* **Start**: 44 lines of code. **End:** HTML: 25 lines, JS: 127 lines. *Sometimes simplicity requires more lines of code*, for troubleshooting and for helping ourselves in the future. Used the Jasmine HTML runner.
 
 Resources: 
 * [Code](http://www.github.com/kendaleiv/jquery-js-refactor). Check out the commits to see the refactoring process from start → finish.
 * [Slides](http://www.kendaleiv/jquery-js-refactor/#/)
 
-#### Components are the Future of the Web: It's Going to be Okay ([Tessa Thornton](http://www.twitter.com/tessthornton))
-Text
+#### Components are the Future of the Web: It's Going to be Okay ([Tessa Thornton](http://www.twitter.com/tessthornton))  
+
+* HTML is semantic (clean and virtuous)
+* We haven't kept up on complex UI's
+* HTML is not just for content (e.g. adding in JSON files from JavaScript into HTML). HTML isn't just for content, and it never was.
+* **Imperative**: the steps to achieve a desired result *versus* **Declarative**: the desired result, leaves the implementation up to something else (e.g. SQL).
+* HTML has declarative API's, or a contract of inputs + outputs. HTML needs to know what to put in it, which is especially true in HTML5.
+* We're writing JavaScript like we don't have any control over HTML. 
+* In 2009, AngularJS was created with the idea of seperating HTML from the DOM, the *seperation of concerns*. Not just one implementation. We can make our own delcarative **attributes** and **elements**.
+* The future will focus content with HTML and action with JavaScript, specific actions wired together to focus on your application.
+* You're going to *pollute* your HTML and you're going to like it!
+
+**Dogma:**  
+* **HTML**: Content  
+* **JavaScript**: Behavior  
+* **CSS**: Presentation  
+
+**Web Components** (see: *tab example*):  
+1. Custom elements  
+2. Shadow DOM  
+3. Templates  
+4. HTML imports  
+
+**Benefits (+):**  
+* Reusability  
+* Meaningful HTML  
+* Encapsulation  
+* Composability  
+* Philosphy has spread to frameworks  
+* Browsers are already doing it themselves  
+
+**Cons (-):**
+* Browser specifications aren't great (*yet*). 
+* Sometimes needs some tweaks.  
+
+**Options:**  
+1. **[Polymer](http://www.polyer-project.org)**  
+2. **[AngularJS](https://angularjs.org)** directives, framework  
+3. **[EmberJS](http://emberjs.com)** components, framework  
+4. **[ReactJS](http://facebook.github.io/react)** components, framework: A much different look at components.  
+5. **[Twine.js](https://bitbucket.org/klembot/twinejs)**, library: Declarative data-binding library.  
+6. **[Knockout.js](http://knockoutjs.com)**, library: Declarative data-binding library.  
+7. Native browser support (*coming soon*)  
+
+**Resources:**
+* [Our Best Practices are Killing Us](http://www.slideshare.net/stubbornella/our-best-practices-are-killing-us), Nicole Sullivan
+* Demo utilized [VanilaJS](http://vanilla-js.com) from scratch, and [Polymer](https://www.polymer-project.org) since it is less opinioned.
 
 #### Better Debugging in Chrome (Josh Longanecker)
 Text
