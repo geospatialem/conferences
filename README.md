@@ -1,10 +1,11 @@
 # Notes from Conferences
 Below is a list of notes compiled by [Kitty Hurley](http://www.twitter.com/geospatialem) from various conferences.
 
-* [MidwestJS 2015](https://github.com/geospatialem/conferences#midwestjs-2015-minneapolis-minn)
+## 2015
+* [MidwestJS](https://github.com/geospatialem/conferences#midwestjs-2015-minneapolis-minn)
 
 
-## [MidwestJS](http://www.midwestjs.com) 2015, Minneapolis, Minn.
+## [MidwestJS](http://www.midwestjs.com), Minneapolis, Minn.
 
 Midwest JS is a premier technology conference focused on the JavaScript ecosystem. There were a variety of talks from well­known speakers in the community in a typical presentation format. Talks were categorized and structured based on the following tracks:
 
