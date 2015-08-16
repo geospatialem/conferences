@@ -254,7 +254,7 @@ function person(firstName, lastName, age, eyeColor) {
 * Compiles to JavaScript.  
 * Works with any browser, host, and operating system (OS).  
 * JavaScript is a valid TypeScript.  
-![](https://cloud.githubusercontent.com/assets/5023024/9292219/a1e75180-43b1-11e5-99ce-ffbc307ac338.JPG)  
+![](https://cloud.githubusercontent.com/assets/5023024/9292273/307603c2-43b4-11e5-9fa5-ab6440fc72cd.png)  
 
 **Features**:
 * Classes
