@@ -93,7 +93,7 @@ function () {
   // Code here
 })();
 ```  
-* Use the **Shorthand, Luke**: Using document.ready, changing ```click``` → ```on```, changing ```success``` → ```done``` (JavaScript process/chaining). Avoid deprecated items (see jQuery [docs](https://api.jquery.com/category/deprecated)).  
+* Use the **Shorthand, Luke**: Using document.ready, changing ```click``` → ```on```, changing ```success``` → ```done``` (JavaScript process/chaining). Avoid deprecated items, like ```jQuery.live()``` (see jQuery [docs](https://api.jquery.com/category/deprecated)).  
 ~~```$(document).ready(function () { /* Code here */ });```~~  
 ```$(function () { /* Code here */ });```  
 
@@ -106,8 +106,6 @@ Use ```done``` rather than ```$.ajax options success```. For example:
 
 ~~```$.ajax({ success: function (res) { /* Code here */ } });```~~  
 ```$.ajax().done(function (res) { /* Code here */ });```  
-
-Also, avoid using deprecated things like ```jQuery.live()```.  
 
 **Other Notes:**
 * “If you're having a problem up front, thats normal.”
@@ -251,11 +249,12 @@ function person(firstName, lastName, age, eyeColor) {
 * **Refactoring! Tooling!**
 
 **TypeScript**:
-* Open-sourced by Microsoft (the first Microsoft product to do so).
-* Superscript of JavaScript (on top of the JavaScript syntax).
-* Compiles to JavaScript.
-* Works with any browser, host, and operating system (OS).
-* JavaScript is a valid TypeScript.
+* Open-sourced by Microsoft (the first Microsoft product to do so).  
+* Superscript of JavaScript (on top of the JavaScript syntax).  
+* Compiles to JavaScript.  
+* Works with any browser, host, and operating system (OS).  
+* JavaScript is a valid TypeScript.  
+![](https://cloud.githubusercontent.com/assets/5023024/9292219/a1e75180-43b1-11e5-99ce-ffbc307ac338.JPG)  
 
 **Features**:
 * Classes
@@ -299,7 +298,7 @@ TypeScript compiles library files. Creates a Grunt/Gulp task that will manage/bu
 Support includes the following IDE's at no charge: Eclipse (*plugin*) and Visual Studio Core. It also includes the Atom editor at no cost, and Sublime for a small cost.
 ```javascript
 npm -g typescript
-tsc --sourcemap --our js/Application.js js/_all.ts
+tsc --sourcemap --out js/Application.js js/_all.ts
 ```
 
 **Making a Better Application**:
