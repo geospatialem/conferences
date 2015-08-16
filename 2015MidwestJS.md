@@ -20,7 +20,7 @@
 * *[Enterprise JavaScript Apps with TypeScript](#enterprise-javascript-apps-with-typescript-kurt-wiersma)*, Kurt Wiersma  
 * *[JavaScript Forensics](#javascript-forensics-todd-gardner)*, Todd Gardner  
 * *[Test Them Puzzles: What Test-Driven Learning Can Teach About JS and TDD](#test-them-puzzles-what-test-driven-learning-can-teach-about-js-and-tdd-branden-byers-slides)*, Branden Byers  
-* *[Edge of Tomorrow: Introducing Microsoft's New Browser](#edge-of-tomorrow-introducing-microsofts-new-browser-david-giard)*, David Giard  
+* *[Edge of Tomorrow: Introducing Microsoft's New Browser](#edge-of-tomorrow-introducing-microsofts-new-browser-david-giard-slides)*, David Giard  
 * *[Adventures in Test-Driven Development](#adventures-in-test-driven-development-jeremy-lund)*, Jeremy Lund  
 * *[Closing Keynote: The Current State of JavaScript](#keynote-the-current-state-of-javascript-jon-dejong)*, Jon DeJong  
 
@@ -434,8 +434,24 @@ var rhymeChecker = function(str) {
 * [Rosetta Code: Towers of Hanoi](http://rosettacode.org/wiki/towers_of_hanoi) 
 * [Flexibility in Problem Solving and Tool Use of Kea and New Caledonian Crows in a Multi Access Box Paradigm](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0020231), article (Parrots and crows)  
 
-### Edge of Tomorrow: Introducing Microsoft's New Browser ([David Giard](http://www.twitter.com/davidgiard))
-Text
+### Edge of Tomorrow: Introducing Microsoft's New Browser ([David Giard](http://www.twitter.com/davidgiard)), [Slides](https://onedrive.live.com/view.aspx?resid=7048EC40C0AC24C1!773074&ithint=file%2cpptx&app=PowerPoint&authkey=!AGhhQF1Vn656zrQ)
+
+* Evolving world of computing (e.g. mobility experience, always online, smarter/more personal experience).  
+* The environment is changing (e.g. power, natural user input, and security/privacy).  
+* Internet Explorer is 20 years old (IE6 was released 15 years, IE8 was released 7 years ago).  
+* Legacy of Internet Explorer (IE 6: Strict vs. Quirks, IE 11: Engines render in all modes).  
+* Edge doesn't include ```navigator.userAgent();```. Instead, use [Modernizr](http://modernizr.com/) and pick features to turn on/off, instead of making browser exceptions. Modernizr is a JavaScript library that detects HTML5 and CSS3 features in the user’s browser.  
+
+**Edge Advantages**:  
+* Built for Windows 10. Managed through Group Policty → Mobile Device Management.  
+* Ready to future with backwards compatibility.  
+
+**Resources**:  
+* [Microsoft Edge Platform Status](http:/dev.modern.ie/platform/status)  
+* [Microsoft Edge Suggestions](http://tinyurl.com/EdgeUV)  
+* [Microsoft Edge Developer Resources](http://dev.modern.ie)  
+* [Edge Summit](http://tinyurl.com/EdgeSummit)  
+* [Modernizr](http://modernizr.com/)
 
 ### Adventures in Test-Driven Development ([Jeremy Lund](http://www.twitter.com/jeremy_lund))
 Text
