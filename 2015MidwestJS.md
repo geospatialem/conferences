@@ -1,6 +1,6 @@
 # MidwestJS 2015 (Minneapolis, Minn.)
 
-[Midwest JS](http://www.midwestjs.com) is a premier technology conference focused on the JavaScript ecosystem. There were a variety of talks from well­known speakers in the community in a typical presentation format. 
+<img src="https://cloud.githubusercontent.com/assets/5023024/9292291/eb7ceff0-43b4-11e5-879d-91f54cc6c33c.png" width="25" height="25">  [Midwest JS](http://www.midwestjs.com) is a premier technology conference focused on the JavaScript ecosystem. There were a variety of talks from well­known speakers in the community in a typical presentation format. 
 
 **Session Tracks:**
 * *Beginner Track*: JavaScript fundamentals, jQuery, jQuery UI, etc.
