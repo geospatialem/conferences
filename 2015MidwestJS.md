@@ -589,12 +589,16 @@ var rhymeChecker = function(str) {
 
 * Evolving world of computing (e.g. mobility experience, always online, smarter/more personal experience).  
 * The environment is changing (e.g. power, natural user input, and security/privacy).  
-* Internet Explorer is 20 years old (IE6 was released 15 years, IE8 was released 7 years ago).  
+* Internet Explorer is 20 years old (IE6 was released 15 years, IE8 was released 7 years ago). 
+![](https://cloud.githubusercontent.com/assets/5023024/9292258/a0c2802a-43b3-11e5-88b6-2bd1dc8639dd.JPG)  
 * Legacy of Internet Explorer (IE 6: Strict vs. Quirks, IE 11: Engines render in all modes).  
-* Edge doesn't include ```navigator.userAgent();```. Instead, use [Modernizr](http://modernizr.com/) and pick features to turn on/off, instead of making browser exceptions. Modernizr is a JavaScript library that detects HTML5 and CSS3 features in the user’s browser.  
+* Edge doesn't include ```navigator.userAgent();```.  
+![](https://cloud.githubusercontent.com/assets/5023024/9292263/cacab1c6-43b3-11e5-8b83-120302f1e5e3.JPG)  
+* Instead, use [Modernizr](http://modernizr.com/) and pick features to turn on/off, instead of making browser exceptions. Modernizr is a JavaScript library that detects HTML5 and CSS3 features in the user’s browser.  
+![](https://cloud.githubusercontent.com/assets/5023024/9292261/afe0e9c0-43b3-11e5-9123-15e7b3691ced.JPG)  
 
 **Edge Advantages**:  
-* Built for Windows 10. Managed through Group Policty → Mobile Device Management.  
+* Built for Windows 10. Managed through Group Policy → Mobile Device Management.  
 * Ready to future with backwards compatibility.  
 
 **Resources**:  
@@ -603,6 +607,7 @@ var rhymeChecker = function(str) {
 * [Microsoft Edge Developer Resources](http://dev.modern.ie)  
 * [Edge Summit](http://tinyurl.com/EdgeSummit)  
 * [Modernizr](http://modernizr.com/)
+* [Windows 10: The First 24 Hours](http://blogs.windows.com/bloggingwindows/2015/07/30/windows-10-the-first-24-hours), article
 
 ### Adventures in Test-Driven Development ([Jeremy Lund](http://www.twitter.com/jeremy_lund))
 
