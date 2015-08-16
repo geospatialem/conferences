@@ -444,6 +444,7 @@ Cannot read property 'destroy' of undefined.
 
 **Do you Code like a Parrot or a Crow?**:  
 **Parrots**:  
+![parrot](https://cloud.githubusercontent.com/assets/5023024/9294395/c5897612-4411-11e5-9bd2-5ff56e9f017d.jpg)  
 * Inquisitive  
 * Destructive exploration  
 * Playful learners  
@@ -451,6 +452,7 @@ Cannot read property 'destroy' of undefined.
 * Haphazardly dig for food  
 
 **Crows**:  
+![crow](https://cloud.githubusercontent.com/assets/5023024/9294396/c7aef106-4411-11e5-91ac-6a87f3bb850d.jpg)  
 * Curious  
 * Explore from a distance  
 * Methodical learners  
@@ -585,7 +587,9 @@ var rhymeChecker = function(str) {
 
 **Resources**:  
 * [Archimedes' Puzzle: Ostomachion](https://en.wikipedia.org/wiki/Ostomachion), solve the unique ways to reorganize the shapes into a box without rotating any of the objects.    
+![ostomachion](https://cloud.githubusercontent.com/assets/5023024/9294382/123ac048-4411-11e5-8f3f-a0b307cd1093.png)  
 * [Rosetta Code: Towers of Hanoi](http://rosettacode.org/wiki/towers_of_hanoi) 
+  ![tower_of_hanoi](https://cloud.githubusercontent.com/assets/5023024/9294412/3537fa4c-4412-11e5-89f3-47843e154df6.jpeg)  
 * [Flexibility in Problem Solving and Tool Use of Kea and New Caledonian Crows in a Multi Access Box Paradigm](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0020231), article (Parrots and crows)  
 
 ### Edge of Tomorrow: Introducing Microsoft's New Browser ([David Giard](http://www.twitter.com/davidgiard)), [Slides](https://onedrive.live.com/view.aspx?resid=7048EC40C0AC24C1!773074&ithint=file%2cpptx&app=PowerPoint&authkey=!AGhhQF1Vn656zrQ)
