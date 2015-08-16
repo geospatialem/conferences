@@ -17,7 +17,7 @@
 * *[Better Debugging in Chrome](#better-debugging-in-chrome-josh-longanecker)*, Josh Longanecker  
 * *[Developing for Firefox OS: It's just the Web... or is it?](#developing-for-firefox-os-its-just-the-web-or-is-it-dan-callahan)*, Dan Callahan  
 * *[That's so Prototypical](#thats-so-prototypical-jordan-kasper)*, Jordan Kasper  
-* *[Enterprise JavaScript Apps with TypeScript](#enterprise-javascript-apps-with-typescript-kurt-wiersma)*, Kurt Wiersma  
+* *[Enterprise JavaScript Apps with TypeScript](#enterprise-javascript-apps-with-typescript-kurt-wiersma-slides)*, Kurt Wiersma  
 * *[JavaScript Forensics](#javascript-forensics-todd-gardner)*, Todd Gardner  
 * *[Test Them Puzzles: What Test-Driven Learning Can Teach About JS and TDD](#test-them-puzzles-what-test-driven-learning-can-teach-about-js-and-tdd-branden-byers-slides)*, Branden Byers  
 * *[Edge of Tomorrow: Introducing Microsoft's New Browser](#edge-of-tomorrow-introducing-microsofts-new-browser-david-giard-slides)*, David Giard  
@@ -190,7 +190,7 @@ function person(firstName, lastName, age, eyeColor) {
 ```
 
 ## Friday, August 14th, 2015
-### Enterprise JavaScript Apps with TypeScript ([Kurt Wiersma](http://www.twitter.com/kwiersma))
+### Enterprise JavaScript Apps with TypeScript ([Kurt Wiersma](http://www.twitter.com/kwiersma)), [Slides](https://github.com/midwestjs/2015/blob/master/enterprise-javascript-apps-with-typescript/Using%20TypeScript%20To%20Build%20Better%20Apps.pdf)
 
 * **JavaScript is a valid typescript**
 * It takes discipline to write good code.
@@ -454,7 +454,36 @@ var rhymeChecker = function(str) {
 * [Modernizr](http://modernizr.com/)
 
 ### Adventures in Test-Driven Development ([Jeremy Lund](http://www.twitter.com/jeremy_lund))
-Text
+
+**Why test?**:
+* **It's your job** to make clean, well-tested code.
+* **Testing clarifies your API and/or design.** The test becomes the first consumer of your code. It gives you ownership of the API/system you are building.
+* **Your code becomes more resilient to change and refactoring** including performance and clarity.
+* **Testing fixes the problems, not just the symptoms.**
+* **TDD**: Test-driven development.
+* **Red**: Write failing test → **Green**: Make a test pass → **Refactor**: Make it better!
+
+
+Before going live with your application, and during the testing process **create a punch list**. For example:  
+☑ ~~A container should be created~~  
+☑ ~~The container should be closed by default~~  
+❏  Clicking title...  
+❏  ...  
+
+**Writing a test**:  
+**Arrange** (Given) → **Act** (When) → **Assert** (Then)  
+
+**Quick Start**:  
+Karma runs against browsers, and will be a *pending test* until a function is added. [Jasmine](http://jasmine.github.io) is added by default but [Mocha](https://mochajs.org) and [Chai](http://chaijs.com/) work, too.
+
+```javascript
+npm install karma -cli -g
+npm init
+
+npm install karma -D
+karma init
+```
+
 
 ### Keynote: The Current State of JavaScript ([Jon DeJong](http://www.twitter.com/jondejong))
 **Things we can do Better:**  
