@@ -18,7 +18,7 @@
 * *[Developing for Firefox OS: It's just the Web... or is it?](#developing-for-firefox-os-its-just-the-web-or-is-it-dan-callahan)*, Dan Callahan  
 * *[That's so Prototypical](#thats-so-prototypical-jordan-kasper)*, Jordan Kasper  
 * *[Enterprise JavaScript Apps with TypeScript](#enterprise-javascript-apps-with-typescript-kurt-wiersma-slides)*, Kurt Wiersma  
-* *[JavaScript Forensics](#javascript-forensics-todd-gardner)*, Todd Gardner  
+* *[JavaScript Forensics](#javascript-forensics-todd-gardner-slides)*, Todd Gardner  
 * *[Test Them Puzzles: What Test-Driven Learning Can Teach About JS and TDD](#test-them-puzzles-what-test-driven-learning-can-teach-about-js-and-tdd-branden-byers-slides)*, Branden Byers  
 * *[Edge of Tomorrow: Introducing Microsoft's New Browser](#edge-of-tomorrow-introducing-microsofts-new-browser-david-giard-slides)*, David Giard  
 * *[Adventures in Test-Driven Development](#adventures-in-test-driven-development-jeremy-lund)*, Jeremy Lund  
@@ -61,10 +61,10 @@ So let's focus on what is not simple:
 4. **Shorthand Luke**: Using document.ready, changing ```click``` → ```on```, changing ```success``` → ```done``` (JavaScript process/chaining). Avoid deprecated items (see jQuery [docs](https://api.jquery.com/category/deprecated)).  
 
 **Other Notes:**
-* If you're having a problem up front, thats normal.
+* “If you're having a problem up front, thats normal.”
 * **Refactoring**: AJAX provides data and is a ```promise``` in itself.  
 * **Testing**: e.g. Jasmine for Frameworks/Libraries. Test descriptions with ```it``` using ```expect``` and ```toBe``` statements. There are custom Jasmine matches, such as ```spyOn``` (see [documentation](http://jasmine.github.io)).  
-* **DRY** test your code (aka **D**on't **R**epeat **Y**ourself). The opposite of DRY testing is **WET** (aka **W**e **E**njoy **T**yping). Ideally have one single representation in your code base.
+* “**DRY** test your code (aka **D**on't **R**epeat **Y**ourself). The opposite of DRY testing is **WET** (aka **W**e **E**njoy **T**yping).” Ideally have one single representation in your code base.
 * **Other ways:** requireJS, ES6 modules (which may be the future), etc.
 * **Start**: 44 lines of code. **End:** HTML: 25 lines, JS: 127 lines. *Sometimes simplicity requires more lines of code*, for troubleshooting and for helping ourselves in the future. Used the Jasmine HTML runner.
 
@@ -79,10 +79,10 @@ So let's focus on what is not simple:
 * HTML is not just for content (e.g. adding in JSON files from JavaScript into HTML). HTML isn't just for content, and it never was.
 * **Imperative**: the steps to achieve a desired result *versus* **Declarative**: the desired result, leaves the implementation up to something else (e.g. SQL).
 * HTML has declarative API's, or a contract of inputs + outputs. HTML needs to know what to put in it, which is especially true in HTML5.
-* We're writing JavaScript like we don't have any control over HTML. 
+* “We're writing JavaScript like we don't have any control over HTML.” 
 * In 2009, AngularJS was created with the idea of seperating HTML from the DOM, the *seperation of concerns*. Not just one implementation. We can make our own delcarative **attributes** and **elements**.
 * The future will focus content with HTML and action with JavaScript, specific actions wired together to focus on your application.
-* You're going to *pollute* your HTML and you're going to like it!
+* “You're going to *pollute* your HTML and you're going to like it!”
 
 **Dogma:**  
 * **HTML**: Content  
@@ -125,7 +125,7 @@ So let's focus on what is not simple:
 **Tricks + Tips**:  
 * **Scroll into view** from code → browser.  
 * **Awaits** tab: Will showcase the performance on your code.  
-* **Pretty Print**: under ```Sources``` → ```{}``` in the lower-left.  
+* **Pretty Print**: under ```Sources``` → ```{}``` in the lower-left corner of the window.  
 * Press ```Ctrl``` + ```Shift``` + ```f```: to see all functions.
 * **Breakpoints**: Conditional breakpoints, lists breakpoints to turn on/off in the right-hand window, step over breakpoints.
 * **Blackbox script**: The debugger will ignore scripts. To enable right-click the JavaScript file.
@@ -193,7 +193,7 @@ function person(firstName, lastName, age, eyeColor) {
 ### Enterprise JavaScript Apps with TypeScript ([Kurt Wiersma](http://www.twitter.com/kwiersma)), [Slides](https://github.com/midwestjs/2015/blob/master/enterprise-javascript-apps-with-typescript/Using%20TypeScript%20To%20Build%20Better%20Apps.pdf)
 
 * **JavaScript is a valid typescript**
-* It takes discipline to write good code.
+* “It takes discipline to write good code.”
 * TypeScript is following ECMA Script 6.
 * Types are optional.
 * TypeScript doesn't force you to use classes or interfaces.
@@ -262,20 +262,118 @@ tsc --sourcemap --our js/Application.js js/_all.ts
 * [Angular in 20 minutes](https://github.com/DanWahlin/AngularIn20TypeScript)
 * Expense Manager (*link coming soon*)
 
-### JavaScript Forensics ([Todd Gardner](http://www.twitter.com/toddhgardner))
-Text
+### JavaScript Forensics ([Todd Gardner](http://www.twitter.com/toddhgardner)), [Slides](https://speakerdeck.com/toddhgardner/javascript-forensics)
+
+* “JavaScript inevitably breaks for everyone.”  
+* “There's a lot of broken JavaScript on the internet.” In fact, on average there is a [40% failure rate](https://trackjs.com/blog/the-state-of-client-side-javascript-errors).  
+* “JavaScript on the web is still the Wild West.”  
+* It relates a few things. In particular: shipping out software to a treacherous landscape of: a few browsers (Chrome, Safari, Internet Explorer, Firefox, Opera, etc.), several third-party scripts, lots of application frameworks, and an army of JavaScript libraries.
+* “Error messages get gnarly.” 
+
+**Most Common JavaScript Outlaws**:  
+1. Script error  
+2. 3rd-party error  
+3. Context error  
+4. Data error  
+5. Loading error  
+6. Memory error  
+
+**_1. Script error_**:  
+* **Impact**: Unknown, but frequent and all browsers are affected (e.g. 2,481 errors). 
+* **Place of Origin**: Browser obfuscation.  
+* **Characteristics**: Noisy  
+* **Associates**: 3rd party scripts and CDN's.  
+* **Remarks**: Conceals other errors. Apprehend with CORS and crossorigin attributes.  
+
+*Console error log recording:*  
+```javascript
+window.onError = function () {
+  console.error("Recorded: ", arguments);
+}
+```
+
+*Chrome headers:*  
+Open the ```Network``` tab → Reload the application → Click the file in question → Select the ```Headers``` tab.  
+![](http://i.stack.imgur.com/Mgwta.png)  
+
+*Add a cross-orgin of anonymous to the file:*  
+If you add ```crossorgin="anonymous"``` and the response the JavaScript file was loaded from sends an ```Access-Control-Allow-Origin: *``` you get noted about the real error message and the line of the file and the column the error accrues. If you add ```crossorgin="anonymous"``` and the response doesn't contain ```Access-Control-Allow-Origin: *``` the browser will block the script (e.g. ```<script crossorigin="anonymous" src="url"></script>```).  
+
+**_2. 3rd party error_**:  
+* **Impact**: Global (e.g. error rate of 15.4/hour, error change is up 523%).
+* **Place of Origin**: Uncontrolled changes.  
+* **Characteristics**: ```getRandomAds``` is not defined. Sudden bursts of violence.  
+* **Associates**: SaaS, Analytics, CDN.  
+* **Remarks**: External hosted scripts are beyond our control. Performance comes with risk (e.g. a typo).  
+
+**_3. Context error_**:  
+* **Impact**: Major  
+* **Place of Origin**: Functional arguments.  
+* **Characteristics**: Cannot read property ```destroy``` of undefined (not defined).  
+* **Associates**: Callbacks, promises.  
+* **Remarks**: Usually can be discovered through a test.  
+
+*Problem is a result of*:  
+User Click:  
+```html
+<button class="js-delete-statement">
+```  
+Error:  
+```javascript
+Cannot read property 'destroy' of undefined.  
+```  
+
+**Potential Resolutions**:  
+* Source maps → Minified files (Chrome developer tools → Sources → select JavaScript file → click the ```{}``` (Pretty Print) button in the lower left corner.  
+* Chrome developer tools → Sources → Right-hand menu *Call stack* → ☑ *Async*  
+
+**_4. Data error_**:  
+* **Impact**: Isolated  (e.g. 1 user affected, 2,124 errors)  
+* **Place of Origin**: API contract changes.  
+* **Characteristics**: ```a.text.substr``` is not a function, as a result of production faults.  
+* **Associates**: Separate teams, third parties.  
+* **Remarks**: Difficult to test for every possibility. Weigh risk for your application.  
+
+*Troubleshooting*:
+* Chrome Developer tools → Network → XHR (XmlHttpRequest). XHR allows you to debug AJAX requests. You can add a breakpoint by going to the "Sources" tab and selecting "XHR Breakpoints".  
+* The issue in this instance was related to a text vs. number when the code expects text.  
+
+**_5. Loading error_**:  
+* **Impact**: Major (e.g. 129 users affected, 134 errors seen).  
+* **Place of Origin**: Coverage ghettos, elevators (aka areas with little/no/spotty service).  
+* **Characteristics**: ```INLINE_ADS``` is not a function, ```X``` is undefined.  
+* **Associates**: Mobile.  
+* **Remarks**: Verify and fallback load scripts. Async and AJAX can help detect.  
+
+*Notes*:
+* Sometimes ```<script>``` tags fail, even just one. If it fails, will your application load? 
+* Mobile devices with DNS lookout for CDN's fail.  
+
+**_6. Memory error_**:  
+* **Impact**: Catastrophic (currently only identified through e-mails complaints, phone calls, tweets, in-person complaints, etc. as there is no way to monitor this behavior since the browser crashes. Similar to the *blue screen of death* seen in the Windows operation system).  
+* **Place of Origin**: Detached elements.  
+* **Characteristics**: Crashing browser, GB tabs.  
+* **Associates**: Events on detached DOM. 
+* **Remarks**: Periodic checks for kidnapping. Named functions assist in apprehension.  
+
+*Troubleshooting*:  
+* Chrome Developer tools → Network → All. Zoom in on particular requests and/or modify the timeline to determine the method requests (check out the *preview*, *response*, and *timing* tabs as well).
+* Under the Chrome Developer tools → Network → *Record* button, to see the requests over specific actions on the page for additional troubleshooting.  
+* After running a recording session, check out the memory graphs (check the ☑ *Memory* checkbox) in the *Timeline* tab to view the: Used JS Heap, Documents, Nodes, Listeners. Zoom to the main thread (that gives location in the graph).  
+* Detach elements →  Drop when gone from the page.  
+
 
 ### Test Them Puzzles: What Test-Driven Learning Can Teach About JS and TDD ([Branden Byers](http://www.twitter.com/brandenbyers)), [Slides](http://brandenbyers.com/slides/test-them-puzzles)
 
-* **Learning to code is hard,** puzzles are a great way to make it fun.  
-* We need that **Aha! Dopamine drip moment**, they are important! The more we do it and achieve these moments the more exciting and rewarding it gets!  
+* “**Learning to code is hard,** puzzles are a great way to make it fun.”  
+* We need that **Aha! Dopamine drip moment**, they are important! “The more we do it and achieve these moments the more exciting and rewarding it gets!”  
 * An hour is a good time for digesting a puzzle. If you can't solve it, put it off to the side and try again. When you do solve it, you'll get that Aha! moment, see any hurdles from the past, and/or question why it was a harder problem before.  
 *  Puzzles are nimble.
-*  It's hard to describe in a simple way (see: Puzzle test below).
+*  It's hard to describe in a simple way (see: the *Puzzle Example ― Ryming Numbers Poem* below).
 *  I don't know how to solve it, but I can think about the problem and how to approach it.  
-*  Think of things in **bite-size chunks**.  
+*  “Think of things in **bite-size chunks**.”  
 *  Syntactic Wilderness: Wander and you might get lost.   
-*  Think of the test as the end-product itself.  
+*  “Think of the test as the end-product itself.”  
 *  For testing, uses [ChaiJS](http://chaijs.com)'s ```expect()```, ```should()```, and ```assert()```. For example:  
 ```javascript
   expect('something').to.contain('thing');
@@ -456,7 +554,7 @@ var rhymeChecker = function(str) {
 ### Adventures in Test-Driven Development ([Jeremy Lund](http://www.twitter.com/jeremy_lund))
 
 **Why test?**:
-* **It's your job** to make clean, well-tested code.
+* **“It's your job”** to make clean, well-tested code.
 * **Testing clarifies your API and/or design.** The test becomes the first consumer of your code. It gives you ownership of the API/system you are building.
 * **Your code becomes more resilient to change and refactoring** including performance and clarity.
 * **Testing fixes the problems, not just the symptoms.**
