@@ -19,7 +19,7 @@
 * *[That's so Prototypical](#thats-so-prototypical-jordan-kasper)*, Jordan Kasper  
 * *[Enterprise JavaScript Apps with TypeScript](#enterprise-javascript-apps-with-typescript-kurt-wiersma)*, Kurt Wiersma  
 * *[JavaScript Forensics](#javascript-forensics-todd-gardner)*, Todd Gardner  
-* *[Test Them Puzzles: What Test-Driven Learning Can Teach About JS and TDD](#test-them-puzzles-what-test-driven-learning-can-teach-about-js-and-tdd-branden-byers)*, Branden Byers  
+* *[Test Them Puzzles: What Test-Driven Learning Can Teach About JS and TDD](#test-them-puzzles-what-test-driven-learning-can-teach-about-js-and-tdd-branden-byers--slides)*, Branden Byers  
 * *[Edge of Tomorrow: Introducing Microsoft's New Browser](#edge-of-tomorrow-introducing-microsofts-new-browser-david-giard)*, David Giard  
 * *[Adventures in Test-Driven Development](#adventures-in-test-driven-development-jeremy-lund)*, Jeremy Lund  
 * *[Closing Keynote: The Current State of JavaScript](#keynote-the-current-state-of-javascript-jon-dejong)*, Jon DeJong  
@@ -265,8 +265,174 @@ tsc --sourcemap --our js/Application.js js/_all.ts
 ### JavaScript Forensics ([Todd Gardner](http://www.twitter.com/toddhgardner))
 Text
 
-### Test Them Puzzles: What Test-Driven Learning Can Teach About JS and TDD ([Branden Byers](http://www.twitter.com/brandenbyers))
-Text
+### Test Them Puzzles: What Test-Driven Learning Can Teach About JS and TDD ([Branden Byers](http://www.twitter.com/brandenbyers)), [Slides](http://brandenbyers.com/slides/test-them-puzzles)
+
+* **Learning to code is hard,** puzzles are a great way to make it fun.  
+* We need that **Aha! Dopamine drip moment**, they are important! The more we do it and achieve these moments the more exciting and rewarding it gets!  
+* An hour is a good time for digesting a puzzle. If you can't solve it, put it off to the side and try again. When you do solve it, you'll get that Aha! moment, see any hurdles from the past, and/or question why it was a harder problem before.  
+*  Puzzles are nimble.
+*  It's hard to describe in a simple way (see: Puzzle test below).
+*  I don't know how to solve it, but I can think about the problem and how to approach it.  
+*  Think of things in **bite-size chunks**.  
+*  Syntactic Wilderness: Wander and you might get lost.   
+*  Think of the test as the end-product itself.  
+*  For testing, uses [ChaiJS](http://chaijs.com)'s ```expect()```, ```should()```, and ```assert()```. For example:  
+```javascript
+  expect('something').to.contain('thing');
+  expect('Hello World').to.be.a('string');
+```
+* Contribute (e.g. [Code Camp Github Repo](https://github.com/FreeCodeCamp/FreeCodeCamp), and [Code Wars](http://codewars.com/kata/search/javascript?q=))!
+
+**Programmer Practice**:
+* Athletes train
+* Musicians rehearse
+* Lawyers and doctors practice
+
+**Do you Code like a Parrot or a Crow?**:  
+**Parrots**:  
+* Inquisitive  
+* Destructive exploration  
+* Playful learners  
+* Pull, tear, scratch, probe  
+* Haphazardly dig for food  
+
+**Crows**:  
+* Curious  
+* Explore from a distance  
+* Methodical learners  
+* Graceful tool users  
+* Precisely prod for food  
+
+**Puzzle Samples**:  
+Assumptions === Bad! For example:  
+```javascript
+var add = function (a, b) {
+  return a + b;
+};
+
+expect(add(2, 2).to.equal(4));
+
+expect(add(2, '2').to.equal('22'));
+
+expect(add('con','cat').to.equal('concat'));
+```
+Instead use:  
+```javascript
+var add = function (a, b) {
+  if(typeof a + b === 'string') {
+    return 'Go fish';
+  }
+  ...
+};
+
+expect(add('con','cat')).to.equal('Go fish');
+expect(add(2, 2)).to.be.a('number')
+```
+
+```javascript
+var add = function (a, b) {
+  return parseInt(a) + parseInt(b);
+};
+
+expect(add(2, '2').to.equal(4));
+expect(add(2.22, 2.22).to.equal(4.44));
+
+// AssertionError: expected 4 to equal 4.44
+```
+
+**Puzzle Example ― Slasher Film**:  
+Return the surviving elements of an array after chopping off n elements from the head (e.g. ```slasher([1, 2, 3], 2);```).  
+
+```javascript
+expect(slasher([1,2,3],2)).to.equal([3]);
+expect(slasher([1,2,3],0)).to.equal([1,2,3]);
+expect(slasher([1,2,3],9)).to.equal([]);
+
+expect(slasher([1,2,3],2)).to.equal(['Three, you're lucky to still be.']);
+expect(slasher([1,2,3],0)).to.equal(['All numbers live another day.']);
+expect(slasher([1,2,3],9)).to.equal(['It is a sad day.']);
+
+expect(slasher(['1,354','22','4900'],1)).to.equal(['Four thousand nine hundred and twenty-two; you are amongst the lucky few.']);
+```  
+**Solution**: Return a string of the *English word equivalents* of the surviving elements *(numbers)* in an array after chopping off n elements from the head. The numbers must be listed from last to first. The string should be finished with a phrase that rhymes with the last number listed.  
+
+**Puzzle Example ― Ryming Numbers Poem**:  
+You will be given an array of numbers. Each number will be between 0 and 9. These numbers may be integers or strings. If a number is in a string, it may be a digit or word. Return a nonsense poem, where each line starts with a number from the array followed by a phrase ending in a word that rhymes with that number.  
+
+*Nine, you smell like wine  
+Five, chicken dumplings make me feel alive  
+Three, you be lost deep in the sea  
+Two, please stop sniffing glue  
+One, this poem is done*  
+
+```javascript
+var rhymingNumberPoem = function(arr) {
+  // this is a poet but didn't know it
+  return str;
+};
+
+var shortArr = [9,5,3,1];
+var longArr  = [9,5,3,1,5,4,3,5,6,3,2,3,4,7,5,2,3,4,7,10,23,4,2];
+
+describe('Rhyming Number Poem', function() {
+  it('should return a string', function() {
+    expect(rhymingNumberPoem(shortArr)).to.be.a('string');
+  });
+  it('should return correct number of lines from short array', function() {
+    expect(rhymingNumberPoem(shortArr).split('\n').length).to.equal(shortArr.length);
+  });
+  it('should create a short rhyming poem', function() {
+    expect(rhymeChecker(rhymingNumberPoem(shortArr))).to.equal(true);
+  });
+  it('should create a long rhyming poem', function() {
+    expect(rhymeChecker(rhymingNumberPoem(longArr))).to.equal(true);
+  });
+});
+
+var rhymeChecker = function(str) {
+  var arr = str.split(/,|\./).join('').split("\n");
+  if(str.length < 1 || arr[0].split(' ').length < 3) {
+    return false;
+  }
+  var count = arr.reduce(function(a, b) {
+    var words = b.split(' '),
+        firstWord = words[0].toLowerCase(),
+        lastWord = words[words.length - 1].toLowerCase();
+    if(numberRhymes[firstWord].match(lastWord)) {
+      return a + 1;
+    }
+    return a;
+  }, 0);
+  if(count < arr.length) {
+    return false;
+  }
+  return true;
+};
+
+  zero: 'hero giro tiro nonzero subzero',
+  one: 'won done run son none sun gun fun tion ton nun shun sion bun donne dun fon pun rien bn cen gon hun jun tonne tun ven yean naan spun fron seisin stun toucan anyone begun undone outdone outrun spline rerun redone everyone overrun overdone cretonne misdone twentyone'
+```
+
+**Write Kickass Puzzles**:
+* Write Descriptions
+* Generate tests
+* Double/Triple/Quadruple check your cases.
+* Solve, then bathe in Dopamine!
+* Share/Repeat!
+
+**Code Challenge Websites**:  
+* **[Code Wars](http://codewars.com)**  
+* **[Free Code Camp](http://freecodecamp.com)**  
+* [Hacker Rank](http://hackerrank.com)  
+* [Coder Byte](http://coderbyte.com)  
+* [Project Euler](http://projecteuler.net)  
+* [Node School](http://nodeschool.io)  
+* [Exercism.io](http://exercism.io)  
+
+**Resources**:  
+* [Archimedes' Puzzle: Ostomachion](https://en.wikipedia.org/wiki/Ostomachion), solve the unique ways to reorganize the shapes into a box without rotating any of the objects.    
+* [Rosetta Code: Towers of Hanoi](http://rosettacode.org/wiki/towers_of_hanoi) 
+* [Flexibility in Problem Solving and Tool Use of Kea and New Caledonian Crows in a Multi Access Box Paradigm](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0020231), article (Parrots and crows)  
 
 ### Edge of Tomorrow: Introducing Microsoft's New Browser ([David Giard](http://www.twitter.com/davidgiard))
 Text
