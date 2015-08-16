@@ -118,8 +118,7 @@ Use ```done``` rather than ```$.ajax options success```. For example:
 * **Start**: 44 lines of code. **End:** HTML: 25 lines, JS: 127 lines. *Sometimes simplicity requires more lines of code*, for troubleshooting and for helping ourselves in the future. Used the Jasmine HTML runner.
 
 **Resources:** 
-* [Code](http://www.github.com/kendaleiv/jquery-js-refactor): Check out the commits to see the refactoring process from start → finish.
-* [Slides](http://www.kendaleiv/jquery-js-refactor/#/)
+The project [code](http://www.github.com/kendaleiv/jquery-js-refactor), reference individual commits to see the refactoring process from start → finish.
 
 ### Components are the Future of the Web: It's Going to be Okay ([Tessa Thornton](http://www.twitter.com/tessthornton))  
 
@@ -173,11 +172,16 @@ Use ```done``` rather than ```$.ajax options success```. For example:
 
 **Tricks + Tips**:  
 * **Scroll into view** from code → browser.  
+![chromescrollintoview](https://cloud.githubusercontent.com/assets/5023024/9294486/2ab4f3b6-4414-11e5-976e-73279b834b32.png)  
 * **Awaits** tab: Will showcase the performance on your code.  
-* **Pretty Print**: under ```Sources``` → ```{}``` in the lower-left corner of the window.  
-* Press ```Ctrl``` + ```Shift``` + ```f```: to see all functions.
+* **Pretty Print**: under ```Sources``` → ```{ }``` in the lower-left corner of the window.  
+![chromeprettyprint](https://cloud.githubusercontent.com/assets/5023024/9294179/3736dfb8-440b-11e5-9b70-e23e13a05386.png)  
+![chromeprettyprint2](https://cloud.githubusercontent.com/assets/5023024/9294188/593f4d0c-440b-11e5-9891-7614e57cb9d4.png)  
+  
 * **Breakpoints**: Conditional breakpoints, lists breakpoints to turn on/off in the right-hand window, step over breakpoints.
-* **Blackbox script**: The debugger will ignore scripts. To enable right-click the JavaScript file.
+* **Blackbox script**: The debugger will ignore scripts. To enable right-click the JavaScript file → ```Blackbox script```.  
+![chromeblacboxscript](https://cloud.githubusercontent.com/assets/5023024/9294519/23e44630-4415-11e5-91bf-0d01da063757.png)
+
 * **Console.log(); messages**: ```console.error();```, ```console.log();```, ```console.group();```, ```console.groupEnd();```, ```console.groupLog();```, ```console.groupCollapsed();```, ```console.assert();```, etc.
 * **Preserve log**: Good practice when testing out AJAX calls (Before/After)
 * **Timeline**: ```console.time();``` and ```console.timeEnd();```.
