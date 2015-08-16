@@ -176,7 +176,7 @@ The project [code](http://www.github.com/kendaleiv/jquery-js-refactor), referenc
 * **Awaits** tab: Will showcase the performance on your code.  
 * **Pretty Print**: under ```Sources``` → ```{ }``` in the lower-left corner of the window.  
 ![chromeprettyprint](https://cloud.githubusercontent.com/assets/5023024/9294179/3736dfb8-440b-11e5-9b70-e23e13a05386.png)  
-![chromeprettyprint2](https://cloud.githubusercontent.com/assets/5023024/9294188/593f4d0c-440b-11e5-9891-7614e57cb9d4.png)  
+![chromeformat](https://cloud.githubusercontent.com/assets/5023024/9295114/4ce66bae-4428-11e5-9d19-b4be177f5b1d.png)  
   
 * **Breakpoints**: Conditional breakpoints, lists breakpoints to turn on/off in the right-hand window, step over breakpoints.
 * **Blackbox script**: The debugger will ignore scripts. To enable right-click the JavaScript file → ```Blackbox script```.  
@@ -381,7 +381,7 @@ Cannot read property 'destroy' of undefined.
 **Potential Resolutions**:  
 * Source maps → Minified files (Chrome developer tools → Sources → select JavaScript file → click the ```{}``` (Pretty Print) button in the lower left corner.  
 ![chromeprettyprint](https://cloud.githubusercontent.com/assets/5023024/9294179/3736dfb8-440b-11e5-9b70-e23e13a05386.png)  
-![chromeprettyprint2](https://cloud.githubusercontent.com/assets/5023024/9294188/593f4d0c-440b-11e5-9891-7614e57cb9d4.png)  
+![chromeformat](https://cloud.githubusercontent.com/assets/5023024/9295114/4ce66bae-4428-11e5-9d19-b4be177f5b1d.png)  
 * Chrome developer tools → Sources → Right-hand menu *Call stack* → ☑ *Async*  
 ![chromeasync](https://cloud.githubusercontent.com/assets/5023024/9294193/74a02526-440b-11e5-9eba-e92a3e5af071.png)  
 
