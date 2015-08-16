@@ -287,6 +287,7 @@ tsc --sourcemap --our js/Application.js js/_all.ts
 
 * “JavaScript inevitably breaks for everyone.”  
 * “There's a lot of broken JavaScript on the internet.” In fact, on average there is a [40% failure rate](https://trackjs.com/blog/the-state-of-client-side-javascript-errors).  
+![](https://cloud.githubusercontent.com/assets/5023024/9292125/df164e30-43ac-11e5-8025-7ab7c1199d63.gif)  
 * “JavaScript on the web is still the Wild West.”  
 * It relates a few things. In particular: shipping out software to a treacherous landscape of: a few browsers (Chrome, Safari, Internet Explorer, Firefox, Opera, etc.), several third-party scripts, lots of application frameworks, and an army of JavaScript libraries.
 * “Error messages get gnarly.” 
@@ -315,7 +316,7 @@ window.onError = function () {
 
 *Chrome headers:*  
 Open the ```Network``` tab → Reload the application → Click the file in question → Select the ```Headers``` tab.  
-![](http://i.stack.imgur.com/Mgwta.png)  
+![](https://cloud.githubusercontent.com/assets/5023024/9292156/200ec092-43ae-11e5-88f6-10a06a1308ca.png)  
 
 *Add a cross-orgin of anonymous to the file:*  
 If you add ```crossorgin="anonymous"``` and the response the JavaScript file was loaded from sends an ```Access-Control-Allow-Origin: *``` you get noted about the real error message and the line of the file and the column the error accrues. If you add ```crossorgin="anonymous"``` and the response doesn't contain ```Access-Control-Allow-Origin: *``` the browser will block the script (e.g. ```<script crossorigin="anonymous" src="url"></script>```).  
@@ -346,7 +347,9 @@ Cannot read property 'destroy' of undefined.
 
 **Potential Resolutions**:  
 * Source maps → Minified files (Chrome developer tools → Sources → select JavaScript file → click the ```{}``` (Pretty Print) button in the lower left corner.  
+![](https://cloud.githubusercontent.com/assets/5023024/9292150/c6fd0ba8-43ad-11e5-9691-d952ec926379.jpg)  
 * Chrome developer tools → Sources → Right-hand menu *Call stack* → ☑ *Async*  
+![](https://cloud.githubusercontent.com/assets/5023024/9292146/842e8ef0-43ad-11e5-9c68-36f6cf8cf21e.gif)  
 
 **_4. Data error_**:  
 * **Impact**: Isolated  (e.g. 1 user affected, 2,124 errors)  
@@ -357,6 +360,7 @@ Cannot read property 'destroy' of undefined.
 
 *Troubleshooting*:
 * Chrome Developer tools → Network → XHR (XmlHttpRequest). XHR allows you to debug AJAX requests. You can add a breakpoint by going to the "Sources" tab and selecting "XHR Breakpoints".  
+![](https://cloud.githubusercontent.com/assets/5023024/9292161/7a174fb4-43ae-11e5-9a58-db9b5a06113c.png)  
 * The issue in this instance was related to a text vs. number when the code expects text.  
 
 **_5. Loading error_**:  
@@ -381,6 +385,7 @@ Cannot read property 'destroy' of undefined.
 * Chrome Developer tools → Network → All. Zoom in on particular requests and/or modify the timeline to determine the method requests (check out the *preview*, *response*, and *timing* tabs as well).
 * Under the Chrome Developer tools → Network → *Record* button, to see the requests over specific actions on the page for additional troubleshooting.  
 * After running a recording session, check out the memory graphs (check the ☑ *Memory* checkbox) in the *Timeline* tab to view the: Used JS Heap, Documents, Nodes, Listeners. Zoom to the main thread (that gives location in the graph).  
+![](https://cloud.githubusercontent.com/assets/5023024/9292167/ed5ca32a-43ae-11e5-8d85-540d8f3e3230.png)  
 * Detach elements →  Drop when gone from the page.  
 
 
