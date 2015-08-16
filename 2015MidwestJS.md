@@ -191,7 +191,76 @@ function person(firstName, lastName, age, eyeColor) {
 
 ## Friday, August 14th, 2015
 ### Enterprise JavaScript Apps with TypeScript ([Kurt Wiersma](http://www.twitter.com/kwiersma))
-Text
+
+* **JavaScript is a valid typescript**
+* It takes discipline to write good code.
+* TypeScript is following ECMA Script 6.
+* Types are optional.
+* TypeScript doesn't force you to use classes or interfaces.
+* Create custom [definitions](http://definitelytyped.org/tsd) easily (e.g. ```pusher.d.ts```). Reference by *pulling down*.
+* Existing JavaScript libraries were built using TypeScript (e.g. [DefinitelyTyped](http://definitelytyped.org), jQuery, Angular, Ember, Backbone).
+* **Refactoring! Tooling!**
+
+**TypeScript**:
+* Open-sourced by Microsoft (the first Microsoft product to do so).
+* Superscript of JavaScript (on top of the JavaScript syntax).
+* Compiles to JavaScript.
+* Works with any browser, host, and operating system (OS).
+* JavaScript is a valid TypeScript.
+
+**Features**:
+* Classes
+* Modules
+* Interfaces (optional)
+* Genertics
+* Arrow functions
+* References
+* Type definitions
+* Better ```this``` usage, *by default*
+
+**Pros**:
+* Syntax is JavaScript and type info
+* Targets ES6
+* Optional types
+* Classes, generics, and interfaces (object oriented)
+* Fixes ```this```
+
+**Cons**:
+* Compile step
+* Debugging (use source maps)
+* Another language / tool to learn
+
+**Enterprise (Defined)**:
+* > 2 developers on a team/project.
+* Mix of junior developers.
+* Large code bases (which gives the ability to refactor code).
+* Leverage existing code from other teams/companies (e.g. Type definition file, such as C/Java).
+* Proven technology (*stable*), not necessarily bleeding edge, but cutting edge.
+* Productive, to produce better code.
+
+**Why Use Types?**:
+* Create structure for large code bases/teams.
+* Catch errors early.
+* ***Provide a structured API*** (documentation from chaos).
+* Tooling can provide better code completion and refactoring.
+
+**Getting Started**:  
+TypeScript compiles library files. Creates a Grunt/Gulp task that will manage/build.
+
+Support includes the following IDE's at no charge: Eclipse (*plugin*) and Visual Studio Core. It also includes the Atom editor at no cost, and Sublime for a small cost.
+```javascript
+npm -g typescript
+tsc --sourcemap --our js/Application.js js/_all.ts
+```
+
+**Making a Better Application**:
+* Gradually move JavaScript to TypeScript.
+* Add types, a better way to structure code along the way.
+* Can make working with an API easier to learn.
+
+**Resources**:
+* [Angular in 20 minutes](https://github.com/DanWahlin/AngularIn20TypeScript)
+* Expense Manager (*link coming soon*)
 
 ### JavaScript Forensics ([Todd Gardner](http://www.twitter.com/toddhgardner))
 Text
