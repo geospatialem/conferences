@@ -76,10 +76,38 @@ One hard realization is the *self-inflicting wound pattern*, when we forget to d
 ### Writing Better jQuery Infused JavaScript ([Ken Dale](http://www.twitter.com/kendaleiv)),  [Slides](http://kendaleiv.com/jquery-js-refactor/#/)  
 
 **Keys for Maintainability/Testability/Warm Fuzzies:**  
-1. **External files** (Good practice): Caching JavaScript in-browser.  
-2. **Strict mode** helps troubleshooting.  
-3. **Wrap in Life**: Function wrapped in params ```(``` and ```)```. This *thing* will immediately execute. This will shield the library from tampering (which is useful with global variables). Good resource [Atom editor](https://atom.io) (Windows/Apple).  
-4. **Shorthand Luke**: Using document.ready, changing ```click``` → ```on```, changing ```success``` → ```done``` (JavaScript process/chaining). Avoid deprecated items (see jQuery [docs](https://api.jquery.com/category/deprecated)).  
+* **External files** (Good practice): Caching JavaScript in-browser.  
+* **Strict mode** Helps with troubleshooting.  
+```javascript  
+function () {
+  'use strict';
+
+  // Code here
+};
+```  
+* **Wrap in Life**: Function wrapped in params ```(``` and ```)```. This *thing* will immediately execute as it is an immediately-invoked function expression, which helps scope variables and prevent unintended sharing between components. This will shield the library from tampering (which is useful with global variables). Good resource [Atom editor](https://atom.io) (Windows/Apple).  
+```javascript
+(function () {
+  'use strict';
+
+  // Code here
+})();
+```  
+* Use the **Shorthand, Luke**: Using document.ready, changing ```click``` → ```on```, changing ```success``` → ```done``` (JavaScript process/chaining). Avoid deprecated items (see jQuery [docs](https://api.jquery.com/category/deprecated)).  
+~~```$(document).ready(function () { /* Code here */ });```~~  
+```$(function () { /* Code here */ });```  
+
+**jQuery items:**  
+Use ```on``` rather than ```click```. For example:  
+~~```$('#fetch').click(function () { /* Code here */ });```~~  
+```$('#fetch').on('click', function () { /* Code here */ });```  
+
+Use ```done``` rather than ```$.ajax options success```. For example:    
+
+~~```$.ajax({ success: function (res) { /* Code here */ } });```~~  
+```$.ajax().done(function (res) { /* Code here */ });```  
+
+Also, avoid using deprecated things like ```jQuery.live()```.  
 
 **Other Notes:**
 * “If you're having a problem up front, thats normal.”
