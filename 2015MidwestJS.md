@@ -48,9 +48,11 @@ So let's focus on what is not simple:
 
 One hard realization is the *self-inflicting wound pattern*, when we forget to do something one day, and it continues to build up over time. Focus on: *what* you are doing, don't confuse, and use *declarative* code (it's simpler)! See: [Venkat's blog post](http://blog.agiledeveloper.com/2015/08/prefer-functional-style-over-imperative.html) for an example of functional vs. imperative code. Simple has fewer moving parts, illuminate them!       
 
-3.**Simple's not over-engineered**: See: *the automated back scratcher comic strip*. (e.g. a phone call with someone in the room vs. an in-person discussion).    
+3.**Simple's not over-engineered**: See: *the automated back scratcher comic strip* below. For example: A phone call with someone in the room vs. an in-person discussion).    
 
-![](https://cloud.githubusercontent.com/assets/5023024/9292094/e7eb7ed8-43aa-11e5-9d3e-d178b25ecb4a.JPG)
+![](https://cloud.githubusercontent.com/assets/5023024/9292409/e0384650-43bc-11e5-912a-4b09bb3b4fdb.jpg)  
+
+![](https://cloud.githubusercontent.com/assets/5023024/9292094/e7eb7ed8-43aa-11e5-9d3e-d178b25ecb4a.JPG)  
 
 4.**Simple's not terse**: Don't confuse simple/concise with terse. It's about extensibility. Terse vs. concise: *Terse* is short, and waiting to hurt you when you least expect it.
 
