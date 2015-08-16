@@ -39,15 +39,36 @@
 * It's hard to know what is simple, so we can instead focus on what is not simple. 
 
 So let's focus on what is not simple:  
-1. **Simple's not clever**: It is a realization, a *clear solution!!* How do we manage code when there is no logic? Would you do this to your children, name them ```p```? We lose abstraction of our ideas.  
-2. **Simple's not necessarily familiar**: *(aka accidential complexitivity)* Something may be complex for a minute. Familiarity can look, or even be complex, it's all about understanding. One hard realization is the *self-inflicting wound pattern*, when we forget to do something one day, and it continues to build up over time. Focus on: *what* you are doing, don't confuse, and use *declarative* code (it's simpler)! See: [Venkat's blog post](http://blog.agiledeveloper.com/2015/08/prefer-functional-style-over-imperative.html) for an example of functional vs. imperative code. Simple has fewer moving parts, illuminate them!       
-3. **Simple's not over-engineered**: See: *the automated back scratcher comic strip*. (e.g. a phone call with someone in the room vs. an in-person discussion).    
-4. **Simple's not terse**: Don't confuse simple/concise with terse. It's about extensibility. Terse vs. concise: *Terse* is short, and waiting to hurt you when you least expect it. (e.g. See *code victim screenshot*). *Concise* is transparent. If you don't know why your application in production is failing every three weeks, find out why and break down the steps.  
-5. **Simple keeps you focused**: Focus keeps down the distractions. (e.g. Search Engines: Yahoo has news distractions, *why did we come here again?*, Bing is beautiful, *do we really want to search and lose this beautiful picture?*, and Google is simplistic, we don't get lost in anything, *let's start our search*). This is extremely hard to do, to do something simple. It is *extremely valuable* to value someone else's time. Focus on the user, and don't distract them. This takes *genius* and *courage*.  
-6. **Simple fails less**: (e.g. Manhole's shape is a circle, one size fits all)!  
-7. **Simple's easy to understand**: Simple is easy to work with!  
-8. **Simple is elegant**: Fluancy., or code that doesn't look like a tornado! When there is nothing to take the focus away from something, it is truly elegant (e.g. Mona Lisa painting). This presents the *Architect's dilemna* (e.g. Trinity Church and an adjacent building in Boston, Mass' reflection off the church).  
-9. **Simplicity has to evolve**: We have all said, *my code simply sucks* at some point. Over time, things change, and as we change, simplicity will as well. Simple makes things easy, but its certainly not easy.  
+
+1.**Simple's not clever**: It is a realization, a *clear solution!!* How do we manage code when there is no logic? Would you do this to your children, name them ```p```? We lose abstraction of our ideas.  
+
+2.**Simple's not necessarily familiar**: *(aka accidential complexitivity)* Something may be complex for a minute. Familiarity can look, or even be complex, it's all about understanding. 
+
+![](https://cloud.githubusercontent.com/assets/5023024/9292098/17d42a32-43ab-11e5-84c2-4ba12481f918.JPG)
+
+One hard realization is the *self-inflicting wound pattern*, when we forget to do something one day, and it continues to build up over time. Focus on: *what* you are doing, don't confuse, and use *declarative* code (it's simpler)! See: [Venkat's blog post](http://blog.agiledeveloper.com/2015/08/prefer-functional-style-over-imperative.html) for an example of functional vs. imperative code. Simple has fewer moving parts, illuminate them!       
+
+3.**Simple's not over-engineered**: See: *the automated back scratcher comic strip*. (e.g. a phone call with someone in the room vs. an in-person discussion).    
+
+![](https://cloud.githubusercontent.com/assets/5023024/9292094/e7eb7ed8-43aa-11e5-9d3e-d178b25ecb4a.JPG)
+
+4.**Simple's not terse**: Don't confuse simple/concise with terse. It's about extensibility. Terse vs. concise: *Terse* is short, and waiting to hurt you when you least expect it.
+
+![](https://cloud.githubusercontent.com/assets/5023024/9292103/69e01c14-43ab-11e5-9bb0-9439c3d40a24.JPG)
+
+*Concise* is transparent. If you don't know why your application in production is failing every three weeks, find out why and break down the steps. 
+
+5.**Simple keeps you focused**: Focus keeps down the distractions. (e.g. Search Engines: Yahoo has news distractions, *why did we come here again?*, Bing is beautiful, *do we really want to search and lose this beautiful picture?*, and Google is simplistic, we don't get lost in anything, *let's start our search*). This is extremely hard to do, to do something simple. It is *extremely valuable* to value someone else's time. Focus on the user, and don't distract them. This takes *genius* and *courage*.  
+
+![](https://cloud.githubusercontent.com/assets/5023024/9292115/0d1da360-43ac-11e5-949a-63f073a49f55.JPG)
+
+6.**Simple fails less**: (e.g. Manhole's shape is a circle, one size fits all)!  
+
+7.**Simple's easy to understand**: Simple is easy to work with!  
+
+8.**Simple is elegant**: Fluancy., or code that doesn't look like a tornado! When there is nothing to take the focus away from something, it is truly elegant (e.g. Mona Lisa painting). This presents the *Architect's dilemna* (e.g. Trinity Church and an adjacent building in Boston, Mass' reflection off the church).  
+
+9.**Simplicity has to evolve**: We have all said, *my code simply sucks* at some point. Over time, things change, and as we change, simplicity will as well. Simple makes things easy, but its certainly not easy.  
 
 **Resources:**  
 * [Structure and Interpretation of Computer Programs](http://www.amazon.com/Structure-Interpretation-Computer-Programs-Engineering/dp/0262510871), book
