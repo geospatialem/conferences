@@ -13,19 +13,19 @@
 **Sessions:**  
 * **[Opening Keynote: The Art of Simplicity](#keynote-the-art-of-simplicity-venkat-subramaniam)**, Venkat Subramaniam  
 * Getting Confident and Comfortable with Node.js, Aziz Ali  
-* Meteor: Superpowers for JavaScript Developers, Ryan Glover  
+* Meteor: Superpowers for JavaScript Developers, Ryan Glover [*[video](https://www.youtube.com/watch?v=_20LcYvUFVQ)*]  
 * **[Writing Better jQuery Infused JavaScript](#writing-better-jquery-infused-javascript-ken-dale--slides)**, Ken Dale  [**[video](https://www.youtube.com/watch?v=5Vpdyk9Hpng)**]  
 * ES6: Too Much Goodness to Wait!, Mark Volkmann  
 * Triage, Diagnose, and Scale Node.js, Jordan Kasper  
-* Angular-Formly: Abstracting Away Complexity, Kent C. Dodds  
+* Angular-Formly: Abstracting Away Complexity, Kent C. Dodds [*[video](https://www.youtube.com/watch?v=jUX2zcSwbRE)*]  
 * **[Components are the Future of the Web: It's Going to be Okay](#components-are-the-future-of-the-web-its-going-to-be-okay-tessa-thornton)**, Tessa Thornton  
 * A General Theory of Reactivity, Kris Kowal  
 * Modern UI Development with Node.js, Ryan Anklam
-* React.js - When, Where and How to Use It, Brad Marsh  
+* React.js - When, Where and How to Use It, Brad Marsh [*[video](https://www.youtube.com/watch?v=zGNQaDhg94g)*]  
 * **[Better Debugging in Chrome](#better-debugging-in-chrome-josh-longanecker)**, Josh Longanecker  
 * Interactive, browser-based data visualization with Crossfilter, Ethan Jewett  
 * Sailsjs, making Nodejs backends a breeze, Ryan Anklam
-* Writing your own identity map for Ember.js, Toran Billups  
+* Writing your own identity map for Ember.js, Toran Billups [*[video](https://www.youtube.com/watch?v=a61Odt2A1Zg)*]  
 * **[Developing for Firefox OS: It's just the Web... or is it?](#developing-for-firefox-os-its-just-the-web-or-is-it-dan-callahan)**, Dan Callahan 
 * Thunderdom with Gulp, Grunt and NPM, Zach Legein  
 * Hardware and JavaScript, Kristina Durivage  
@@ -36,7 +36,7 @@
 * TDD: The Hard Parts, Nick Tomlin  
 * An Introduction to Appium, Test Automation for Mobile, Jonah Stiennon  
 * **[Enterprise JavaScript Apps with TypeScript](#enterprise-javascript-apps-with-typescript-kurt-wiersma-slides)**, Kurt Wiersma  
-* Interactive Data Visualization with D3 and React, Benjamin Malley  
+* Interactive Data Visualization with D3 and React, Benjamin Malley [*[video](https://www.youtube.com/watch?v=nBwm48eM1iY)*]  
 * Automated testing tools and techniques for JavaScript, Venkat Subramaniam  
 * Building Web Touch Experiences That Don't Suck, David Washington  
 * **[JavaScript Forensics](#javascript-forensics-todd-gardner-slides)**, Todd Gardner  
@@ -45,7 +45,7 @@
 * Building OS X Apps with JavaScript, Tyler Gaw  
 * Applying JavaScript Promises: Asynchronous Honesty, Adam Ranfelt  
 * **[Edge of Tomorrow: Introducing Microsoft's New Browser](#edge-of-tomorrow-introducing-microsofts-new-browser-david-giard-slides)**, David Giard  
-* Check Your Angles and Angulars with Protractor, Will Buck  
+* Check Your Angles and Angulars with Protractor, Will Buck [*[video](https://www.youtube.com/watch?v=DHvetPfCXNg)*]  
 * HTML5: All Your Games Belong To Us, Erik Onarheim  
 * DIY Programming Language, Nick Heiner  
 * Effective Tooling with React.js, Bonnie Eisenman  
