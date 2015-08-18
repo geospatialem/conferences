@@ -11,18 +11,48 @@
 * *Miscellaneous Track*: Anything that doesn't fit into the others
 
 **Sessions:**  
-* *[Opening Keynote: The Art of Simplicity](#keynote-the-art-of-simplicity-venkat-subramaniam)*, Venkat Subramaniam  
-* *[Writing Better jQuery Infused JavaScript](#writing-better-jquery-infused-javascript-ken-dale--slides)*, Ken Dale  [**[video](https://www.youtube.com/watch?v=5Vpdyk9Hpng)**]  
-* *[Components are the Future of the Web: It's Going to be Okay](#components-are-the-future-of-the-web-its-going-to-be-okay-tessa-thornton)*, Tessa Thornton  
-* *[Better Debugging in Chrome](#better-debugging-in-chrome-josh-longanecker)*, Josh Longanecker  
-* *[Developing for Firefox OS: It's just the Web... or is it?](#developing-for-firefox-os-its-just-the-web-or-is-it-dan-callahan)*, Dan Callahan  
-* *[That's so Prototypical](#thats-so-prototypical-jordan-kasper)*, Jordan Kasper  
-* *[Enterprise JavaScript Apps with TypeScript](#enterprise-javascript-apps-with-typescript-kurt-wiersma-slides)*, Kurt Wiersma  
-* *[JavaScript Forensics](#javascript-forensics-todd-gardner-slides)*, Todd Gardner  
-* *[Test Them Puzzles: What Test-Driven Learning Can Teach About JS and TDD](#test-them-puzzles-what-test-driven-learning-can-teach-about-js-and-tdd-branden-byers-slides)*, Branden Byers [**[video](https://www.youtube.com/watch?v=f6VpCVU1bIA)**]  
-* *[Edge of Tomorrow: Introducing Microsoft's New Browser](#edge-of-tomorrow-introducing-microsofts-new-browser-david-giard-slides)*, David Giard  
-* *[Adventures in Test-Driven Development](#adventures-in-test-driven-development-jeremy-lund)*, Jeremy Lund [**[video](https://www.youtube.com/watch?v=qZ2Nas4HFwA)**]    
-* *[Closing Keynote: The Current State of JavaScript](#keynote-the-current-state-of-javascript-jon-dejong)*, Jon DeJong  
+* **[Opening Keynote: The Art of Simplicity](#keynote-the-art-of-simplicity-venkat-subramaniam)**, Venkat Subramaniam  
+* Getting Confident and Comfortable with Node.js, Aziz Ali  
+* Meteor: Superpowers for JavaScript Developers, Ryan Glover  
+* **[Writing Better jQuery Infused JavaScript](#writing-better-jquery-infused-javascript-ken-dale--slides)**, Ken Dale  [**[video](https://www.youtube.com/watch?v=5Vpdyk9Hpng)**]  
+* ES6: Too Much Goodness to Wait!, Mark Volkmann  
+* Triage, Diagnose, and Scale Node.js, Jordan Kasper  
+* Angular-Formly: Abstracting Away Complexity, Kent C. Dodds  
+* **[Components are the Future of the Web: It's Going to be Okay](#components-are-the-future-of-the-web-its-going-to-be-okay-tessa-thornton)**, Tessa Thornton  
+* A General Theory of Reactivity, Kris Kowal  
+* Modern UI Development with Node.js, Ryan Anklam
+* React.js - When, Where and How to Use It, Brad Marsh  
+* **[Better Debugging in Chrome](#better-debugging-in-chrome-josh-longanecker)**, Josh Longanecker  
+* Interactive, browser-based data visualization with Crossfilter, Ethan Jewett  
+* Sailsjs, making Nodejs backends a breeze, Ryan Anklam
+* Writing your own identity map for Ember.js, Toran Billups  
+* **[Developing for Firefox OS: It's just the Web... or is it?](#developing-for-firefox-os-its-just-the-web-or-is-it-dan-callahan)**, Dan Callahan 
+* Thunderdom with Gulp, Grunt and NPM, Zach Legein  
+* Hardware and JavaScript, Kristina Durivage  
+* Building Custom Directives in AngularJS, Jon DeJong  
+* **[That's so Prototypical](#thats-so-prototypical-jordan-kasper)**, Jordan Kasper  
+* Bacon.js for Breakfast: An intro to functional reactive programming, Eric Ponto  
+* Intro to React, Matt Zabriskie  
+* TDD: The Hard Parts, Nick Tomlin  
+* An Introduction to Appium, Test Automation for Mobile, Jonah Stiennon  
+* **[Enterprise JavaScript Apps with TypeScript](#enterprise-javascript-apps-with-typescript-kurt-wiersma-slides)**, Kurt Wiersma  
+* Interactive Data Visualization with D3 and React, Benjamin Malley  
+* Automated testing tools and techniques for JavaScript, Venkat Subramaniam  
+* Building Web Touch Experiences That Don't Suck, David Washington  
+* **[JavaScript Forensics](#javascript-forensics-todd-gardner-slides)**, Todd Gardner  
+* Optimizing Data Workflows in React, Amos Kyler  
+* **[Test Them Puzzles: What Test-Driven Learning Can Teach About JS and TDD](#test-them-puzzles-what-test-driven-learning-can-teach-about-js-and-tdd-branden-byers-slides)**, Branden Byers [**[video](https://www.youtube.com/watch?v=f6VpCVU1bIA)**]  
+* Building OS X Apps with JavaScript, Tyler Gaw  
+* Applying JavaScript Promises: Asynchronous Honesty, Adam Ranfelt  
+* **[Edge of Tomorrow: Introducing Microsoft's New Browser](#edge-of-tomorrow-introducing-microsofts-new-browser-david-giard-slides)**, David Giard  
+* Check Your Angles and Angulars with Protractor, Will Buck  
+* HTML5: All Your Games Belong To Us, Erik Onarheim  
+* DIY Programming Language, Nick Heiner  
+* Effective Tooling with React.js, Bonnie Eisenman  
+* **[Adventures in Test-Driven Development](#adventures-in-test-driven-development-jeremy-lund)**, Jeremy Lund [**[video](https://www.youtube.com/watch?v=qZ2Nas4HFwA)**]    
+* WebGL: A New Frontier for 3D Mobile Graphics, Kevin Moot  
+* Theory and Practice of Functional Reactive JavaScript, Pete Hodgson
+* **[Closing Keynote: The Current State of JavaScript](#keynote-the-current-state-of-javascript-jon-dejong)**, Jon DeJong  
 
 
 ## Thursday, August 13th, 2015
