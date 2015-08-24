@@ -18,7 +18,7 @@
 * ES6: Too Much Goodness to Wait!, Mark Volkmann  
 * Triage, Diagnose, and Scale Node.js, Jordan Kasper  
 * Angular-Formly: Abstracting Away Complexity, Kent C. Dodds [*[video](https://www.youtube.com/watch?v=jUX2zcSwbRE)*]  
-* **[Components are the Future of the Web: It's Going to be Okay](#components-are-the-future-of-the-web-its-going-to-be-okay-tessa-thornton)**, Tessa Thornton  
+* **[Components are the Future of the Web: It's Going to be Okay](#components-are-the-future-of-the-web-its-going-to-be-okay-tessa-thornton)**, Tessa Thornton [[**video**](https://www.youtube.com/watch?v=iW3dLrLGFi4&)]  
 * A General Theory of Reactivity, Kris Kowal  
 * Modern UI Development with Node.js, Ryan Anklam
 * React.js - When, Where and How to Use It, Brad Marsh [*[video](https://www.youtube.com/watch?v=zGNQaDhg94g)*]  
@@ -26,15 +26,15 @@
 * Interactive, browser-based data visualization with Crossfilter, Ethan Jewett  
 * Sailsjs, making Nodejs backends a breeze, Ryan Anklam
 * Writing your own identity map for Ember.js, Toran Billups [*[video](https://www.youtube.com/watch?v=a61Odt2A1Zg)*]  
-* **[Developing for Firefox OS: It's just the Web... or is it?](#developing-for-firefox-os-its-just-the-web-or-is-it-dan-callahan)**, Dan Callahan 
+* **[Developing for Firefox OS: It's just the Web... or is it?](#developing-for-firefox-os-its-just-the-web-or-is-it-dan-callahan)**, Dan Callahan [[**video**](https://www.youtube.com/watch?v=Jrz4-hKoy0M&)]  
 * Thunderdom with Gulp, Grunt and NPM, Zach Legein  
 * Hardware and JavaScript, Kristina Durivage  
 * Building Custom Directives in AngularJS, Jon DeJong  
-* **[That's so Prototypical](#thats-so-prototypical-jordan-kasper)**, Jordan Kasper  
+* **[That's so Prototypical](#thats-so-prototypical-jordan-kasper)**, Jordan Kasper [[**video**](https://www.youtube.com/watch?v=15L-Ov3Rylk&)]  
 * Bacon.js for Breakfast: An intro to functional reactive programming, Eric Ponto  
 * Intro to React, Matt Zabriskie  
 * TDD: The Hard Parts, Nick Tomlin  
-* An Introduction to Appium, Test Automation for Mobile, Jonah Stiennon  
+* An Introduction to Appium, Test Automation for Mobile, Jonah Stiennon [*[video](https://youtu.be/7uRPGiy64xE)*]  
 * **[Enterprise JavaScript Apps with TypeScript](#enterprise-javascript-apps-with-typescript-kurt-wiersma-slides)**, Kurt Wiersma  
 * Interactive Data Visualization with D3 and React, Benjamin Malley [*[video](https://www.youtube.com/watch?v=nBwm48eM1iY)*]  
 * Automated testing tools and techniques for JavaScript, Venkat Subramaniam  
