@@ -15,15 +15,15 @@
 * Getting Confident and Comfortable with Node.js, Aziz Ali  
 * Meteor: Superpowers for JavaScript Developers, Ryan Glover [*[video](https://www.youtube.com/watch?v=_20LcYvUFVQ)*]  
 * **[Writing Better jQuery Infused JavaScript](#writing-better-jquery-infused-javascript-ken-dale--slides)**, Ken Dale  [**[video](https://www.youtube.com/watch?v=5Vpdyk9Hpng)**]  
-* ES6: Too Much Goodness to Wait!, Mark Volkmann  
+* ES6: Too Much Goodness to Wait!, Mark Volkmann [*[video](https://www.youtube.com/watch?v=13kawyfG_mc)*]  
 * Triage, Diagnose, and Scale Node.js, Jordan Kasper  
 * Angular-Formly: Abstracting Away Complexity, Kent C. Dodds [*[video](https://www.youtube.com/watch?v=jUX2zcSwbRE)*]  
 * **[Components are the Future of the Web: It's Going to be Okay](#components-are-the-future-of-the-web-its-going-to-be-okay-tessa-thornton)**, Tessa Thornton [[**video**](https://www.youtube.com/watch?v=iW3dLrLGFi4&)]  
-* A General Theory of Reactivity, Kris Kowal  
+* A General Theory of Reactivity, Kris Kowal [*[video](https://www.youtube.com/watch?v=R9CGieinKVo)*]  
 * Modern UI Development with Node.js, Ryan Anklam
 * React.js - When, Where and How to Use It, Brad Marsh [*[video](https://www.youtube.com/watch?v=zGNQaDhg94g)*]  
 * **[Better Debugging in Chrome](#better-debugging-in-chrome-josh-longanecker)**, Josh Longanecker  
-* Interactive, browser-based data visualization with Crossfilter, Ethan Jewett  
+* Interactive, browser-based data visualization with Crossfilter, Ethan Jewett [*[video](https://www.youtube.com/watch?v=iLn9PxAEpDs)*]  
 * Sailsjs, making Nodejs backends a breeze, Ryan Anklam
 * Writing your own identity map for Ember.js, Toran Billups [*[video](https://www.youtube.com/watch?v=a61Odt2A1Zg)*]  
 * **[Developing for Firefox OS: It's just the Web... or is it?](#developing-for-firefox-os-its-just-the-web-or-is-it-dan-callahan)**, Dan Callahan [[**video**](https://www.youtube.com/watch?v=Jrz4-hKoy0M&)]  
@@ -31,26 +31,26 @@
 * Hardware and JavaScript, Kristina Durivage  
 * Building Custom Directives in AngularJS, Jon DeJong  
 * **[That's so Prototypical](#thats-so-prototypical-jordan-kasper)**, Jordan Kasper [[**video**](https://www.youtube.com/watch?v=15L-Ov3Rylk&)]  
-* Bacon.js for Breakfast: An intro to functional reactive programming, Eric Ponto  
+* Bacon.js for Breakfast: An intro to functional reactive programming, Eric Ponto [*[video](https://www.youtube.com/watch?v=SNMVh73rU_4)*]   
 * Intro to React, Matt Zabriskie  
 * TDD: The Hard Parts, Nick Tomlin  
 * An Introduction to Appium, Test Automation for Mobile, Jonah Stiennon [*[video](https://youtu.be/7uRPGiy64xE)*]  
 * **[Enterprise JavaScript Apps with TypeScript](#enterprise-javascript-apps-with-typescript-kurt-wiersma-slides)**, Kurt Wiersma  
 * Interactive Data Visualization with D3 and React, Benjamin Malley [*[video](https://www.youtube.com/watch?v=nBwm48eM1iY)*]  
 * Automated testing tools and techniques for JavaScript, Venkat Subramaniam  
-* Building Web Touch Experiences That Don't Suck, David Washington  
+* Building Web Touch Experiences That Don't Suck, David Washington [*[video](https://www.youtube.com/watch?v=rbid2ri8FzU)*]  
 * **[JavaScript Forensics](#javascript-forensics-todd-gardner-slides)**, Todd Gardner  
 * Optimizing Data Workflows in React, Amos Kyler  
 * **[Test Them Puzzles: What Test-Driven Learning Can Teach About JS and TDD](#test-them-puzzles-what-test-driven-learning-can-teach-about-js-and-tdd-branden-byers-slides)**, Branden Byers [**[video](https://www.youtube.com/watch?v=f6VpCVU1bIA)**]  
-* Building OS X Apps with JavaScript, Tyler Gaw  
+* Building OS X Apps with JavaScript, Tyler Gaw [*[video](https://www.youtube.com/watch?v=UcU2VqRs6DA)*]  
 * Applying JavaScript Promises: Asynchronous Honesty, Adam Ranfelt  
 * **[Edge of Tomorrow: Introducing Microsoft's New Browser](#edge-of-tomorrow-introducing-microsofts-new-browser-david-giard-slides)**, David Giard  
 * Check Your Angles and Angulars with Protractor, Will Buck [*[video](https://www.youtube.com/watch?v=DHvetPfCXNg)*]  
-* HTML5: All Your Games Belong To Us, Erik Onarheim  
+* HTML5: All Your Games Belong To Us, Erik Onarheim [*[video](https://www.youtube.com/watch?v=T3fKaz-sWI0)*]  
 * DIY Programming Language, Nick Heiner  
 * Effective Tooling with React.js, Bonnie Eisenman  
 * **[Adventures in Test-Driven Development](#adventures-in-test-driven-development-jeremy-lund)**, Jeremy Lund [**[video](https://www.youtube.com/watch?v=qZ2Nas4HFwA)**]    
-* WebGL: A New Frontier for 3D Mobile Graphics, Kevin Moot  
+* WebGL: A New Frontier for 3D Mobile Graphics, Kevin Moot [*[video](https://www.youtube.com/watch?v=9Uy83_Gz-ms)*]  
 * Theory and Practice of Functional Reactive JavaScript, Pete Hodgson
 * **[Closing Keynote: The Current State of JavaScript](#keynote-the-current-state-of-javascript-jon-dejong)**, Jon DeJong  
 
