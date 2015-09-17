@@ -35,15 +35,15 @@
 * Intro to React, Matt Zabriskie  
 * TDD: The Hard Parts, Nick Tomlin  
 * An Introduction to Appium, Test Automation for Mobile, Jonah Stiennon [*[video](https://youtu.be/7uRPGiy64xE)*]  
-* **[Enterprise JavaScript Apps with TypeScript](#enterprise-javascript-apps-with-typescript-kurt-wiersma-slides)**, Kurt Wiersma  
+* **[Enterprise JavaScript Apps with TypeScript](#enterprise-javascript-apps-with-typescript-kurt-wiersma-slides)**, Kurt Wiersma  [**[video](http://t.co/E9aidCUjI6)**]  
 * Interactive Data Visualization with D3 and React, Benjamin Malley [*[video](https://www.youtube.com/watch?v=nBwm48eM1iY)*]  
 * Automated testing tools and techniques for JavaScript, Venkat Subramaniam  
 * Building Web Touch Experiences That Don't Suck, David Washington [*[video](https://www.youtube.com/watch?v=rbid2ri8FzU)*]  
-* **[JavaScript Forensics](#javascript-forensics-todd-gardner-slides)**, Todd Gardner  
+* **[JavaScript Forensics](#javascript-forensics-todd-gardner-slides)**, Todd Gardner [[**video**](http://t.co/xfPpLw5msU)]  
 * Optimizing Data Workflows in React, Amos Kyler  
 * **[Test Them Puzzles: What Test-Driven Learning Can Teach About JS and TDD](#test-them-puzzles-what-test-driven-learning-can-teach-about-js-and-tdd-branden-byers-slides)**, Branden Byers [**[video](https://www.youtube.com/watch?v=f6VpCVU1bIA)**]  
 * Building OS X Apps with JavaScript, Tyler Gaw [*[video](https://www.youtube.com/watch?v=UcU2VqRs6DA)*]  
-* Applying JavaScript Promises: Asynchronous Honesty, Adam Ranfelt  
+* Applying JavaScript Promises: Asynchronous Honesty, Adam Ranfelt  [*[video](http://t.co/uXZfLHP6hY)*]  
 * **[Edge of Tomorrow: Introducing Microsoft's New Browser](#edge-of-tomorrow-introducing-microsofts-new-browser-david-giard-slides)**, David Giard  
 * Check Your Angles and Angulars with Protractor, Will Buck [*[video](https://www.youtube.com/watch?v=DHvetPfCXNg)*]  
 * HTML5: All Your Games Belong To Us, Erik Onarheim [*[video](https://www.youtube.com/watch?v=T3fKaz-sWI0)*]  
