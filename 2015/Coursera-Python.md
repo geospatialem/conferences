@@ -4,7 +4,7 @@
 
 **Courses include:**
 
-1. **[Programming for Everybody Getting Started with Python](#)**
+1. **[Programming for Everybody Getting Started with Python](#1-programming-for-everybody-getting-started-with-python)**
 2. **Python Data Structures**
 3. **Using Python to Access Web Data**
 4. **Using Databases with Python**
