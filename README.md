@@ -7,3 +7,6 @@ A premier technology conference focused on the JavaScript ecosystem. There were 
 
 2. <img src="https://cloud.githubusercontent.com/assets/5023024/10260841/9d4cb9b8-6944-11e5-8987-a7d1493b5812.jpeg" width="25" height"25"> [Girl Develop It: Git](/2015/GirlDevelopIt-Git.md) ([website](https://www.girldevelopit.com/chapters/minneapolis)):  
 A non-profit organization that exists to provide affordable and judgment-free opportunities for women interested in learning web and software development. Git took place at Prime Digital Academy in Bloomington, Minnesota on October 1, 2015.
+
+3. <img src="https://d1qb2nb5cznatu.cloudfront.net/startups/i/430131-86c4ecea8ec200688933e639f890bf6d-medium_jpg.jpg?buster=1433271718" width="25" height"25"> [Coursera: Python for Everybody Specialization](/2015/Coursera-Python.md):
+Learn to Program and Analyze Data with Python. Develop programs to gather, clean, analyze, and visualize data. Course taken online from September through December, 2015.
