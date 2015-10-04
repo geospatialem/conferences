@@ -64,7 +64,7 @@ To create a repo on you desktop, without first making one on the web browser, ru
 ## Undo Your Changes
 Nobody's perfect. Sometimes you'll want to "undo" or "revert" some changes you've made.
 
-Also, check out some awesome tweets that Nathan sent out! (e.g. [Git Alias'](https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases))
+Also, check out some awesome tweets that Nathan sent out! Such as [Git Alias'](https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases). Get all the information from the [Twitter discussion](https://twitter.com/GeospatialEM/status/649747875962875904).
 
 P.S. **_AMAZING!_**
 
