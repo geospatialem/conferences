@@ -377,3 +377,4 @@ if scoreFloat <= 1.0:
 else:
   print: "Error, please enter a score between 0.0 and 1.0."
 ```
+## Chapter 4: Functions
