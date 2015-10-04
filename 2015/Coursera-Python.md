@@ -70,8 +70,12 @@ while n > 0:
 * Good examples: `spam`, `eggs`, `spam23`, `_speed`
 * Bad examples: ~~`23spam`, `#sign`, `var.12`~~
 
+### Mnemonic
+Mnemonic standards for memory, and it is a pattern of letters, ideas, or associations that assists in remembering something. **_Best graphic ever_**:
+<img width="957" alt="screen shot 2015-10-03 at 9 28 30 pm" src="https://cloud.githubusercontent.com/assets/5023024/10266155/d01caa02-6a15-11e5-99e0-785f049b4e62.png">
+
 #### Reserved Words:
-```python
+```
 and
 del
 for
@@ -101,4 +105,50 @@ def
 finally
 in
 print
+```
+### User Input:
+Instruct Python to pause and read data from a user using `raw_input`, which returns a string. For example:
+```python
+username = raw_input('What is your username?')
+print 'Hola', username
+```
+Which returns:
+* What is your username? `geospatialem`
+* Hola geospatialem
+
+#### Converting User Input
+*Background:* In Europe they start on floor 0, higher floors go to 1, 2, 3 and lower to -1, -2, etc. In the United States they start on floor 0 and go up to 1, 2, 3 and have a basement (no negative numbers).
+
+*Solution:* To convert the European floor to an American we can ask users to input their floor number and add one to the number. To do the conversion we must convert the user input (string) to an integer and add 1 to it. However, if the user inputs anything other than an integer the program will blow up.
+
+```python
+europeanFloor = raw_input('What European floor are you on?')
+americanFloor = int(europeanFloor) + 1
+print "In the United States you would be on floor number", americanFloor
+```
+
+### Comments
+* To comment in Python use the `#` symbol.
+* Comment on what is happening in a sequence of code.
+* Commenting also helps for (perhaps temporarily) turning off a line of code
+
+For example:
+```python
+# This is a Python comment
+```
+
+### Chapter Quiz
+*Problem:* Write a program to prompt the user for hours and rate per hour using `raw_input` to compute gross pay. Use 35 hours and a rate of 2.75 per hour to test the program (the pay should be 96.25). You should use `raw_input` to read a string and `float()` to convert the string to a number. Do not worry about error checking or bad user data.
+
+*Solution:*
+```python
+# Ask the user to input their hours and pay per hour
+hoursWorked = raw_input("Enter the number of hours worked:")
+payRate = raw_input("Enter your hourly pay rate:")
+
+# Convert the user input to floats from strings
+totalPay = float(hoursWorked) * float(payRate)
+
+# Display the total pay
+print totalPay
 ```
