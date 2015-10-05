@@ -282,7 +282,7 @@ else:
   print 'Not a number, please enter a valid number.'
 ```
 
-### Chapter Quiz
+### Chapter Quizes
 *Problem:* Write a program to prompt the user for hours and rate per hour using `raw_input` to compute gross pay. Pay the hourly rate for the hours up to 40 and 1.5 times the hourly rate for all hours worked above 40 hours. Use 45 hours and a rate of 10.50 per hour to test the program (the pay should be 498.75). You should use `raw_input` to read a string and `float()` to convert the string to a number. Do not worry about error checking the user input - assume the user types numbers properly.
 
 *Solution:*
@@ -378,3 +378,143 @@ else:
   print: "Error, please enter a score between 0.0 and 1.0."
 ```
 ## Chapter 4: Functions
+Functions are reusable code that takes arguments as input, does computation, and returns a result(s). This is the **store** and **reuse** pattern.
+
+### What are Functions
+* Functions work as such: **Argument → Parameter → Result**
+* Defined using the `def` reserved word.
+* Called/invoked by using the function name, parenthesis, and arguments in an expression.
+* Create a function if something gets too long or too complex. Break it up into logical chunks and put each chunk into a function.
+
+For example:
+```python
+def hello():
+  print "Hello there!"
+  print "Python rocks!"
+
+print "Running the hello function..."
+hello()
+print "...The hello function is done."
+```
+
+As a result the following will print on the screen:
+```
+Running the hello function...  
+Hello there!  
+Python rocks!  
+...The hello function is done.
+```
+
+### Types of Functions
+
+* **Built-in Functions:** Provided as part of Python (e.g. `raw_input()`, `type()`, `float()`, `int()`, etc.)
+
+* **Defined Functions:** Functions defined by us using the `def` keyword. Defining the function does not execute it, it is only defined.
+
+### Arguments
+An argument is a value passed into a function as its input when calling the function. They are placed in parenthesis after the name of the function.
+
+Arguments are used to direct the function to do different kinds of work at different times.
+
+*Multiple arguments can exist in a function.*
+
+For example: In the example below `Hello world` is the argument.
+```python
+# Arguments pass into the function
+big = max('Hello world')
+```
+
+### Parameters
+A variable used in a function definition that is a "handle" allowing code in the function to access the arguments for a particular function invocation. *Multiple parameters can exist within a function.*
+
+For example:
+```
+# In this example, 'languageSpoken' is the parameter
+def greetingText(languageSpoken)
+  if languageSpoken == 'es':
+    print 'Hola'
+  elif languageSpoken == 'fr':
+    print 'Bonjour'
+  else:
+    print 'Hello'
+
+# The responses after running the arguments through the parameter.
+>> greetingText('en')
+Hello
+
+>> greetingText('es')
+Hola
+
+>> greetingText('fr')
+Bonjour
+```
+
+### Return Values
+A function will take its arguments, do computations, and return a value to be used as the value of the function call in the calling expression. The return keyword is used for this.
+
+For example:
+```python
+def greeting():
+  return "Hello,"
+
+print greet(), "Professor Snape"
+print greet(), "Harry Potter"
+```
+
+Will Return:
+```
+Hello, Professor Snape
+Hello, Harry Potter
+```
+Another example:
+```
+def greetingText(languageSpoken)
+  if languageSpoken == 'es':
+    print 'Hola'
+  elif languageSpoken == 'fr':
+    print 'Bonjour'
+  else:
+    print 'Hello'
+
+# The responses after running the arguments through the parameter with return values
+>> greetingText('en'), Harry
+Hello Harry
+
+>> greetingText('es'), Hermoine
+Hola Hermoine
+
+>> greetingText('fr'), Ron
+Bonjour Ron
+```
+### Void Functions
+A function doesn't have to have a return value, also known as "not fruitful".
+
+### Chapter Quiz
+*Problem:* Write a program to prompt the user for hours and rate per hour using `raw_input` to compute gross pay. Award time-and-a-half for the hourly rate for all hours worked above 40 hours. Put the logic to do the computation of time-and-a-half in a function called `computepay()` and use the function to do the computation. The function should return a value. Use 45 hours and a rate of 10.50 per hour to test the program (the pay should be 498.75). You should use `raw_input` to read a `string` and `float()` to convert the `string` to a `number`. Do not worry about error checking the user input unless you want to - you can assume the user types numbers properly.
+
+*Solution:*
+```python
+# Define the computePay function
+def computePay(hour,rate):
+    # If the worker worked over 40 hours, pay them 1.5 times their hourly rate.
+    if hoursFloat > 40:
+        overtimeHours = hoursFloat - 40
+        return (40 * rateFloat) + (overtimeHours * (rateFloat * 1.5))
+    # If the worker worked 40 hours or less, pay them their hourly rate.
+    elif hoursFloat <= 40:
+        return (hour * rate)
+
+# Ask the user to input the number of hours worked and their hourly rate.
+inputHours = raw_input("Enter Hours:")
+inputRate = raw_input("Enter Hourly Rate:")
+
+#Convert the strings to floats
+hoursFloat = float(inputHours)
+rateFloat = float(inputRate)
+
+# Run the function
+totalPay = computePay(hoursFloat,rateFloat)
+
+# Print the gross pay for the employee
+print totalPay
+```
