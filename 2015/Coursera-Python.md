@@ -518,3 +518,143 @@ totalPay = computePay(hoursFloat,rateFloat)
 # Print the gross pay for the employee
 print totalPay
 ```
+## Chapter 5: Loops and Iteration
+Looping, or repeated steps, have iteration variables that change each time through a loop. Often these iteration variables go through a sequence of numbers.
+
+### Indefinite Loop
+Also known as `while` loops, because they keep going until a logicial condition becomes false.
+
+For example:
+```python
+n = 5
+# Run this following code while it remains true
+while n > 0:
+  print n
+  n = n - 1
+# The end of the loop
+print "Done!"
+print n
+```
+
+Which will show the following output:
+```
+5
+4
+3
+2
+1
+Done!
+0
+```
+
+### Definite Loop
+A list of items, effectively a finite set of things using the `for` construct. Definite loops are executed an exact number (explicit iteration values) of times as they iterate through the members of a sequence/set.
+
+Quite often we have a list of items, effectively a finite set of things where a definite loop is the best solution.
+
+For example:  
+```python
+# Run this code for a specific amount of iterations as-defined
+for i in [5,4,3,2,1]:
+  print i
+print 'Done.'
+```
+
+Will show:
+```
+5
+4
+3
+2
+1
+Done.
+```
+
+```python
+# You can run a definite loop with strings as well!
+friends = ['Joseph','Glenn','Sally']
+
+for friend in friends:
+  print 'Happy New Year:', friend
+print 'Done.'
+```
+
+Will show:
+```
+Happy New Year: Joseph
+Happy New Year: Glenn
+Happy New Year: Sally
+Done.
+```
+
+### ~~Infinite Loop~~
+Avoid using infinite loops, they will continue to run! For example:
+
+```python
+# This loop will never end as n will always be greater than 0.
+n = 5
+while n > 0:
+  print 'Lather'
+  print 'Rinse'
+print 'Dry off!'
+```
+
+### ~~Zero Loop~~
+Try to avoid zero loops, or a loop that will never run. For example:
+
+```python
+n = 0
+# This loop will never run as n is already 0
+while n > 0:
+  print 'Lather'
+  print 'Rinse'
+print 'Dry off!'
+```
+### Breaking Out of a Loop
+The `break` statement ends the current loop and jumps to the statement immediately following the loop. For example:
+
+```python
+while True:
+  line = raw_input('>')
+  # If the user enters in 'done', leave the loop
+  if line == 'done':
+    break
+    print line
+print 'Done!'
+```
+
+If the user types the following, this will be the response:
+```
+> hello there
+hello there
+> finished
+finished
+> done
+Done!
+```
+### Finish an Iteration with `continue`
+The `continue` statement ends the current iteration and jumps to the top of the loop and starts the next iteration. For example:
+
+```python
+while True:
+  line = raw_input('>')
+  if line[0] == '#':
+    continue
+  if line == 'done':
+    break
+  print line
+print 'Done!'
+```
+Where:
+```
+> hello there
+hello there
+> # don't print this
+> print this!
+print this!
+> done
+Done!
+```
+
+### Looking at `In`
+<img width="957" alt="screen shot 2015-10-05 at 6 02 38 pm" src="https://cloud.githubusercontent.com/assets/5023024/10296134/536a9b50-6b8b-11e5-8bd2-444f02d45b80.png">
