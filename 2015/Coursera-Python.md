@@ -5,6 +5,11 @@
 **Courses include:**
 
 1. **[Programming for Everybody Getting Started with Python](#1-programming-for-everybody-getting-started-with-python)**
+  * [Chapter 1: Why We Program](#chapter-1-why-we-program)
+  * [Chapter 2: Variables, Expressions, and Statements](#chapter-2-variables-expressions-and-statements)
+  * [Chapter 3: Conditional Execution](#chapter-3-conditional-execution)
+  * [Chapter 4: Functions](#chapter-4-functions)
+  * [Chapter 5: Loops and Iteration](#chapter-5-loops-and-iteration)
 2. **Python Data Structures**
 3. **Using Python to Access Web Data**
 4. **Using Databases with Python**
