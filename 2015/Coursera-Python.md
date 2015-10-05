@@ -495,14 +495,14 @@ A function doesn't have to have a return value, also known as "not fruitful".
 *Solution:*
 ```python
 # Define the computePay function
-def computePay(hour,rate):
+def computePay(hours,rate):
     # If the worker worked over 40 hours, pay them 1.5 times their hourly rate.
     if hoursFloat > 40:
-        overtimeHours = hoursFloat - 40
-        return (40 * rateFloat) + (overtimeHours * (rateFloat * 1.5))
+        overtimeHours = hours - 40
+        return (40 * rate) + (overtimeHours * (rate * 1.5))
     # If the worker worked 40 hours or less, pay them their hourly rate.
     elif hoursFloat <= 40:
-        return (hour * rate)
+        return (hours * rate)
 
 # Ask the user to input the number of hours worked and their hourly rate.
 inputHours = raw_input("Enter Hours:")
