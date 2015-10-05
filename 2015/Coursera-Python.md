@@ -287,9 +287,6 @@ else:
 
 *Solution:*
 ```python
-# Hourly pay rate
-hourlyRate = 10.5
-
 # Ask the user to input the number of hours worked and their hourly pay rate.
 hoursInput = raw_input("Enter Hours:")
 payInput = raw_input("Enter Hourly Pay:")
