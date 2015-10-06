@@ -660,3 +660,111 @@ Done!
 
 ### Looking at `In`
 <img width="957" alt="screen shot 2015-10-05 at 6 02 38 pm" src="https://cloud.githubusercontent.com/assets/5023024/10296134/536a9b50-6b8b-11e5-8bd2-444f02d45b80.png">
+
+### Making Smart Loop Idioms
+This trick is "knowing" something about the whole loop when you are stuck writing code that only sees one entry at a time (**the before, during, and after**).
+* Set variables to initial values.
+* For the thing in the data look for something to each entry separately, updating a variable.
+* Look at the variables (the payoff).
+
+For example, finding the largest number:
+```python
+largestSoFar = -1
+print 'Before', largestSoFar
+for theNum in [9,41,12,3,74,15]:
+  if theNum > largestSoFar:
+    largestSoFar = theNum
+  print largestSoFar, theNum
+
+print 'After', largestSoFar
+```
+
+The results are as follows:
+```
+$python largest.py
+Before -1
+9 9
+41 41
+41 12
+41 3
+74 74
+74 15
+After 74
+```
+
+Another example, finding the smallest number:
+```python
+# Set smallest to none to give it no value
+smallest = None
+print 'Before'
+for value in [9,41,12,3,74,15]:
+  # If smallest is still none, set the value as smallest.
+  if smallest is None:
+    smallest = value
+# Else if the value is smaller than the smallest value, make the new value the smallest value.
+  elif value < smallest:
+    smallest = value
+  print smallest, value
+
+print 'After',smallest
+```
+
+The results are as follows:
+```
+$python smallest.py
+Before
+9 9
+9 41
+9 12
+3 3
+3 74
+3 15
+After 3
+```
+### The `is` and `is not` operators
+* `Is` and `is not` can be used in logical expressions.
+* Implies 'is the same as'
+* Similar to, but stronger than `==`
+* **Do not** use in most circumstances, only recommended uses are for `none`, `true`, and `false`.
+
+For example:  
+```python
+if smallest is None
+```
+
+### Chapter Quiz
+*Problem*: Write a program that repeatedly prompts a user for integer numbers until the user enters 'done'. Once 'done' is entered, print out the largest and smallest of the numbers. If the user enters anything other than a valid number catch it with a `try`/`except` and put out an appropriate message and ignore the number. Enter the numbers from the book for problem 5.1 and Match the desired output as shown.
+
+*Solution*:
+```python
+# Set the largest and smallest numbers to None by default
+largest = None
+smallest = None
+
+# While loop
+while True:
+    # User input to enter a number
+    input = raw_input("Enter a number: ")
+    # If the user enters 'done', leave the loop
+    if input == "done" : break
+    # Try to convert the number to a float
+    try:
+        number = float(input)
+    # If the conversion doesn't work, throw an error handler
+    except ValueError:
+        print "Invalid input"
+    else:
+        # If smallest is still none, set the number to the smallest and largest numbers
+        if smallest is None:
+            smallest = number
+            largest = number
+        # Else if the number is smaller than the smallest number, set it to the smallest number
+        elif number < smallest:
+            smallest = number
+        # Else if the number is larger than the largest number, set it to the largest number
+        elif number > largest:
+            largest = number
+# Print the maximum and minimum numbers
+print "Maximum is", int(largest)
+print "Minimum is", int(smallest)
+```
