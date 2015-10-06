@@ -764,7 +764,7 @@ while True:
         # Else if the number is larger than the largest number, set it to the largest number
         elif number > largest:
             largest = number
-# Print the maximum and minimum numbers
+# Print the maximum and minimum numbers (converted to integers)
 print "Maximum is", int(largest)
 print "Minimum is", int(smallest)
 ```
