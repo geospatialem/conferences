@@ -747,9 +747,9 @@ while True:
     input = raw_input("Enter a number: ")
     # If the user enters 'done', leave the loop
     if input == "done" : break
-    # Try to convert the number to a float
+    # Try to convert the number to an integer
     try:
-        number = float(input)
+        number = int(input)
     # If the conversion doesn't work, throw an error handler
     except ValueError:
         print "Invalid input"
@@ -764,7 +764,7 @@ while True:
         # Else if the number is larger than the largest number, set it to the largest number
         elif number > largest:
             largest = number
-# Print the maximum and minimum numbers (converted to integers)
-print "Maximum is", int(largest)
-print "Minimum is", int(smallest)
+# Print the maximum and minimum numbers
+print "Maximum is", largest
+print "Minimum is", smallest
 ```
