@@ -37,7 +37,8 @@
 * [Spooky Map Stories](#), Patrick Hammons
 * [GIS for the people by the people](#), Sam Matthews
 
-**Friday, October 16th, 2015: Concurrent Sessions**  
+**Friday, October 16th, 2015: Concurrent Sessions**
+* *Am I Rent Stabilized?*, Chris Henrick, [Slides](http://clhenrick.io/presentations/am-i-rent-stabilized)
 * [Big History, Little History: Cartography in the Twentieth Century](#), Mark Monmonier
 * [Of Crocodiles and Tea Garden Managers: Mapping Interactions of an Earlier Era](#), Leo Dillon
 * [Improving ArcGIS mapping workflows with Adobe’s Creative Cloud Applications](#), Clint Loveman and Sarah Bell
@@ -645,10 +646,7 @@ National Park Service Centennial (100-year anniversary in 2016)
   * Question, "Teach someone how to buffer without a tool?"
 
 #### *From The Twitters*, The Interwebs
-
-**Resources**:
-http://cartography.oregonstate.edu/AddVertexScript.html
-http://clhenrick.io/presentations/am-i-rent-stabilized
+* [Add Vertex – Script for Adobe Illustrator](http://cartography.oregonstate.edu/AddVertexScript.html)
 
 ## Saturday, October 17th, 2015
 #### *Mapping in the Cloud*, Michael P. Peterson
