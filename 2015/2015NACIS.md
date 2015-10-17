@@ -150,7 +150,7 @@
 3. *Security*
     * Check PR to address the problem (*see slides for more information*)
 
-#### *Dropchop*, Sam Matthews [Slides](http://bit.ly/nacisdropchop), [Website](http://chopchop.io), [GitHub](https://github.com/cugos/dropchop)
+#### *Dropchop*, Sam Matthews [Slides](http://bit.ly/nacisdropchop), [Website](http://dropchop.io), [GitHub](https://github.com/cugos/dropchop)
 Make a simple modular tool (similar to: Geojson.io, Mapshaper, Turf.js, etc.)
 
 **Hypothesis:**
@@ -739,4 +739,4 @@ mysql_select_db($mysql_database);
 
 **Chapter 22: Animated Maps**
 * Animation is a result of JavaScript!
-* Rushing/List-based animation 
+* Rushing/List-based animation
