@@ -4,8 +4,24 @@
 
 ## Sessions:
 
-**Wednesday, October 14th, 2015:**  
-* [Practical Cartography Day](#practical-cartography-day), Multiple speakers  
+**Wednesday, October 14th, 2015: [Practical Cartography Day](#practical-cartography-day)**
+* [Taking Terrain to New Heights with ArcGIS](#), Kenneth Field & Patrick Kennelly
+* [Redesigning Atlas Maps for Social Media](#), Alethea Steingisser and James Meacham
+* [MAPPublisher at National Geographic](#), Matthew Chwatstyk
+* [A Quick Guide to US Dept. of Transportation Datasets](#), Justyna Goworowska
+* [Manual Shaded Relief of the World and the Patterson Projection](#), Tom Patterson
+* [Designer as a Cartographer](#), Amy Lee Walton
+* [Collecting Data from the Crowd - A Leaflet and CartoDB-based Stack](#), Mike Foster
+* [Dropchop](#), Sam Matthews
+* [Practical and Impractical Uses of Terrain Data](#), Seth Fitzsimmons
+* [Mapping the Future Patagonia National Park](#), Ross Donihue
+* [ArcMap-to-Illustrator Workflows](#), Nicole Samu
+* [FixWikiMaps Project: Maplift](#), Brian Davidson
+* [Restyling Old and Cluttered Maps](#), Vanessa Knoppke-Wetzel
+* [Terrain Data Sources Online](#), Paulo Raposo
+* [A Matter of Perspective](#), Daniel P. Huffman
+* [CartoCSS Essentials](#), Katie Kowalsky
+* [Vector Cartography in ArcGIS](#), Craig Williams
 
 **Thursday, October 15th, 2015:**  
 * [Examining the Terminology of Modern Cartography](#examining-the-terminology-of-modern-cartography-michael-p-peterson-rex-g-cammack), Michael P. Peterson, Rex G. Cammack
@@ -110,7 +126,7 @@ http://clhenrick.io/presentations/am-i-rent-stabilized
 * Don't let software limit you, re-created in Mapbox Studio for WebGL. *Simplify the process.*
 
 
-#### *Collecting Data from the Crowd - A Leaflet and CartoDB-based Stack*, Mike Foster](@mjfoster83) [Slides](http://mjfoster83.github.io/nacis-2015)
+#### *Collecting Data from the Crowd - A Leaflet and CartoDB-based Stack*, [Mike Foster](@mjfoster83),  [Slides](http://mjfoster83.github.io/nacis-2015)
 **How do you teach geography and design to non-geographers?**
 * Concepts and fundamentals manifest themselves through tools.
 * **DUSPviz**: *Skills and tools* for better planning.
@@ -147,7 +163,7 @@ Make a simple modular tool (similar to: Geojson.io, Mapshaper, Turf.js, etc.)
 Query the OSM database (Query the overpass).  
 *Note*: Refresh currently loses all work
 
-#### Seth Fitzsimmons, *Practical and Impractical Uses of Terrain Data* (National Geographic Climate Change 'The Human Impact' example), [Slides](https://speakerdeck.com/mojodna/print-cartography-in-a-multi-resolution-world)
+#### *Practical and Impractical Uses of Terrain Data* (National Geographic Climate Change 'The Human Impact' example), Seth Fitzsimmons,  [Slides](https://speakerdeck.com/mojodna/print-cartography-in-a-multi-resolution-world)
 
 **Project Goals**:
 * Re-purpose art, research, editorial, maps
@@ -208,7 +224,7 @@ ArcMap -> Illustrator process
 * Improve performance (simplify paths/"place" graphics instead of embedding them)
 
 
-#### *FixWikiMaps Project: Maplift*, [Brian Davidson](http://www.twitter.com/brianddavidson) [Twitter](http://www.twitter.com/fixwikimaps), [Website](http://fixwikimaps.github.io)
+#### *FixWikiMaps Project: Maplift*, [Brian Davidson](http://www.twitter.com/brianddavidson), [Twitter](http://www.twitter.com/fixwikimaps), [Website](http://fixwikimaps.github.io)
 Maps need a lift!
 
 **What can I do?**
@@ -250,7 +266,7 @@ Make a map your personal story. Lake Michigan as a straight line, to show its im
 * Once everything is shown vertically, work on the styling.
 * Vertical vs. Horizontal (web vs. print)
 
-#### *CartoCSS Essentials*, [Katie Kowalsky](http://www.twitter.com/katiekowalsky) [Slides](http://slides.com/kkowalsky/nacis-2015)
+#### *CartoCSS Essentials*, [Katie Kowalsky](http://www.twitter.com/katiekowalsky), [Slides](http://slides.com/kkowalsky/nacis-2015)
 
 **Goal**: Create tileset using CartCSS based off of art.
 
