@@ -45,7 +45,7 @@
 * [Planning for Automated Labeling of U.S. Routes with Multiple Shields and Names](#), Cynthia A. Brewer
 * [Cartography Driven Data Collection](#), Mamata Akella
 * [Geographic Education in a Modern World](#), Panel Discussion
-* [From the Twitters](#), The Interwebs
+* [From the Twitters](#from-the-twitters-the-interwebs), The Interwebs
 
 **Saturday, October 17th, 2015: Workshops**
 * [Mapping in the Cloud](#mapping-in-the-cloud-michael-p-peterson), Michael P. Peterson
