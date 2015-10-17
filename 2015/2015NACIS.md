@@ -8,7 +8,7 @@
 * [Practical Cartography Day](#practical-cartography-day), Multiple speakers  
 
 **Thursday, October 15th, 2015:**  
-* [Examining the Terminology of Modern Cartography](#), Michael P. Peterson, Rex G. Cammack
+* [Examining the Terminology of Modern Cartography](#examining-the-terminology-of-modern-cartography-michael-p-peterson-rex-g-cammack), Michael P. Peterson, Rex G. Cammack
 * [A Visual Search Task Comparing Zooming Metaphors](#), Ryan Mullins
 * [A New Atlas of American History](#), Alan McConchie
 * [Beyond Paper: Ideas for Interactive Maps](#), Peter Liu
@@ -24,17 +24,19 @@
 **Friday, October 16th, 2015:**  
 * [Big History, Little History: Cartography in the Twentieth Century](#), Mark Monmonier
 * [Of Crocodiles and Tea Garden Managers: Mapping Interactions of an Earlier Era](#), Leo Dillon
-* [Improving ArcGIS mapping workflows with Adobe’s Creative Cloud Applications](#), Clint Loveman
+* [Improving ArcGIS mapping workflows with Adobe’s Creative Cloud Applications](#), Clint Loveman and Sarah Bell
 * [Drupalized Web Maps](#), Tim Stallmann
 * [Planning for Automated Labeling of U.S. Routes with Multiple Shields and Names](#), Cynthia A. Brewer
 * [Cartography Driven Data Collection](#), Mamata Akella
+* [Geographic Education in a Modern World](#), Panel Discussion
+
+..from the twitters:
+http://cartography.oregonstate.edu/AddVertexScript.html
+http://clhenrick.io/presentations/am-i-rent-stabilized
 
 
 **Saturday, October 17th, 2015:**
 * [Mapping in the Cloud](#), Michael P. Peterson
-
-
-
 
 ## Wednesday, October 14th, 2015
 ### Practical Cartography Day
@@ -479,6 +481,7 @@ Goal: Automate color technique for deployment to the web.
 
 *Notes coming soon*
 
+## Friday, October 16th, 2015
 #### *Big History, Little History: Cartography in the Twentieth Century*, Mark Monmonier
 
 **The History of Cartography**:
@@ -511,10 +514,123 @@ Lots of detail, and text describing the area as its explored.
 * Tristan de Cunha ([original](http://www.britishempire.co.uk/images3/tristandacunha1937map.jpg))
 * Evasion chart (EVC)
 
-#### *Improving ArcGIS mapping workflows with Adobe’s Creative Cloud Applications*, Clint Loveman
+#### *Improving ArcGIS mapping workflows with Adobe’s Creative Cloud Applications*, [Sarah Bell](http://www.twitter.com/cerebellumaps) & [Clint Loveman](http://www.twitter.com/c_loveman)
 
-#### *Drupalized Web Maps*, Tim Stallmann
+* Existing product, [Esri MapStudio](http://www.esri.com/software/mapstudio) is designed for print media/journalists.
+* The examples are a prototype, a proof-of-concept.
+
+**Workflows (Proof-of-Concept)**:
+1. Export from ArcMap and import to AI
+2. Compile map from web-hosted data
+
+**Workflow 1**:
+* Layers shown as sublayers (nested within one layer)
+* Each point is grouped within a group in an area
+* Using Esri converter (?)
+
+**Workflow 2** (Similar to MAPPublisher - coordinate?):
+* Pull data from the cloud (ArcGIS Online) and straight into Illustrator without leaving Illustrator
+* Run same script highlighted in workflow 1 in Illustrator.
+
+**Improve** (Including potentially helping with a private beta):  
+Survey: http://surveys2.esri.com/s3/creative-cloud
+
+#### *Drupalized Web Maps*, [Tim Stallmann](http://www.twitter.com/t_stallman)
+
+**Drupal benefits**:
+* User management
+* Security
+* Permissions
+* Revision tracking
+* Integrate with RSS feeds
+* Photo/media content editing
+* Ecommerce
+
+**Modules:**
+* Leaflet (Recommended: Leaflet, Leaflet more maps, Leaflet views)
+  * Example: http://warmshowers.org
+* OpenLayers (see also http://cartaro.org)
+  * Example: http://contratados.org
+* GeoJSON + Custom Leaflet Code ("headless Drupal" approach)
+  * Example: Pauli Murray Project [demo]: http://paulimurrayproject.org
+
+**Setup**:
+* [Drush](http://drush.org) spins up a live site using command line. Prereq: MAPM/LAMP/WAMP stack
+* Also, download Leaflet library as well (doesn't manually do this).
 
 #### *Planning for Automated Labeling of U.S. Routes with Multiple Shields and Names*, Cynthia A. Brewer
 
-#### *Cartography Driven Data Collection*, Mamata Akella
+ *signs photo coming*
+
+ **Group Vote**:  
+ Popular vote: *F. Grouped Along Line*  
+ ![road-label-vote](https://pbs.twimg.com/media/CRc7l_0WoAAEq5o.jpg)
+
+#### *Cartography Driven Data Collection*, Mamata Akella, [How to in CartoDB](http://javisantana.github.io/cartodblocks/#a3fb1786688232cd1e45)  
+But.. all web maps look the same!
+With common data, tools, and technologies
+
+**Basemaps and Thematic Maps**:
+[NPMap](http://www.nps.gov/npmap)
+National Park Service Centennial (100-year anniversary in 2016)
+
+**Places**:
+* An *internal* spatial data system focused on visitor facing dataset (nps.gov/npmap...)
+* Data is constantly updated (thosands of additions)
+
+**Park tiles**: (*see photo*). Data from OSM.
+* Difficult to make one map for 400+ parks
+* Different layers of the basemap layer (*see photo*)
+
+**Data**:
+*Future direction*: Is there a better solution that is on the data side?
+
+**Park Tiles 3 (2016 Centennial)**:
+*Goal*: A web map on every park's page with NPS data inside of park boundaries.
+
+#### *Geographic Education in a Modern World*, Panel Discussion
+
+1. **What is the relationship between cartography and geography?**
+ * Cartography and geography - spectrum
+ * Geography - science/data, Cartography - subset/tool of communicating.
+ * You can't have one without the other.
+ * Interdisciplinary
+ * To showcase data geographers need cartography.
+ * Cartography is the communication we have with one another.
+ * It starts with geography - a deep seeded need to understand spatial relationships.
+ * Mapping/cartography is not easy.
+2. **What mapping technologies and approaches do you advocate, use, and/or teach?**
+  * Mashup of data, art, and communication. Split it up - design is a component. Start learning new technologies where you feel comfortable (ie. design -> Mapbox Studio).
+  * Teach technology and spatial principles, not the tools (ie. Google, Leaflet, OpenLayers) with the ability to adapt.
+  * No one solution, many solutions are available.
+  * Failure is okay. It teaches you along the way.
+  * Dependent on the student/learner. Meet people where they are on the spectrum.
+  * Not a method: mapping is a phenomenon, not a vehicle.
+  * Use what they know and extend on their knowledge.
+  * Give them an assignment, like making a web application, and put a design twist on it (e.g. map tiles).
+  * Start from the bottom and go to the top.
+3. **What kinds of courses or opportunities should higher education be supporting?**
+  * Traditional and non-traditional experiences/curriculum. Outlets are needed, but make it fun/exploratory.
+  * Hold multiple internships as a student, learn.
+  * Volunteer/internships/cold call and find projects.
+  * Foster relationships and communication with government entities.
+  * Facilitate learning together in a common space. Test it out, and open it if its successful to other educators/students. Exposure!
+  * Its easier to teach something if you learn it. Celebrate it, and get excited about it! Learn from someone who is just getting started with it. Not expert -> beginner, but a collaborative learning environment.
+  * Being open/software agnostic. Focus on the creation of the buttons, not pushing the buttons. How do we create buttons?
+  * Learning to code is hard. You shouldn't feel dumb when you are learning! **No one knows how to code.** Programmers are really good at Googling. Learn the vocabulary to answer the question.
+  * If you make something, write it down, put it online! Experts take for granted some of the things that are super hard when you first start out!
+  * Teach critical thinking and problem solving.
+  * Animosity of students that just want to solve a problem.
+4. **How can higher education adapt?**  
+*Not answered*  
+5. **How should industry help with higher education to make the changes?**
+  * Support older versions/backward compatibility to make it easy on professors in their curriculum design.
+  * Offer non-subscription based software to educators.
+  * Documentation thats easy to get to, with examples!! And easy to comprehend no matter on beginner or advanced knowledge bases.
+  * Make a presence in the educational realm/community.
+  * "GitHub for the classroom" for the mapping community.
+  * Relationship between educators and industry leaders.
+  * Question, "Teach someone how to buffer without a tool?"
+
+## Saturday, October 17th, 2015
+#### *Mapping in the Cloud*, Michael P. Peterson
