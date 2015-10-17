@@ -46,6 +46,7 @@
 * [Planning for Automated Labeling of U.S. Routes with Multiple Shields and Names](#), Cynthia A. Brewer
 * [Cartography Driven Data Collection](#), Mamata Akella
 * [Geographic Education in a Modern World](#), Panel Discussion
+* *Data Processing Workflow for the National Geographic World Atlas Mobile App*, Steve Gifford, [Slides](http://www.slideshare.net/mousebird/data-processing-workflow-for-the-national-geographic-world-atlas-mobile-app)
 * [From the Twitters](#from-the-twitters-the-interwebs), The Interwebs
 
 **Saturday, October 17th, 2015: Workshops**
@@ -655,9 +656,87 @@ National Park Service Centennial (100-year anniversary in 2016)
 * [PodServer](http://podserver.info) is a hosting place for code in the cloud.
 * FireZilla is good for data files.
 
+**Terminology:**
+* **WYSIWYG**: What You See Is What You Get
+
 **Getting Started Resources**:
 * [University of Nebraska-Omaha Website](http://maps.unomaha.edu)
 * ['Mapping in the Cloud' Book](http://maps.unomaha.edu/cloud)
 * [Instructor example website](http://www.geomaster.podserver.info)
 * [Kitty's class website](http://www.geospatialem.podserver.info)  
 * [Original code source](http://maps.unomaha.edu/cloud/code.html)  
+* [Webuzo](http://www.webuzo.com): Great resource
+* [Amazon Web Services](https://aws.amazon.com): Always up
+* [MapTiler](http://www.maptiler.com): Google map tiles
+
+**Chapter 8: JavaScript**
+* JavaScript is the most used language.
+* Interpreted language, not compiled (.exe).
+* JavaScript is interpreted by the browser as it is opened.
+* Understand variables (`x = 1`), loops, function calls.
+
+**Chapter 10: Map Mashups**
+* API's: http://www.geospatialem.podserver.info/code10
+* "Mashup" maps
+* Sensor = False: `sensor=false`: See [StackOverflow](http://stackoverflow.com/questions/8616764/what-is-the-sensor-parameter-in-google-places-api-good-for)
+* Google Tile Changes (Transparency):
+```javascript
+var mapStyle = [{
+  'featureType': 'all',
+  'elementType': 'all',
+  'stylers': [{'visibility': 'off'}]
+}, {
+  'featureType': 'landscape',
+  'elementType': 'geometry',
+  'stylers': [{'visibility': 'on'}, {'color': '#fcfcfc'}]
+}, {
+  'featureType': 'water',
+  'elementType': 'labels',
+  'stylers': [{'visibility': 'off'}]
+}, {
+  'featureType': 'water',
+  'elementType': 'geometry',
+  'stylers': [{'visibility': 'on'}, {'hue': '#5f94ff'}, {'lightness': 40}]
+}];
+```
+* Google fusion tables
+
+**Chapter 12: Point Mashups**
+
+**Chapter 14: Line and Polygon Mashups**
+
+**Chapter 16: Layer Mashups**
+
+**Chapter 18: php and MySQL Mashups**
+* Programming language that resides on the server
+* Random number generator example (uses resources on the server):
+```php
+<?php
+$a = rand(0,10);
+if ($a >= 5) {
+echo "The random number $a which is greater than 5";
+}else{
+echo "The random number $a which is less than 5";};
+for ($i=0; $i <= 1000; $i++) { //start a loop that executes 1000 times
+$total = $total + rand(0,10); }
+echo "The average of 1000 random numbers between 0 and 10 is: ", $total/1000;
+?>
+```
+* Behind Facebook, Twitter, GitHub, etc. that makes content unique to you so your pages show differently from others.
+* Work with a spatial database example (e.g. input points into a map with an attribute):
+```php
+<?php
+$mysql_host = "sql213.podserver.info";
+$mysql_database = "podi_14231477_points";
+$mysql_user = "podi_14231477";
+$mysql_password = "asdfasdf";
+$conn = mysql_connect($mysql_host, $mysql_user, $mysql_password) or die ('Error connecting to mysql');
+mysql_select_db($mysql_database);
+?>
+```
+
+**Chapter 20: Local Mapping**
+
+**Chapter 22: Animated Maps**
+* Animation is a result of JavaScript!
+* Rushing/List-based animation 
