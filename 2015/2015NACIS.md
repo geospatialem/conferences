@@ -23,7 +23,7 @@
 * [CartoCSS Essentials](#), Katie Kowalsky
 * [Vector Cartography in ArcGIS](#), Craig Williams
 
-**Thursday, October 15th, 2015:**  
+**Thursday, October 15th, 2015: Concurrent Sessions**  
 * [Examining the Terminology of Modern Cartography](#examining-the-terminology-of-modern-cartography-michael-p-peterson-rex-g-cammack), Michael P. Peterson, Rex G. Cammack
 * [A Visual Search Task Comparing Zooming Metaphors](#), Ryan Mullins
 * [A New Atlas of American History](#), Alan McConchie
@@ -37,7 +37,7 @@
 * [Spooky Map Stories](#), Patrick Hammons
 * [GIS for the people by the people](#), Sam Matthews
 
-**Friday, October 16th, 2015:**  
+**Friday, October 16th, 2015: Concurrent Sessions**  
 * [Big History, Little History: Cartography in the Twentieth Century](#), Mark Monmonier
 * [Of Crocodiles and Tea Garden Managers: Mapping Interactions of an Earlier Era](#), Leo Dillon
 * [Improving ArcGIS mapping workflows with Adobe’s Creative Cloud Applications](#), Clint Loveman and Sarah Bell
@@ -45,13 +45,9 @@
 * [Planning for Automated Labeling of U.S. Routes with Multiple Shields and Names](#), Cynthia A. Brewer
 * [Cartography Driven Data Collection](#), Mamata Akella
 * [Geographic Education in a Modern World](#), Panel Discussion
+* [From the Twitters](#), The Interwebs
 
-..from the twitters:
-http://cartography.oregonstate.edu/AddVertexScript.html
-http://clhenrick.io/presentations/am-i-rent-stabilized
-
-
-**Saturday, October 17th, 2015:**
+**Saturday, October 17th, 2015: Workshops**
 * [Mapping in the Cloud](#mapping-in-the-cloud-michael-p-peterson), Michael P. Peterson
 
 ## Wednesday, October 14th, 2015
@@ -647,6 +643,12 @@ National Park Service Centennial (100-year anniversary in 2016)
   * "GitHub for the classroom" for the mapping community.
   * Relationship between educators and industry leaders.
   * Question, "Teach someone how to buffer without a tool?"
+
+#### *From The Twitters*, The Interwebs
+
+**Resources**:
+http://cartography.oregonstate.edu/AddVertexScript.html
+http://clhenrick.io/presentations/am-i-rent-stabilized
 
 ## Saturday, October 17th, 2015
 #### *Mapping in the Cloud*, Michael P. Peterson
