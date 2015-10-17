@@ -52,7 +52,7 @@ http://clhenrick.io/presentations/am-i-rent-stabilized
 
 
 **Saturday, October 17th, 2015:**
-* [Mapping in the Cloud](#), Michael P. Peterson
+* [Mapping in the Cloud](#mapping-in-the-cloud-michael-p-peterson), Michael P. Peterson
 
 ## Wednesday, October 14th, 2015
 ### Practical Cartography Day
@@ -650,3 +650,14 @@ National Park Service Centennial (100-year anniversary in 2016)
 
 ## Saturday, October 17th, 2015
 #### *Mapping in the Cloud*, Michael P. Peterson
+
+**Cloud Resources**:
+* [PodServer](http://podserver.info) is a hosting place for code in the cloud.
+* FireZilla is good for data files.
+
+**Getting Started Resources**:
+* [University of Nebraska-Omaha Website](http://maps.unomaha.edu)
+* ['Mapping in the Cloud' Book](http://maps.unomaha.edu/cloud)
+* [Instructor example website](http://www.geomaster.podserver.info)
+* [Kitty's class website](http://www.geospatialem.podserver.info)  
+* [Original code source](http://maps.unomaha.edu/cloud/code.html)  
