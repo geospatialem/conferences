@@ -25,7 +25,7 @@
 
 **Thursday, October 15th, 2015: Concurrent Sessions**  
 * *[Examining the Terminology of Modern Cartography](#examining-the-terminology-of-modern-cartography-michael-p-peterson-rex-g-cammack)*, Michael P. Peterson, Rex G. Cammack
-* *[A Visual Search Task Comparing Zooming Metaphors](#)*, Ryan Mullins
+* *[A Visual Search Task Comparing Zooming Metaphors](#a-visual-search-task-comparing-zooming-metaphors-ryan-mullins)*, Ryan Mullins [[Slides](https://speakerdeck.com/ryanmullins/geographic-analysis-in-context-a-visual-search-task-comparing-zooming-metaphors)]
 * *[A New Atlas of American History](#)*, Alan McConchie
 * *[Beyond Paper: Ideas for Interactive Maps](#)*, Peter Liu
 * *[Open Web Mapping Technologies: How do we Teach this Stuff?](#)*, Carl Sack
@@ -329,33 +329,33 @@ ArcGIS vector tile service will come with the new release.
 * Map Types (General/Thematic)
 * Hybrids? (e.g. When does a "Labordoodle" become a "breed", do we use mashup names)?
 
-#### *A Visual Search Task Comparing Zooming Metaphors*, Ryan Mullins, [Slides](https://speakerdeck.com/ryanmullins/geographic-analysis-in-context-a-visual-search-task-comparing-zooming-metaphors)
+#### *A Visual Search Task Comparing Zooming Metaphors*, Ryan Mullins  
 **Context:**
 * The interaction between human and physical components.
 * *How does context shape decisions and actions?*
 
-**Metaphors**:
-1. *Slippy map style*
-  * Pinch-to-zoom basemap
-  * Layer toggles in title bar
-2. *Zoom window with toggles* (the worst rated)
-  * No zoom on basemap
-  * Pinch-to-zoom in windows
-  * Layer toggles in zoom window
-3. *Side-by-side zoom window*
-  * No zoom on basemap
-  * Pinch-to-zoom in windows
-  * 1 window per layer, same footprint.
+**Metaphors**:  
+1. *Slippy map style*  
+  * Pinch-to-zoom basemap  
+  * Layer toggles in title bar  
+2. *Zoom window with toggles* (the worst rated)  
+  * No zoom on basemap  
+  * Pinch-to-zoom in windows  
+  * Layer toggles in zoom window  
+3. *Side-by-side zoom window*  
+  * No zoom on basemap  
+  * Pinch-to-zoom in windows  
+  * 1 window per layer, same footprint.  
 
 **Balance benefits**:
 The best modality depends on the display size (slippy for smaller, side-by-side for larger screens), and the number of collaborating analysts. However, the results of the study were as follows:
 
-1. *Slippy map*
-  * Best performance (shortest time/most accurate)
-  * Most familiar interaction
-  * Zoom means different context
-2. *Side-by-side zoom windows*
-  * Second best performance (lowest varience)
+1. *Slippy map*  
+  * Best performance (shortest time/most accurate)  
+  * Most familiar interaction  
+  * Zoom means different context  
+2. *Side-by-side zoom windows*  
+  * Second best performance (lowest varience)  
 
 #### *A New Atlas of American History*, Alan McConchie, [Slides](https://speakerdeck.com/almccon/a-new-atlas-of-american-history-nacis-2015), [Notes/Resources](http://sta.mn/6gk), [Website](http://dsl.richmond.edu/historicalatlas), [GitHub](http://github.com/americanpanorama)
 *Showing things over time, is just as important as showing what is happening in space.*
