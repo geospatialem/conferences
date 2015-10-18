@@ -26,7 +26,7 @@
 ### Thursday October 15, 2015    
 * *[Examining the Terminology of Modern Cartography](#examining-the-terminology-of-modern-cartography-michael-p-peterson-rex-g-cammack)*, Michael P. Peterson, Rex G. Cammack
 * *[A Visual Search Task Comparing Zooming Metaphors](#a-visual-search-task-comparing-zooming-metaphors-ryan-mullins)*, Ryan Mullins [[Slides](https://speakerdeck.com/ryanmullins/geographic-analysis-in-context-a-visual-search-task-comparing-zooming-metaphors)]
-* *[A New Atlas of American History](#a-new-atlas-of-american-history-alan-mcconchie)*, Alan McConchie [[Slides](https://speakerdeck.com/almccon/a-new-atlas-of-american-history-nacis-2015), [Notes/Resources](http://sta.mn/6gk), [Website](http://dsl.richmond.edu/historicalatlas), [GitHub](http://github.com/americanpanorama)]  
+* *[A New Atlas of American History](#a-new-atlas-of-american-history-alan-mcconchie)*, Alan McConchie [[Slides](https://speakerdeck.com/almccon/nacis2015-a-new-atlas-of-american-history), [Notes/Resources](http://sta.mn/6gk), [Website](http://dsl.richmond.edu/historicalatlas), [GitHub](http://github.com/americanpanorama)]  
 * *[Beyond Paper: Ideas for Interactive Maps](#beyond-paper-ideas-for-interactive-maps-peter-liu)*, [Peter Liu](http://www.twitter.com/chieflybrit)    
 * *[Open Web Mapping Technologies: How do we Teach this Stuff?](#open-web-mapping-technologies-how-do-we-teach-this-stuff-carl-sack)*, [Carl Sack](http://www.twitter.com/northlandiguana) [[Slides](http://tinyurl.com/openwebmapping), [GitHub](http://github.com/uwcart/cartographic-perspectives)]
 * *[How to Teach an Old(ish) Cartography Professor New Tricks](#how-to-teach-an-oldish-cartography-professor-new-tricks-sally-hermansen)*, Sally Hermansen
