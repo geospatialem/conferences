@@ -5,61 +5,66 @@
 ## Sessions:
 
 **Wednesday, October 14th, 2015: [Practical Cartography Day](#practical-cartography-day)**
-* [Taking Terrain to New Heights with ArcGIS](#), Kenneth Field & Patrick Kennelly
-* [Redesigning Atlas Maps for Social Media](#), Alethea Steingisser and James Meacham
-* [MAPPublisher at National Geographic](#), Matthew Chwatstyk
-* [A Quick Guide to US Dept. of Transportation Datasets](#), Justyna Goworowska
-* [Manual Shaded Relief of the World and the Patterson Projection](#), Tom Patterson
-* [Designer as a Cartographer](#), Amy Lee Walton
-* [Collecting Data from the Crowd - A Leaflet and CartoDB-based Stack](#), Mike Foster
-* [Dropchop](#), Sam Matthews
-* [Practical and Impractical Uses of Terrain Data](#), Seth Fitzsimmons
-* [Mapping the Future Patagonia National Park](#), Ross Donihue
-* [ArcMap-to-Illustrator Workflows](#), Nicole Samu
-* [FixWikiMaps Project: Maplift](#), Brian Davidson
-* [Restyling Old and Cluttered Maps](#), Vanessa Knoppke-Wetzel
-* [Terrain Data Sources Online](#), Paulo Raposo
-* [A Matter of Perspective](#), Daniel P. Huffman
-* [CartoCSS Essentials](#), Katie Kowalsky
-* [Vector Cartography in ArcGIS](#), Craig Williams
+* *[Taking Terrain to New Heights with ArcGIS](#)*, Kenneth Field
+* *[Redesigning Atlas Maps for Social Media](#)*, Alethea Steingisser and James Meacham
+* *[MAPPublisher at National Geographic](#)*, Matthew Chwatstyk
+* *[A Quick Guide to US Dept. of Transportation Datasets](#)*, Justyna Goworowska
+* *[Manual Shaded Relief of the World and the Patterson Projection](#)*, Tom Patterson
+* *[Designer as a Cartographer](#)*, Amy Lee Walton
+* *[Collecting Data from the Crowd - A Leaflet and CartoDB-based Stack](#)*, [Mike Foster](http://www.twitter.com/mjfoster83) [[Slides](http://mjfoster83.github.io/nacis-2015)]
+* *[Dropchop](#)*, Sam Matthews [[Slides](http://bit.ly/nacisdropchop), [Website](http://dropchop.io), [GitHub](https://github.com/cugos/dropchop)]
+* *[Practical and Impractical Uses of Terrain Data](#)*, Seth Fitzsimmons [[Slides](https://speakerdeck.com/mojodna/print-cartography-in-a-multi-resolution-world)]
+* *[Mapping the Future Patagonia National Park](#)*, Ross Donihue
+* *[ArcMap-to-Illustrator Workflows](#)*, Nicole Samu
+* *[FixWikiMaps Project: Maplift](#)*, [Brian Davidson](http://www.twitter.com/brianddavidson) [[@FixWikiMaps](http://www.twitter.com/fixwikimaps), [Website](http://fixwikimaps.github.io)]
+* *[Restyling Old and Cluttered Maps](#)*, Vanessa Knoppke-Wetzel
+* *[Terrain Data Sources Online](#)*, Paulo Raposo
+* *[A Matter of Perspective](#)*, Daniel P. Huffman
+* *[CartoCSS Essentials](#)*, [Katie Kowalsky](http://www.twitter.com/katiekowalsky) [[Slides](http://slides.com/kkowalsky/nacis-2015)]
+* *[Vector Cartography in ArcGIS](#)*, Craig Williams [[Slides](https://speakerdeck.com/williamscraigm/nacis-2015-pcd-vector-cartography-in-arcgis)]
 
 **Thursday, October 15th, 2015: Concurrent Sessions**  
-* [Examining the Terminology of Modern Cartography](#examining-the-terminology-of-modern-cartography-michael-p-peterson-rex-g-cammack), Michael P. Peterson, Rex G. Cammack
-* [A Visual Search Task Comparing Zooming Metaphors](#), Ryan Mullins
-* [A New Atlas of American History](#), Alan McConchie
-* [Beyond Paper: Ideas for Interactive Maps](#), Peter Liu
-* [Open Web Mapping Technologies: How do we Teach this Stuff?](#), Carl Sack
-* [How to Teach an Old(ish) Cartography Professor New Tricks](#), Sally Hermansen
-* [Type on Maps: All the Little Things that Actually Matter](#), Elaine Guidero
-* [Every Pixel Counts: Web Map Symbols for the National Park Service](#), Jake Coolidge
-* [Visualizing Ten Years of Quantitative Color Schemes](#), Travis White
-* [Natural-Color Maps via Automated Coloring of Bivariate Grid Data](#), Jane Darbyshire
-* [Spooky Map Stories](#), Patrick Hammons
-* [GIS for the people by the people](#), Sam Matthews
+* *[Examining the Terminology of Modern Cartography](#examining-the-terminology-of-modern-cartography-michael-p-peterson-rex-g-cammack)*, Michael P. Peterson, Rex G. Cammack
+* *[A Visual Search Task Comparing Zooming Metaphors](#)*, Ryan Mullins
+* *[A New Atlas of American History](#)*, Alan McConchie
+* *[Beyond Paper: Ideas for Interactive Maps](#)*, Peter Liu
+* *[Open Web Mapping Technologies: How do we Teach this Stuff?](#)*, Carl Sack
+* *[How to Teach an Old(ish) Cartography Professor New Tricks](#)*, Sally Hermansen
+* *[Type on Maps: All the Little Things that Actually Matter](#)*, Elaine Guidero
+* *[Every Pixel Counts: Web Map Symbols for the National Park Service](#)*, Jake Coolidge
+* *[Visualizing Ten Years of Quantitative Color Schemes](#)*, Travis White
+* *[Natural-Color Maps via Automated Coloring of Bivariate Grid Data](#)*, Jane Darbyshire
+* *[Spooky Map Stories](#)*, Patrick Hammons
+* *[GIS for the people by the people](#)*, Sam Matthews
 
 **Friday, October 16th, 2015: Concurrent Sessions**
-* *Am I Rent Stabilized?*, Chris Henrick, [Slides](http://clhenrick.io/presentations/am-i-rent-stabilized)
-* [Big History, Little History: Cartography in the Twentieth Century](#), Mark Monmonier
-* [Of Crocodiles and Tea Garden Managers: Mapping Interactions of an Earlier Era](#), Leo Dillon
-* [Improving ArcGIS mapping workflows with Adobe’s Creative Cloud Applications](#), Clint Loveman and Sarah Bell
-* [Drupalized Web Maps](#), Tim Stallmann
-* [Planning for Automated Labeling of U.S. Routes with Multiple Shields and Names](#), Cynthia A. Brewer
-* [Cartography Driven Data Collection](#), Mamata Akella
-* [Geographic Education in a Modern World](#), Panel Discussion
-* *Data Processing Workflow for the National Geographic World Atlas Mobile App*, Steve Gifford, [Slides](http://www.slideshare.net/mousebird/data-processing-workflow-for-the-national-geographic-world-atlas-mobile-app)
-* [From the Twitters](#from-the-twitters-the-interwebs), The Interwebs
+* *Am I Rent Stabilized?*, Chris Henrick [[Slides](http://clhenrick.io/presentations/am-i-rent-stabilized)]
+* *[Big History, Little History: Cartography in the Twentieth Century](#)*, Mark Monmonier
+* *[Of Crocodiles and Tea Garden Managers: Mapping Interactions of an Earlier Era](#)*, Leo Dillon
+* *[Improving ArcGIS mapping workflows with Adobe’s Creative Cloud Applications](#)*, Clint Loveman and Sarah Bell
+* *[Drupalized Web Maps](#)*, Tim Stallmann
+* *[Planning for Automated Labeling of U.S. Routes with Multiple Shields and Names](#)*, Cynthia A. Brewer
+* *[Cartography Driven Data Collection](#)*, Mamata Akella
+* *[Geographic Education in a Modern World](#)*, Panel Discussion
+* *Data Processing Workflow for the National Geographic World Atlas Mobile App*, Steve Gifford [[Slides](http://www.slideshare.net/mousebird/data-processing-workflow-for-the-national-geographic-world-atlas-mobile-app)]
+* *[From the Twitters](#from-the-twitters-the-interwebs)*, The Interwebs
 
 **Saturday, October 17th, 2015: Workshops**
-* [Mapping in the Cloud](#mapping-in-the-cloud-michael-p-peterson), Michael P. Peterson
+* *[Mapping in the Cloud](#mapping-in-the-cloud-michael-p-peterson)*, Michael P. Peterson
 
 ## Wednesday, October 14th, 2015
 ### Practical Cartography Day
 
-#### *Taking Terrain to New Heights with ArcGIS*, Kenneth Field & Patrick Kennelly [Story Map Presentation](http://www.arcgis.com/home/item.html?id=4b2ea7c5f87d476a8849c804b81667aa), [Resource](http://blogs.esri.com/esri/arcgis/2015/05/21/take-your-terrain-mapping-to-new-heights), [Download ZIP File](http://www.arcgis.com/home/item.html?id=4b2ea7c5f87d476a8849c804b81667aa)
+#### *Taking Terrain to New Heights with ArcGIS*, Kenneth Field & Patrick Kennelly
 * 13 different tools available [e.g. Sky modeled hillshade (sun, lowercast), shadow lines, different strokes, etc.]
 * Takes some time to run, but is worth the wait.
 * Works with 10.3+ (usually 10.2 as well). Although, choropleth has issues with older versions
-* Samples are located in the download.
+* Samples are located in the download.  
+
+**Resources**:
+* Story Map [Presentation](http://www.arcgis.com/home/item.html?id=4b2ea7c5f87d476a8849c804b81667aa)   
+* [ArcGIS Blog Post](http://blogs.esri.com/esri/arcgis/2015/05/21/take-your-terrain-mapping-to-new-heights), *resource*
+* Download [ZIP File](http://www.arcgis.com/home/item.html?id=4b2ea7c5f87d476a8849c804b81667aa)  
 
 #### *Redesigning Atlas Maps for Social Media*, Alethea Steingisser and James Meacham
 * Check out atlas work by Oregon, in particular the *Atlas of Wildlife Migration*  
@@ -82,7 +87,7 @@
 * Web mapping/map tools available that includes data from multiple Federal agencies [Cyclist/pedestrian crash maps (?)].
 * Contact [e-mail address](mailto:Justyna.Goworowska@dot.gov)
 
-#### *Manual Shaded Relief of the World and the Patterson Projection*, Tom Patterson [Website](http://www.shadedrelief.com)
+#### *Manual Shaded Relief of the World and the Patterson Projection*, Tom Patterson
 
 **Manual Shaded Relief**:
 * Better, small-scale manual relief shading.
@@ -105,6 +110,8 @@
 **World Political Map**:
 * World political map (e.g. Natural Earth, Natural Earth 2)
 
+See Tom's **_[website](http://www.shadedrelief.com)_** for more information!
+
 #### *Designer as a Cartographer*, Amy Lee Walton
 * Cartographer's checklist:
   * What is the purpose?
@@ -124,7 +131,7 @@
 * Don't let software limit you, re-created in Mapbox Studio for WebGL. *Simplify the process.*
 
 
-#### *Collecting Data from the Crowd - A Leaflet and CartoDB-based Stack*, [Mike Foster](@mjfoster83),  [Slides](http://mjfoster83.github.io/nacis-2015)
+#### *Collecting Data from the Crowd - A Leaflet and CartoDB-based Stack*, Mike Foster
 **How do you teach geography and design to non-geographers?**
 * Concepts and fundamentals manifest themselves through tools.
 * **DUSPviz**: *Skills and tools* for better planning.
@@ -150,7 +157,7 @@
 3. *Security*
     * Check PR to address the problem (*see slides for more information*)
 
-#### *Dropchop*, Sam Matthews [Slides](http://bit.ly/nacisdropchop), [Website](http://dropchop.io), [GitHub](https://github.com/cugos/dropchop)
+#### *Dropchop*, Sam Matthews
 Make a simple modular tool (similar to: Geojson.io, Mapshaper, Turf.js, etc.)
 
 **Hypothesis:**
@@ -161,7 +168,7 @@ Make a simple modular tool (similar to: Geojson.io, Mapshaper, Turf.js, etc.)
 Query the OSM database (Query the overpass).  
 *Note*: Refresh currently loses all work
 
-#### *Practical and Impractical Uses of Terrain Data* (National Geographic Climate Change 'The Human Impact' example), Seth Fitzsimmons,  [Slides](https://speakerdeck.com/mojodna/print-cartography-in-a-multi-resolution-world)
+#### *Practical and Impractical Uses of Terrain Data* (National Geographic Climate Change 'The Human Impact' example), Seth Fitzsimmons
 
 **Project Goals**:
 * Re-purpose art, research, editorial, maps
@@ -222,7 +229,7 @@ ArcMap -> Illustrator process
 * Improve performance (simplify paths/"place" graphics instead of embedding them)
 
 
-#### *FixWikiMaps Project: Maplift*, [Brian Davidson](http://www.twitter.com/brianddavidson), [Twitter](http://www.twitter.com/fixwikimaps), [Website](http://fixwikimaps.github.io)
+#### *FixWikiMaps Project: Maplift*, Brian Davidson
 Maps need a lift!
 
 **What can I do?**
@@ -247,7 +254,7 @@ Anyone can anything nicer! But... fast maps? We can still do better!
 Stylize > Inner Glow (Illustrator). Set the blur based on size (small, medium, large). Make sure they are matching throughout your work.
 Double-click eyedropper
 
-#### *Terrain Data Sources Online*, Paulo Raposo [Slides](http://1drv.ms/1rrsabo)
+#### *Terrain Data Sources Online*, Paulo Raposo
 Uses SAGA for GIS. Also works with QGIS tools.
 
 #### *A Matter of Perspective*, Daniel P. Huffman
@@ -264,7 +271,7 @@ Make a map your personal story. Lake Michigan as a straight line, to show its im
 * Once everything is shown vertically, work on the styling.
 * Vertical vs. Horizontal (web vs. print)
 
-#### *CartoCSS Essentials*, [Katie Kowalsky](http://www.twitter.com/katiekowalsky), [Slides](http://slides.com/kkowalsky/nacis-2015)
+#### *CartoCSS Essentials*, Katie Kowalsky
 
 **Goal**: Create tileset using CartCSS based off of art.
 
@@ -285,7 +292,7 @@ Make a map your personal story. Lake Michigan as a straight line, to show its im
 5. Never forget *where you came from...* (Use common operators, and labels)
 6. *Have fun!*
 
-#### *Vector Cartography in ArcGIS*, Craig Williams  [Slides](https://speakerdeck.com/williamscraigm/nacis-2015-pcd-vector-cartography-in-arcgis)
+#### *Vector Cartography in ArcGIS*, Craig Williams
 ArcGIS vector tile service will come with the new release.
 
 ## Thursday, October 15th, 2015
