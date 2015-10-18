@@ -2,7 +2,7 @@
 
 <img src="https://cloud.githubusercontent.com/assets/5023024/10469596/28626068-71cc-11e5-930d-dc6d5a3944f7.png" width="25" height="25")> [NACIS](http://www.nacis.org) is an annual conference facilitating communication in the map information community. There were a variety of talks focusing on the theme of *Mapping Interactions*.
 
-## Wednesday, October 14, 2015: [Practical Cartography Day](#practical-cartography-day)
+## Practical Cartography Day (Wednesday, October 14, 2015)
 * *[Taking Terrain to New Heights with ArcGIS](#taking-terrain-to-new-heights-with-arcgis-kenneth-field)*, Kenneth Field
 * *[Redesigning Atlas Maps for Social Media](#redesigning-atlas-maps-for-social-media-alethea-steingisser-and-james-meacham)*, Alethea Steingisser and James Meacham
 * *[MAPPublisher at National Geographic](#mappublisher-at-national-geographic-matthew-chwatstyk)*, Matthew Chwatstyk
@@ -21,7 +21,7 @@
 * *[CartoCSS Essentials](#cartocss-essentials-katie-kowalsky)*, [Katie Kowalsky](http://www.twitter.com/katiekowalsky) [[Slides](http://slides.com/kkowalsky/nacis-2015)]
 * *[Vector Cartography in ArcGIS](#vector-cartography-in-arcgis-craig-williams)*, Craig Williams [[Slides](https://speakerdeck.com/williamscraigm/nacis-2015-pcd-vector-cartography-in-arcgis)]
 
-## Thursday & Friday, October 14-15, 2015: Concurrent Sessions
+## Concurrent Sessions (Thursday & Friday, October 14-15, 2015)   
 * *[Examining the Terminology of Modern Cartography](#examining-the-terminology-of-modern-cartography-michael-p-peterson-rex-g-cammack)*, Michael P. Peterson, Rex G. Cammack
 * *[A Visual Search Task Comparing Zooming Metaphors](#a-visual-search-task-comparing-zooming-metaphors-ryan-mullins)*, Ryan Mullins [[Slides](https://speakerdeck.com/ryanmullins/geographic-analysis-in-context-a-visual-search-task-comparing-zooming-metaphors)]
 * *[A New Atlas of American History](#)*, Alan McConchie
@@ -45,23 +45,22 @@
 * *Data Processing Workflow for the National Geographic World Atlas Mobile App*, Steve Gifford [[Slides](http://www.slideshare.net/mousebird/data-processing-workflow-for-the-national-geographic-world-atlas-mobile-app)]
 * *[From the Twitters](#from-the-twitters-the-interwebs)*, The Interwebs
 
-## Saturday, October 17, 2015: Post-Conference Workshop
+## Post-Conference Workshop (Saturday, October 17, 2015)  
 * *[Mapping in the Cloud](#mapping-in-the-cloud-michael-p-peterson)*, Michael P. Peterson
 
-## Practical Cartography Day
-
-### *Taking Terrain to New Heights with ArcGIS*, Kenneth Field
+# Practical Cartography Day
+## *Taking Terrain to New Heights with ArcGIS*, Kenneth Field
 * 13 different tools available [e.g. Sky modeled hillshade (sun, lowercast), shadow lines, different strokes, etc.]
 * Takes some time to run, but is worth the wait.
 * Works with 10.3+ (usually 10.2 as well). Although, choropleth has issues with older versions
 * Samples are located in the download.  
 
-#### Resources:
+### Resources:
 * Story Map [Presentation](http://www.arcgis.com/home/item.html?id=4b2ea7c5f87d476a8849c804b81667aa)   
 * [ArcGIS Blog Post](http://blogs.esri.com/esri/arcgis/2015/05/21/take-your-terrain-mapping-to-new-heights), *resource*
 * Download [ZIP File](http://www.arcgis.com/home/item.html?id=4b2ea7c5f87d476a8849c804b81667aa)  
 
-### *Redesigning Atlas Maps for Social Media*, Alethea Steingisser and James Meacham
+## *Redesigning Atlas Maps for Social Media*, Alethea Steingisser and James Meacham
 * Check out atlas work by Oregon, in particular the *Atlas of Wildlife Migration*  
 * Real time engangement on social media using a "time series" highlighting particular areas of interest on-the-fly (esp. graphics, maps in HD). Bright colors, bold text, thicker outlines.
 * Tell a story, what are you trying to tell? People will follow! (**give data a face**).
@@ -70,21 +69,21 @@
 * Simplify without 'dumbing down'.
 * Use higher resolution than recommended (doubled in their work).
 
-### *MAPPublisher at National Geographic*, Matthew Chwatstyk
+## *MAPPublisher at National Geographic*, Matthew Chwatstyk
 * Import, manipulate, analyze, edit, save vector data.
 * Track data sources with a quick reference
 * Plugin for Illustrator that can create themes depending on the use.
 
-### *A Quick Guide to US Dept. of Transportation Datasets*, Justyna Goworowska
+## *A Quick Guide to US Dept. of Transportation Datasets*, Justyna Goworowska
 * **Lots of spatial data** (e.g. NTAD 2015, also an atlas)
 * WMS: http://gis.rita.dot.gov/ArcGIS/rest/services (download also available).
 * Coordination with many other agencies to get other datasets.
 * Web mapping/map tools available that includes data from multiple Federal agencies [Cyclist/pedestrian crash maps (?)].
 * Contact [e-mail address](mailto:Justyna.Goworowska@dot.gov)
 
-### *Manual Shaded Relief of the World and the Patterson Projection*, Tom Patterson
+## *Manual Shaded Relief of the World and the Patterson Projection*, Tom Patterson
 
-#### Manual Shaded Relief:
+### Manual Shaded Relief:
 * Better, small-scale manual relief shading.
 * Check the data, verify its in the right location (older map topographies aren't so accurate).
 * Use relief as a backdrop to your maps.
@@ -92,7 +91,7 @@
 * Digital: Light can make it difficult (e.g. Alaska arc and Pacific Northwest area), mountain ranges, gorges
 * Terrain data: Natural Earth website (1:50m), can use higher/lower scales (GeoTIFF format).
 
-#### Patterson Projection:
+### Patterson Projection:
 * Equal Area: Antartica is smooshed
 * Geographic: "Stubby" South America
 * Mercator: Small-scale = good, large-scal = not so much
@@ -102,13 +101,13 @@
   * Polar Compression to condense space around the poles.
   * Formula allows you to plug it into other sources (implemented in ArcGIS future release, and others). Made using Flexviewer (?)
 
-#### World Political Map:
+### World Political Map:
 * World political map (e.g. Natural Earth, Natural Earth 2)
 
-#### Website:
+### Website:
 See Tom's [website](http://www.shadedrelief.com) for more information!
 
-### *Designer as a Cartographer*, Amy Lee Walton
+## *Designer as a Cartographer*, Amy Lee Walton
 * Cartographer's checklist:
   * What is the purpose?
   * Who is the audience?
@@ -126,18 +125,18 @@ See Tom's [website](http://www.shadedrelief.com) for more information!
 * Digital vs. Print - Make it for both! (*super difficult*). Download tiles as a PNG from Mapbox to print/play with.
 * Don't let software limit you, re-created in Mapbox Studio for WebGL. *Simplify the process.*
 
-### *Collecting Data from the Crowd - A Leaflet and CartoDB-based Stack*, Mike Foster
+## *Collecting Data from the Crowd - A Leaflet and CartoDB-based Stack*, Mike Foster
 
-#### How do you teach geography and design to non-geographers?
+### How do you teach geography and design to non-geographers?
 * Concepts and fundamentals manifest themselves through tools.
 * **DUSPviz**: *Skills and tools* for better planning.
 
-#### [Web Map Workshop](http://duspviz.mit.edu/web-map-workshop)
+### [Web Map Workshop](http://duspviz.mit.edu/web-map-workshop)
 * 7-week course (see slides for details)
 * Base level = 0!
 * End goal: Create a [data collection application](http://duspviz.mit.edu/web-map-workshop/databases-leaflet-cartodb)
 
-#### Tasks:  
+### Tasks:  
 1. *Backend*  
   * Spatial database - used CartoDB SQL API  
   * Security matters: API key, username, table (security matters!)  
@@ -153,10 +152,10 @@ See Tom's [website](http://www.shadedrelief.com) for more information!
 3. *Security*  
   * Check PR to address the problem (*see slides for more information*)  
 
-### *Dropchop*, Sam Matthews
+## *Dropchop*, Sam Matthews
 Make a simple modular tool (similar to: Geojson.io, Mapshaper, Turf.js, etc.)
 
-#### Hypothesis:  
+### Hypothesis:  
 1. GIS doesn't always require a server.  
 2. GIS can be *data-first*, not operation-first.  
 3. GIS is open (created and used by the community).  
@@ -164,54 +163,54 @@ Make a simple modular tool (similar to: Geojson.io, Mapshaper, Turf.js, etc.)
 Query the OSM database (Query the overpass).  
 *Note*: Refresh currently loses all work
 
-### *Practical and Impractical Uses of Terrain Data* (National Geographic Climate Change 'The Human Impact' example), Seth Fitzsimmons
+## *Practical and Impractical Uses of Terrain Data* (National Geographic Climate Change 'The Human Impact' example), Seth Fitzsimmons
 
-#### Project Goals:
+### Project Goals:
 * Re-purpose art, research, editorial, maps
 * Make them interactive
 * Make them multilingual
 
-#### Tell a story!!
+### Tell a story!!
 It doesn't have to be in map form, think graphics that support your text. *You don't need to make a web map to write your story everytime.* Content is the most critical piece, get good content together.
 
-#### Anatomy of a ~~Web Map~~ Multi-resolution image:
+### Anatomy of a ~~Web Map~~ Multi-resolution image:
 * 256 x 256 pixels tile
   * Scale up the images by 2 (512 x 512 pixels), to scale down.
 * Tools: TileMill and After Effects (React and Leaflet)
 
-### *Mapping the Future Patagonia National Park*, Ross Donihue
+## *Mapping the Future Patagonia National Park*, Ross Donihue
 * Connect people with place!!
 * We save the places we love. We love the places we know. Know and feel connected to places.
 * Stories of a landscape, that gives places meaning.
 * Mapping the invisible information, takes time but it adds richness and meaning! *People will feel more connected!*
 
-#### 1. Colors
+### 1. Colors
 * Extract colors from a palette derived from photos adds realism to maps (bring it into Photoshop to get the colors).
 * To extract, smudge/blur and get an eye dropper to get the natural landscape color.
 
-#### 2. Talk about your work!
+### 2. Talk about your work!
 * Watch the magic unfold.
 * New connections are formed.
 * Unexpected, unforgettable experience by talking!
 
-#### 3. Audio Recordings
+### 3. Audio Recordings
 * As you do fieldwork record audio of your local collaborators.
 * Record something you might miss if you were in the office.
 
-#### 4. Skeleton Maps
+### 4. Skeleton Maps
 *  Geographic structure for storing local stories and meaningful information.
 * Mark on the maps specific information they *know*, but we may not being outsiders.
 * Incorporate the information into field notes, and maps.
 
-### *ArcMap-to-Illustrator Workflows*, Nicole Samu
+## *ArcMap-to-Illustrator Workflows*, Nicole Samu
 ArcMap -> Illustrator process
 
-#### Export Notes:
+### Export Notes:
 * When exporting from ArcMap, *ungroup layers* that are checked in the TOC.
 * Remove transparencies
 * Choose '*Vectorize layers with bitmap markers/fills*' in the export settings.
 
-#### Illustrator Notes:
+### Illustrator Notes:
 * Open AI File
 * Delete clipping masks (Object > Clipping Masks > Delete)
 * Ungroup layers in layer panel as-needed
@@ -225,18 +224,18 @@ ArcMap -> Illustrator process
 * Adding style (Appearance panel/graphic styles panel/symbols panel)
 * Improve performance (simplify paths/"place" graphics instead of embedding them)
 
-### *FixWikiMaps Project: Maplift*, Brian Davidson
+## *FixWikiMaps Project: Maplift*, Brian Davidson
 Maps need a lift!
 
-#### What can I do?  
+### What can I do?  
 1. Find a map, add it to the MapLift database  
 2. Claim a map  
 3. Create a map  
 
-### *Restyling Old and Cluttered Maps*, Vanessa Knoppke-Wetzel
+## *Restyling Old and Cluttered Maps*, Vanessa Knoppke-Wetzel
 Anyone can anything nicer! But... fast maps? We can still do better!
 
-#### Program Map Restyling (an iterative process):  
+### Program Map Restyling (an iterative process):  
 1. Before map (*see Syria photo*)  
 2. After map  
   * Smaller map (only the map there, by itself - FOCUS)  
@@ -246,20 +245,20 @@ Anyone can anything nicer! But... fast maps? We can still do better!
   * Font hierarchy, less contrast for busy maps  
   * Color palettes in Adobe Illustrator.  
 
-#### Reference Restyling:
+### Reference Restyling:
 Stylize > Inner Glow (Illustrator). Set the blur based on size (small, medium, large). Make sure they are matching throughout your work.
 Double-click eyedropper
 
-### *Terrain Data Sources Online*, Paulo Raposo
+## *Terrain Data Sources Online*, Paulo Raposo
 Uses SAGA for GIS. Also works with QGIS tools.
 
-### *A Matter of Perspective*, Daniel P. Huffman
+## *A Matter of Perspective*, Daniel P. Huffman
 Take familiar things and show them in a new, and different way. Daniel's map will be located in the map gallery throughout the conference.
 
-#### Why:
+### Why:
 Make a map your personal story. Lake Michigan as a straight line, to show its importance.
 
-#### How:
+### How:
 * A linear View (not new, just different. e.g. Minneapolis LRT lines)
 * ArcMap > Illustrator
 * Census data (choropleth)
@@ -267,40 +266,42 @@ Make a map your personal story. Lake Michigan as a straight line, to show its im
 * Once everything is shown vertically, work on the styling.
 * Vertical vs. Horizontal (web vs. print)
 
-### *CartoCSS Essentials*, Katie Kowalsky
+## *CartoCSS Essentials*, Katie Kowalsky
 
-#### Goal: Create tileset using CartCSS based off of art.
+### Goal: Create tileset using CartCSS based off of art.
 
-#### Why teach a class:
+### Why teach a class:
 * Teach an unfamiliar medium (the web!)
 * Introduce Mapbox Studio and CartoDB
 * Get students familiar with programming (HTML/CSS/JS)
 * Challenge students
 
-#### Tips and Tricks for Designing Tiles:  
-**1. It's dangerous to go alone.** Plan ahead on your design and make a game plan.  
+### Tips and Tricks for Designing Tiles:  
+#### 1. It's dangerous to go alone. Plan ahead on your design and make a game plan.  
 
-**2. Mise en Place**: Organization first!  
-  * Multiple stylesheets  
-  * Use globals!  
-  * Hack `Project.yml` for custom layers  
+#### 2. Mise en Place: Organization first!  
+* Multiple stylesheets  
+* Use globals!  
+* Hack `Project.yml` for custom layers  
 
-**3. Attachments** (a.k.a. sublayer)  
+#### 3. Attachments
+* (a.k.a. sublayer)  
 
-**4. Attributes** are awesome!  
+#### 4. Attributes are awesome!  
 
-**5. Never forget where you came from...** (Use common operators, and labels)  
+#### 5. Never forget where you came from...
+* (Use common operators, and labels)  
 
-**6. Have fun!**  
+#### 6. Have fun!  
 
-### *Vector Cartography in ArcGIS*, Craig Williams
+## *Vector Cartography in ArcGIS*, Craig Williams
 ArcGIS vector tile service will come with the new release.
 
-## Concurrent Sessions
+# Concurrent Sessions
 
-### *Examining the Terminology of Modern Cartography*, Michael P. Peterson, Rex G. Cammack
+## *Examining the Terminology of Modern Cartography*, Michael P. Peterson, Rex G. Cammack
 
-#### Words and Maps:  
+### Words and Maps:  
 * Conceptually cartography is based on Words
 * Words influence our mapping
 * Words form communication with others, and **ourselves**
@@ -310,66 +311,66 @@ ArcGIS vector tile service will come with the new release.
 * We as a community can change and help it evolve.
 * *We need to find new words for other maps, and find a better term than "static map"!*
 
-#### Jargon:
+### Jargon:
 * Discipline-specific words (e.g. Doctors - shorthand/seperate from patients)
 * Jargon separates out from individuals/groups
 
-#### Slippy map:
+### Slippy map:
 * A term referring to modern web maps that let you zoom and pan around (map slips around when you drag the mouse).
 * AJAX component where JavaScript runs in the browser and puts in a request from the server without downloading the whole HTML on the page -> "Slippy zoom" map experience - :-)
 * A "cute" term, but not very professional sounding, and the term isn't taken very seriously.
 * *MOMM (Me On My Map)* - Track the entity "holding" the map. Similar to slippy map term (e.g. FitBit)
 
-#### English by non-native speakers:
+### English by non-native speakers:
 * Worlds most spoken language? *bad english*
 * Europeans use English as a common language, but words are made up (e.g. "Handy" in Germany, for cell phone)
 
-#### Boundaries of Classes:
+### Boundaries of Classes:
 * Map Types (General/Thematic)
 * Hybrids? (e.g. When does a "Labordoodle" become a "breed", do we use mashup names)?
 
-### *A Visual Search Task Comparing Zooming Metaphors*, Ryan Mullins  
-#### Context:
+## *A Visual Search Task Comparing Zooming Metaphors*, Ryan Mullins  
+### Context:
 * The interaction between human and physical components.
 * *How does context shape decisions and actions?*
 
-#### Metaphors:  
-*1. Slippy map style*  
+### Metaphors:  
+#### 1. Slippy map style  
   * Pinch-to-zoom basemap  
   * Layer toggles in title bar
 
-*2. Zoom window with toggles* (the worst rated)  
+#### 2. Zoom window with toggles (the worst rated)  
   * No zoom on basemap  
   * Pinch-to-zoom in windows  
   * Layer toggles in zoom window  
 
-*3. Side-by-side zoom window*  
+#### 3. Side-by-side zoom window  
   * No zoom on basemap  
   * Pinch-to-zoom in windows  
   * 1 window per layer, same footprint.  
 
-#### Balance benefits:  
+### Balance benefits:  
 The best modality depends on the display size (slippy for smaller, side-by-side for larger screens), and the number of collaborating analysts. However, the results of the study were as follows:
 
-*1. Slippy map*  
+#### 1. Slippy map  
   * Best performance (shortest time/most accurate)  
   * Most familiar interaction  
   * Zoom means different context  
 
-*2. Side-by-side zoom windows*  
+#### 2. Side-by-side zoom windows  
   * Second best performance (lowest varience)  
 
-### *A New Atlas of American History*, Alan McConchie, [Slides](https://speakerdeck.com/almccon/a-new-atlas-of-american-history-nacis-2015), [Notes/Resources](http://sta.mn/6gk), [Website](http://dsl.richmond.edu/historicalatlas), [GitHub](http://github.com/americanpanorama)
+## *A New Atlas of American History*, Alan McConchie, [Slides](https://speakerdeck.com/almccon/a-new-atlas-of-american-history-nacis-2015), [Notes/Resources](http://sta.mn/6gk), [Website](http://dsl.richmond.edu/historicalatlas), [GitHub](http://github.com/americanpanorama)
 *Showing things over time, is just as important as showing what is happening in space.*
 
-#### Notes:
+### Notes:
 * Its hard to do, but its an important story to tell.
 * Discuss!
 
-#### American Panorama: An atlas of U.S. History:
-* Don't build components (originally asked for), let's design from what the user will want. True to the data, and show a story. Add a toolkit over time. Use modern tools that support for many years.
+### American Panorama: An atlas of U.S. History:
+Don't build components (originally asked for), let's design from what the user will want. True to the data, and show a story. Add a toolkit over time. Use modern tools that support for many years.
 
-#### Forced Migration of Enslaved People in the US (1810-1860):
+### Forced Migration of Enslaved People in the US (1810-1860):
 *Phases* (see photo)
 * Let the user explore the story as they choose to.
 * As you interact with the map, the URL changes appropriately so it can be shared as you are looking at it. *THIS IS AMAZING!*
@@ -377,26 +378,26 @@ The best modality depends on the display size (slippy for smaller, side-by-side 
 * *Custom basemap:* Natural Earth data (cartoCSS/cartoDB), own map projection, transform using cartoCSS, openTerrain tile (mostly transparent).
 * *Data:* Convert counties to hexbins that creates a smooth look (since counties change over time).
 
-#### Other maps:
+### Other maps:
 * Overland trails (1840-1860) - this includes historical trails (e.g. Oregon Trail)
 * Foreign born ("current age" map)
 * Canals (1820-1890)
 
-### *Beyond Paper: Ideas for Interactive Maps*, [Peter Liu](http://www.twitter.com/chieflybrit), [San Francisco Transit Solution Example](http://allthebuses.com), [Elevation Example](https://www.mapbox.com/blog/dc-bikeshare-revisited), [Time Travel Sled Race Example](https://www.mapbox.com/blog/playback-the-iditarod-with-turf), [E-mail](mailto:peter@mapbox.com)
+## *Beyond Paper: Ideas for Interactive Maps*, [Peter Liu](http://www.twitter.com/chieflybrit), [San Francisco Transit Solution Example](http://allthebuses.com), [Elevation Example](https://www.mapbox.com/blog/dc-bikeshare-revisited), [Time Travel Sled Race Example](https://www.mapbox.com/blog/playback-the-iditarod-with-turf), [E-mail](mailto:peter@mapbox.com)
 *Interactive means we don't have to anticipate, only react when the user asks for information.*
 
-#### Breadth vs. Granularity (*see photo*)
+### Breadth vs. Granularity (*see photo*)
 * Respond to user input
 * Make it dynamic: show change over time
 
-#### Stories over time
+### Stories over time
 *Maps as an interface to discover information.*
 
-### *Open Web Mapping Technologies: How do we Teach this Stuff?*, [Carl Sack](http://www.twitter.com/northlandiguana), [Slides](http://tinyurl.com/openwebmapping), [GitHub](http://github.com/uwcart/cartographic-perspectives), [Student Projects](http://geography.wisc.edu/courses/geog575)
+## *Open Web Mapping Technologies: How do we Teach this Stuff?*, [Carl Sack](http://www.twitter.com/northlandiguana), [Slides](http://tinyurl.com/openwebmapping), [GitHub](http://github.com/uwcart/cartographic-perspectives), [Student Projects](http://geography.wisc.edu/courses/geog575)
 
-#### **_Lots of great projects emerged, but so did the LARGE struggles, especially with D3._**
+### **_Lots of great projects emerged, but so did the LARGE struggles, especially with D3._**
 
-#### Desired outcomes:
+### Desired outcomes:
 1. Ability to create [animated] thematic slippy maps using Leaflet
 2. Ability to created linked geovisualizations using D3
 3. Independent completion of web map from start to finish in collaboration with colleagues.
@@ -404,7 +405,7 @@ The best modality depends on the display size (slippy for smaller, side-by-side 
 5. Integration of theoretical concepts presented in lecture into outcomes 1-3. (e.g. Human-map interaction, usability engineering, data visualizing, etc.)
   * This outcome was the hardest to meet.
 
-#### Web Mapping Workflow (*Donahue, 2014*)  
+### Web Mapping Workflow (*Donahue, 2014*)  
 The workflow gets more, and more, integrated over time.
 1. Idea (Design)
 2. Development environment
@@ -414,7 +415,7 @@ The workflow gets more, and more, integrated over time.
 6. Fine-tuning (usability)
 7. Deployment
 
-#### Difficulties:
+### Difficulties:
 * Two different sections (each has its own learnng speed)
 * Difficulties: the DOM, identifying source of methods, data formatting and conversion.
 * D3 lessons successful, exciting.
@@ -422,35 +423,35 @@ The workflow gets more, and more, integrated over time.
 * Student enlightenment: "I needed to break it down and solve things one at a time, not all at once."
 * Expertise with tools after were still low/moderate, but they had the basic knowledge and wanted to learn more!
 
-#### The most useful tools first were:
+### The most useful tools first were:
 * Using browser developer tools
 * Tools on GitHub (mostly using GitHub GUI due to familiarity with command line. This can always come later.)
 
-### *How to Teach an Old(ish) Cartography Professor New Tricks*, Sally Hermansen, [Course: Research in Cartography (blog)](http://blogs.ubc.ca/advancedcartography)
+## *How to Teach an Old(ish) Cartography Professor New Tricks*, Sally Hermansen, [Course: Research in Cartography (blog)](http://blogs.ubc.ca/advancedcartography)
 
-#### How/Why:
+### How/Why:
 * With 5 lines of code, we can make a map!
 * But, what about a more refined map?
   * Joey Lee
   * Ben Fry: *Data Visualization Pipeline*
 * Teaching Adobe Illustrator and ArcGIS is a diservice, they need to understand other tools/options in the open source community (Q, R, Leaflet, OSM, etc.)
 
-#### How it works:
+### How it works:
 * Take students out of computer labs, bring their own laptops.
 * GitHub tutorials
 * Assignments outside of class, bring questions to class
 * Videos during class, and work time
 
-### *Type on Maps: All the Little Things that Actually Matter*, Elaine Guidero
+## *Type on Maps: All the Little Things that Actually Matter*, Elaine Guidero
 "Maybe Comic Sans isn't the best font for mapping a sex God."
 
-#### Typefaces:
+### Typefaces:
 * Typefaces have different tones based on the semantic effects.
 * Different semantic effects.
 
-#### Font anatomy  (*see photo*)
+### Font anatomy  (*see photo*)
 
-#### Microaesthetics:
+### Microaesthetics:
 * Differences (why?) - terminal, spur, serif, stroke contrast, ear, story,
 * Looking for aesthetics, check out the photo for importance.
 * Cartographic research on type aesthetics is inaccurate.
@@ -458,11 +459,11 @@ The workflow gets more, and more, integrated over time.
 
 (serif style, terminal style, x-height)
 
-#### Macroaesthetics (aka. Label properties):
+### Macroaesthetics (aka. Label properties):
 * Spline/tilt
 * Kerning/tracking
 
-#### Return to this section:
+### Return to this section:
 Choose typeface:
 * Use Microaesthetics...
 
@@ -470,12 +471,12 @@ Semantic effects (8)
 
 Identify letters and earmarks
 
-#### Conclusions:
+### Conclusions:
 Letterform elements, not label properties, contribute to typeface tone.
 
-### *Every Pixel Counts: Web Map Symbols for the National Park Service*, [Jake Coolidge](http://www.twitter.com/jccartography)
+## *Every Pixel Counts: Web Map Symbols for the National Park Service*, [Jake Coolidge](http://www.twitter.com/jccartography)
 
-#### Design Considerations:
+### Design Considerations:
 * Recognizability (of symbols)
 * Legibility
 * Complexity (not too simplistic, but not too complex)
@@ -483,37 +484,37 @@ Letterform elements, not label properties, contribute to typeface tone.
 * Style, or look and feel
 
 
-### *Visualizing Ten Years of Quantitative Color Schemes*, Travis White
+## *Visualizing Ten Years of Quantitative Color Schemes*, Travis White
 Qc: Quantitative color schemes (color that represents quantitative data)
 
-#### Results:
+### Results:
 2004: 11% vs 2013: 71% used Qualitative color schemes
 
-### *Natural-Color Maps via Automated Coloring of Bivariate Grid Data*, Jane Darbyshire
+## *Natural-Color Maps via Automated Coloring of Bivariate Grid Data*, Jane Darbyshire
 Goal: Automate color technique for deployment to the web.
 
 * Texture substitution
 
-### *Spooky Map Stories*, Patrick Hammons, [Slides](http://bit.ly/spooky-nacis-2015)
+## *Spooky Map Stories*, Patrick Hammons, [Slides](http://bit.ly/spooky-nacis-2015)
 
 *Notes coming soon*
 
-### *GIS for the people by the people*, Sam Matthews, [Slides](http://bit.ly/gisforthepeople)
+## *GIS for the people by the people*, Sam Matthews, [Slides](http://bit.ly/gisforthepeople)
 
 *Notes coming soon*
 
-### *Big History, Little History: Cartography in the Twentieth Century*, Mark Monmonier
+## *Big History, Little History: Cartography in the Twentieth Century*, Mark Monmonier
 
-#### The History of Cartography:
+### The History of Cartography:
 * J.B. Harley (1932-91)
 * David Woodward (1994-2004)
 
-#### Modes of Cartographic Practice:
+### Modes of Cartographic Practice:
 * Overhead imaging
 * Dynamic cartography
 * Multi-mode institutions (academic cartography)
 
-#### Six themes: (*need slides*)
+### Six themes: (*need slides*)
 1. Diverse impacts of mapping on a society  
 2. Overhead imaging  
 3. ...  
@@ -521,13 +522,13 @@ Goal: Automate color technique for deployment to the web.
 5. ...  
 6. ...  
 
-#### Books to read:
+### Books to read:
 * *Computational geography as a new modality* by Suane Marble
 * *Cartogaphy in the Twentieth century*
 
 ### *Of Crocodiles and Tea Garden Managers: Mapping Interactions of an Earlier Era*, Leo Dillon
 
-#### Observations:
+### Observations:
 Lots of detail, and text describing the area as its explored.
 * 1779 map (beavers on a map - where you can make money)
 * 18xx St. Anthony's Falls (582 rabbits?)
@@ -537,30 +538,30 @@ Lots of detail, and text describing the area as its explored.
 * Tristan de Cunha ([original](http://www.britishempire.co.uk/images3/tristandacunha1937map.jpg))
 * Evasion chart (EVC)
 
-### *Improving ArcGIS mapping workflows with Adobe’s Creative Cloud Applications*, [Sarah Bell](http://www.twitter.com/cerebellumaps) & [Clint Loveman](http://www.twitter.com/c_loveman)
+## *Improving ArcGIS mapping workflows with Adobe’s Creative Cloud Applications*, [Sarah Bell](http://www.twitter.com/cerebellumaps) & [Clint Loveman](http://www.twitter.com/c_loveman)
 
 * Existing product, [Esri MapStudio](http://www.esri.com/software/mapstudio) is designed for print media/journalists.
 * The examples are a prototype, a proof-of-concept.
 
-#### Workflows (Proof-of-Concept):
+### Workflows (Proof-of-Concept):
 1. Export from ArcMap and import to AI
 2. Compile map from web-hosted data
 
-#### Workflow 1:
+### Workflow 1:
 * Layers shown as sublayers (nested within one layer)
 * Each point is grouped within a group in an area
 * Using Esri converter (?)
 
-#### Workflow 2 (Similar to MAPPublisher - coordinate?):
+### Workflow 2 (Similar to MAPPublisher - coordinate?):
 * Pull data from the cloud (ArcGIS Online) and straight into Illustrator without leaving Illustrator
 * Run same script highlighted in workflow 1 in Illustrator.
 
-#### Improve (Including potentially helping with a private beta):  
+### Improve (Including potentially helping with a private beta):  
 Survey: http://surveys2.esri.com/s3/creative-cloud
 
 ### *Drupalized Web Maps*, [Tim Stallmann](http://www.twitter.com/t_stallman)
 
-#### Drupal benefits:  
+### Drupal benefits:  
 * User management  
 * Security  
 * Permissions  
@@ -569,7 +570,7 @@ Survey: http://surveys2.esri.com/s3/creative-cloud
 * Photo/media content editing  
 * Ecommerce  
 
-#### Modules:  
+### Modules:  
 1. Leaflet (Recommended: Leaflet, Leaflet more maps, Leaflet views)
   * Example: http://warmshowers.org
 2. OpenLayers (see also http://cartaro.org)
@@ -577,7 +578,7 @@ Survey: http://surveys2.esri.com/s3/creative-cloud
 3. GeoJSON + Custom Leaflet Code ("headless Drupal" approach)
   * Example: Pauli Murray Project [demo]: http://paulimurrayproject.org
 
-#### Setup:
+### Setup:
 * [Drush](http://drush.org) spins up a live site using command line. Prereq: MAPM/LAMP/WAMP stack
 * Also, download Leaflet library as well (doesn't manually do this).
 
@@ -593,27 +594,28 @@ F. Grouped Along Line
 But.. all web maps look the same!
 With common data, tools, and technologies
 
-#### Basemaps and Thematic Maps:
+### Basemaps and Thematic Maps:
 [NPMap](http://www.nps.gov/npmap)
 National Park Service Centennial (100-year anniversary in 2016)
 
-#### Places:
+### Places:
 * An *internal* spatial data system focused on visitor facing dataset (nps.gov/npmap...)
 * Data is constantly updated (thosands of additions)
 
-#### Park tiles: (*see photo*). Data from OSM.
+### Park tiles: (*see photo*).
+* Data from OSM.
 * Difficult to make one map for 400+ parks
 * Different layers of the basemap layer (*see photo*)
 
-#### Data:
+### Data:
 *Future direction*: Is there a better solution that is on the data side?
 
-#### Park Tiles 3 (2016 Centennial):
+### Park Tiles 3 (2016 Centennial):
 *Goal*: A web map on every park's page with NPS data inside of park boundaries.
 
-### *Geographic Education in a Modern World*, Panel Discussion
+## *Geographic Education in a Modern World*, Panel Discussion
 
-1. **What is the relationship between cartography and geography?**
+### 1. What is the relationship between cartography and geography?  
  * Cartography and geography - spectrum
  * Geography - science/data, Cartography - subset/tool of communicating.
  * You can't have one without the other.
@@ -622,7 +624,8 @@ National Park Service Centennial (100-year anniversary in 2016)
  * Cartography is the communication we have with one another.
  * It starts with geography - a deep seeded need to understand spatial relationships.
  * Mapping/cartography is not easy.
-2. **What mapping technologies and approaches do you advocate, use, and/or teach?**
+
+### 2. What mapping technologies and approaches do you advocate, use, and/or teach?  
   * Mashup of data, art, and communication. Split it up - design is a component. Start learning new technologies where you feel comfortable (ie. design -> Mapbox Studio).
   * Teach technology and spatial principles, not the tools (ie. Google, Leaflet, OpenLayers) with the ability to adapt.
   * No one solution, many solutions are available.
@@ -632,7 +635,8 @@ National Park Service Centennial (100-year anniversary in 2016)
   * Use what they know and extend on their knowledge.
   * Give them an assignment, like making a web application, and put a design twist on it (e.g. map tiles).
   * Start from the bottom and go to the top.
-3. **What kinds of courses or opportunities should higher education be supporting?**
+
+### 3. What kinds of courses or opportunities should higher education be supporting?  
   * Traditional and non-traditional experiences/curriculum. Outlets are needed, but make it fun/exploratory.
   * Hold multiple internships as a student, learn.
   * Volunteer/internships/cold call and find projects.
@@ -644,9 +648,11 @@ National Park Service Centennial (100-year anniversary in 2016)
   * If you make something, write it down, put it online! Experts take for granted some of the things that are super hard when you first start out!
   * Teach critical thinking and problem solving.
   * Animosity of students that just want to solve a problem.
-4. **How can higher education adapt?**  
+
+### 4. How can higher education adapt?  
 *Not answered*  
-5. **How should industry help with higher education to make the changes?**
+
+### 5. How should industry help with higher education to make the changes?
   * Support older versions/backward compatibility to make it easy on professors in their curriculum design.
   * Offer non-subscription based software to educators.
   * Documentation thats easy to get to, with examples!! And easy to comprehend no matter on beginner or advanced knowledge bases.
@@ -655,20 +661,20 @@ National Park Service Centennial (100-year anniversary in 2016)
   * Relationship between educators and industry leaders.
   * Question, "Teach someone how to buffer without a tool?"
 
-### *From The Twitters*, The Interwebs
+## *From The Twitters*, The Interwebs
 * [Add Vertex – Script for Adobe Illustrator](http://cartography.oregonstate.edu/AddVertexScript.html)
 
-## Post-Conference Workshop
-### *Mapping in the Cloud*, Michael P. Peterson
+# Post-Conference Workshop
+## *Mapping in the Cloud*, Michael P. Peterson
 
-#### Cloud Resources:
+### Cloud Resources:
 * [PodServer](http://podserver.info) is a hosting place for code in the cloud.
 * FireZilla is good for data files.
 
-#### Terminology:
+### Terminology:
 * **WYSIWYG**: What You See Is What You Get
 
-#### Getting Started Resources:
+### Getting Started Resources:
 * [University of Nebraska-Omaha Website](http://maps.unomaha.edu)
 * ['Mapping in the Cloud' Book](http://maps.unomaha.edu/cloud)
 * [Instructor example website](http://www.geomaster.podserver.info)
@@ -678,13 +684,13 @@ National Park Service Centennial (100-year anniversary in 2016)
 * [Amazon Web Services](https://aws.amazon.com): Always up
 * [MapTiler](http://www.maptiler.com): Google map tiles
 
-#### Chapter 8: JavaScript
+### Chapter 8: JavaScript
 * JavaScript is the most used language.
 * Interpreted language, not compiled (.exe).
 * JavaScript is interpreted by the browser as it is opened.
 * Understand variables (`x = 1`), loops, function calls.
 
-#### Chapter 10: Map Mashups
+### Chapter 10: Map Mashups
 * API's: http://www.geospatialem.podserver.info/code10
 * "Mashup" maps
 * Sensor = False: `sensor=false`: See [StackOverflow](http://stackoverflow.com/questions/8616764/what-is-the-sensor-parameter-in-google-places-api-good-for)
@@ -710,13 +716,13 @@ var mapStyle = [{
 ```
 * Google fusion tables
 
-#### Chapter 12: Point Mashups  
+### Chapter 12: Point Mashups  
 
-#### Chapter 14: Line and Polygon Mashups  
+### Chapter 14: Line and Polygon Mashups  
 
-#### Chapter 16: Layer Mashups  
+### Chapter 16: Layer Mashups  
 
-#### Chapter 18: php and MySQL Mashups  
+### Chapter 18: php and MySQL Mashups  
 * Programming language that resides on the server
 * Random number generator example (uses resources on the server):
 ```php
@@ -744,8 +750,8 @@ mysql_select_db($mysql_database);
 ?>
 ```
 
-#### Chapter 20: Local Mapping  
+### Chapter 20: Local Mapping  
 
-#### Chapter 22: Animated Maps  
+### Chapter 22: Animated Maps  
 * Animation is a result of JavaScript!
 * Rushing/List-based animation
