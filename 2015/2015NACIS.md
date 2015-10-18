@@ -2,7 +2,8 @@
 
 <img src="https://cloud.githubusercontent.com/assets/5023024/10469596/28626068-71cc-11e5-930d-dc6d5a3944f7.png" width="25" height="25")> [NACIS](http://www.nacis.org) is an annual conference facilitating communication in the map information community. There were a variety of talks focusing on the theme of *Mapping Interactions*.
 
-## Practical Cartography Day (Wednesday, October 14, 2015)
+## Practical Cartography Day
+### Wednesday, October 14, 2015
 * *[Taking Terrain to New Heights with ArcGIS](#taking-terrain-to-new-heights-with-arcgis-kenneth-field)*, Kenneth Field
 * *[Redesigning Atlas Maps for Social Media](#redesigning-atlas-maps-for-social-media-alethea-steingisser-and-james-meacham)*, Alethea Steingisser and James Meacham
 * *[MAPPublisher at National Geographic](#mappublisher-at-national-geographic-matthew-chwatstyk)*, Matthew Chwatstyk
@@ -21,31 +22,35 @@
 * *[CartoCSS Essentials](#cartocss-essentials-katie-kowalsky)*, [Katie Kowalsky](http://www.twitter.com/katiekowalsky) [[Slides](http://slides.com/kkowalsky/nacis-2015)]
 * *[Vector Cartography in ArcGIS](#vector-cartography-in-arcgis-craig-williams)*, Craig Williams [[Slides](https://speakerdeck.com/williamscraigm/nacis-2015-pcd-vector-cartography-in-arcgis)]
 
-## Concurrent Sessions (Thursday & Friday, October 15-16, 2015)   
+## Concurrent Sessions
+### Thursday October 15, 2015    
 * *[Examining the Terminology of Modern Cartography](#examining-the-terminology-of-modern-cartography-michael-p-peterson-rex-g-cammack)*, Michael P. Peterson, Rex G. Cammack
 * *[A Visual Search Task Comparing Zooming Metaphors](#a-visual-search-task-comparing-zooming-metaphors-ryan-mullins)*, Ryan Mullins [[Slides](https://speakerdeck.com/ryanmullins/geographic-analysis-in-context-a-visual-search-task-comparing-zooming-metaphors)]
 * *[A New Atlas of American History](#a-new-atlas-of-american-history-alan-mcconchie)*, Alan McConchie [[Slides](https://speakerdeck.com/almccon/a-new-atlas-of-american-history-nacis-2015), [Notes/Resources](http://sta.mn/6gk), [Website](http://dsl.richmond.edu/historicalatlas), [GitHub](http://github.com/americanpanorama)]  
-* *[Beyond Paper: Ideas for Interactive Maps](#)*, [Peter Liu](http://www.twitter.com/chieflybrit)    
-* *[Open Web Mapping Technologies: How do we Teach this Stuff?](#)*, [Carl Sack](http://www.twitter.com/northlandiguana) [[Slides](http://tinyurl.com/openwebmapping), [GitHub](http://github.com/uwcart/cartographic-perspectives)]
-* *[How to Teach an Old(ish) Cartography Professor New Tricks](#)*, Sally Hermansen
-* *[Type on Maps: All the Little Things that Actually Matter](#)*, Elaine Guidero
-* *[Every Pixel Counts: Web Map Symbols for the National Park Service](#)*, [Jake Coolidge](http://www.twitter.com/jccartography)
-* *[Visualizing Ten Years of Quantitative Color Schemes](#)*, Travis White
-* *[Natural-Color Maps via Automated Coloring of Bivariate Grid Data](#)*, Jane Darbyshire
-* *[Spooky Map Stories](#)*, Patrick Hammons [[Slides](http://bit.ly/spooky-nacis-2015)]
-* *[GIS for the people by the people](#)*, Sam Matthews [[Slides](http://bit.ly/gisforthepeople)]
+* *[Beyond Paper: Ideas for Interactive Maps](#beyond-paper-ideas-for-interactive-maps-peter-liu)*, [Peter Liu](http://www.twitter.com/chieflybrit)    
+* *[Open Web Mapping Technologies: How do we Teach this Stuff?](#open-web-mapping-technologies-how-do-we-teach-this-stuff-carl-sack)*, [Carl Sack](http://www.twitter.com/northlandiguana) [[Slides](http://tinyurl.com/openwebmapping), [GitHub](http://github.com/uwcart/cartographic-perspectives)]
+* *[How to Teach an Old(ish) Cartography Professor New Tricks](#how-to-teach-an-oldish-cartography-professor-new-tricks-sally-hermansen)*, Sally Hermansen
+* *[Type on Maps: All the Little Things that Actually Matter](#type-on-maps-all-the-little-things-that-actually-matter-elaine-guidero)*, Elaine Guidero
+* *[Every Pixel Counts: Web Map Symbols for the National Park Service](#every-pixel-counts-web-map-symbols-for-the-national-park-service-jake-coolidge)*, [Jake Coolidge](http://www.twitter.com/jccartography)
+* *[Visualizing Ten Years of Quantitative Color Schemes](#visualizing-ten-years-of-quantitative-color-schemes-travis-white)*, Travis White
+* *[Natural-Color Maps via Automated Coloring of Bivariate Grid Data](#natural-color-maps-via-automated-coloring-of-bivariate-grid-data-jane-darbyshire)*, Jane Darbyshire
+* *[Spooky Map Stories](#spooky-map-stories-patrick-hammons)*, Patrick Hammons [[Slides](http://bit.ly/spooky-nacis-2015)]
+* *[GIS for the people by the people](#gis-for-the-people-by-the-people-sam-matthews)*, Sam Matthews [[Slides](http://bit.ly/gisforthepeople)]
+
+### Friday, October 16, 2015
 * *Am I Rent Stabilized?*, Chris Henrick [[Slides](http://clhenrick.io/presentations/am-i-rent-stabilized)]
-* *[Big History, Little History: Cartography in the Twentieth Century](#)*, Mark Monmonier
-* *[Of Crocodiles and Tea Garden Managers: Mapping Interactions of an Earlier Era](#)*, Leo Dillon
-* *[Improving ArcGIS mapping workflows with Adobe’s Creative Cloud Applications](#)*, [Sarah Bell](http://www.twitter.com/cerebellumaps) and [Clint Loveman](http://www.twitter.com/c_loveman)  
-* *[Drupalized Web Maps](#)*, [Tim Stallmann](http://www.twitter.com/t_stallman)  
-* *[Planning for Automated Labeling of U.S. Routes with Multiple Shields and Names](#)*, Cynthia A. Brewer
-* *[Cartography Driven Data Collection](#)*, Mamata Akella
-* *[Geographic Education in a Modern World](#)*, Panel Discussion
+* *[Big History, Little History: Cartography in the Twentieth Century](#big-history-little-history-cartography-in-the-twentieth-century-mark-monmonier)*, Mark Monmonier
+* *[Of Crocodiles and Tea Garden Managers: Mapping Interactions of an Earlier Era](#of-crocodiles-and-tea-garden-managers-mapping-interactions-of-an-earlier-era-leo-dillon)*, Leo Dillon
+* *[Improving ArcGIS mapping workflows with Adobe’s Creative Cloud Applications](#improving-arcgis-mapping-workflows-with-adobes-creative-cloud-applications-sarah-bell--clint-loveman)*, [Sarah Bell](http://www.twitter.com/cerebellumaps) and [Clint Loveman](http://www.twitter.com/c_loveman)  
+* *[Drupalized Web Maps](#drupalized-web-maps-tim-stallmann)*, [Tim Stallmann](http://www.twitter.com/t_stallman)  
+* *[Planning for Automated Labeling of U.S. Routes with Multiple Shields and Names](#planning-for-automated-labeling-of-us-routes-with-multiple-shields-and-names-cynthia-a-brewer)*, Cynthia A. Brewer
+* *[Cartography Driven Data Collection](#cartography-driven-data-collection-mamata-akella)*, Mamata Akella
+* *[Geographic Education in a Modern World](#geographic-education-in-a-modern-world-panel-discussion)*, Panel Discussion
 * *Data Processing Workflow for the National Geographic World Atlas Mobile App*, Steve Gifford [[Slides](http://www.slideshare.net/mousebird/data-processing-workflow-for-the-national-geographic-world-atlas-mobile-app)]
 * *[From the Twitters](#from-the-twitters-the-interwebs)*, The Interwebs
 
-## Post-Conference Workshop (Saturday, October 17, 2015)  
+## Post-Conference Workshop
+### Saturday, October 17, 2015  
 * *[Mapping in the Cloud](#mapping-in-the-cloud-michael-p-peterson)*, Michael P. Peterson
 
 # Practical Cartography Day
@@ -367,7 +372,7 @@ The best modality depends on the display size (slippy for smaller, side-by-side 
 * Its hard to do, but its an important story to tell.
 * Discuss!
 
-### American Panorama: An atlas of U.S. History:
+### American Panorama: An Atlas of U.S. History:
 Don't build components (originally asked for), let's design from what the user will want. True to the data, and show a story. Add a toolkit over time. Use modern tools that support for many years.
 
 ### Forced Migration of Enslaved People in the US (1810-1860):
