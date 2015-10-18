@@ -357,7 +357,7 @@ The best modality depends on the display size (slippy for smaller, side-by-side 
   * Most familiar interaction  
   * Zoom means different context  
 
-*2. *Side-by-side zoom windows*  
+*2. Side-by-side zoom windows*  
   * Second best performance (lowest varience)  
 
 #### *A New Atlas of American History*, Alan McConchie, [Slides](https://speakerdeck.com/almccon/a-new-atlas-of-american-history-nacis-2015), [Notes/Resources](http://sta.mn/6gk), [Website](http://dsl.richmond.edu/historicalatlas), [GitHub](http://github.com/americanpanorama)
