@@ -335,26 +335,29 @@ ArcGIS vector tile service will come with the new release.
 * *How does context shape decisions and actions?*
 
 **Metaphors**:  
-1. *Slippy map style*  
+*1. Slippy map style*  
   * Pinch-to-zoom basemap  
-  * Layer toggles in title bar  
-2. *Zoom window with toggles* (the worst rated)  
+  * Layer toggles in title bar
+
+*2. Zoom window with toggles* (the worst rated)  
   * No zoom on basemap  
   * Pinch-to-zoom in windows  
   * Layer toggles in zoom window  
-3. *Side-by-side zoom window*  
+
+*3. Side-by-side zoom window*  
   * No zoom on basemap  
   * Pinch-to-zoom in windows  
   * 1 window per layer, same footprint.  
 
-**Balance benefits**:
+**Balance benefits**:  
 The best modality depends on the display size (slippy for smaller, side-by-side for larger screens), and the number of collaborating analysts. However, the results of the study were as follows:
 
-1. *Slippy map*  
+*1. Slippy map*  
   * Best performance (shortest time/most accurate)  
   * Most familiar interaction  
   * Zoom means different context  
-2. *Side-by-side zoom windows*  
+
+*2. *Side-by-side zoom windows*  
   * Second best performance (lowest varience)  
 
 #### *A New Atlas of American History*, Alan McConchie, [Slides](https://speakerdeck.com/almccon/a-new-atlas-of-american-history-nacis-2015), [Notes/Resources](http://sta.mn/6gk), [Website](http://dsl.richmond.edu/historicalatlas), [GitHub](http://github.com/americanpanorama)
