@@ -5,23 +5,23 @@
 ## Sessions:
 
 **Wednesday, October 14th, 2015: [Practical Cartography Day](#practical-cartography-day)**
-* *[Taking Terrain to New Heights with ArcGIS](#)*, Kenneth Field
-* *[Redesigning Atlas Maps for Social Media](#)*, Alethea Steingisser and James Meacham
-* *[MAPPublisher at National Geographic](#)*, Matthew Chwatstyk
-* *[A Quick Guide to US Dept. of Transportation Datasets](#)*, Justyna Goworowska
-* *[Manual Shaded Relief of the World and the Patterson Projection](#)*, Tom Patterson
-* *[Designer as a Cartographer](#)*, Amy Lee Walton
-* *[Collecting Data from the Crowd - A Leaflet and CartoDB-based Stack](#)*, [Mike Foster](http://www.twitter.com/mjfoster83) [[Slides](http://mjfoster83.github.io/nacis-2015)]
-* *[Dropchop](#)*, Sam Matthews [[Slides](http://bit.ly/nacisdropchop), [Website](http://dropchop.io), [GitHub](https://github.com/cugos/dropchop)]
-* *[Practical and Impractical Uses of Terrain Data](#)*, Seth Fitzsimmons [[Slides](https://speakerdeck.com/mojodna/print-cartography-in-a-multi-resolution-world)]
-* *[Mapping the Future Patagonia National Park](#)*, Ross Donihue
-* *[ArcMap-to-Illustrator Workflows](#)*, Nicole Samu
-* *[FixWikiMaps Project: Maplift](#)*, [Brian Davidson](http://www.twitter.com/brianddavidson) [[@FixWikiMaps](http://www.twitter.com/fixwikimaps), [Website](http://fixwikimaps.github.io)]
-* *[Restyling Old and Cluttered Maps](#)*, Vanessa Knoppke-Wetzel
-* *[Terrain Data Sources Online](#)*, Paulo Raposo
-* *[A Matter of Perspective](#)*, Daniel P. Huffman
-* *[CartoCSS Essentials](#)*, [Katie Kowalsky](http://www.twitter.com/katiekowalsky) [[Slides](http://slides.com/kkowalsky/nacis-2015)]
-* *[Vector Cartography in ArcGIS](#)*, Craig Williams [[Slides](https://speakerdeck.com/williamscraigm/nacis-2015-pcd-vector-cartography-in-arcgis)]
+* *[Taking Terrain to New Heights with ArcGIS](#taking-terrain-to-new-heights-with-arcgis-kenneth-field)*, Kenneth Field
+* *[Redesigning Atlas Maps for Social Media](#redesigning-atlas-maps-for-social-media-alethea-steingisser-and-james-meacham)*, Alethea Steingisser and James Meacham
+* *[MAPPublisher at National Geographic](#mappublisher-at-national-geographic-matthew-chwatstyk)*, Matthew Chwatstyk
+* *[A Quick Guide to US Dept. of Transportation Datasets](#a-quick-guide-to-us-dept-of-transportation-datasets-justyna-goworowska)*, Justyna Goworowska
+* *[Manual Shaded Relief of the World and the Patterson Projection](#manual-shaded-relief-of-the-world-and-the-patterson-projection-tom-patterson)*, Tom Patterson
+* *[Designer as a Cartographer](#designer-as-a-cartographer-amy-lee-walton)*, Amy Lee Walton
+* *[Collecting Data from the Crowd - A Leaflet and CartoDB-based Stack](#collecting-data-from-the-crowd---a-leaflet-and-cartodb-based-stack-mike-foster)*, [Mike Foster](http://www.twitter.com/mjfoster83) [[Slides](http://mjfoster83.github.io/nacis-2015)]
+* *[Dropchop](#dropchop-sam-matthews)*, Sam Matthews [[Slides](http://bit.ly/nacisdropchop), [Website](http://dropchop.io), [GitHub](https://github.com/cugos/dropchop)]
+* *[Practical and Impractical Uses of Terrain Data](#practical-and-impractical-uses-of-terrain-data-national-geographic-climate-change-the-human-impact-example-seth-fitzsimmons)*, Seth Fitzsimmons [[Slides](https://speakerdeck.com/mojodna/print-cartography-in-a-multi-resolution-world)]
+* *[Mapping the Future Patagonia National Park](#mapping-the-future-patagonia-national-park-ross-donihue)*, Ross Donihue
+* *[ArcMap-to-Illustrator Workflows](#arcmap-to-illustrator-workflows-nicole-samu)*, Nicole Samu
+* *[FixWikiMaps Project: Maplift](#fixwikimaps-project-maplift-brian-davidson)*, [Brian Davidson](http://www.twitter.com/brianddavidson) [[@FixWikiMaps](http://www.twitter.com/fixwikimaps), [Website](http://fixwikimaps.github.io)]
+* *[Restyling Old and Cluttered Maps](#restyling-old-and-cluttered-maps-vanessa-knoppke-wetzel)*, Vanessa Knoppke-Wetzel
+* *[Terrain Data Sources Online](#terrain-data-sources-online-paulo-raposo)*, Paulo Raposo
+* *[A Matter of Perspective](#a-matter-of-perspective-daniel-p-huffman)*, Daniel P. Huffman
+* *[CartoCSS Essentials](#cartocss-essentials-katie-kowalsky)*, [Katie Kowalsky](http://www.twitter.com/katiekowalsky) [[Slides](http://slides.com/kkowalsky/nacis-2015)]
+* *[Vector Cartography in ArcGIS](#vector-cartography-in-arcgis-craig-williams)*, Craig Williams [[Slides](https://speakerdeck.com/williamscraigm/nacis-2015-pcd-vector-cartography-in-arcgis)]
 
 **Thursday, October 15th, 2015: Concurrent Sessions**  
 * *[Examining the Terminology of Modern Cartography](#examining-the-terminology-of-modern-cartography-michael-p-peterson-rex-g-cammack)*, Michael P. Peterson, Rex G. Cammack
@@ -55,7 +55,7 @@
 ## Wednesday, October 14th, 2015
 ### Practical Cartography Day
 
-#### *Taking Terrain to New Heights with ArcGIS*, Kenneth Field & Patrick Kennelly
+#### *Taking Terrain to New Heights with ArcGIS*, Kenneth Field
 * 13 different tools available [e.g. Sky modeled hillshade (sun, lowercast), shadow lines, different strokes, etc.]
 * Takes some time to run, but is worth the wait.
 * Works with 10.3+ (usually 10.2 as well). Although, choropleth has issues with older versions
@@ -142,28 +142,28 @@ See Tom's **_[website](http://www.shadedrelief.com)_** for more information!
 * End goal: Create a [data collection application](http://duspviz.mit.edu/web-map-workshop/databases-leaflet-cartodb)
 
 **Tasks**:
-1. *Backend*
-    * Spatial database - used CartoDB SQL API
-    * Security matters: API key, username, table (security matters!)
-    * PHP for security (hide credential information on the server)
-2. *FrontEnd*
-    * JavaScript and jQuery
-    * Create an empty dataset in CartoDB, with a few test points (e.g. Data Collector)
-    * Set up HTML document structure
-    * Add data to Leaflet (and Leaflet draw)
-    * Modal for data collection
-    * Proxy to send collected data to CartoDB
-    * View data! :-P
-3. *Security*
-    * Check PR to address the problem (*see slides for more information*)
+1. *Backend*  
+    * Spatial database - used CartoDB SQL API  
+    * Security matters: API key, username, table (security matters!)  
+    * PHP for security (hide credential information on the server)  
+2. *FrontEnd*  
+    * JavaScript and jQuery  
+    * Create an empty dataset in CartoDB, with a few test points (e.g. Data Collector)  
+    * Set up HTML document structure  
+    * Add data to Leaflet (and Leaflet draw)  
+    * Modal for data collection  
+    * Proxy to send collected data to CartoDB  
+    * View data! :-P  
+3. *Security*  
+    * Check PR to address the problem (*see slides for more information*)  
 
 #### *Dropchop*, Sam Matthews
 Make a simple modular tool (similar to: Geojson.io, Mapshaper, Turf.js, etc.)
 
-**Hypothesis:**
-1. GIS doesn't always require a server.
-2. GIS can be *data-first*, not operation-first.
-3. GIS is open (created and used by the community).
+**Hypothesis:**  
+1. GIS doesn't always require a server.  
+2. GIS can be *data-first*, not operation-first.  
+3. GIS is open (created and used by the community).  
 
 Query the OSM database (Query the overpass).  
 *Note*: Refresh currently loses all work
@@ -232,10 +232,10 @@ ArcMap -> Illustrator process
 #### *FixWikiMaps Project: Maplift*, Brian Davidson
 Maps need a lift!
 
-**What can I do?**
-1. Find a map, add it to the MapLift database
-2. Claim a map
-3. Create a map
+**What can I do?**  
+1. Find a map, add it to the MapLift database  
+2. Claim a map  
+3. Create a map  
 
 #### *Restyling Old and Cluttered Maps*, Vanessa Knoppke-Wetzel
 Anyone can anything nicer! But... fast maps? We can still do better!
@@ -243,12 +243,12 @@ Anyone can anything nicer! But... fast maps? We can still do better!
 **Program Map Restyling** (an iterative process):  
 1. Before map (*see Syria photo*)  
 2. After map  
-  * Smaller map (only the map there, by itself - FOCUS)
-  * Color-coded table
-  * Words to symbols
-  * Colors and shapes were added in
-  * Font hierarchy, less contrast for busy maps
-  * Color palettes in Adobe Illustrator.
+  * Smaller map (only the map there, by itself - FOCUS)  
+  * Color-coded table  
+  * Words to symbols  
+  * Colors and shapes were added in  
+  * Font hierarchy, less contrast for busy maps  
+  * Color palettes in Adobe Illustrator.  
 
 **Reference Restyling**:
 Stylize > Inner Glow (Illustrator). Set the blur based on size (small, medium, large). Make sure they are matching throughout your work.
@@ -281,16 +281,16 @@ Make a map your personal story. Lake Michigan as a straight line, to show its im
 * Get students familiar with programming (HTML/CSS/JS)
 * Challenge students
 
-**Tips and Tricks for Designing Tiles**:
-1. *It's dangerous to go alone.* Plan ahead on your design and make a game plan.
-2. *Mise en Place*: Organization first!
-  * Multiple styleshets
-  * Use globals!
-  * Hack `Project.yml` for custom layers
-3. *Attachments* (a.k.a. sublayer)
-4. *Attributes* are awesome!
-5. Never forget *where you came from...* (Use common operators, and labels)
-6. *Have fun!*
+**Tips and Tricks for Designing Tiles**:  
+1. *It's dangerous to go alone.* Plan ahead on your design and make a game plan.  
+2. *Mise en Place*: Organization first!  
+  * Multiple stylesheets  
+  * Use globals!  
+  * Hack `Project.yml` for custom layers  
+3. *Attachments* (a.k.a. sublayer)  
+4. *Attributes* are awesome!  
+5. Never forget *where you came from...* (Use common operators, and labels)  
+6. *Have fun!*  
 
 #### *Vector Cartography in ArcGIS*, Craig Williams
 ArcGIS vector tile service will come with the new release.
