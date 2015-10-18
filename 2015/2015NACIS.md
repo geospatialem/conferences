@@ -287,6 +287,7 @@ Make a map your personal story. Lake Michigan as a straight line, to show its im
   * Multiple stylesheets  
   * Use globals!  
   * Hack `Project.yml` for custom layers  
+
 *3. Attachments* (a.k.a. sublayer)  
 *4. Attributes* are awesome!  
 *5. Never forget where you came from...* (Use common operators, and labels)  
