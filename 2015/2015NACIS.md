@@ -141,21 +141,21 @@ See Tom's **_[website](http://www.shadedrelief.com)_** for more information!
 * Base level = 0!
 * End goal: Create a [data collection application](http://duspviz.mit.edu/web-map-workshop/databases-leaflet-cartodb)
 
-**Tasks**:
+**Tasks**:  
 1. *Backend*  
-    * Spatial database - used CartoDB SQL API  
-    * Security matters: API key, username, table (security matters!)  
-    * PHP for security (hide credential information on the server)  
+  * Spatial database - used CartoDB SQL API  
+  * Security matters: API key, username, table (security matters!)  
+  * PHP for security (hide credential information on the server)  
 2. *FrontEnd*  
-    * JavaScript and jQuery  
-    * Create an empty dataset in CartoDB, with a few test points (e.g. Data Collector)  
-    * Set up HTML document structure  
-    * Add data to Leaflet (and Leaflet draw)  
-    * Modal for data collection  
-    * Proxy to send collected data to CartoDB  
-    * View data! :-P  
+  * JavaScript and jQuery  
+  * Create an empty dataset in CartoDB, with a few test points (e.g. Data Collector)  
+  * Set up HTML document structure  
+  * Add data to Leaflet (and Leaflet draw)  
+  * Modal for data collection  
+  * Proxy to send collected data to CartoDB  
+  * View data! :-P  
 3. *Security*  
-    * Check PR to address the problem (*see slides for more information*)  
+  * Check PR to address the problem (*see slides for more information*)  
 
 #### *Dropchop*, Sam Matthews
 Make a simple modular tool (similar to: Geojson.io, Mapshaper, Turf.js, etc.)
@@ -282,15 +282,15 @@ Make a map your personal story. Lake Michigan as a straight line, to show its im
 * Challenge students
 
 **Tips and Tricks for Designing Tiles**:  
-1. *It's dangerous to go alone.* Plan ahead on your design and make a game plan.  
-2. *Mise en Place*: Organization first!  
+*1. It's dangerous to go alone.* Plan ahead on your design and make a game plan.  
+*2. Mise en Place*: Organization first!  
   * Multiple stylesheets  
   * Use globals!  
   * Hack `Project.yml` for custom layers  
-3. *Attachments* (a.k.a. sublayer)  
-4. *Attributes* are awesome!  
-5. Never forget *where you came from...* (Use common operators, and labels)  
-6. *Have fun!*  
+*3. Attachments* (a.k.a. sublayer)  
+*4. Attributes* are awesome!  
+*5. Never forget where you came from...* (Use common operators, and labels)  
+*6. Have fun!*  
 
 #### *Vector Cartography in ArcGIS*, Craig Williams
 ArcGIS vector tile service will come with the new release.
