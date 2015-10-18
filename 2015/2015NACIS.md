@@ -24,21 +24,21 @@
 ## Concurrent Sessions (Thursday & Friday, October 15-16, 2015)   
 * *[Examining the Terminology of Modern Cartography](#examining-the-terminology-of-modern-cartography-michael-p-peterson-rex-g-cammack)*, Michael P. Peterson, Rex G. Cammack
 * *[A Visual Search Task Comparing Zooming Metaphors](#a-visual-search-task-comparing-zooming-metaphors-ryan-mullins)*, Ryan Mullins [[Slides](https://speakerdeck.com/ryanmullins/geographic-analysis-in-context-a-visual-search-task-comparing-zooming-metaphors)]
-* *[A New Atlas of American History](#)*, Alan McConchie
-* *[Beyond Paper: Ideas for Interactive Maps](#)*, Peter Liu
-* *[Open Web Mapping Technologies: How do we Teach this Stuff?](#)*, Carl Sack
+* *[A New Atlas of American History](#a-new-atlas-of-american-history-alan-mcconchie)*, Alan McConchie [[Slides](https://speakerdeck.com/almccon/a-new-atlas-of-american-history-nacis-2015), [Notes/Resources](http://sta.mn/6gk), [Website](http://dsl.richmond.edu/historicalatlas), [GitHub](http://github.com/americanpanorama)]  
+* *[Beyond Paper: Ideas for Interactive Maps](#)*, [Peter Liu](http://www.twitter.com/chieflybrit)    
+* *[Open Web Mapping Technologies: How do we Teach this Stuff?](#)*, [Carl Sack](http://www.twitter.com/northlandiguana) [[Slides](http://tinyurl.com/openwebmapping), [GitHub](http://github.com/uwcart/cartographic-perspectives)]
 * *[How to Teach an Old(ish) Cartography Professor New Tricks](#)*, Sally Hermansen
 * *[Type on Maps: All the Little Things that Actually Matter](#)*, Elaine Guidero
-* *[Every Pixel Counts: Web Map Symbols for the National Park Service](#)*, Jake Coolidge
+* *[Every Pixel Counts: Web Map Symbols for the National Park Service](#)*, [Jake Coolidge](http://www.twitter.com/jccartography)
 * *[Visualizing Ten Years of Quantitative Color Schemes](#)*, Travis White
 * *[Natural-Color Maps via Automated Coloring of Bivariate Grid Data](#)*, Jane Darbyshire
-* *[Spooky Map Stories](#)*, Patrick Hammons
-* *[GIS for the people by the people](#)*, Sam Matthews
+* *[Spooky Map Stories](#)*, Patrick Hammons [[Slides](http://bit.ly/spooky-nacis-2015)]
+* *[GIS for the people by the people](#)*, Sam Matthews [[Slides](http://bit.ly/gisforthepeople)]
 * *Am I Rent Stabilized?*, Chris Henrick [[Slides](http://clhenrick.io/presentations/am-i-rent-stabilized)]
 * *[Big History, Little History: Cartography in the Twentieth Century](#)*, Mark Monmonier
 * *[Of Crocodiles and Tea Garden Managers: Mapping Interactions of an Earlier Era](#)*, Leo Dillon
-* *[Improving ArcGIS mapping workflows with Adobe’s Creative Cloud Applications](#)*, Clint Loveman and Sarah Bell
-* *[Drupalized Web Maps](#)*, Tim Stallmann
+* *[Improving ArcGIS mapping workflows with Adobe’s Creative Cloud Applications](#)*, [Sarah Bell](http://www.twitter.com/cerebellumaps) and [Clint Loveman](http://www.twitter.com/c_loveman)  
+* *[Drupalized Web Maps](#)*, [Tim Stallmann](http://www.twitter.com/t_stallman)  
 * *[Planning for Automated Labeling of U.S. Routes with Multiple Shields and Names](#)*, Cynthia A. Brewer
 * *[Cartography Driven Data Collection](#)*, Mamata Akella
 * *[Geographic Education in a Modern World](#)*, Panel Discussion
@@ -203,7 +203,7 @@ It doesn't have to be in map form, think graphics that support your text. *You d
 * Incorporate the information into field notes, and maps.
 
 ## *ArcMap-to-Illustrator Workflows*, Nicole Samu
-ArcMap -> Illustrator process
+ArcMap → Illustrator process
 
 ### Export Notes:
 * When exporting from ArcMap, *ungroup layers* that are checked in the TOC.
@@ -317,7 +317,7 @@ ArcGIS vector tile service will come with the new release.
 
 ### Slippy map:
 * A term referring to modern web maps that let you zoom and pan around (map slips around when you drag the mouse).
-* AJAX component where JavaScript runs in the browser and puts in a request from the server without downloading the whole HTML on the page -> "Slippy zoom" map experience - :-)
+* AJAX component where JavaScript runs in the browser and puts in a request from the server without downloading the whole HTML on the page → "Slippy zoom" map experience - :-)
 * A "cute" term, but not very professional sounding, and the term isn't taken very seriously.
 * *MOMM (Me On My Map)* - Track the entity "holding" the map. Similar to slippy map term (e.g. FitBit)
 
@@ -360,7 +360,7 @@ The best modality depends on the display size (slippy for smaller, side-by-side 
 #### 2. Side-by-side zoom windows  
   * Second best performance (lowest varience)  
 
-## *A New Atlas of American History*, Alan McConchie, [Slides](https://speakerdeck.com/almccon/a-new-atlas-of-american-history-nacis-2015), [Notes/Resources](http://sta.mn/6gk), [Website](http://dsl.richmond.edu/historicalatlas), [GitHub](http://github.com/americanpanorama)
+## *A New Atlas of American History*, Alan McConchie
 *Showing things over time, is just as important as showing what is happening in space.*
 
 ### Notes:
@@ -383,8 +383,9 @@ Don't build components (originally asked for), let's design from what the user w
 * Foreign born ("current age" map)
 * Canals (1820-1890)
 
-## *Beyond Paper: Ideas for Interactive Maps*, [Peter Liu](http://www.twitter.com/chieflybrit), [San Francisco Transit Solution Example](http://allthebuses.com), [Elevation Example](https://www.mapbox.com/blog/dc-bikeshare-revisited), [Time Travel Sled Race Example](https://www.mapbox.com/blog/playback-the-iditarod-with-turf), [E-mail](mailto:peter@mapbox.com)
-*Interactive means we don't have to anticipate, only react when the user asks for information.*
+## *Beyond Paper: Ideas for Interactive Maps*, Peter Liu
+
+### Interactive means we don't have to anticipate, only react when the user asks for information.
 
 ### Breadth vs. Granularity (*see photo*)
 * Respond to user input
@@ -393,7 +394,15 @@ Don't build components (originally asked for), let's design from what the user w
 ### Stories over time
 *Maps as an interface to discover information.*
 
-## *Open Web Mapping Technologies: How do we Teach this Stuff?*, [Carl Sack](http://www.twitter.com/northlandiguana), [Slides](http://tinyurl.com/openwebmapping), [GitHub](http://github.com/uwcart/cartographic-perspectives), [Student Projects](http://geography.wisc.edu/courses/geog575)
+### Amazing Examples
+* [San Francisco Transit Solution Example](http://allthebuses.com)  
+* [Elevation Example](https://www.mapbox.com/blog/dc-bikeshare-revisited)  
+* [Time Travel Sled Race Example](https://www.mapbox.com/blog/playback-the-iditarod-with-turf)  
+
+### Contact Information
+[E-mail Peter](mailto:peter@mapbox.com)
+
+## *Open Web Mapping Technologies: How do we Teach this Stuff?*, Carl Sack
 
 ### **_Lots of great projects emerged, but so did the LARGE struggles, especially with D3._**
 
@@ -427,7 +436,13 @@ The workflow gets more, and more, integrated over time.
 * Using browser developer tools
 * Tools on GitHub (mostly using GitHub GUI due to familiarity with command line. This can always come later.)
 
-## *How to Teach an Old(ish) Cartography Professor New Tricks*, Sally Hermansen, [Course: Research in Cartography (blog)](http://blogs.ubc.ca/advancedcartography)
+### Student Projects
+[University of Wisconsin Course](http://geography.wisc.edu/courses/geog575)
+
+## *How to Teach an Old(ish) Cartography Professor New Tricks*, Sally Hermansen
+
+### Course Information
+[Research in Cartography](http://blogs.ubc.ca/advancedcartography), blog
 
 ### How/Why:
 * With 5 lines of code, we can make a map!
@@ -474,7 +489,7 @@ Identify letters and earmarks
 ### Conclusions:
 Letterform elements, not label properties, contribute to typeface tone.
 
-## *Every Pixel Counts: Web Map Symbols for the National Park Service*, [Jake Coolidge](http://www.twitter.com/jccartography)
+## *Every Pixel Counts: Web Map Symbols for the National Park Service*, Jake Coolidge
 
 ### Design Considerations:
 * Recognizability (of symbols)
@@ -495,11 +510,11 @@ Goal: Automate color technique for deployment to the web.
 
 * Texture substitution
 
-## *Spooky Map Stories*, Patrick Hammons, [Slides](http://bit.ly/spooky-nacis-2015)
+## *Spooky Map Stories*, Patrick Hammons
 
 *Notes coming soon*
 
-## *GIS for the people by the people*, Sam Matthews, [Slides](http://bit.ly/gisforthepeople)
+## *GIS for the people by the people*, Sam Matthews
 
 *Notes coming soon*
 
@@ -526,7 +541,7 @@ Goal: Automate color technique for deployment to the web.
 * *Computational geography as a new modality* by Suane Marble
 * *Cartogaphy in the Twentieth century*
 
-### *Of Crocodiles and Tea Garden Managers: Mapping Interactions of an Earlier Era*, Leo Dillon
+## *Of Crocodiles and Tea Garden Managers: Mapping Interactions of an Earlier Era*, Leo Dillon
 
 ### Observations:
 Lots of detail, and text describing the area as its explored.
@@ -538,7 +553,7 @@ Lots of detail, and text describing the area as its explored.
 * Tristan de Cunha ([original](http://www.britishempire.co.uk/images3/tristandacunha1937map.jpg))
 * Evasion chart (EVC)
 
-## *Improving ArcGIS mapping workflows with Adobe’s Creative Cloud Applications*, [Sarah Bell](http://www.twitter.com/cerebellumaps) & [Clint Loveman](http://www.twitter.com/c_loveman)
+## *Improving ArcGIS mapping workflows with Adobe’s Creative Cloud Applications*, Sarah Bell & Clint Loveman
 
 * Existing product, [Esri MapStudio](http://www.esri.com/software/mapstudio) is designed for print media/journalists.
 * The examples are a prototype, a proof-of-concept.
@@ -559,7 +574,7 @@ Lots of detail, and text describing the area as its explored.
 ### Improve (Including potentially helping with a private beta):  
 Survey: http://surveys2.esri.com/s3/creative-cloud
 
-### *Drupalized Web Maps*, [Tim Stallmann](http://www.twitter.com/t_stallman)
+## *Drupalized Web Maps*, Tim Stallmann
 
 ### Drupal benefits:  
 * User management  
@@ -582,25 +597,26 @@ Survey: http://surveys2.esri.com/s3/creative-cloud
 * [Drush](http://drush.org) spins up a live site using command line. Prereq: MAPM/LAMP/WAMP stack
 * Also, download Leaflet library as well (doesn't manually do this).
 
-### *Planning for Automated Labeling of U.S. Routes with Multiple Shields and Names*, Cynthia A. Brewer
+## *Planning for Automated Labeling of U.S. Routes with Multiple Shields and Names*, Cynthia A. Brewer
 
  *signs photo coming*
 
- #### Popular Group Vote:  
+### Popular Group Vote:  
 F. Grouped Along Line  
  ![road-label-vote](https://pbs.twimg.com/media/CRc7l_0WoAAEq5o.jpg)
 
-### *Cartography Driven Data Collection*, Mamata Akella, [How to in CartoDB](http://javisantana.github.io/cartodblocks/#a3fb1786688232cd1e45)  
-But.. all web maps look the same!
-With common data, tools, and technologies
+## *Cartography Driven Data Collection*, Mamata Akella
+
+### But.. all web maps look the same!
+With common data, tools, and technologies.  
 
 ### Basemaps and Thematic Maps:
-[NPMap](http://www.nps.gov/npmap)
-National Park Service Centennial (100-year anniversary in 2016)
+* [NPMap](http://www.nps.gov/npmap)
+* National Park Service Centennial (100-year anniversary in 2016)
 
 ### Places:
 * An *internal* spatial data system focused on visitor facing dataset (nps.gov/npmap...)
-* Data is constantly updated (thosands of additions)
+* Data is constantly updated (thosands of additions).
 
 ### Park tiles: (*see photo*).
 * Data from OSM.
@@ -612,6 +628,9 @@ National Park Service Centennial (100-year anniversary in 2016)
 
 ### Park Tiles 3 (2016 Centennial):
 *Goal*: A web map on every park's page with NPS data inside of park boundaries.
+
+### How To Use CartoDB
+[Guide](http://javisantana.github.io/cartodblocks/#a3fb1786688232cd1e45)  
 
 ## *Geographic Education in a Modern World*, Panel Discussion
 
@@ -626,7 +645,7 @@ National Park Service Centennial (100-year anniversary in 2016)
  * Mapping/cartography is not easy.
 
 ### 2. What mapping technologies and approaches do you advocate, use, and/or teach?  
-  * Mashup of data, art, and communication. Split it up - design is a component. Start learning new technologies where you feel comfortable (ie. design -> Mapbox Studio).
+  * Mashup of data, art, and communication. Split it up - design is a component. Start learning new technologies where you feel comfortable (ie. design → Mapbox Studio).
   * Teach technology and spatial principles, not the tools (ie. Google, Leaflet, OpenLayers) with the ability to adapt.
   * No one solution, many solutions are available.
   * Failure is okay. It teaches you along the way.
@@ -642,7 +661,7 @@ National Park Service Centennial (100-year anniversary in 2016)
   * Volunteer/internships/cold call and find projects.
   * Foster relationships and communication with government entities.
   * Facilitate learning together in a common space. Test it out, and open it if its successful to other educators/students. Exposure!
-  * Its easier to teach something if you learn it. Celebrate it, and get excited about it! Learn from someone who is just getting started with it. Not expert -> beginner, but a collaborative learning environment.
+  * Its easier to teach something if you learn it. Celebrate it, and get excited about it! Learn from someone who is just getting started with it. Not expert → beginner, but a collaborative learning environment.
   * Being open/software agnostic. Focus on the creation of the buttons, not pushing the buttons. How do we create buttons?
   * Learning to code is hard. You shouldn't feel dumb when you are learning! **No one knows how to code.** Programmers are really good at Googling. Learn the vocabulary to answer the question.
   * If you make something, write it down, put it online! Experts take for granted some of the things that are super hard when you first start out!
