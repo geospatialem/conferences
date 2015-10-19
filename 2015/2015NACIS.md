@@ -61,9 +61,9 @@
 * Samples are located in the download.  
 
 ### Resources:
-* Story Map [Presentation](http://carto.maps.arcgis.com/apps/MapJournal/index.html?appid=415ca449ea6c4d9397c975139abd45fe)
+* [Story Map Presentation](http://carto.maps.arcgis.com/apps/MapJournal/index.html?appid=415ca449ea6c4d9397c975139abd45fe)
 * [ArcGIS Blog Post](http://blogs.esri.com/esri/arcgis/2015/05/21/take-your-terrain-mapping-to-new-heights), *resource*
-* Download [ZIP File](http://www.arcgis.com/home/item.html?id=4b2ea7c5f87d476a8849c804b81667aa)  
+* [Download ZIP File](http://www.arcgis.com/home/item.html?id=4b2ea7c5f87d476a8849c804b81667aa)  
 
 ## *Redesigning Atlas Maps for Social Media*, Alethea Steingisser and James Meacham
 * Check out atlas work by Oregon, in particular the *Atlas of Wildlife Migration*  
