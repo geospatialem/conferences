@@ -9,7 +9,7 @@
 * *[MAPPublisher at National Geographic](#mappublisher-at-national-geographic-matthew-chwatstyk)*, Matthew Chwatstyk
 * *[A Quick Guide to US Dept. of Transportation Datasets](#a-quick-guide-to-us-dept-of-transportation-datasets-justyna-goworowska)*, Justyna Goworowska
 * *[Manual Shaded Relief of the World and the Patterson Projection](#manual-shaded-relief-of-the-world-and-the-patterson-projection-tom-patterson)*, Tom Patterson
-* *[Designer as a Cartographer](#designer-as-a-cartographer-amy-lee-walton)*, Amy Lee Walton
+* *[Designer as a Cartographer](#designer-as-a-cartographer-amy-lee-walton)*, Amy Lee Walton [[Slides](http://amyleew.github.io/big_presentations/designerascartographer/index.html)]
 * *[Collecting Data from the Crowd - A Leaflet and CartoDB-based Stack](#collecting-data-from-the-crowd---a-leaflet-and-cartodb-based-stack-mike-foster)*, [Mike Foster](http://www.twitter.com/mjfoster83) [[Slides](http://mjfoster83.github.io/nacis-2015)]
 * *[Dropchop](#dropchop-sam-matthews)*, Sam Matthews [[Slides](http://bit.ly/nacisdropchop), [Website](http://dropchop.io), [GitHub](https://github.com/cugos/dropchop)]
 * *[Practical and Impractical Uses of Terrain Data](#practical-and-impractical-uses-of-terrain-data-national-geographic-climate-change-the-human-impact-example-seth-fitzsimmons)*, Seth Fitzsimmons [[Slides](https://speakerdeck.com/mojodna/print-cartography-in-a-multi-resolution-world)]
@@ -42,7 +42,7 @@
 * *[Big History, Little History: Cartography in the Twentieth Century](#big-history-little-history-cartography-in-the-twentieth-century-mark-monmonier)*, Mark Monmonier
 * *[Of Crocodiles and Tea Garden Managers: Mapping Interactions of an Earlier Era](#of-crocodiles-and-tea-garden-managers-mapping-interactions-of-an-earlier-era-leo-dillon)*, Leo Dillon
 * *[Improving ArcGIS mapping workflows with Adobe’s Creative Cloud Applications](#improving-arcgis-mapping-workflows-with-adobes-creative-cloud-applications-sarah-bell--clint-loveman)*, [Sarah Bell](http://www.twitter.com/cerebellumaps) and [Clint Loveman](http://www.twitter.com/c_loveman)  
-* *[Drupalized Web Maps](#drupalized-web-maps-tim-stallmann)*, Tim Stallmann 
+* *[Drupalized Web Maps](#drupalized-web-maps-tim-stallmann)*, Tim Stallmann
 * *[Planning for Automated Labeling of U.S. Routes with Multiple Shields and Names](#planning-for-automated-labeling-of-us-routes-with-multiple-shields-and-names-cynthia-a-brewer)*, Cynthia A. Brewer
 * *[Cartography Driven Data Collection](#cartography-driven-data-collection-mamata-akella)*, Mamata Akella
 * *[Geographic Education in a Modern World](#geographic-education-in-a-modern-world-panel-discussion)*, Panel Discussion
@@ -113,22 +113,33 @@
 See Tom's [website](http://www.shadedrelief.com) for more information!
 
 ## *Designer as a Cartographer*, Amy Lee Walton
-* Cartographer's checklist:
-  * What is the purpose?
+
+### Cartographer's Checklist:
+  * What is the purpose of the map?
   * Who is the audience?
-  * What are the format?
-* **Beauty and visability**
-* Elements of Good Design
-  * Heirarchy,
-  * Color/Texture,
-  * Typograpy,
-  * Narrative
-* Give visual form to an action, intention, material object, or narrative. (Data and inspiration).
-* Examples:
-  * **[AllTrails](http://alltrails.com)**: MapBox vector tiles for terrain using Mapbox Studio Classic. Filter to height, and zoom level.
-  * **USS Enterprise Blueprint tiles** (*see photo*)
-* Digital vs. Print - Make it for both! (*super difficult*). Download tiles as a PNG from Mapbox to print/play with.
-* Don't let software limit you, re-created in Mapbox Studio for WebGL. *Simplify the process.*
+  * What are the format and scale?
+  * How will the map be produced and reproduced?
+
+### Graphic Design:
+Giving visual form to an action, intention, or material object.  
+
+### Beauty and Usability `form = function`
+
+#### Elements of Good Design
+  * *Heirarchy*  
+  * *Color/Texture*  
+  * *Typograpy*  
+  * *Narrative*: Give visual form to an action, intention, material object, or narrative. (Data and inspiration). `data == narrative`.  
+
+### Examples:
+* **[AllTrails](http://alltrails.com)**: MapBox vector tiles for terrain using Mapbox Studio Classic. Filter to height, and zoom level.
+* **USS Enterprise Blueprint tiles**
+![mapbox-tiles-uss-enterprise](https://cloud.githubusercontent.com/assets/5023024/10569553/0ace3d04-75ed-11e5-932c-3f05e78faa7a.JPG)
+* Digital vs. Print - Make it for both! (*super difficult*).
+  * Download tiles as a PNG from Mapbox to print/play with.
+  * Design for (m)any outcomes
+* Don't let software limit you, re-created in Mapbox Studio for WebGL.
+  * *Simplify the process.*
 
 ## *Collecting Data from the Crowd - A Leaflet and CartoDB-based Stack*, Mike Foster
 
