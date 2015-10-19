@@ -82,6 +82,7 @@
 ## *A Quick Guide to US Dept. of Transportation Datasets*, Justyna Goworowska
 ### TLDR; Lots of spatial data  
 ![get-all-the-data](https://cloud.githubusercontent.com/assets/5023024/10569823/4f1505ac-75f1-11e5-9234-9681a9952dc6.JPG)  
+Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)  
 * (e.g. NTAD 2015, also an atlas)
 * WMS: http://gis.rita.dot.gov/ArcGIS/rest/services (download also available).
 * Coordination with many other agencies to get other datasets.
@@ -137,7 +138,8 @@ Giving visual form to an action, intention, or material object.
 ### Examples:
 * **[AllTrails](http://alltrails.com)**: MapBox vector tiles for terrain using Mapbox Studio Classic. Filter to height, and zoom level.
 * **USS Enterprise Blueprint tiles**
-![mapbox-tiles-uss-enterprise](https://cloud.githubusercontent.com/assets/5023024/10569553/0ace3d04-75ed-11e5-932c-3f05e78faa7a.JPG)
+![mapbox-tiles-uss-enterprise](https://cloud.githubusercontent.com/assets/5023024/10569553/0ace3d04-75ed-11e5-932c-3f05e78faa7a.JPG)  
+Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)  
 * Digital vs. Print - Make it for both! (*super difficult*).
   * Download tiles as a PNG from Mapbox to print/play with.
   * Design for (m)any outcomes
@@ -176,6 +178,7 @@ Giving visual form to an action, intention, or material object.
 ### Goal: Make a simple modular tool
   * Similar to: [Geojson.io](http://www.geojson.io), Mapshaper, Turf.js, etc.  
 ![drop-chop](https://cloud.githubusercontent.com/assets/5023024/10569802/fdf3cfb4-75f0-11e5-8275-d38dd6ecae6e.JPG)  
+Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)  
 
 ### Hypothesis:  
 1. GIS doesn't always require a server.  
@@ -194,13 +197,15 @@ Query the OSM database (Query the overpass).
 
 ### Tell a story!!
 It doesn't have to be in map form, think graphics that support your text. *You don't need to make a web map to write your story everytime.* Content is the most critical piece, get good content together.  
-![nat-geo-map](https://cloud.githubusercontent.com/assets/5023024/10569792/e1fc6866-75f0-11e5-8acf-d32567983040.JPG)  
+![nat-geo-map](https://cloud.githubusercontent.com/assets/5023024/10569792/e1fc6866-75f0-11e5-8acf-d32567983040.JPG)
+Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)   
 
 ### Anatomy of a ~~Web Map~~ Multi-resolution image:
 * 256 x 256 pixels tile
   * Scale up the images by 2 (512 x 512 pixels), to scale down.
 * Tools: TileMill and After Effects (React and Leaflet)
 ![map-tiles](https://cloud.githubusercontent.com/assets/5023024/10569777/b3309002-75f0-11e5-881a-e8d452b7634f.JPG)  
+Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)  
 
 ## *Mapping the Future Patagonia National Park*, Ross Donihue
 * Connect people with place!!
@@ -253,6 +258,7 @@ ArcMap → Illustrator process
 ## *FixWikiMaps Project: Maplift*, Brian Davidson
 ### Maps need a lift!  
 ![maps-need-a-lift](https://cloud.githubusercontent.com/assets/5023024/10569754/7b16dc62-75f0-11e5-93ce-5d0648cef661.JPG)  
+Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)    
 
 ### What can I do?  
 1. Find a map, add it to the MapLift database  
@@ -260,16 +266,19 @@ ArcMap → Illustrator process
 3. Create a map  
 
 ### After Example (Louisiana Purchase):  
-![after-maplift](https://pbs.twimg.com/media/CRTUj1pUsAAMJV-.jpg:large)  
+![after-maplift](https://pbs.twimg.com/media/CRTUj1pUsAAMJV-.jpg:large)
+Map Credit: [Bill Morris](https://twitter.com/vtcraghead), Wikipedia
 
 ## *Restyling Old and Cluttered Maps*, Vanessa Knoppke-Wetzel
 Anyone can anything nicer! But... fast maps? We can still do better!
 
 ### Program Map Restyling (an iterative process):  
 1. Before map    
-![before-syria-map](https://cloud.githubusercontent.com/assets/5023024/10569650/022232bc-75ef-11e5-8eff-1083a9bd1c9b.JPG)
+![before-syria-map](https://cloud.githubusercontent.com/assets/5023024/10569650/022232bc-75ef-11e5-8eff-1083a9bd1c9b.JPG)  
+Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)  
 2. After map  
-![after-syria-map](https://cloud.githubusercontent.com/assets/5023024/10569845/9caea534-75f1-11e5-8da1-a0f15ace8a4c.JPG)
+![after-syria-map](https://cloud.githubusercontent.com/assets/5023024/10569845/9caea534-75f1-11e5-8da1-a0f15ace8a4c.JPG)  
+Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)  
   * Smaller map (only the map there, by itself - FOCUS)  
   * Color-coded table  
   * Words to symbols  
@@ -280,7 +289,8 @@ Anyone can anything nicer! But... fast maps? We can still do better!
 ### Reference Restyling:
 Stylize → Inner Glow (Illustrator). Set the blur based on size (small, medium, large). Make sure they are matching throughout your work.
 Double-click eyedropper
-![palette-color-guide](https://pbs.twimg.com/media/CRTpf4CUYAI6CTy.jpg:large)
+![palette-color-guide](https://pbs.twimg.com/media/CRTpf4CUYAI6CTy.jpg:large)  
+Photo Credit: [Vanessa Knoppke-Wetzel](http://www.twitter.com/run_for_funner)
 
 ## *Terrain Data Sources Online*, Paulo Raposo
 Uses SAGA for GIS. Also works with QGIS tools.
@@ -296,10 +306,12 @@ Make a map your personal story. Lake Michigan as a straight line, to show its im
 * ArcMap → Illustrator
 * Census data (choropleth)
 * Break segments into rectangles, and stack them (using ridiculous math equations). Process of transforming coordinates into rectangles.  
-![stats](https://pbs.twimg.com/media/CRTmmgWUEAAMRQx.jpg:large)  
+![stats](https://pbs.twimg.com/media/CRTmmgWUEAAMRQx.jpg:large)
+Photo Credit: [Bojan Šavrič](http://www.twitter.com/BojanSavric)  
 * Once everything is shown vertically, work on the styling.
 * Vertical vs. Horizontal (web vs. print)
 ![final-map](https://pbs.twimg.com/media/CQpR9OaUcAAOD7_.jpg:large)
+Photo Credit: [Daniel P. Huffman](http://www.twitter.com/pinakographos)
 
 ## *CartoCSS Essentials*, Katie Kowalsky
 
@@ -317,6 +329,7 @@ Make a map your personal story. Lake Michigan as a straight line, to show its im
 
 #### 2. Mise en Place: Organization first!  
 ![mise-en-place](https://pbs.twimg.com/media/CRTqoUtUAAEIQoP.png:large)
+Photo Credit: [Alan McConchie](http://www.twitter.com/mappingmashups)
 * Multiple stylesheets  
 * Use globals!  
 * Hack `Project.yml` for custom layers  
@@ -407,7 +420,8 @@ Don't build components (originally asked for), let's design from what the user w
 
 ### Forced Migration of Enslaved People in the US (1810-1860):
 #### Phases
-![stamen-design-mockup](https://cloud.githubusercontent.com/assets/5023024/10569665/5d769c8e-75ef-11e5-9dd3-8fa42a58c201.JPG)
+![stamen-design-mockup](https://cloud.githubusercontent.com/assets/5023024/10569665/5d769c8e-75ef-11e5-9dd3-8fa42a58c201.JPG)  
+Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)  
 
 #### Usability
 * or a map of the past, you need a custom basemap.
@@ -415,7 +429,8 @@ Don't build components (originally asked for), let's design from what the user w
 * As you interact with the map, the URL changes appropriately so it can be shared as you are looking at it. **_THIS IS AMAZING!_**
 
 #### Setup
-![stamen-setup](https://cloud.githubusercontent.com/assets/5023024/10569683/9202c4aa-75ef-11e5-8079-f3655918678b.JPG)
+![stamen-setup](https://cloud.githubusercontent.com/assets/5023024/10569683/9202c4aa-75ef-11e5-8079-f3655918678b.JPG)  
+Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)   
 * **Custom basemap**: Natural Earth data (cartoCSS/cartoDB), own map projection, transform using CartoCSS, openTerrain tile (mostly transparent).
 * **Data**: Convert counties to hexbins that creates a smooth look (since counties change over time).
 
@@ -431,7 +446,8 @@ Don't build components (originally asked for), let's design from what the user w
 ### Breadth vs. Granularity   
 * Respond to user input
 * Make it dynamic: show change over time  
-![broad-vs-granular](https://cloud.githubusercontent.com/assets/5023024/10569720/07d61498-75f0-11e5-93a9-9ef83063895d.JPG)
+![broad-vs-granular](https://cloud.githubusercontent.com/assets/5023024/10569720/07d61498-75f0-11e5-93a9-9ef83063895d.JPG)  
+Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)  
 
 ### Stories over time
 *Maps as an interface to discover information.*
@@ -467,7 +483,8 @@ The workflow gets more, and more, integrated over time.
 6. Fine-tuning (usability)
 7. Deployment
 
-![web-mapping-workflow](https://cloud.githubusercontent.com/assets/5023024/10569735/3abaa996-75f0-11e5-908e-619a0691bcf1.JPG)
+![web-mapping-workflow](https://cloud.githubusercontent.com/assets/5023024/10569735/3abaa996-75f0-11e5-908e-619a0691bcf1.JPG)  
+Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)  
 
 ### Difficulties:
 * Two different sections (each has its own learnng speed)
@@ -510,10 +527,12 @@ The workflow gets more, and more, integrated over time.
 * Different semantic effects.
 
 ### Font Anatomy:  
-![font-anatomy](https://cloud.githubusercontent.com/assets/5023024/10569865/f7591ed8-75f1-11e5-99ea-d2deb0ebb825.JPG)
+![font-anatomy](https://cloud.githubusercontent.com/assets/5023024/10569865/f7591ed8-75f1-11e5-99ea-d2deb0ebb825.JPG)  
+Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)  
 
 ### Microaesthetics:
 ![font-microaesthetics](https://cloud.githubusercontent.com/assets/5023024/10569867/fc8e909a-75f1-11e5-9b63-256aba7a19b9.JPG)  
+Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)  
 * Differences (why?) - terminal, spur, serif, stroke contrast, ear, story,
 * Looking for aesthetics, check out the photo for importance.
 * Cartographic research on type aesthetics is inaccurate.
@@ -527,6 +546,7 @@ The workflow gets more, and more, integrated over time.
 
 ### Typefaces and Colors Used in Slides
 ![color-palette](https://pbs.twimg.com/media/CRkaxxMUEAAv6dJ.png:large)
+Photo Credit: [Elaine Guidero](http://www.twitter.com/elaineguidero)
 
 ### Return to this section:
 Choose typeface:
@@ -552,6 +572,7 @@ Letterform elements, not label properties, contribute to typeface tone.
 
 ## *Visualizing Ten Years of Quantitative Color Schemes*, Travis White  
 ![opening-slide](https://pbs.twimg.com/media/CRYfhXAUsAEsWTm.jpg:large)
+Photo Credit: [Alan McConchie](http://www.twitter.com/mappingmashups)
 
 ### Qc: Quantitative color schemes
 Color that represents quantitative data)
@@ -567,14 +588,17 @@ Color that represents quantitative data)
 
 ## *Spooky Map Stories*, Patrick Hammons
 
-![spooky-map-stories](https://cloud.githubusercontent.com/assets/5023024/10569895/5513bf56-75f2-11e5-8a9a-4ee5fd798d4c.JPG)
+![spooky-map-stories](https://cloud.githubusercontent.com/assets/5023024/10569895/5513bf56-75f2-11e5-8a9a-4ee5fd798d4c.JPG)  
+Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)  
 
 *Notes coming soon*
 
 ## *GIS for the people by the people*, Sam Matthews
-![gis-for-the-people](https://cloud.githubusercontent.com/assets/5023024/10569893/550fce5a-75f2-11e5-98b6-2c0b83c50efc.JPG)
+![gis-for-the-people](https://cloud.githubusercontent.com/assets/5023024/10569893/550fce5a-75f2-11e5-98b6-2c0b83c50efc.JPG)  
+Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)  
 
 ![gis-for-the-people-mission](https://cloud.githubusercontent.com/assets/5023024/10569894/5512fb66-75f2-11e5-890d-19462954c332.JPG)  
+Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)  
 
 *Notes coming soon*
 
@@ -660,10 +684,12 @@ Survey: http://surveys2.esri.com/s3/creative-cloud
 ## *Planning for Automated Labeling of U.S. Routes with Multiple Shields and Names*, Cynthia A. Brewer
 
 ![ridiculous-road-signs](https://cloud.githubusercontent.com/assets/5023024/10569919/a4cbf720-75f2-11e5-9f41-8a85b0fbfa17.JPG)  
+Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)  
 
 ### Popular Group Vote:  
 F. Grouped Along Line  
  ![road-label-vote](https://pbs.twimg.com/media/CRc7l_0WoAAEq5o.jpg)
+ Photo Credit: [ColorBrewer](https://twitter.com/ColorBrewer)
 
 ### Cartography Tip:
 Put 0% alpha symbol on road junction to "push/collide" road shield placements away from a road junction.
@@ -676,7 +702,8 @@ With common data, tools, and technologies.
 * [NPMap](http://www.nps.gov/npmap)
 * National Park Service Centennial (100-year anniversary in 2016)
 
-![npmap-history](https://cloud.githubusercontent.com/assets/5023024/10569941/f1542cc0-75f2-11e5-92e2-58499608b792.JPG)
+![npmap-history](https://cloud.githubusercontent.com/assets/5023024/10569941/f1542cc0-75f2-11e5-92e2-58499608b792.JPG)  
+Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)  
 
 ### Places:
 * An *internal* spatial data system focused on visitor facing dataset (nps.gov/npmap...)
@@ -687,9 +714,11 @@ With common data, tools, and technologies.
 * Difficult to make one map for 400+ parks
 * Different layers of the basemap layer
 
-![npmap-types](https://cloud.githubusercontent.com/assets/5023024/10569942/f1548de6-75f2-11e5-8dca-8a76a3093dd9.JPG)
+![npmap-types](https://cloud.githubusercontent.com/assets/5023024/10569942/f1548de6-75f2-11e5-8dca-8a76a3093dd9.JPG)  
+Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)  
 
-![npmap-type-details](https://cloud.githubusercontent.com/assets/5023024/10569943/f16393fe-75f2-11e5-95f4-3de1b2d6ca70.JPG)
+![npmap-type-details](https://cloud.githubusercontent.com/assets/5023024/10569943/f16393fe-75f2-11e5-95f4-3de1b2d6ca70.JPG)  
+Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)  
 
 ### Data:
 *Future direction*: Is there a better solution that is on the data side?
