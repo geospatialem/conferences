@@ -61,7 +61,7 @@
 * Samples are located in the download.  
 
 ### Resources:
-* Story Map [Presentation](http://www.arcgis.com/home/item.html?id=4b2ea7c5f87d476a8849c804b81667aa)   
+* Story Map [Presentation](http://carto.maps.arcgis.com/apps/MapJournal/index.html?appid=415ca449ea6c4d9397c975139abd45fe)
 * [ArcGIS Blog Post](http://blogs.esri.com/esri/arcgis/2015/05/21/take-your-terrain-mapping-to-new-heights), *resource*
 * Download [ZIP File](http://www.arcgis.com/home/item.html?id=4b2ea7c5f87d476a8849c804b81667aa)  
 
@@ -80,7 +80,9 @@
 * Plugin for Illustrator that can create themes depending on the use.
 
 ## *A Quick Guide to US Dept. of Transportation Datasets*, Justyna Goworowska
-* **Lots of spatial data** (e.g. NTAD 2015, also an atlas)
+### TLDR; Lots of spatial data  
+![get-all-the-data](https://cloud.githubusercontent.com/assets/5023024/10569823/4f1505ac-75f1-11e5-9234-9681a9952dc6.JPG)  
+* (e.g. NTAD 2015, also an atlas)
 * WMS: http://gis.rita.dot.gov/ArcGIS/rest/services (download also available).
 * Coordination with many other agencies to get other datasets.
 * Web mapping/map tools available that includes data from multiple Federal agencies [Cyclist/pedestrian crash maps (?)].
@@ -109,8 +111,9 @@
 ### World Political Map:
 * World political map (e.g. Natural Earth, Natural Earth 2)
 
-### Website:
-See Tom's [website](http://www.shadedrelief.com) for more information!
+### Websites:
+* See Tom's [website](http://www.shadedrelief.com) for more information!
+* Make your own projection on [Flex Projector](http://www.flexprojector.com)
 
 ## *Designer as a Cartographer*, Amy Lee Walton
 
@@ -166,10 +169,13 @@ Giving visual form to an action, intention, or material object.
   * Proxy to send collected data to CartoDB  
   * View data! :-P  
 3. *Security*  
+  * *People are out there and will do bad things*
   * Check PR to address the problem (*see slides for more information*)  
 
 ## *Dropchop*, Sam Matthews
-Make a simple modular tool (similar to: Geojson.io, Mapshaper, Turf.js, etc.)
+### Goal: Make a simple modular tool
+  * Similar to: [Geojson.io](http://www.geojson.io), Mapshaper, Turf.js, etc.  
+![drop-chop](https://cloud.githubusercontent.com/assets/5023024/10569802/fdf3cfb4-75f0-11e5-8275-d38dd6ecae6e.JPG)  
 
 ### Hypothesis:  
 1. GIS doesn't always require a server.  
@@ -187,18 +193,21 @@ Query the OSM database (Query the overpass).
 * Make them multilingual
 
 ### Tell a story!!
-It doesn't have to be in map form, think graphics that support your text. *You don't need to make a web map to write your story everytime.* Content is the most critical piece, get good content together.
+It doesn't have to be in map form, think graphics that support your text. *You don't need to make a web map to write your story everytime.* Content is the most critical piece, get good content together.  
+![nat-geo-map](https://cloud.githubusercontent.com/assets/5023024/10569792/e1fc6866-75f0-11e5-8acf-d32567983040.JPG)  
 
 ### Anatomy of a ~~Web Map~~ Multi-resolution image:
 * 256 x 256 pixels tile
   * Scale up the images by 2 (512 x 512 pixels), to scale down.
 * Tools: TileMill and After Effects (React and Leaflet)
+![map-tiles](https://cloud.githubusercontent.com/assets/5023024/10569777/b3309002-75f0-11e5-881a-e8d452b7634f.JPG)  
 
 ## *Mapping the Future Patagonia National Park*, Ross Donihue
 * Connect people with place!!
 * We save the places we love. We love the places we know. Know and feel connected to places.
 * Stories of a landscape, that gives places meaning.
 * Mapping the invisible information, takes time but it adds richness and meaning! *People will feel more connected!*
+* *Unexpected things occur when you spend 30 seconds talking about your work outside of your comfort zone.*
 
 ### 1. Colors
 * Extract colors from a palette derived from photos adds realism to maps (bring it into Photoshop to get the colors).
@@ -228,32 +237,39 @@ ArcMap → Illustrator process
 
 ### Illustrator Notes:
 * Open AI File
-* Delete clipping masks (Object > Clipping Masks > Delete)
+* Delete clipping masks (Object → Clipping Masks → Delete)
 * Ungroup layers in layer panel as-needed
 * Delete layer called 'other'
 * Rename and organize layers in a functional matter
-* "Save as" Illustrator Template file (File > Save as > Ai Template) or copy/paste in place of existing file.
+* "Save as" Illustrator Template file (File → Save as → Ai Template) or copy/paste in place of existing file.
 * Clipping masks
 * Legend customization (align panel)
 * Colors (stroke/fill, custom color library, color guide panel)
 * Improve text
 * Adding style (Appearance panel/graphic styles panel/symbols panel)
 * Improve performance (simplify paths/"place" graphics instead of embedding them)
+* Pro-tip: When designing maps with Illustrator, you can switch into 'color blindness mode’ to double check accessibility. -[Katie Kowalsky](http://www.twitter.com/katiekowalsky)
 
 ## *FixWikiMaps Project: Maplift*, Brian Davidson
-Maps need a lift!
+### Maps need a lift!  
+![maps-need-a-lift](https://cloud.githubusercontent.com/assets/5023024/10569754/7b16dc62-75f0-11e5-93ce-5d0648cef661.JPG)  
 
 ### What can I do?  
 1. Find a map, add it to the MapLift database  
 2. Claim a map  
 3. Create a map  
 
+### After Example (Louisiana Purchase):  
+![after-maplift](https://pbs.twimg.com/media/CRTUj1pUsAAMJV-.jpg:large)  
+
 ## *Restyling Old and Cluttered Maps*, Vanessa Knoppke-Wetzel
 Anyone can anything nicer! But... fast maps? We can still do better!
 
 ### Program Map Restyling (an iterative process):  
-1. Before map (*see Syria photo*)  
+1. Before map    
+![before-syria-map](https://cloud.githubusercontent.com/assets/5023024/10569650/022232bc-75ef-11e5-8eff-1083a9bd1c9b.JPG)
 2. After map  
+![after-syria-map](https://cloud.githubusercontent.com/assets/5023024/10569845/9caea534-75f1-11e5-8da1-a0f15ace8a4c.JPG)
   * Smaller map (only the map there, by itself - FOCUS)  
   * Color-coded table  
   * Words to symbols  
@@ -262,8 +278,9 @@ Anyone can anything nicer! But... fast maps? We can still do better!
   * Color palettes in Adobe Illustrator.  
 
 ### Reference Restyling:
-Stylize > Inner Glow (Illustrator). Set the blur based on size (small, medium, large). Make sure they are matching throughout your work.
+Stylize → Inner Glow (Illustrator). Set the blur based on size (small, medium, large). Make sure they are matching throughout your work.
 Double-click eyedropper
+![palette-color-guide](https://pbs.twimg.com/media/CRTpf4CUYAI6CTy.jpg:large)
 
 ## *Terrain Data Sources Online*, Paulo Raposo
 Uses SAGA for GIS. Also works with QGIS tools.
@@ -276,11 +293,13 @@ Make a map your personal story. Lake Michigan as a straight line, to show its im
 
 ### How:
 * A linear View (not new, just different. e.g. Minneapolis LRT lines)
-* ArcMap > Illustrator
+* ArcMap → Illustrator
 * Census data (choropleth)
-* Break segments into rectangles, and stack them (using ridiculous math equations). Process of transforming coordinates into rectangles.
+* Break segments into rectangles, and stack them (using ridiculous math equations). Process of transforming coordinates into rectangles.  
+![stats](https://pbs.twimg.com/media/CRTmmgWUEAAMRQx.jpg:large)  
 * Once everything is shown vertically, work on the styling.
 * Vertical vs. Horizontal (web vs. print)
+![final-map](https://pbs.twimg.com/media/CQpR9OaUcAAOD7_.jpg:large)
 
 ## *CartoCSS Essentials*, Katie Kowalsky
 
@@ -291,11 +310,13 @@ Make a map your personal story. Lake Michigan as a straight line, to show its im
 * Introduce Mapbox Studio and CartoDB
 * Get students familiar with programming (HTML/CSS/JS)
 * Challenge students
+* See [Katie's Blog post](https://kowalskycartography.wordpress.com/2015/03/23/cartocss-tilesets-part-one/) for more info!
 
 ### Tips and Tricks for Designing Tiles:  
 #### 1. It's dangerous to go alone. Plan ahead on your design and make a game plan.  
 
 #### 2. Mise en Place: Organization first!  
+![mise-en-place](https://pbs.twimg.com/media/CRTqoUtUAAEIQoP.png:large)
 * Multiple stylesheets  
 * Use globals!  
 * Hack `Project.yml` for custom layers  
@@ -377,22 +398,26 @@ The best modality depends on the display size (slippy for smaller, side-by-side 
   * Second best performance (lowest varience)  
 
 ## *A New Atlas of American History*, Alan McConchie
-*Showing things over time, is just as important as showing what is happening in space.*
-
-### Notes:
-* Its hard to do, but its an important story to tell.
-* Discuss!
+**_Showing things over time, is just as important as showing what is happening in space._**
+  * Its hard to do, but its an important story to tell.
+  * Discuss!
 
 ### American Panorama: An Atlas of U.S. History:
 Don't build components (originally asked for), let's design from what the user will want. True to the data, and show a story. Add a toolkit over time. Use modern tools that support for many years.
 
 ### Forced Migration of Enslaved People in the US (1810-1860):
-*Phases* (see photo)
+#### Phases
+![stamen-design-mockup](https://cloud.githubusercontent.com/assets/5023024/10569665/5d769c8e-75ef-11e5-9dd3-8fa42a58c201.JPG)
+
+#### Usability
+* or a map of the past, you need a custom basemap.
 * Let the user explore the story as they choose to.
-* As you interact with the map, the URL changes appropriately so it can be shared as you are looking at it. *THIS IS AMAZING!*
-* Setup (*see photo*)
-* *Custom basemap:* Natural Earth data (cartoCSS/cartoDB), own map projection, transform using cartoCSS, openTerrain tile (mostly transparent).
-* *Data:* Convert counties to hexbins that creates a smooth look (since counties change over time).
+* As you interact with the map, the URL changes appropriately so it can be shared as you are looking at it. **_THIS IS AMAZING!_**
+
+#### Setup
+![stamen-setup](https://cloud.githubusercontent.com/assets/5023024/10569683/9202c4aa-75ef-11e5-8079-f3655918678b.JPG)
+* **Custom basemap**: Natural Earth data (cartoCSS/cartoDB), own map projection, transform using CartoCSS, openTerrain tile (mostly transparent).
+* **Data**: Convert counties to hexbins that creates a smooth look (since counties change over time).
 
 ### Other maps:
 * Overland trails (1840-1860) - this includes historical trails (e.g. Oregon Trail)
@@ -403,9 +428,10 @@ Don't build components (originally asked for), let's design from what the user w
 
 ### Interactive means we don't have to anticipate, only react when the user asks for information.
 
-### Breadth vs. Granularity (*see photo*)
+### Breadth vs. Granularity   
 * Respond to user input
-* Make it dynamic: show change over time
+* Make it dynamic: show change over time  
+![broad-vs-granular](https://cloud.githubusercontent.com/assets/5023024/10569720/07d61498-75f0-11e5-93a9-9ef83063895d.JPG)
 
 ### Stories over time
 *Maps as an interface to discover information.*
@@ -421,6 +447,7 @@ Don't build components (originally asked for), let's design from what the user w
 ## *Open Web Mapping Technologies: How do we Teach this Stuff?*, Carl Sack
 
 ### **_Lots of great projects emerged, but so did the LARGE struggles, especially with D3._**
+### "The more you know the more you know you need to know."
 
 ### Desired outcomes:
 1. Ability to create [animated] thematic slippy maps using Leaflet
@@ -439,6 +466,8 @@ The workflow gets more, and more, integrated over time.
 5. Script (interaction space)
 6. Fine-tuning (usability)
 7. Deployment
+
+![web-mapping-workflow](https://cloud.githubusercontent.com/assets/5023024/10569735/3abaa996-75f0-11e5-908e-619a0691bcf1.JPG)
 
 ### Difficulties:
 * Two different sections (each has its own learnng speed)
@@ -465,7 +494,7 @@ The workflow gets more, and more, integrated over time.
 * But, what about a more refined map?
   * Joey Lee
   * Ben Fry: *Data Visualization Pipeline*
-* Teaching Adobe Illustrator and ArcGIS is a diservice, they need to understand other tools/options in the open source community (Q, R, Leaflet, OSM, etc.)
+* Teaching Adobe Illustrator and ArcGIS is a dis-service, they need to understand other tools/options in the open source community (Q, R, Leaflet, OSM, etc.). *We need to be teaching more open source, I'm really into exposing students to QGIS, R, ...*
 
 ### How it works:
 * Take students out of computer labs, bring their own laptops.
@@ -480,19 +509,24 @@ The workflow gets more, and more, integrated over time.
 * Typefaces have different tones based on the semantic effects.
 * Different semantic effects.
 
-### Font anatomy  (*see photo*)
+### Font Anatomy:  
+![font-anatomy](https://cloud.githubusercontent.com/assets/5023024/10569865/f7591ed8-75f1-11e5-99ea-d2deb0ebb825.JPG)
 
 ### Microaesthetics:
+![font-microaesthetics](https://cloud.githubusercontent.com/assets/5023024/10569867/fc8e909a-75f1-11e5-9b63-256aba7a19b9.JPG)  
 * Differences (why?) - terminal, spur, serif, stroke contrast, ear, story,
 * Looking for aesthetics, check out the photo for importance.
 * Cartographic research on type aesthetics is inaccurate.
-  * Why? B/c Label properties != typeface attributes.
+  * Why? Because Label properties != typeface attributes.
 
 (serif style, terminal style, x-height)
 
 ### Macroaesthetics (aka. Label properties):
 * Spline/tilt
 * Kerning/tracking
+
+### Typefaces and Colors Used in Slides
+![color-palette](https://pbs.twimg.com/media/CRkaxxMUEAAv6dJ.png:large)
 
 ### Return to this section:
 Choose typeface:
@@ -512,25 +546,35 @@ Letterform elements, not label properties, contribute to typeface tone.
 * Legibility
 * Complexity (not too simplistic, but not too complex)
   * See Joshua Stevens' paper
+  * Drawing 16px by 16px icons is really, really hard. Even 18x18. Even at 2x retina. - [Nathanial Kelso](https://twitter.com/kelsosCorner)
 * Style, or look and feel
 
 
-## *Visualizing Ten Years of Quantitative Color Schemes*, Travis White
-Qc: Quantitative color schemes (color that represents quantitative data)
+## *Visualizing Ten Years of Quantitative Color Schemes*, Travis White  
+![opening-slide](https://pbs.twimg.com/media/CRYfhXAUsAEsWTm.jpg:large)
 
-### Results:
+### Qc: Quantitative color schemes
+Color that represents quantitative data)
+
+#### Results:
 2004: 11% vs 2013: 71% used Qualitative color schemes
 
 ## *Natural-Color Maps via Automated Coloring of Bivariate Grid Data*, Jane Darbyshire
-Goal: Automate color technique for deployment to the web.
 
+### Goal: Automate color technique for deployment to the web.
 * Texture substitution
+* [Pyramid Shader](http://terraincartography.com/PyramidShader/index.html)
 
 ## *Spooky Map Stories*, Patrick Hammons
+
+![spooky-map-stories](https://cloud.githubusercontent.com/assets/5023024/10569895/5513bf56-75f2-11e5-8a9a-4ee5fd798d4c.JPG)
 
 *Notes coming soon*
 
 ## *GIS for the people by the people*, Sam Matthews
+![gis-for-the-people](https://cloud.githubusercontent.com/assets/5023024/10569893/550fce5a-75f2-11e5-98b6-2c0b83c50efc.JPG)
+
+![gis-for-the-people-mission](https://cloud.githubusercontent.com/assets/5023024/10569894/5512fb66-75f2-11e5-890d-19462954c332.JPG)  
 
 *Notes coming soon*
 
@@ -615,14 +659,16 @@ Survey: http://surveys2.esri.com/s3/creative-cloud
 
 ## *Planning for Automated Labeling of U.S. Routes with Multiple Shields and Names*, Cynthia A. Brewer
 
- *signs photo coming*
+![ridiculous-road-signs](https://cloud.githubusercontent.com/assets/5023024/10569919/a4cbf720-75f2-11e5-9f41-8a85b0fbfa17.JPG)  
 
 ### Popular Group Vote:  
 F. Grouped Along Line  
  ![road-label-vote](https://pbs.twimg.com/media/CRc7l_0WoAAEq5o.jpg)
 
-## *Cartography Driven Data Collection*, Mamata Akella
+### Cartography Tip:
+Put 0% alpha symbol on road junction to "push/collide" road shield placements away from a road junction.
 
+## *Cartography Driven Data Collection*, Mamata Akella
 ### But.. all web maps look the same!
 With common data, tools, and technologies.  
 
@@ -630,23 +676,28 @@ With common data, tools, and technologies.
 * [NPMap](http://www.nps.gov/npmap)
 * National Park Service Centennial (100-year anniversary in 2016)
 
+![npmap-history](https://cloud.githubusercontent.com/assets/5023024/10569941/f1542cc0-75f2-11e5-92e2-58499608b792.JPG)
+
 ### Places:
 * An *internal* spatial data system focused on visitor facing dataset (nps.gov/npmap...)
 * Data is constantly updated (thosands of additions).
 
-### Park tiles: (*see photo*).
+### Park tiles:
 * Data from OSM.
 * Difficult to make one map for 400+ parks
-* Different layers of the basemap layer (*see photo*)
+* Different layers of the basemap layer
+
+![npmap-types](https://cloud.githubusercontent.com/assets/5023024/10569942/f1548de6-75f2-11e5-8dca-8a76a3093dd9.JPG)
+
+![npmap-type-details](https://cloud.githubusercontent.com/assets/5023024/10569943/f16393fe-75f2-11e5-95f4-3de1b2d6ca70.JPG)
 
 ### Data:
 *Future direction*: Is there a better solution that is on the data side?
 
 ### Park Tiles 3 (2016 Centennial):
-*Goal*: A web map on every park's page with NPS data inside of park boundaries.
+#### Goal: A web map on every park's page with NPS data inside of park boundaries.
 
-### How To Use CartoDB
-[Guide](http://javisantana.github.io/cartodblocks/#a3fb1786688232cd1e45)  
+### How To Use CartoDB [Guide](http://javisantana.github.io/cartodblocks/#a3fb1786688232cd1e45)  
 
 ## *Geographic Education in a Modern World*, Panel Discussion
 
@@ -664,7 +715,7 @@ With common data, tools, and technologies.
   * Mashup of data, art, and communication. Split it up - design is a component. Start learning new technologies where you feel comfortable (ie. design → Mapbox Studio).
   * Teach technology and spatial principles, not the tools (ie. Google, Leaflet, OpenLayers) with the ability to adapt.
   * No one solution, many solutions are available.
-  * Failure is okay. It teaches you along the way.
+  * "Failure is okay. Sometimes the best way to learn what works by learning what doesn't work. It teaches you along the way." -[Mike Foster](http://www.twitter.com/mjfoster83)
   * Dependent on the student/learner. Meet people where they are on the spectrum.
   * Not a method: mapping is a phenomenon, not a vehicle.
   * Use what they know and extend on their knowledge.
@@ -697,7 +748,8 @@ With common data, tools, and technologies.
   * Question, "Teach someone how to buffer without a tool?"
 
 ## *From The Twitters*, The Interwebs
-* [Add Vertex – Script for Adobe Illustrator](http://cartography.oregonstate.edu/AddVertexScript.html)
+* [Add Vertex – Script for Adobe Illustrator](http://cartography.oregonstate.edu/AddVertexScript.html)  
+* [Open Geoportal](http://data.opengeoportal.org): An easy way to find open geodata all over the world.     
 
 # Post-Conference Workshop
 ## *Mapping in the Cloud*, Michael P. Peterson
