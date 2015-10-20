@@ -635,7 +635,7 @@ Photo Credit: [Jake Coolidge](http://www.twitter.com/jccartography)
 4. Use shadow effects to provide visual dimensionality.  
 
 ## Learn more  
-* [NPMap Symbol Library](http:// /www.nps.gov/npmap/tools/npmapsymbol-library)  
+* [NPMap Symbol Library](http://www.nps.gov/npmap/tools/npmapsymbol-library)  
 * [Github Repository](https://github.com/nationalparkservice/npmap-symbol-library)  
 * [NPS Graphic Identity Standards](http://www.nps.gov/hfc/services/identity)  
 
