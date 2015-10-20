@@ -38,7 +38,7 @@
 * *[GIS for the people by the people](#gis-for-the-people-by-the-people-sam-matthews)*, [Sam Matthews](http://www.twitter.com/vancematthews) [[Slides](http://bit.ly/gisforthepeople)]
 
 ### Friday, October 16, 2015
-* *Am I Rent Stabilized?*, [Chris Henrick](https://twitter.com/chrislhenrick) [[Slides](http://clhenrick.io/presentations/am-i-rent-stabilized)]
+* *Am I Rent Stabilized?*, [Chris Henrick](https://twitter.com/chrislhenrick) [[Slides](http://clhenrick.io/presentations/am-i-rent-stabilized), [GitHub](https://github.com/clhenrick/am-i-rent-stabilized), [Website](https://amirentstabilized.com)]
 * *[Big History, Little History: Cartography in the Twentieth Century](#big-history-little-history-cartography-in-the-twentieth-century-mark-monmonier)*, Mark Monmonier
 * *[Of Crocodiles and Tea Garden Managers: Mapping Interactions of an Earlier Era](#of-crocodiles-and-tea-garden-managers-mapping-interactions-of-an-earlier-era-leo-dillon)*, Leo Dillon
 * *[Improving ArcGIS mapping workflows with Adobe’s Creative Cloud Applications](#improving-arcgis-mapping-workflows-with-adobes-creative-cloud-applications-sarah-bell--clint-loveman)*, [Sarah Bell](http://www.twitter.com/cerebellumaps) and [Clint Loveman](http://www.twitter.com/c_loveman)  
@@ -650,7 +650,7 @@ The ability to do GIS in the browser. Drag-and-drop a feature and perform basic 
 ![gis-for-the-people-mission](https://cloud.githubusercontent.com/assets/5023024/10569894/5512fb66-75f2-11e5-890d-19462954c332.JPG)  
 Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)  
 
-* `Conntributions != Code`  
+* `Contributions != Code`  
 * Welcome small & large contributions  
 * Build entrances & exits for contributors  
 * Test and prioritize user input early & often  
