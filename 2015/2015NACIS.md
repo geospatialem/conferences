@@ -22,8 +22,12 @@
 * *[CartoCSS Essentials](#cartocss-essentials-katie-kowalsky)*, [Katie Kowalsky](http://www.twitter.com/katiekowalsky) [[Slides](http://slides.com/kkowalsky/nacis-2015)]
 * *[Vector Cartography in ArcGIS](#vector-cartography-in-arcgis-craig-williams)*, [Craig Williams](https://twitter.com/williamscraigm) [[Slides](https://speakerdeck.com/williamscraigm/nacis-2015-pcd-vector-cartography-in-arcgis)]
 
+## Keynote Speaker
+### Wednesday, October 14, 2015
+* *[Personal Story as a Map](#personal-story-as-a-map-brenda-laurel)*, [Brenda Laurel](https://twitter.com/blaurel)
+
 ## Concurrent Sessions
-### Thursday October 15, 2015
+### Thursday, October 15, 2015
 * *Mapping Neighborhoodness*, [Andy Woodruff](http://www.twitter.com/awoodruff) [[Slides](https://speakerdeck.com/awoodruff/mapping-neighborhoodness)]  
 * *[Examining the Terminology of Modern Cartography](#examining-the-terminology-of-modern-cartography-michael-p-peterson-rex-g-cammack)*, Michael P. Peterson, Rex G. Cammack
 * *[A Visual Search Task Comparing Zooming Metaphors](#a-visual-search-task-comparing-zooming-metaphors-ryan-mullins)*, [Ryan Mullins](https://twitter.com/RyanMullins)   [[Slides](https://speakerdeck.com/ryanmullins/geographic-analysis-in-context-a-visual-search-task-comparing-zooming-metaphors)]
@@ -362,6 +366,11 @@ Photo Credit: [Alan McConchie](http://www.twitter.com/mappingmashups)
 
 ## *Vector Cartography in ArcGIS*, Craig Williams
 ArcGIS vector tile service will come with the new release.
+
+# Keynote Speaker
+
+## *Personal Story as a Map*, Brenda Laurel
+*Notes coming soon*
 
 # Concurrent Sessions
 
