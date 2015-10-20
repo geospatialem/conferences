@@ -4,49 +4,49 @@
 
 ## Practical Cartography Day
 ### Wednesday, October 14, 2015
-* *[Taking Terrain to New Heights with ArcGIS](#taking-terrain-to-new-heights-with-arcgis-kenneth-field)*, Kenneth Field
-* *[Redesigning Atlas Maps for Social Media](#redesigning-atlas-maps-for-social-media-alethea-steingisser-and-james-meacham)*, Alethea Steingisser and James Meacham
+* *[Taking Terrain to New Heights with ArcGIS](#taking-terrain-to-new-heights-with-arcgis-kenneth-field)*, [Kenneth Field](https://twitter.com/kennethfield)  
+* *[Redesigning Atlas Maps for Social Media](#redesigning-atlas-maps-for-social-media-alethea-steingisser-and-james-meacham)*, [Alethea Steingisser](https://twitter.com/ASteingisser) and James Meacham
 * *[MAPPublisher at National Geographic](#mappublisher-at-national-geographic-matthew-chwatstyk)*, Matthew Chwatstyk
-* *[A Quick Guide to US Dept. of Transportation Datasets](#a-quick-guide-to-us-dept-of-transportation-datasets-justyna-goworowska)*, Justyna Goworowska
+* *[A Quick Guide to US Dept. of Transportation Datasets](#a-quick-guide-to-us-dept-of-transportation-datasets-justyna-goworowska)*, [Justyna Goworowska](https://twitter.com/JGoworowska)  
 * *[Manual Shaded Relief of the World and the Patterson Projection](#manual-shaded-relief-of-the-world-and-the-patterson-projection-tom-patterson)*, Tom Patterson
-* *[Designer as a Cartographer](#designer-as-a-cartographer-amy-lee-walton)*, Amy Lee Walton [[Slides](http://amyleew.github.io/big_presentations/designerascartographer/index.html)]
+* *[Designer as a Cartographer](#designer-as-a-cartographer-amy-lee-walton)*, [Amy Lee Walton](https://twitter.com/amyleew) [[Slides](http://amyleew.github.io/big_presentations/designerascartographer/index.html)]
 * *[Collecting Data from the Crowd - A Leaflet and CartoDB-based Stack](#collecting-data-from-the-crowd---a-leaflet-and-cartodb-based-stack-mike-foster)*, [Mike Foster](http://www.twitter.com/mjfoster83) [[Slides](http://mjfoster83.github.io/nacis-2015)]
-* *[Dropchop](#dropchop-sam-matthews)*, Sam Matthews [[Slides](http://bit.ly/nacisdropchop), [Website](http://dropchop.io), [GitHub](https://github.com/cugos/dropchop)]
+* *[Dropchop](#dropchop-sam-matthews)*, [Sam Matthews](http://www.twitter.com/vancematthews) [[Slides](http://bit.ly/nacisdropchop), [Website](http://dropchop.io), [GitHub](https://github.com/cugos/dropchop)]
 * *[Practical and Impractical Uses of Terrain Data](#practical-and-impractical-uses-of-terrain-data-national-geographic-climate-change-the-human-impact-example-seth-fitzsimmons)*, Seth Fitzsimmons [[Slides](https://speakerdeck.com/mojodna/print-cartography-in-a-multi-resolution-world)]
-* *[Mapping the Future Patagonia National Park](#mapping-the-future-patagonia-national-park-ross-donihue)*, Ross Donihue
+* *[Mapping the Future Patagonia National Park](#mapping-the-future-patagonia-national-park-ross-donihue)*, [Ross Donihue](https://twitter.com/RossDonihue) [[Slides](http://mapsforgood.org/presentation/MapsforGood_NACIS_2015.pdf)]  
 * *[ArcMap-to-Illustrator Workflows](#arcmap-to-illustrator-workflows-nicole-samu)*, Nicole Samu
 * *[FixWikiMaps Project: Maplift](#fixwikimaps-project-maplift-brian-davidson)*, [Brian Davidson](http://www.twitter.com/brianddavidson) [[@FixWikiMaps](http://www.twitter.com/fixwikimaps), [Website](http://fixwikimaps.github.io)]
-* *[Restyling Old and Cluttered Maps](#restyling-old-and-cluttered-maps-vanessa-knoppke-wetzel)*, Vanessa Knoppke-Wetzel
+* *[Restyling Old and Cluttered Maps](#restyling-old-and-cluttered-maps-vanessa-knoppke-wetzel)*, [Vanessa Knoppke-Wetzel](https://twitter.com/run_for_funner)  
 * *[Terrain Data Sources Online](#terrain-data-sources-online-paulo-raposo)*, Paulo Raposo
-* *[A Matter of Perspective](#a-matter-of-perspective-daniel-p-huffman)*, Daniel P. Huffman
+* *[A Matter of Perspective](#a-matter-of-perspective-daniel-p-huffman)*, [Daniel P. Huffman](https://twitter.com/pinakographos)  
 * *[CartoCSS Essentials](#cartocss-essentials-katie-kowalsky)*, [Katie Kowalsky](http://www.twitter.com/katiekowalsky) [[Slides](http://slides.com/kkowalsky/nacis-2015)]
-* *[Vector Cartography in ArcGIS](#vector-cartography-in-arcgis-craig-williams)*, Craig Williams [[Slides](https://speakerdeck.com/williamscraigm/nacis-2015-pcd-vector-cartography-in-arcgis)]
+* *[Vector Cartography in ArcGIS](#vector-cartography-in-arcgis-craig-williams)*, [Craig Williams](https://twitter.com/williamscraigm) [[Slides](https://speakerdeck.com/williamscraigm/nacis-2015-pcd-vector-cartography-in-arcgis)]
 
 ## Concurrent Sessions
 ### Thursday October 15, 2015    
 * *[Examining the Terminology of Modern Cartography](#examining-the-terminology-of-modern-cartography-michael-p-peterson-rex-g-cammack)*, Michael P. Peterson, Rex G. Cammack
-* *[A Visual Search Task Comparing Zooming Metaphors](#a-visual-search-task-comparing-zooming-metaphors-ryan-mullins)*, Ryan Mullins [[Slides](https://speakerdeck.com/ryanmullins/geographic-analysis-in-context-a-visual-search-task-comparing-zooming-metaphors)]
-* *[A New Atlas of American History](#a-new-atlas-of-american-history-alan-mcconchie)*, Alan McConchie [[Slides](https://speakerdeck.com/almccon/nacis2015-a-new-atlas-of-american-history), [Notes/Resources](http://sta.mn/6gk), [Website](http://dsl.richmond.edu/historicalatlas), [GitHub](http://github.com/americanpanorama)]  
+* *[A Visual Search Task Comparing Zooming Metaphors](#a-visual-search-task-comparing-zooming-metaphors-ryan-mullins)*, [Ryan Mullins](https://twitter.com/RyanMullins)   [[Slides](https://speakerdeck.com/ryanmullins/geographic-analysis-in-context-a-visual-search-task-comparing-zooming-metaphors)]
+* *[A New Atlas of American History](#a-new-atlas-of-american-history-alan-mcconchie)*, [Alan McConchie](https://twitter.com/mappingmashups) [[Slides](https://speakerdeck.com/almccon/nacis2015-a-new-atlas-of-american-history), [Notes/Resources](http://sta.mn/6gk), [Website](http://dsl.richmond.edu/historicalatlas), [GitHub](http://github.com/americanpanorama)]  
 * *[Beyond Paper: Ideas for Interactive Maps](#beyond-paper-ideas-for-interactive-maps-peter-liu)*, [Peter Liu](http://www.twitter.com/chieflybrit)    
 * *[Open Web Mapping Technologies: How do we Teach this Stuff?](#open-web-mapping-technologies-how-do-we-teach-this-stuff-carl-sack)*, [Carl Sack](http://www.twitter.com/northlandiguana) [[Slides](http://tinyurl.com/openwebmapping), [GitHub](http://github.com/uwcart/cartographic-perspectives)]
 * *[How to Teach an Old(ish) Cartography Professor New Tricks](#how-to-teach-an-oldish-cartography-professor-new-tricks-sally-hermansen)*, Sally Hermansen
-* *[Type on Maps: All the Little Things that Actually Matter](#type-on-maps-all-the-little-things-that-actually-matter-elaine-guidero)*, Elaine Guidero
+* *[Type on Maps: All the Little Things that Actually Matter](#type-on-maps-all-the-little-things-that-actually-matter-elaine-guidero)*, [Elaine Guidero](https://twitter.com/elaineguidero)  
 * *[Every Pixel Counts: Web Map Symbols for the National Park Service](#every-pixel-counts-web-map-symbols-for-the-national-park-service-jake-coolidge)*, [Jake Coolidge](http://www.twitter.com/jccartography)
 * *[Visualizing Ten Years of Quantitative Color Schemes](#visualizing-ten-years-of-quantitative-color-schemes-travis-white)*, Travis White
 * *[Natural-Color Maps via Automated Coloring of Bivariate Grid Data](#natural-color-maps-via-automated-coloring-of-bivariate-grid-data-jane-darbyshire)*, Jane Darbyshire
-* *[Spooky Map Stories](#spooky-map-stories-patrick-hammons)*, Patrick Hammons [[Slides](http://bit.ly/spooky-nacis-2015)]
-* *[GIS for the people by the people](#gis-for-the-people-by-the-people-sam-matthews)*, Sam Matthews [[Slides](http://bit.ly/gisforthepeople)]
+* *[Spooky Map Stories](#spooky-map-stories-patrick-hammons)*, [Patrick Hammons](https://twitter.com/hamhandedly) [[Slides](http://bit.ly/spooky-nacis-2015)]
+* *[GIS for the people by the people](#gis-for-the-people-by-the-people-sam-matthews)*, [Sam Matthews](http://www.twitter.com/vancematthews) [[Slides](http://bit.ly/gisforthepeople)]
 
 ### Friday, October 16, 2015
-* *Am I Rent Stabilized?*, Chris Henrick [[Slides](http://clhenrick.io/presentations/am-i-rent-stabilized)]
+* *Am I Rent Stabilized?*, [Chris Henrick](https://twitter.com/chrislhenrick) [[Slides](http://clhenrick.io/presentations/am-i-rent-stabilized)]
 * *[Big History, Little History: Cartography in the Twentieth Century](#big-history-little-history-cartography-in-the-twentieth-century-mark-monmonier)*, Mark Monmonier
 * *[Of Crocodiles and Tea Garden Managers: Mapping Interactions of an Earlier Era](#of-crocodiles-and-tea-garden-managers-mapping-interactions-of-an-earlier-era-leo-dillon)*, Leo Dillon
 * *[Improving ArcGIS mapping workflows with Adobe’s Creative Cloud Applications](#improving-arcgis-mapping-workflows-with-adobes-creative-cloud-applications-sarah-bell--clint-loveman)*, [Sarah Bell](http://www.twitter.com/cerebellumaps) and [Clint Loveman](http://www.twitter.com/c_loveman)  
-* *[Drupalized Web Maps](#drupalized-web-maps-tim-stallmann)*, Tim Stallmann
+* *[Drupalized Web Maps](#drupalized-web-maps-tim-stallmann)*, [Tim Stallmann](https://twitter.com/t_stallmann)  
 * *[Planning for Automated Labeling of U.S. Routes with Multiple Shields and Names](#planning-for-automated-labeling-of-us-routes-with-multiple-shields-and-names-cynthia-a-brewer)*, Cynthia A. Brewer
-* *[Cartography Driven Data Collection](#cartography-driven-data-collection-mamata-akella)*, Mamata Akella
+* *[Cartography Driven Data Collection](#cartography-driven-data-collection-mamata-akella)*, [Mamata Akella](https://twitter.com/mamataakella)  
 * *[Geographic Education in a Modern World](#geographic-education-in-a-modern-world-panel-discussion)*, Panel Discussion
-* *Data Processing Workflow for the National Geographic World Atlas Mobile App*, Steve Gifford [[Slides](http://www.slideshare.net/mousebird/data-processing-workflow-for-the-national-geographic-world-atlas-mobile-app)]
+* *Data Processing Workflow for the National Geographic World Atlas Mobile App*, [Steve Gifford](https://twitter.com/mousebirdc) [[Slides](http://www.slideshare.net/mousebird/data-processing-workflow-for-the-national-geographic-world-atlas-mobile-app)]
 * *[From the Twitters](#from-the-twitters-the-interwebs)*, The Interwebs
 
 ## Post-Conference Workshop
@@ -190,10 +190,13 @@ Query the OSM database (Query the overpass).
 
 ## *Practical and Impractical Uses of Terrain Data* (National Geographic Climate Change 'The Human Impact' example), Seth Fitzsimmons
 
+### Project:
+#### [National Geographic Climate Change](http://www.nationalgeographic.com/climate-change/explore-amazonia/#/)
+
 ### Project Goals:
-* Re-purpose art, research, editorial, maps
-* Make them interactive
-* Make them multilingual
+1. Re-purpose art, research, editorial, maps.  
+2. Make them interactive.  
+3. Make them multilingual.  
 
 ### Tell a story!!
 It doesn't have to be in map form, think graphics that support your text. *You don't need to make a web map to write your story everytime.* Content is the most critical piece, get good content together.  
@@ -228,6 +231,8 @@ Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)
 * Record something you might miss if you were in the office.
 
 ### 4. Skeleton Maps
+![skeleton-maps](https://cloud.githubusercontent.com/assets/5023024/10601759/6ea8903a-76d9-11e5-93e4-7e2dffe2d647.png)  
+Photo credit: [Kitty Hurley](http://www.twitter.com/geospatialem)  
 *  Geographic structure for storing local stories and meaningful information.
 * Mark on the maps specific information they *know*, but we may not being outsiders.
 * Incorporate the information into field notes, and maps.
@@ -591,16 +596,68 @@ Color that represents quantitative data)
 ![spooky-map-stories](https://cloud.githubusercontent.com/assets/5023024/10569895/5513bf56-75f2-11e5-8a9a-4ee5fd798d4c.JPG)  
 Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)  
 
-*Notes coming soon*
+### Background:  
+* Maps are one of the most effective and evocative ways to make an argument.  
+* Maps continue to be made by relatively few people.  
+
+### Teach them:  
+* Instead of providing maps to clients, teach the Journalists learn how to use CartoDB and make maps to augment their stories using an in-person [training session](https://docs.google.com/document/d/1Ivwaab-lUR82e6_mbNV0CtU4bULv0ApExqzRRPmuArU/edit).  
+* As a result, there were some [awesome maps made](https://planphilly.cartodb.com), they learned to import/edit data
+using CartoCSS, and SQL queries!  
+* Same process for a small non-profit, to manage data in CartoDB so maps stay current!
+
+#### The great news:  
+* There was Little-to-no confusion about the interface!  
+* CartoDB is pretty easy to use, and the interface is amazing!
+* Users made basic updates.  
+* Learned how georeferencing works  
+
+#### The not-so-great news:  
+* No further maps were made after the training...  
+* Sent a spreadsheet with updates a month later...  
+
+### Takeaways:  
+* Top-down directive isn’t a great place to start.  
+* Learning new things takes persistence and regular practice.  
+* Personal passion/interest is the best place to start.  
+* One-off trainings are not the best...  
+* Confidence with new technical tasks takes time.  
+
+#### Future Use Cases:  
+* Learn how and when to say no to projects.   
+* Sometimes making a map isn’t the answer.  
+* User research is usually a better first step.  
+* Encourage interested clients to get plugged in.  
+* Clients can become Maptime members!  
+
+### Conclusion:  
+> Maps are hard, but community building is harder (and often more important).  
+
 
 ## *GIS for the people by the people*, Sam Matthews
 ![gis-for-the-people](https://cloud.githubusercontent.com/assets/5023024/10569893/550fce5a-75f2-11e5-98b6-2c0b83c50efc.JPG)  
 Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)  
 
+### Background:  
+The ability to do GIS in the browser. Drag-and-drop a feature and perform basic GIS functions without having to open a bulky program. **[Filereader](https://developer.mozilla.org/en-US/docs/Web/API/FileReader)** and **[TurfJS](http://turfjs.org)** made this work!
+
+### How it works:  
+**Drop** (files into the browser) **+ Chop** (files using Turf.js) **= DropChop** (browser-based spatial operation).
+
+### Contributions:  
+> "From an early stage we had to think about how to bring in a large number of contributors across a broad range of skillsets. It was about how people can contribute in a way that was meaningful to them." -Andrew Powers  
+
 ![gis-for-the-people-mission](https://cloud.githubusercontent.com/assets/5023024/10569894/5512fb66-75f2-11e5-890d-19462954c332.JPG)  
 Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)  
 
-*Notes coming soon*
+* `Conntributions != Code`  
+* Welcome small & large contributions  
+* Build entrances & exits for contributors  
+* Test and prioritize user input early & often  
+* People get scared when they hear the word "GitHub", try to refrain from using the words "code" and "GitHub". Start using the words "documentation", "issues", and "no experience needed".  
+
+![gis-of-the-people](https://cloud.githubusercontent.com/assets/5023024/10595620/f44f0ac8-769f-11e5-9d66-f68ce095e1a0.png)  
+Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)  
 
 ## *Big History, Little History: Cartography in the Twentieth Century*, Mark Monmonier
 
@@ -729,6 +786,14 @@ Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)
 ### How To Use CartoDB [Guide](http://javisantana.github.io/cartodblocks/#a3fb1786688232cd1e45)  
 
 ## *Geographic Education in a Modern World*, Panel Discussion
+
+### Panel members
+1. [Ryan Cooper](http://www.twitter.com/maptastik)
+2. [Lyzi Diamond](http://www.twitter.com/lyzidiamond)
+3. [Mike Foster](http://www.twitter.com/mjfoster83)
+4. [Katie Kowalsky](http://www.twitter.com/katiekowalsky)
+5. [Mōno Simeone](https://twitter.com/monosim)
+6. Matt Wilson
 
 ### 1. What is the relationship between cartography and geography?  
  * Cartography and geography - spectrum
