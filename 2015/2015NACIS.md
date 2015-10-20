@@ -262,11 +262,11 @@ ArcMap → Illustrator process
 
 ### Illustrator Notes:
 * Open AI File
-* Delete clipping masks (Object → Clipping Masks → Delete)
+* Delete clipping masks (`Object` → `Clipping Masks` → `Delete`)
 * Ungroup layers in layer panel as-needed
 * Delete layer called 'other'
 * Rename and organize layers in a functional matter
-* "Save as" Illustrator Template file (File → Save as → Ai Template) or copy/paste in place of existing file.
+* "Save as" Illustrator Template file (`File` → `Save as` → `Ai Template`) or copy/paste in place of existing file.
 * Clipping masks
 * Legend customization (align panel)
 * Colors (stroke/fill, custom color library, color guide panel)
@@ -305,23 +305,24 @@ Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)
   * Colors and shapes were added in  
   * Font hierarchy, less contrast for busy maps  
   * Color palettes in Adobe Illustrator.  
+  ![palette-color-guide](https://pbs.twimg.com/media/CRTpf4CUYAI6CTy.jpg:large)  
+  Photo Credit: [Vanessa Knoppke-Wetzel](http://www.twitter.com/run_for_funner)  
 
-### Reference Restyling:
-
-![palette-color-guide](https://pbs.twimg.com/media/CRTpf4CUYAI6CTy.jpg:large)  
-Photo Credit: [Vanessa Knoppke-Wetzel](http://www.twitter.com/run_for_funner)  
-
-**1. Inner Glow**: Stylize → Inner Glow (Illustrator).  
+### Reference Restyling:  
+#### 1. Inner Glow:  
+In Illustrator, `Stylize` → `Inner Glow`  
 
 ![inner-glow](https://cloud.githubusercontent.com/assets/5023024/10622101/bc141512-774a-11e5-94e1-3f68572bb1fa.png)  
 Photo credit: [Vanessa Knoppke-Wetzel](http://www.twitter.com/run_for_funner)  
 
-**2. Blur size**: Set the blur based on size (small, medium, large). Make sure they are matching throughout your work.    
+#### 2. Blur size:  
+Set the blur based on size (small, medium, large). Make sure they are matching throughout your work.    
 
 ![blur-size](https://cloud.githubusercontent.com/assets/5023024/10622178/4ae15d2c-774b-11e5-85bd-60327ed196a6.png)  
 Photo credit: [Vanessa Knoppke-Wetzel](http://www.twitter.com/run_for_funner)  
 
-**3. Eyedropper Options**: Lastly, double-click the Eyedropper →  Options → Appearance
+#### 3. Eyedropper Options:  
+Lastly, double-click the Eyedropper →  `Options` → `Appearance`  
 
 ![eyedropper-options](https://cloud.githubusercontent.com/assets/5023024/10622295/1a70d126-774c-11e5-82d7-e52ce69cb27e.png)  
 Photo credit: [Vanessa Knoppke-Wetzel](http://www.twitter.com/run_for_funner)  
