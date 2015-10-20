@@ -563,7 +563,7 @@ Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)
 ![color-palette](https://pbs.twimg.com/media/CRkaxxMUEAAv6dJ.png:large)
 Photo Credit: [Elaine Guidero](http://www.twitter.com/elaineguidero)
 
-### Return to this section:
+### *Need slides*
 Choose typeface:
 * Use Microaesthetics...
 
@@ -773,7 +773,7 @@ With common data, tools, and technologies.
 Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)  
 
 ### Places:
-* An *internal* spatial data system focused on visitor facing dataset (nps.gov/npmap...)
+* An **_internal_** spatial data system focused on visitor facing dataset (http://insidemaps.nps.gov/places/)
 * Data is constantly updated (thosands of additions).
 
 ### Park tiles:
