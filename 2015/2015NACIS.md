@@ -4,7 +4,7 @@
 
 ## Practical Cartography Day
 ### Wednesday, October 14, 2015
-* *[Taking Terrain to New Heights with ArcGIS](#taking-terrain-to-new-heights-with-arcgis-kenneth-field)*, [Kenneth Field](https://twitter.com/kennethfield)  
+* *[Taking Terrain to New Heights with ArcGIS](#taking-terrain-to-new-heights-with-arcgis-kenneth-field)*, [Kenneth Field](https://twitter.com/kennethfield) [[Story Map Presentation](http://carto.maps.arcgis.com/apps/MapJournal/index.html?appid=415ca449ea6c4d9397c975139abd45fe)]  
 * *[Redesigning Atlas Maps for Social Media](#redesigning-atlas-maps-for-social-media-alethea-steingisser-and-james-meacham)*, [Alethea Steingisser](https://twitter.com/ASteingisser) and James Meacham
 * *[MAPPublisher at National Geographic](#mappublisher-at-national-geographic-matthew-chwatstyk)*, Matthew Chwatstyk
 * *[A Quick Guide to US Dept. of Transportation Datasets](#a-quick-guide-to-us-dept-of-transportation-datasets-justyna-goworowska)*, [Justyna Goworowska](https://twitter.com/JGoworowska)  
