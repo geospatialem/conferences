@@ -395,7 +395,25 @@ ArcGIS vector tile service will come with the new release.
 # Keynote Speaker
 
 ## *Personal Story as a Map*, Brenda Laurel
-*Notes coming soon*
+
+### Stories
+* A story is an artifact.  
+* Storytelling is a relationship.  
+* Stories and maps are meaning containers.
+
+### Narractive vs. Drama  
+| Narrative | Drama     |
+| :------------- | :------------- |
+| Extensification       | Intensification       |
+| Duration: Days       | Duration: Single day/sitting      |
+| Episodic       | Single dominant plot       |
+| Told/read       | Enacted       |  
+
+## Other notes  
+* Other traverses create different interactions.  
+* When a map is interactive it becomes an actor in itself, a collaborator.  
+* **_Maps have attitudes!_**
+
 
 # Concurrent Sessions
 
