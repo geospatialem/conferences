@@ -534,22 +534,22 @@ Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)
 ### "The more you know the more you know you need to know."
 
 ### Desired outcomes:
-1. Ability to create [animated] thematic slippy maps using Leaflet
-2. Ability to created linked geovisualizations using D3
-3. Independent completion of web map from start to finish in collaboration with colleagues.
-4. Demonstration of computational thinking, adaptability, self-direction, and problem solving.
-5. Integration of theoretical concepts presented in lecture into outcomes 1-3. (e.g. Human-map interaction, usability engineering, data visualizing, etc.)
-  * This outcome was the hardest to meet.
+1. Ability to create [animated] thematic slippy maps using Leaflet.  
+2. Ability to created linked geovisualizations using D3.  
+3. Independent completion of web map from start to finish in collaboration with colleagues.  
+4. Demonstration of computational thinking, adaptability, self-direction, and problem solving.  
+5. Integration of theoretical concepts presented in lecture into outcomes 1-3. (e.g. Human-map interaction, usability engineering, data visualizing, etc.)  
+  * This outcome was the hardest to meet.  
 
 ### Web Mapping Workflow (*Donahue, 2014*)  
-The workflow gets more, and more, integrated over time.
-1. Idea (Design)
-2. Development environment
-3. Data
-4. Markup (representation space)
-5. Script (interaction space)
-6. Fine-tuning (usability)
-7. Deployment
+The workflow gets more, and more, integrated over time.  
+1. Idea (Design)  
+2. Development environment  
+3. Data  
+4. Markup (representation space)  
+5. Script (interaction space)  
+6. Fine-tuning (usability)  
+7. Deployment  
 
 ![web-mapping-workflow](https://cloud.githubusercontent.com/assets/5023024/10569735/3abaa996-75f0-11e5-908e-619a0691bcf1.JPG)  
 Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)  
