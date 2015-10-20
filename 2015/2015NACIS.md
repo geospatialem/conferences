@@ -16,7 +16,7 @@
 * *[Mapping the Future Patagonia National Park](#mapping-the-future-patagonia-national-park-ross-donihue)*, [Ross Donihue](https://twitter.com/RossDonihue) [[Slides](http://mapsforgood.org/presentation/MapsforGood_NACIS_2015.pdf)]  
 * *[ArcMap-to-Illustrator Workflows](#arcmap-to-illustrator-workflows-nicole-samu)*, Nicole Samu
 * *[FixWikiMaps Project: Maplift](#fixwikimaps-project-maplift-brian-davidson)*, [Brian Davidson](http://www.twitter.com/brianddavidson) [[@FixWikiMaps](http://www.twitter.com/fixwikimaps), [Website](http://fixwikimaps.github.io)]
-* *[Restyling Old and Cluttered Maps](#restyling-old-and-cluttered-maps-vanessa-knoppke-wetzel)*, [Vanessa Knoppke-Wetzel](https://twitter.com/run_for_funner)  
+* *[Restyling Old and Cluttered Maps](#restyling-old-and-cluttered-maps-vanessa-knoppke-wetzel)*, [Vanessa Knoppke-Wetzel](https://twitter.com/run_for_funner) [[Slides](https://speakerdeck.com/vknoppkewetzel/nacis-pcd-talk-2015-restyling-old-and-cluttered-maps)]  
 * *[Terrain Data Sources Online](#terrain-data-sources-online-paulo-raposo)*, Paulo Raposo
 * *[A Matter of Perspective](#a-matter-of-perspective-daniel-p-huffman)*, [Daniel P. Huffman](https://twitter.com/pinakographos)  
 * *[CartoCSS Essentials](#cartocss-essentials-katie-kowalsky)*, [Katie Kowalsky](http://www.twitter.com/katiekowalsky) [[Slides](http://slides.com/kkowalsky/nacis-2015)]
@@ -36,7 +36,7 @@
 * *[Open Web Mapping Technologies: How do we Teach this Stuff?](#open-web-mapping-technologies-how-do-we-teach-this-stuff-carl-sack)*, [Carl Sack](http://www.twitter.com/northlandiguana) [[Slides](http://tinyurl.com/openwebmapping), [GitHub](http://github.com/uwcart/cartographic-perspectives)]
 * *[How to Teach an Old(ish) Cartography Professor New Tricks](#how-to-teach-an-oldish-cartography-professor-new-tricks-sally-hermansen)*, Sally Hermansen
 * *[Type on Maps: All the Little Things that Actually Matter](#type-on-maps-all-the-little-things-that-actually-matter-elaine-guidero)*, [Elaine Guidero](https://twitter.com/elaineguidero)  
-* *[Every Pixel Counts: Web Map Symbols for the National Park Service](#every-pixel-counts-web-map-symbols-for-the-national-park-service-jake-coolidge)*, [Jake Coolidge](http://www.twitter.com/jccartography)
+* *[Every Pixel Counts: Web Map Symbols for the National Park Service](#every-pixel-counts-web-map-symbols-for-the-national-park-service-jake-coolidge)*, [Jake Coolidge](http://www.twitter.com/jccartography) [[Slides](http://www.nps.gov/npmap/slides/every-pixel-counts.pdf)]  
 * *[Visualizing Ten Years of Quantitative Color Schemes](#visualizing-ten-years-of-quantitative-color-schemes-travis-white)*, Travis White
 * *[Natural-Color Maps via Automated Coloring of Bivariate Grid Data](#natural-color-maps-via-automated-coloring-of-bivariate-grid-data-jane-darbyshire)*, Jane Darbyshire
 * *[Spooky Map Stories](#spooky-map-stories-patrick-hammons)*, [Patrick Hammons](https://twitter.com/hamhandedly) [[Slides](http://bit.ly/spooky-nacis-2015)]
@@ -307,10 +307,34 @@ Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)
   * Color palettes in Adobe Illustrator.  
 
 ### Reference Restyling:
-Stylize → Inner Glow (Illustrator). Set the blur based on size (small, medium, large). Make sure they are matching throughout your work.
-Double-click eyedropper
+
 ![palette-color-guide](https://pbs.twimg.com/media/CRTpf4CUYAI6CTy.jpg:large)  
-Photo Credit: [Vanessa Knoppke-Wetzel](http://www.twitter.com/run_for_funner)
+Photo Credit: [Vanessa Knoppke-Wetzel](http://www.twitter.com/run_for_funner)  
+
+**1. Inner Glow**: Stylize → Inner Glow (Illustrator).  
+
+![inner-glow](https://cloud.githubusercontent.com/assets/5023024/10622101/bc141512-774a-11e5-94e1-3f68572bb1fa.png)  
+Photo credit: [Vanessa Knoppke-Wetzel](http://www.twitter.com/run_for_funner)  
+
+**2. Blur size**: Set the blur based on size (small, medium, large). Make sure they are matching throughout your work.    
+
+![blur-size](https://cloud.githubusercontent.com/assets/5023024/10622178/4ae15d2c-774b-11e5-85bd-60327ed196a6.png)  
+Photo credit: [Vanessa Knoppke-Wetzel](http://www.twitter.com/run_for_funner)  
+
+**3. Eyedropper Options**: Lastly, double-click the Eyedropper →  Options → Appearance
+
+![eyedropper-options](https://cloud.githubusercontent.com/assets/5023024/10622295/1a70d126-774c-11e5-82d7-e52ce69cb27e.png)  
+Photo credit: [Vanessa Knoppke-Wetzel](http://www.twitter.com/run_for_funner)  
+
+### Before and After Blur:
+
+#### Before
+![before-blur](https://cloud.githubusercontent.com/assets/5023024/10622294/1a6faecc-774c-11e5-936a-8da1296b0443.png)  
+Photo credit: [Vanessa Knoppke-Wetzel](http://www.twitter.com/run_for_funner)  
+
+#### After
+![after-blur](https://cloud.githubusercontent.com/assets/5023024/10622296/1a717b58-774c-11e5-9591-ef64e49af3d4.png)  
+Photo credit: [Vanessa Knoppke-Wetzel](http://www.twitter.com/run_for_funner)  
 
 ## *Terrain Data Sources Online*, Paulo Raposo
 Uses SAGA for GIS. Also works with QGIS tools.
@@ -587,13 +611,33 @@ Letterform elements, not label properties, contribute to typeface tone.
 ## *Every Pixel Counts: Web Map Symbols for the National Park Service*, Jake Coolidge
 
 ### Design Considerations:
-* Recognizability (of symbols)
-* Legibility
-* Complexity (not too simplistic, but not too complex)
-  * See Joshua Stevens' paper
+1. Recognizability (of symbols)
+2. Legibility
+3. Complexity (not too simplistic, but not too complex)
+  * [*Designing Map Symbols for Mobile Devices: Challenges, Best Practices, and the Utilization of Skeuomorphism*, Joshua E. Stevens, Anthony C. Robinson, Alan M. MacEachren](http://icaci.org/files/documents/ICC_proceedings/ICC2013/_extendedAbstract/356_proceeding.pdf):  
+  "Symbols with strong semantic relationships with their referent can be identified more quickly."
+  ![bike-icon](https://cloud.githubusercontent.com/assets/5023024/10622553/fb71b608-774d-11e5-804c-72c9c7b088eb.png)  
+  Photo Credit: [Jake Coolidge](http://www.twitter.com/jccartography)   
   * Drawing 16px by 16px icons is really, really hard. Even 18x18. Even at 2x retina. - [Nathanial Kelso](https://twitter.com/kelsosCorner)
-* Style, or look and feel
+4. Style, or look and feel
 
+### Background  
+* NPS print map symbols originate from the [Ultimate Symbol Collection](http://www.ultimatesymbol.com).  
+* The shapes are then simplified, and line widths and internal distances increased.  
+* Shapes and lines are intentionally made bold for high contrast with map background.  
+
+### Adapting Symbols  
+1. Design a framework with slim profiles.  
+2. Design black, off-white, and white versions that support multiple backgrounds.  
+![design-for-all-basemaps](https://cloud.githubusercontent.com/assets/5023024/10622945/51248c18-7750-11e5-915a-c41a9802e963.png)  
+Photo Credit: [Jake Coolidge](http://www.twitter.com/jccartography)  
+3. Design multiple sizes for greater cartographic flexibility.  
+4. Use shadow effects to provide visual dimensionality.  
+
+## Learn more  
+* [NPMap Symbol Library](http:// /www.nps.gov/npmap/tools/npmapsymbol-library)  
+* [Github Repository](https://github.com/nationalparkservice/npmap-symbol-library)  
+* [NPS Graphic Identity Standards](http://www.nps.gov/hfc/services/identity)  
 
 ## *Visualizing Ten Years of Quantitative Color Schemes*, Travis White  
 ![opening-slide](https://pbs.twimg.com/media/CRYfhXAUsAEsWTm.jpg:large)
