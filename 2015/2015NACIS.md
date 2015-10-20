@@ -242,7 +242,7 @@ Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)
 
 ### 4. Skeleton Maps
 ![skeleton-maps](https://cloud.githubusercontent.com/assets/5023024/10601759/6ea8903a-76d9-11e5-93e4-7e2dffe2d647.png)  
-Photo credit: [Kitty Hurley](http://www.twitter.com/geospatialem)  
+Photo credit: [Ross Donihue](https://twitter.com/RossDonihue)  
 *  Geographic structure for storing local stories and meaningful information.
 * Mark on the maps specific information they *know*, but we may not being outsiders.
 * Incorporate the information into field notes, and maps.
@@ -281,7 +281,7 @@ Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)
 3. Create a map  
 
 ### After Example (Louisiana Purchase):  
-![after-maplift](https://pbs.twimg.com/media/CRTUj1pUsAAMJV-.jpg:large)
+![after-maplift](https://pbs.twimg.com/media/CRTUj1pUsAAMJV-.jpg:large)  
 Map Credit: [Bill Morris](https://twitter.com/vtcraghead), Wikipedia
 
 ## *Restyling Old and Cluttered Maps*, Vanessa Knoppke-Wetzel
@@ -667,7 +667,7 @@ Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)
 * People get scared when they hear the word "GitHub", try to refrain from using the words "code" and "GitHub". Start using the words "documentation", "issues", and "no experience needed".  
 
 ![gis-of-the-people](https://cloud.githubusercontent.com/assets/5023024/10595620/f44f0ac8-769f-11e5-9d66-f68ce095e1a0.png)  
-Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)  
+Photo Credit: [Sam Matthews](http://www.twitter.com/vancematthews)  
 
 ## *Big History, Little History: Cartography in the Twentieth Century*, Mark Monmonier
 
@@ -755,7 +755,7 @@ Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)
 
 ### Popular Group Vote:  
 F. Grouped Along Line  
- ![road-label-vote](https://pbs.twimg.com/media/CRc7l_0WoAAEq5o.jpg)
+ ![road-label-vote](https://pbs.twimg.com/media/CRc7l_0WoAAEq5o.jpg)  
  Photo Credit: [ColorBrewer](https://twitter.com/ColorBrewer)
 
 ### Cartography Tip:
