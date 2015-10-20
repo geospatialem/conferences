@@ -153,16 +153,26 @@ Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)
 * **DUSPviz**: *Skills and tools* for better planning.
 
 ### [Web Map Workshop](http://duspviz.mit.edu/web-map-workshop)
-* 7-week course (see slides for details)
+* 7-week course:  
+  * HTML/CSS  
+  * Bootstrap
+  * Basic Web Map  
+  * JavaScript  
+  * Styling   
+  * PostGIS/CartoDB  
+  * Data Collection
 * Base level = 0!
-* End goal: Create a [data collection application](http://duspviz.mit.edu/web-map-workshop/databases-leaflet-cartodb)
+* **End goal:** Create a lightweight [web map/data collection application](http://duspviz.mit.edu/web-map-workshop/databases-leaflet-cartodb) in which visitors can input information using *LeafletJS, Leaflet.draw, CartoDB, jQuery/jQueryUI, and PHP*. Attendees only needed *A CartoDB Account, PHP-enabled Webhosting, and a Text Editor (e.g. Sublime Text)*.  
 
 ### Tasks:  
 1. *Backend*  
   * Spatial database - used CartoDB SQL API  
   * Security matters: API key, username, table (security matters!)  
   * PHP for security (hide credential information on the server)  
+  ![back-end](https://cloud.githubusercontent.com/assets/5023024/10602531/81aa8864-76de-11e5-86d3-37df3538d028.png)  
+  Photo Credit: [Mike Foster](http://www.twitter.com/mjfoster83)  
 2. *FrontEnd*  
+  * Leaflet
   * JavaScript and jQuery  
   * Create an empty dataset in CartoDB, with a few test points (e.g. Data Collector)  
   * Set up HTML document structure  
@@ -172,7 +182,7 @@ Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)
   * View data! :-P  
 3. *Security*  
   * *People are out there and will do bad things*
-  * Check PR to address the problem (*see slides for more information*)  
+  * [Check out this PR](https://github.com/enam/neighborhoods/pull/4)
 
 ## *Dropchop*, Sam Matthews
 ### Goal: Make a simple modular tool
@@ -806,8 +816,8 @@ Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)
  * Mapping/cartography is not easy.
 
 ### 2. What mapping technologies and approaches do you advocate, use, and/or teach?  
-  * Mashup of data, art, and communication. Split it up - design is a component. Start learning new technologies where you feel comfortable (ie. design → Mapbox Studio).
-  * Teach technology and spatial principles, not the tools (ie. Google, Leaflet, OpenLayers) with the ability to adapt.
+  * Mashup of data, art, and communication. Split it up - design is a component. Start learning new technologies where you feel comfortable (e.g. design → Mapbox Studio).
+  * Teach technology and spatial principles, not the tools (e.g. Google, Leaflet, OpenLayers) with the ability to adapt.
   * No one solution, many solutions are available.
   * "Failure is okay. Sometimes the best way to learn what works by learning what doesn't work. It teaches you along the way." -[Mike Foster](http://www.twitter.com/mjfoster83)
   * Dependent on the student/learner. Meet people where they are on the spectrum.
