@@ -23,7 +23,8 @@
 * *[Vector Cartography in ArcGIS](#vector-cartography-in-arcgis-craig-williams)*, [Craig Williams](https://twitter.com/williamscraigm) [[Slides](https://speakerdeck.com/williamscraigm/nacis-2015-pcd-vector-cartography-in-arcgis)]
 
 ## Concurrent Sessions
-### Thursday October 15, 2015    
+### Thursday October 15, 2015
+* *Mapping Neighborhoodness*, [Andy Woodruff](http://www.twitter.com/awoodruff) [[Slides](https://speakerdeck.com/awoodruff/mapping-neighborhoodness)]  
 * *[Examining the Terminology of Modern Cartography](#examining-the-terminology-of-modern-cartography-michael-p-peterson-rex-g-cammack)*, Michael P. Peterson, Rex G. Cammack
 * *[A Visual Search Task Comparing Zooming Metaphors](#a-visual-search-task-comparing-zooming-metaphors-ryan-mullins)*, [Ryan Mullins](https://twitter.com/RyanMullins)   [[Slides](https://speakerdeck.com/ryanmullins/geographic-analysis-in-context-a-visual-search-task-comparing-zooming-metaphors)]
 * *[A New Atlas of American History](#a-new-atlas-of-american-history-alan-mcconchie)*, [Alan McConchie](https://twitter.com/mappingmashups) [[Slides](https://speakerdeck.com/almccon/nacis2015-a-new-atlas-of-american-history), [Notes/Resources](http://sta.mn/6gk), [Website](http://dsl.richmond.edu/historicalatlas), [GitHub](http://github.com/americanpanorama)]  
