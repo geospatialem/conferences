@@ -290,7 +290,7 @@ Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)
 Map Credit: [Bill Morris](https://twitter.com/vtcraghead), Wikipedia
 
 ## *Restyling Old and Cluttered Maps*, Vanessa Knoppke-Wetzel
-Anyone can anything nicer! But... fast maps? We can still do better!
+Anyone can make anything nicer with time! But... we need maps fast! We can still do better on a short time frame!
 
 ### Program Map Restyling (an iterative process):  
 1. Before map    
@@ -635,7 +635,7 @@ Photo Credit: [Jake Coolidge](http://www.twitter.com/jccartography)
 4. Use shadow effects to provide visual dimensionality.  
 
 ## Learn more  
-* [NPMap Symbol Library](http://www.nps.gov/npmap/tools/npmapsymbol-library)  
+* [NPMap Symbol Library](http://www.nps.gov/npmap/tools/npmap-symbol-library)  
 * [Github Repository](https://github.com/nationalparkservice/npmap-symbol-library)  
 * [NPS Graphic Identity Standards](http://www.nps.gov/hfc/services/identity)  
 
