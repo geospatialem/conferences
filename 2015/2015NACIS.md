@@ -932,33 +932,41 @@ Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)
 ## *Mapping in the Cloud*, Michael P. Peterson
 
 ### Cloud Resources:
-* [PodServer](http://podserver.info) is a hosting place for code in the cloud.
-* FireZilla is good for data files.
+* [PodServer](http://podserver.info) is a web hosting service in the cloud.  
+* [FireZilla](https://filezilla-project.org) is good for storing data files in the cloud.  
+* [Amazon Web Services](https://aws.amazon.com), while costly, is reliable, as it is never 'down'.  
+* [Webuzo](http://www.webuzo.com) is another good private cloud resource.  
+* [MapTiler](http://www.maptiler.com) is a resource to host Google map tiles in the cloud.  
 
 ### Terminology:
 * **WYSIWYG**: What You See Is What You Get
 
 ### Getting Started Resources:
-* [University of Nebraska-Omaha Website](http://maps.unomaha.edu)
-* ['Mapping in the Cloud' Book](http://maps.unomaha.edu/cloud)
-* [Instructor example website](http://www.geomaster.podserver.info)
+* [University of Nebraska-Omaha Website](http://maps.unomaha.edu)  
+* [Instructor example website](http://www.geomaster.podserver.info)  
 * [Kitty's class website](http://www.geospatialem.podserver.info)  
 * [Original code source](http://maps.unomaha.edu/cloud/code.html)  
-* [Webuzo](http://www.webuzo.com): Great resource
-* [Amazon Web Services](https://aws.amazon.com): Always up
-* [MapTiler](http://www.maptiler.com): Google map tiles
 
-### Chapter 8: JavaScript
+### Course Setup  
+#### Set up WebHosting Services and Upload Files  
+1. Set up an account with [Podserver](http://podserver.info).  
+2. Copy an `index.html` file from the course website.
+  * From the Podserver cPanel click `Files` → `Online File Manager` → `htdocs`.  
+3. Add in your own photo to your `index.html` website.    
+4. Upload ZIP files.  
+5. Link to all students webpages.  
+
+### Chapter 8: HTML and JavaScript
 * JavaScript is the most used language.
 * Interpreted language, not compiled (.exe).
 * JavaScript is interpreted by the browser as it is opened.
 * Understand variables (`x = 1`), loops, function calls.
 
-### Chapter 10: Map Mashups
+### Chapter 10: Map Mashups  
 * API's: http://www.geospatialem.podserver.info/code10
 * "Mashup" maps
 * Sensor = False: `sensor=false`: See [StackOverflow](http://stackoverflow.com/questions/8616764/what-is-the-sensor-parameter-in-google-places-api-good-for)
-* Google Tile Changes (Transparency):
+* Google Tile Styling (Transparency):
 ```javascript
 var mapStyle = [{
   'featureType': 'all',
