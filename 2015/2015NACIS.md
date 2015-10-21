@@ -54,6 +54,10 @@
 * *Data Processing Workflow for the National Geographic World Atlas Mobile App*, [Steve Gifford](https://twitter.com/mousebirdc) [[Slides](http://www.slideshare.net/mousebird/data-processing-workflow-for-the-national-geographic-world-atlas-mobile-app)]
 * *[From the Twitters](#from-the-twitters-the-interwebs)*, The Interwebs
 
+## Pecha Kucha
+### Friday, October 16, 2015
+* *[Maps as a Visual Copy](#maps-as-a-visual-copy-ian-muehlenhaus)*, [Ian Muehlenhaus](https://twitter.com/iMuehlenhaus) [[Pre-Recorded Video](https://www.youtube.com/watch?v=ZH6eNFfrqTU)]  
+
 ## Post-Conference Workshop
 ### Saturday, October 17, 2015  
 * *[Mapping in the Cloud](#mapping-in-the-cloud-michael-p-peterson)*, Michael P. Peterson
@@ -191,7 +195,7 @@ Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)
 
 ## *Dropchop*, Sam Matthews
 ### Goal: Make a simple modular tool
-  * Similar to: [Geojson.io](http://www.geojson.io), Mapshaper, Turf.js, etc.  
+  * Similar to: [Geojson.io](http://www.geojson.io), [Mapshaper](http://www.mapshaper.org), [Turf.js](http://turfjs.org), etc.  
 ![drop-chop](https://cloud.githubusercontent.com/assets/5023024/10569802/fdf3cfb4-75f0-11e5-8275-d38dd6ecae6e.JPG)  
 Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)  
 
@@ -927,6 +931,69 @@ Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)
 ## *From The Twitters*, The Interwebs
 * [Add Vertex – Script for Adobe Illustrator](http://cartography.oregonstate.edu/AddVertexScript.html)  
 * [Open Geoportal](http://data.opengeoportal.org): An easy way to find open geodata all over the world.     
+
+## *Maps as a Visual Copy*, Ian Muehlenhaus  
+Maybe we're talking about these maps all wrong, maybe they are better thought of as copy.
+
+### Copywriting  
+The art and science of writing words that sell your product, belief, or service and pursue potential customers to take action.  
+
+### Visual Copy  
+Visuals are used to **enhance**, reinforce, or replace copywriting. Combined, the two further encourage one to take action. The visual is so powerful, that the viewer doesn't need words to understand.  
+
+### Maps as Copy?
+Persusive maps are typically examples of visual copy.
+
+![map-as-copy](https://cloud.githubusercontent.com/assets/5023024/10652079/15d23de4-7819-11e5-8fbd-3ed1baadd5c7.png)  
+Photo Credit: [Ian Muehlenhaus](https://twitter.com/iMuehlenhaus)  
+
+#### Copy maps
+Maps created and used, either alone, or with another copy, for the purpose of getting someone to do or believe something. **The effectiveness is measured by how well they "convert" an audience.**
+
+### Design choices will impact effect  
+* Concentric circles are a very effective technique.  
+* Octopus maps - if you don't like somebody you should put them on a map as an Octopus!  
+
+![map-example-1](https://cloud.githubusercontent.com/assets/5023024/10652152/be63720c-7819-11e5-8bbc-25e94fe768d4.png)  
+Photo Credit: [Ian Muehlenhaus](https://twitter.com/iMuehlenhaus)  
+
+![map-example-2](https://cloud.githubusercontent.com/assets/5023024/10652153/be6e2db4-7819-11e5-9b26-0c4a8b7fb657.png)  
+Photo Credit: [Ian Muehlenhaus](https://twitter.com/iMuehlenhaus)  
+
+![map-example-3](https://cloud.githubusercontent.com/assets/5023024/10652562/68c183f8-781d-11e5-9b48-130012fb26f2.png)  
+Photo Credit: [Ian Muehlenhaus](https://twitter.com/iMuehlenhaus)  
+
+![map-example-4](https://cloud.githubusercontent.com/assets/5023024/10652564/68c4e0ac-781d-11e5-8806-2d8ec570d1bf.png)  
+Photo Credit: [Ian Muehlenhaus](https://twitter.com/iMuehlenhaus)  
+
+![map-example-5](https://cloud.githubusercontent.com/assets/5023024/10652560/68c036e2-781d-11e5-9ead-053217d4b8df.png)  
+Photo Credit: [Ian Muehlenhaus](https://twitter.com/iMuehlenhaus)  
+
+![map-example-6](https://cloud.githubusercontent.com/assets/5023024/10652561/68c10126-781d-11e5-9b6e-3344ef625c0e.png)  
+Photo Credit: [Ian Muehlenhaus](https://twitter.com/iMuehlenhaus)  
+
+![map-example-7](https://cloud.githubusercontent.com/assets/5023024/10652559/68be0624-781d-11e5-92aa-10bd05feae3f.png)  
+Photo Credit: [Ian Muehlenhaus](https://twitter.com/iMuehlenhaus)  
+
+![map-example-8](https://cloud.githubusercontent.com/assets/5023024/10652563/68c1b9a4-781d-11e5-8499-bd1272207b01.png)  
+Photo Credit: [Ian Muehlenhaus](https://twitter.com/iMuehlenhaus)  
+
+![map-example-9](https://cloud.githubusercontent.com/assets/5023024/10652567/68cdab6a-781d-11e5-8cf2-ef78dd3149ae.png)  
+Photo Credit: [Ian Muehlenhaus](https://twitter.com/iMuehlenhaus)  
+
+![map-example-10](https://cloud.githubusercontent.com/assets/5023024/10652566/68cd424c-781d-11e5-87eb-36d9213c6e24.png)  
+Photo Credit: [Ian Muehlenhaus](https://twitter.com/iMuehlenhaus)  
+
+![map-example-11](https://cloud.githubusercontent.com/assets/5023024/10652565/68cc6ba6-781d-11e5-81dd-4d7918277fb6.png)  
+Photo Credit: [Ian Muehlenhaus](https://twitter.com/iMuehlenhaus)  
+
+![map-example-12](https://cloud.githubusercontent.com/assets/5023024/10652569/68cf659a-781d-11e5-8e2c-bad50c764cb5.png)  
+Photo Credit: [Ian Muehlenhaus](https://twitter.com/iMuehlenhaus)   
+
+### Further Reading  
+1. *[Scientific Advertising](http://www.amazon.com/Scientific-Advertising-Claude-Hopkins/dp/1603866361)*, Claude Hopkins  
+2. *[Words that Sell: More than 6000 Entries to Help You Promote Your Products, Services, and Ideas](http://www.amazon.com/Words-that-Sell-Products-Services/dp/0071467858)*, Richard Bayan  
+
 
 # Post-Conference Workshop
 ## *Mapping in the Cloud*, Michael P. Peterson
