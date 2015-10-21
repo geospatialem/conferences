@@ -492,7 +492,7 @@ Don't build components (originally asked for), let's design from what the user w
 Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)  
 
 #### Usability
-* or a map of the past, you need a custom basemap.
+* For a map of the past, you need a custom basemap.
 * Let the user explore the story as they choose to.
 * As you interact with the map, the URL changes appropriately so it can be shared as you are looking at it. **_THIS IS AMAZING!_**
 
