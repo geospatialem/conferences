@@ -959,7 +959,8 @@ Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)
 
 ## *From The Twitters*, The Interwebs
 * [Add Vertex – Script for Adobe Illustrator](http://cartography.oregonstate.edu/AddVertexScript.html)  
-* [Open Geoportal](http://data.opengeoportal.org): An easy way to find open geodata all over the world.     
+* [Open Geoportal](http://data.opengeoportal.org): An easy way to find open geodata all over the world.  
+* [Project Faces](https://www.youtube.com/watch?v=bcUo9ULvVq4) (video): Create a font using this tool! "Project Faces" is a whole new way to think about tweaking, adapting, and creating fonts that perfectly reflect your message. This technology preview isn't in the Creative Cloud yet, but making your own font face in minutes may be reality sooner than later.     
 
 ## *Maps as a Visual Copy*, Ian Muehlenhaus  
 Maybe we're talking about these maps all wrong, maybe they are better thought of as copy.
