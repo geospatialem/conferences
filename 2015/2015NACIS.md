@@ -28,7 +28,7 @@
 
 ## Concurrent Sessions
 ### Thursday, October 15, 2015
-* *Mapping Neighborhoodness*, [Andy Woodruff](http://www.twitter.com/awoodruff) [[Slides](https://speakerdeck.com/awoodruff/mapping-neighborhoodness)]  
+* *Mapping Neighborhoodness*, [Andy Woodruff](http://www.twitter.com/awoodruff) [[Slides](https://speakerdeck.com/awoodruff/mapping-neighborhoodness), [Summary](https://medium.com/@awoodruff/mapping-neighborhoodness-a536013ed0f5#.a576egxc6)]  
 * *Dynamic Madison: Mapping as a Collective*, Carolyn Rose [[Slides](https://speakerdeck.com/nvkelso/dynamic-madison-mapping-as-a-collective)]
 * *Flow Maps*, Kazimierz Zaniewski [[Slides](https://speakerdeck.com/nvkelso/flow-maps)]  
 * *[Examining the Terminology of Modern Cartography](#examining-the-terminology-of-modern-cartography-michael-p-peterson-rex-g-cammack)*, Michael P. Peterson, Rex G. Cammack
