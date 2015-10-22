@@ -51,7 +51,8 @@
 * *[Planning for Automated Labeling of U.S. Routes with Multiple Shields and Names](#planning-for-automated-labeling-of-us-routes-with-multiple-shields-and-names-cynthia-a-brewer)*, Cynthia A. Brewer
 * *[Cartography Driven Data Collection](#cartography-driven-data-collection-mamata-akella)*, [Mamata Akella](https://twitter.com/mamataakella)  
 * *[Geographic Education in a Modern World](#geographic-education-in-a-modern-world-panel-discussion)*, Panel Discussion
-* *Data Processing Workflow for the National Geographic World Atlas Mobile App*, [Steve Gifford](https://twitter.com/mousebirdc) [[Slides](http://www.slideshare.net/mousebird/data-processing-workflow-for-the-national-geographic-world-atlas-mobile-app)]
+* *Data Processing Workflow for the National Geographic World Atlas Mobile App*, [Steve Gifford](https://twitter.com/mousebirdc) [[Slides](http://www.slideshare.net/mousebird/data-processing-workflow-for-the-national-geographic-world-atlas-mobile-app)]  
+* *The Cartographic Discourse of Human Interactions: A Brief Introduction to the Work of Gunnar Olsson*, [Christine Bush](https://twitter.com/bumblemaps) [[Paper](https://ideaspeak.files.wordpress.com/2015/10/cbush_go_nacis2015.pdf), [Summary](http://ideaspeak.us/you-are-here)]  
 * *[From the Twitters](#from-the-twitters-the-interwebs)*, The Interwebs
 
 ## Pecha Kucha
