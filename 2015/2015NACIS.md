@@ -129,7 +129,7 @@ Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)
 * Patterson: Right in the middle**_!_**
   * Miller Projection was used as a template (*Compact Miller*)
   * Polar Compression to condense space around the poles.
-  * Formula allows you to plug it into other sources (implemented in ArcGIS future release, and others). Made using Flexviewer (?)
+  * Formula allows you to plug it into other sources (implemented in ArcGIS future release, and others). Made using Flex Projector.  
 
 ### World Political Map:
 * World political map (e.g. Natural Earth, Natural Earth 2)
@@ -803,7 +803,7 @@ Photo Credit: [Sam Matthews](http://www.twitter.com/vancematthews)
 ### Observations:
 Lots of detail, and text describing the area as its explored.
 * 1779 map (beavers on a map - where you can make money)
-* 18xx St. Anthony's Falls (582 rabbits?)
+* 1800's St. Anthony's Falls (582 rabbits?)
 * 1900: Number for each parcel
 * Crocodiles
 * Grave sites
@@ -822,9 +822,9 @@ Lots of detail, and text describing the area as its explored.
 ### Workflow 1:
 * Layers shown as sublayers (nested within one layer)
 * Each point is grouped within a group in an area
-* Using Esri converter (?)
+* Using Esri converter  
 
-### Workflow 2 (Similar to MAPPublisher - coordinate?):
+### Workflow 2 (Similar to MAPPublisher's process):
 * Pull data from the cloud (ArcGIS Online) and straight into Illustrator without leaving Illustrator
 * Run same script highlighted in workflow 1 in Illustrator.
 
