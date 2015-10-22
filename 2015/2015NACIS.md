@@ -57,6 +57,7 @@
 ## Pecha Kucha
 ### Friday, October 16, 2015
 * *[Maps as a Visual Copy](#maps-as-a-visual-copy-ian-muehlenhaus)*, [Ian Muehlenhaus](https://twitter.com/iMuehlenhaus) [[Pre-Recorded Video](https://www.youtube.com/watch?v=ZH6eNFfrqTU)]  
+* *The Last Printed Atlas?*, [Matthew Hampton](https://twitter.com/CascadeCarto) [[Slides](https://speakerdeck.com/matthewhampton/nacis-2015-pecha-kucha-the-last-printed-atlas)]  
 
 ## Post-Conference Workshop
 ### Saturday, October 17, 2015  
