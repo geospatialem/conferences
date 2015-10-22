@@ -607,42 +607,58 @@ Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)
 ## *Type on Maps: All the Little Things that Actually Matter*, Elaine Guidero
 "Maybe Comic Sans isn't the best font for mapping a sex God."
 
+![mapping-prince](https://cloud.githubusercontent.com/assets/5023024/10655904/d0cb0d04-783e-11e5-834b-d6c171448114.png)  
+Photo Credit: [Elaine Guidero](http://www.twitter.com/elaineguidero)  
+
 ### Typefaces:
 * Typefaces have different tones based on the semantic effects.
 * Different semantic effects.
 
-### Font Anatomy:  
-![font-anatomy](https://cloud.githubusercontent.com/assets/5023024/10569865/f7591ed8-75f1-11e5-99ea-d2deb0ebb825.JPG)  
-Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)  
+### Font Anatomy:
 
-### Microaesthetics:
-![font-microaesthetics](https://cloud.githubusercontent.com/assets/5023024/10569867/fc8e909a-75f1-11e5-9b63-256aba7a19b9.JPG)  
-Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)  
-* Differences (why?) - terminal, spur, serif, stroke contrast, ear, story,
-* Looking for aesthetics, check out the photo for importance.
+#### 1. Differences
+* Why do fonts look different?
+* Examples included: terminal, spur, serif, stroke contrast, ear, and story.
+
+![font-anatomy](https://cloud.githubusercontent.com/assets/5023024/10655881/8f5beb72-783e-11e5-9357-707db00d28cd.png)  
+Photo Credit: [Elaine Guidero](http://www.twitter.com/elaineguidero)    
+#### 2. Look for Microaesthetics
 * Cartographic research on type aesthetics is inaccurate.
-  * Why? Because Label properties != typeface attributes.
+* Why? Because `Label properties != typeface attributes`.  
 
-(serif style, terminal style, x-height)
-
-### Macroaesthetics (aka. Label properties):
-* Spline/tilt
-* Kerning/tracking
-
-### Typefaces and Colors Used in Slides
-![color-palette](https://pbs.twimg.com/media/CRkaxxMUEAAv6dJ.png:large)
+![looking-for-microaesthetics](https://cloud.githubusercontent.com/assets/5023024/10655864/4ec6ae08-783e-11e5-81e9-042cc23b01ac.png)  
+Photo Credit: [Elaine Guidero](http://www.twitter.com/elaineguidero)  
+![microaesthetics](https://cloud.githubusercontent.com/assets/5023024/10655794/a44c88f8-783d-11e5-9e7c-9c91900dc1af.png)  
+Photo Credit: [Elaine Guidero](http://www.twitter.com/elaineguidero)  
+#### 3. Macroaesthetics (aka. Label properties):  
+![macroaesthetics](https://cloud.githubusercontent.com/assets/5023024/10655795/a4533f36-783d-11e5-8107-98c6b041a9b3.png)  
 Photo Credit: [Elaine Guidero](http://www.twitter.com/elaineguidero)
-
-### *Need slides*
-Choose typeface:
-* Use Microaesthetics...
-
-Semantic effects (8)
-
-Identify letters and earmarks
 
 ### Conclusions:
 Letterform elements, not label properties, contribute to typeface tone.
+
+#### Choosing a Typeface:
+* Use Microaesthetics, not Macroaesthetics, to identify semantic effect and determine tone.  
+* Inductive research to establish guidelines.  
+
+#### Identify letters and earmarks
+![letters-and-earmarks](https://cloud.githubusercontent.com/assets/5023024/10655706/d9986398-783c-11e5-87cf-550d93d92e38.png)   
+Photo Credit: [Elaine Guidero](http://www.twitter.com/elaineguidero)
+
+#### 8 Semantic Effects  
+1. Bland  
+2. Cheap  
+3. Corporate  
+4. Friendly  
+5. Modern  
+6. Neutral  
+7. Serious  
+8. Whimsical  
+
+#### Typefaces and Colors Used in Slides
+![color-palette](https://pbs.twimg.com/media/CRkaxxMUEAAv6dJ.png:large)
+Photo Credit: [Elaine Guidero](http://www.twitter.com/elaineguidero)
+
 
 ## *Every Pixel Counts: Web Map Symbols for the National Park Service*, Jake Coolidge
 
