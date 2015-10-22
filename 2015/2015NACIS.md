@@ -90,7 +90,7 @@
 ## *Redesigning Atlas Maps for Social Media*, Alethea Steingisser and James Meacham
 * Check out atlas work by Oregon, in particular the *Atlas of Wildlife Migration*  
 * Real time engangement on social media using a "time series" highlighting particular areas of interest on-the-fly (esp. graphics, maps in HD). Bright colors, bold text, thicker outlines.
-* Tell a story, what are you trying to tell? People will follow! (**give data a face**).
+* Tell a story, what are you trying to tell? People will follow! **_Give data a face!_**
 * Show the obstacles.
 * Go bold - larger (and heavier) labels, heavier text, vibrant colors, and increased contrast.
 * Simplify without 'dumbing down'.
@@ -118,16 +118,16 @@ Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)
 * Check the data, verify its in the right location (older map topographies aren't so accurate).
 * Use relief as a backdrop to your maps.
 * Digital vs. Manual Relief comparisons.
-* Digital: Light can make it difficult (e.g. Alaska arc and Pacific Northwest area), mountain ranges, gorges
+* Digital: Light can make it difficult (e.g. Alaskan Arc and Pacific Northwest area in particular), mountain ranges, and gorges.  
 * Terrain data: Natural Earth website (1:50m), can use higher/lower scales (GeoTIFF format).
 
 ### Patterson Projection:
-* Equal Area: Antartica is smooshed
-* Geographic: "Stubby" South America
-* Mercator: Small-scale = good, large-scal = not so much
-* Miller: Antartica is a beast! (14x larger than Greenland)
-* Patterson: Right in the middle**_!_**
-  * Miller Projection was used as a template (*Compact Miller*)
+* **Equal Area:** Antartica is smooshed
+* **Geographic:** "Stubby" South America
+* **Mercator:** Small-scale = good, large-scale = not so much
+* **Miller:** Antartica is a beast! (14x larger than Greenland)
+* **_Patterson:_** Right in the middle**_!_**  
+  * Miller Projection was used as a template (*Compact Miller*).  
   * Polar Compression to condense space around the poles.
   * Formula allows you to plug it into other sources (implemented in ArcGIS future release, and others). Made using Flex Projector.  
 
@@ -136,7 +136,7 @@ Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)
 
 ### Websites:
 * See Tom's [website](http://www.shadedrelief.com) for more information!
-* Make your own projection on [Flex Projector](http://www.flexprojector.com)
+* Make your own projection using [Flex Projector](http://www.flexprojector.com)
 
 ## *Designer as a Cartographer*, Amy Lee Walton
 
@@ -262,12 +262,13 @@ Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)
 * As you do fieldwork record audio of your local collaborators.
 * Record something you might miss if you were in the office.
 
-### 4. Skeleton Maps
+### 4. Skeleton Maps  
+*  Geographic structure for storing local stories and meaningful information.  
+* Mark on the maps specific information they *know*, but we may not being outsiders.  
+* Incorporate the information into field notes, and maps.  
+
 ![skeleton-maps](https://cloud.githubusercontent.com/assets/5023024/10601759/6ea8903a-76d9-11e5-93e4-7e2dffe2d647.png)  
 Photo credit: [Ross Donihue](https://twitter.com/RossDonihue)  
-*  Geographic structure for storing local stories and meaningful information.
-* Mark on the maps specific information they *know*, but we may not being outsiders.
-* Incorporate the information into field notes, and maps.
 
 ## *ArcMap-to-Illustrator Workflows*, Nicole Samu
 ArcMap → Illustrator process
@@ -310,17 +311,20 @@ Map Credit: [Bill Morris](https://twitter.com/vtcraghead), Wikipedia
 Anyone can make anything nicer with time! But... we need maps fast! We can still do better on a short time frame!
 
 ### Program Map Restyling (an iterative process):  
-1. Before map    
+#### 1. Before map    
 ![before-syria-map](https://cloud.githubusercontent.com/assets/5023024/10569650/022232bc-75ef-11e5-8eff-1083a9bd1c9b.JPG)  
 Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)  
-2. After map  
+
+#### 2. After map  
 ![after-syria-map](https://cloud.githubusercontent.com/assets/5023024/10569845/9caea534-75f1-11e5-8da1-a0f15ace8a4c.JPG)  
 Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)  
-  * Smaller map (only the map there, by itself - FOCUS)  
-  * Color-coded table  
-  * Words to symbols  
-  * Colors and shapes were added in  
-  * Font hierarchy, less contrast for busy maps  
+
+### Objectives:  
+  * Smaller map, only the map there, by itself! This allows the viewer to **focus** on the content.  
+  * Color-coded table.  
+  * Words to symbols.  
+  * Colors, shapes, and distinctive objects were added in.  
+  * Font hierarchy was established to show less contrast for busy maps.    
   * Color palettes in Adobe Illustrator.  
   ![palette-color-guide](https://pbs.twimg.com/media/CRTpf4CUYAI6CTy.jpg:large)  
   Photo Credit: [Vanessa Knoppke-Wetzel](http://www.twitter.com/run_for_funner)  
@@ -396,13 +400,12 @@ Photo Credit: [Alan McConchie](http://www.twitter.com/mappingmashups)
 * Use globals!  
 * Hack `Project.yml` for custom layers  
 
-#### 3. Attachments
-* (a.k.a. sublayer)  
+#### 3. Attachments (a.k.a. sublayer)  
 
 #### 4. Attributes are awesome!  
 
 #### 5. Never forget where you came from...
-* (Use common operators, and labels)  
+* Use common operators, and labels    
 
 #### 6. Have fun!  
 
@@ -437,28 +440,28 @@ ArcGIS vector tile service will come with the new release.
 ## *Examining the Terminology of Modern Cartography*, Michael P. Peterson, Rex G. Cammack
 
 ### Words and Maps:  
-* Conceptually cartography is based on Words
-* Words influence our mapping
-* Words form communication with others, and **ourselves**
-* Development of words done without much thought (expressions/words used for same concept).
-* We're at a great age of cartography with **ideas, concepts, and theory.**
-* Words to define cartography. Cartographic language is not a dead language.
-* We as a community can change and help it evolve.
-* *We need to find new words for other maps, and find a better term than "static map"!*
+* Conceptually cartography is based on words.  
+* Words influence our mapping.  
+* Words form communication with others, and **ourselves**.  
+* Development of words done without much thought (expressions/words used for same concept).  
+* We're at a great age of cartography with **ideas, concepts, and theory.**  
+* Words define cartography. Cartographic language is not a dead language.  
+* We as a community can change and help it evolve.  
+* *We need to find new words for other maps, and find a better term than "static map"!*  
 
 ### Jargon:
-* Discipline-specific words (e.g. Doctors - shorthand/seperate from patients)
-* Jargon separates out from individuals/groups
+* Discipline-specific words (e.g. Doctors use shorthand to separate themselves from patients).  
+* Jargon separates out from individuals/groups.  
 
 ### Slippy map:
-* A term referring to modern web maps that let you zoom and pan around (map slips around when you drag the mouse).
-* AJAX component where JavaScript runs in the browser and puts in a request from the server without downloading the whole HTML on the page → "Slippy zoom" map experience - :-)
-* A "cute" term, but not very professional sounding, and the term isn't taken very seriously.
-* *MOMM (Me On My Map)* - Track the entity "holding" the map. Similar to slippy map term (e.g. FitBit)
+* A term referring to modern web maps that let you zoom and pan around. The term originates from how the map 'slips' around when you drag the mouse.  
+* AJAX component where JavaScript runs in the browser and puts in a request from the server without downloading the whole HTML on the page → "Slippy zoom" map experience :-)  
+* A "cute" term, but not very professional sounding, and the term isn't taken very seriously.  
+* *MOMM (Me On My Map)*: Track the entity "holding" the map. Similar to slippy map term (e.g. FitBit).  
 
 ### English by non-native speakers:
-* Worlds most spoken language? *bad english*
-* Europeans use English as a common language, but words are made up (e.g. "Handy" in Germany, for cell phone)
+* The world's most spoken language is *bad english*.
+* Europeans use English as a common language, but words are made up (e.g. "Handy" in Germany, for cell phone).  
 
 ### Boundaries of Classes:
 * Map Types (General/Thematic)
@@ -496,12 +499,12 @@ The best modality depends on the display size (slippy for smaller, side-by-side 
   * Second best performance (lowest varience)  
 
 ## *A New Atlas of American History*, Alan McConchie
-**_Showing things over time, is just as important as showing what is happening in space._**
+**_Showing things over time is just as important as showing what is happening in space._**
   * Its hard to do, but its an important story to tell.
   * Discuss!
 
 ### American Panorama: An Atlas of U.S. History:
-Don't build components (originally asked for), let's design from what the user will want. True to the data, and show a story. Add a toolkit over time. Use modern tools that support for many years.
+Don't build components (originally asked for by the client). Instead, let's design from what the user will want, stay true to the data, and show a story. Over time, a toolkit can be added. Use modern tools that support for many years.
 
 ### Forced Migration of Enslaved People in the US (1810-1860):
 #### Phases
@@ -516,10 +519,10 @@ Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)
 #### Setup
 ![stamen-setup](https://cloud.githubusercontent.com/assets/5023024/10569683/9202c4aa-75ef-11e5-8079-f3655918678b.JPG)  
 Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)   
-* **Custom basemap**: Natural Earth data (cartoCSS/cartoDB), own map projection, transform using CartoCSS, openTerrain tile (mostly transparent).
+* **Custom basemap**: Natural Earth data (CartoCSS/CartoDB), own map projection, transform using CartoCSS, OpenTerrain tile (mostly transparent).
 * **Data**: Convert counties to hexbins that creates a smooth look (since counties change over time).
 
-### Other maps:
+### Other interactive maps:
 * Overland trails (1840-1860) - this includes historical trails (e.g. Oregon Trail)
 * Foreign born ("current age" map)
 * Canals (1820-1890)
@@ -548,7 +551,7 @@ Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)
 ## *Open Web Mapping Technologies: How do we Teach this Stuff?*, Carl Sack
 
 ### **_Lots of great projects emerged, but so did the LARGE struggles, especially with D3._**
-### "The more you know the more you know you need to know."
+### "The more you know, the more you know you need to know."
 
 ### Desired outcomes:
 1. Ability to create [animated] thematic slippy maps using Leaflet.  
@@ -572,16 +575,16 @@ The workflow gets more, and more, integrated over time.
 Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)  
 
 ### Difficulties:
-* Two different sections (each has its own learnng speed)
-* Difficulties: the DOM, identifying source of methods, data formatting and conversion.
-* D3 lessons successful, exciting.
-* Student understanding: "I'm learning and know I'll get beyond this rather than helplessness or giving up."
-* Student enlightenment: "I needed to break it down and solve things one at a time, not all at once."
-* Expertise with tools after were still low/moderate, but they had the basic knowledge and wanted to learn more!
+* Two different sections (each has its own learning speed).  
+* Difficulties: the DOM, identifying source of methods, data formatting and conversion.  
+* D3 lessons were successful and exciting.    
+* Student understanding: *"I'm learning and know I'll get beyond this rather than helplessness or giving up."*   
+* Student enlightenment: *"I needed to break it down and solve things one at a time, not all at once."*  
+* Expertise with tools after were still low/moderate, but they had the basic knowledge and wanted to learn more!  
 
 ### The most useful tools first were:
-* Using browser developer tools
-* Tools on GitHub (mostly using GitHub GUI due to familiarity with command line. This can always come later.)
+* Using browser developer tools.  
+* Tools on GitHub (mostly using GitHub GUI due to familiarity with command line. This can always come later).  
 
 ### Student Projects
 [University of Wisconsin Course](http://geography.wisc.edu/courses/geog575)
@@ -723,10 +726,10 @@ using CartoCSS, and SQL queries!
 * Same process for a small non-profit, to manage data in CartoDB so maps stay current!
 
 #### The great news:  
-* There was Little-to-no confusion about the interface!  
+* There was little-to-no confusion about the interface!  
 * CartoDB is pretty easy to use, and the interface is amazing!
 * Users made basic updates.  
-* Learned how georeferencing works  
+* Learned how georeferencing works.    
 
 #### The not-so-great news:  
 * No further maps were made after the training...  
@@ -766,10 +769,10 @@ The ability to do GIS in the browser. Drag-and-drop a feature and perform basic 
 ![gis-for-the-people-mission](https://cloud.githubusercontent.com/assets/5023024/10569894/5512fb66-75f2-11e5-890d-19462954c332.JPG)  
 Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)  
 
-* `Contributions != Code`  
-* Welcome small & large contributions  
-* Build entrances & exits for contributors  
-* Test and prioritize user input early & often  
+* `Contributions != Code`.  
+* Welcome small & large contributions!  
+* Build entrances & exits for contributors.  
+* Test and prioritize user input early & often!  
 * People get scared when they hear the word "GitHub", try to refrain from using the words "code" and "GitHub". Start using the words "documentation", "issues", and "no experience needed".  
 
 ![gis-of-the-people](https://cloud.githubusercontent.com/assets/5023024/10595620/f44f0ac8-769f-11e5-9d66-f68ce095e1a0.png)  
@@ -912,50 +915,50 @@ Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)
 6. Matt Wilson
 
 ### 1. What is the relationship between cartography and geography?  
- * Cartography and geography - spectrum
- * Geography - science/data, Cartography - subset/tool of communicating.
- * You can't have one without the other.
- * Interdisciplinary
- * To showcase data geographers need cartography.
- * Cartography is the communication we have with one another.
- * It starts with geography - a deep seeded need to understand spatial relationships.
- * Mapping/cartography is not easy.
+ * Cartography and geography is a spectrum.  
+ * Geography - science/data, Cartography - subset/tool of communicating.  
+ * You can't have one without the other.  
+ * Interdisciplinary  
+ * To showcase data geographers need cartography.  
+ * Cartography is the communication we have with one another.  
+ * It starts with geography - a deep seeded need to understand spatial relationships.  
+ * Mapping/cartography is not easy.  
 
 ### 2. What mapping technologies and approaches do you advocate, use, and/or teach?  
-  * Mashup of data, art, and communication. Split it up - design is a component. Start learning new technologies where you feel comfortable (e.g. design → Mapbox Studio).
-  * Teach technology and spatial principles, not the tools (e.g. Google, Leaflet, OpenLayers) with the ability to adapt.
-  * No one solution, many solutions are available.
-  * "Failure is okay. Sometimes the best way to learn what works by learning what doesn't work. It teaches you along the way." -[Mike Foster](http://www.twitter.com/mjfoster83)
-  * Dependent on the student/learner. Meet people where they are on the spectrum.
-  * Not a method: mapping is a phenomenon, not a vehicle.
-  * Use what they know and extend on their knowledge.
-  * Give them an assignment, like making a web application, and put a design twist on it (e.g. map tiles).
-  * Start from the bottom and go to the top.
+  * Mashup of data, art, and communication. Split it up - design is a component. Start learning new technologies where you feel comfortable (e.g. design → Mapbox Studio).  
+  * Teach technology and spatial principles, not the tools (e.g. Google, Leaflet, OpenLayers) with the ability to adapt.  
+  * No one solution, many solutions are available.  
+  * "Failure is okay. Sometimes the best way to learn what works by learning what doesn't work. It teaches you along the way." -[Mike Foster](http://www.twitter.com/mjfoster83)  
+  * Dependent on the student/learner. Meet people where they are on the spectrum.  
+  * Mapping is not a method! Mapping is a phenomenon, not a vehicle.  
+  * Use what they know and extend on their knowledge.  
+  * Give them an assignment, like making a web application, and put a design twist on it (e.g. map tiles).  
+  * Start from the bottom and go to the top.  
 
 ### 3. What kinds of courses or opportunities should higher education be supporting?  
-  * Traditional and non-traditional experiences/curriculum. Outlets are needed, but make it fun/exploratory.
-  * Hold multiple internships as a student, learn.
-  * Volunteer/internships/cold call and find projects.
-  * Foster relationships and communication with government entities.
-  * Facilitate learning together in a common space. Test it out, and open it if its successful to other educators/students. Exposure!
-  * Its easier to teach something if you learn it. Celebrate it, and get excited about it! Learn from someone who is just getting started with it. Not expert → beginner, but a collaborative learning environment.
-  * Being open/software agnostic. Focus on the creation of the buttons, not pushing the buttons. How do we create buttons?
-  * Learning to code is hard. You shouldn't feel dumb when you are learning! **No one knows how to code.** Programmers are really good at Googling. Learn the vocabulary to answer the question.
-  * If you make something, write it down, put it online! Experts take for granted some of the things that are super hard when you first start out!
-  * Teach critical thinking and problem solving.
-  * Animosity of students that just want to solve a problem.
+  * Traditional and non-traditional experiences/curriculum. Outlets are needed, but make it fun/exploratory.  
+  * Hold multiple internships as a student, and learn.  
+  * Volunteer/internships/cold call and find projects.  
+  * Foster relationships and communication with government entities.  
+  * Facilitate learning together in a common space. Test it out, and open it if its successful to other educators/students. Exposure is critical!  
+  * Its easier to teach something if you learn it. Celebrate it, and get excited about it! Learn from someone who is just getting started with it. Not expert → beginner, but a collaborative learning environment.  
+  * Being open/software agnostic. Focus on the creation of the buttons, not pushing the buttons. How do we create buttons?  
+  * Learning to code is hard. You shouldn't feel dumb when you are learning! **No one knows how to code.** Programmers are really good at Googling. Learn the vocabulary to answer the question.  
+  * If you make something, write it down, put it online! Experts take for granted some of the things that are super hard when you first start out!  
+  * Teach critical thinking and problem solving.  
+  * Animosity of students that just want to solve a problem.  
 
 ### 4. How can higher education adapt?  
 *Not answered*  
 
 ### 5. How should industry help with higher education to make the changes?
-  * Support older versions/backward compatibility to make it easy on professors in their curriculum design.
-  * Offer non-subscription based software to educators.
-  * Documentation thats easy to get to, with examples!! And easy to comprehend no matter on beginner or advanced knowledge bases.
-  * Make a presence in the educational realm/community.
-  * "GitHub for the classroom" for the mapping community.
-  * Relationship between educators and industry leaders.
-  * Question, "Teach someone how to buffer without a tool?"
+  * Support older versions/backward compatibility to make it easy on professors in their curriculum design.  
+  * Offer non-subscription based software to educators.  
+  * Documentation thats easy to get to, with examples!! And easy to comprehend no matter on beginner or advanced knowledge bases.  
+  * Make a presence in the educational realm/community.  
+  * "GitHub for the classroom" for the mapping community.  
+  * Relationship between educators and industry leaders.  
+  * Question, "Teach someone how to buffer without a tool?"  
 
 ## *From The Twitters*, The Interwebs
 * [Add Vertex – Script for Adobe Illustrator](http://cartography.oregonstate.edu/AddVertexScript.html)  
