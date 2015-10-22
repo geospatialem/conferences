@@ -29,28 +29,39 @@
 ## Concurrent Sessions
 ### Thursday, October 15, 2015
 * *Mapping Neighborhoodness*, [Andy Woodruff](http://www.twitter.com/awoodruff) [[Slides](https://speakerdeck.com/awoodruff/mapping-neighborhoodness)]  
+* *Dynamic Madison: Mapping as a Collective*, Carolyn Rose [[Slides](https://speakerdeck.com/nvkelso/dynamic-madison-mapping-as-a-collective)]
+* *Flow Maps*, Kazimierz Zaniewski [[Slides](https://speakerdeck.com/nvkelso/flow-maps)]  
 * *[Examining the Terminology of Modern Cartography](#examining-the-terminology-of-modern-cartography-michael-p-peterson-rex-g-cammack)*, Michael P. Peterson, Rex G. Cammack
 * *[A Visual Search Task Comparing Zooming Metaphors](#a-visual-search-task-comparing-zooming-metaphors-ryan-mullins)*, [Ryan Mullins](https://twitter.com/RyanMullins)   [[Slides](https://speakerdeck.com/ryanmullins/geographic-analysis-in-context-a-visual-search-task-comparing-zooming-metaphors)]
 * *[A New Atlas of American History](#a-new-atlas-of-american-history-alan-mcconchie)*, [Alan McConchie](https://twitter.com/mappingmashups) [[Slides](https://speakerdeck.com/almccon/nacis2015-a-new-atlas-of-american-history), [Notes/Resources](http://sta.mn/6gk), [Website](http://dsl.richmond.edu/historicalatlas), [GitHub](http://github.com/americanpanorama)]  
 * *[Beyond Paper: Ideas for Interactive Maps](#beyond-paper-ideas-for-interactive-maps-peter-liu)*, [Peter Liu](http://www.twitter.com/chieflybrit)    
 * *[Open Web Mapping Technologies: How do we Teach this Stuff?](#open-web-mapping-technologies-how-do-we-teach-this-stuff-carl-sack)*, [Carl Sack](http://www.twitter.com/northlandiguana) [[Slides](http://tinyurl.com/openwebmapping), [GitHub](http://github.com/uwcart/cartographic-perspectives)]
-* *[How to Teach an Old(ish) Cartography Professor New Tricks](#how-to-teach-an-oldish-cartography-professor-new-tricks-sally-hermansen)*, Sally Hermansen
-* *[Type on Maps: All the Little Things that Actually Matter](#type-on-maps-all-the-little-things-that-actually-matter-elaine-guidero)*, [Elaine Guidero](https://twitter.com/elaineguidero)  
+* *[How to Teach an Old(ish) Cartography Professor New Tricks](#how-to-teach-an-oldish-cartography-professor-new-tricks-sally-hermansen)*, Sally Hermansen [[Slides](https://speakerdeck.com/nvkelso/how-to-teach-an-old-ish-cartographer)]  
+* *Evolving Technology, Shifting Expectations, Cultivating Pedagogy for a Rapidly Changing GIS Landscape*, Jim Thatcher and Britta Ricker [[Slides](https://speakerdeck.com/nvkelso/evolving-technology-shifting-expectations)]  
+* *Embodying Landscape, Transposing Space: Francois Matthes's 1906 Topographical Map of the Grand Canyon*, Nicholas Bauch [[Slides](https://speakerdeck.com/nvkelso/embodying-landscape-transposing-space)]  
+* *Remapping Spatial Sensibilities*, Nick Lally [[Slides](https://speakerdeck.com/nvkelso/remapping-spatial-sensibilities)]
+* *[Type on Maps: All the Little Things that Actually Matter](#type-on-maps-all-the-little-things-that-actually-matter-elaine-guidero)*, [Elaine Guidero](https://twitter.com/elaineguidero) [[Slides](https://speakerdeck.com/nvkelso/type-on-maps-all-the-little-things-that-actually-matter)]  
 * *[Every Pixel Counts: Web Map Symbols for the National Park Service](#every-pixel-counts-web-map-symbols-for-the-national-park-service-jake-coolidge)*, [Jake Coolidge](http://www.twitter.com/jccartography) [[Slides](http://www.nps.gov/npmap/slides/every-pixel-counts.pdf)]  
-* *[Visualizing Ten Years of Quantitative Color Schemes](#visualizing-ten-years-of-quantitative-color-schemes-travis-white)*, Travis White
+* *[Visualizing Ten Years of Quantitative Color Schemes](#visualizing-ten-years-of-quantitative-color-schemes-travis-white)*, Travis White [[Slides](https://speakerdeck.com/nvkelso/visualizing-ten-years-of-quantitative-color-schemes)]  
 * *[Natural-Color Maps via Automated Coloring of Bivariate Grid Data](#natural-color-maps-via-automated-coloring-of-bivariate-grid-data-jane-darbyshire)*, Jane Darbyshire
 * *[Spooky Map Stories](#spooky-map-stories-patrick-hammons)*, [Patrick Hammons](https://twitter.com/hamhandedly) [[Slides](http://bit.ly/spooky-nacis-2015)]
-* *[GIS for the people by the people](#gis-for-the-people-by-the-people-sam-matthews)*, [Sam Matthews](http://www.twitter.com/vancematthews) [[Slides](http://bit.ly/gisforthepeople)]
+* *[GIS for the people by the people](#gis-for-the-people-by-the-people-sam-matthews)*, [Sam Matthews](http://www.twitter.com/vancematthews) [[Slides](http://bit.ly/gisforthepeople)]  
+* *Designing an Experience: Maps, Signage, and the Tourist Path through Troy*, Chelsea Nestel [[Slides](https://speakerdeck.com/nvkelso/designing-an-experience)]  
+* *Road Books and Side Paths*, Michael Dorn [[Slides](https://speakerdeck.com/nvkelso/road-books-and-side-paths)]
 
-### Friday, October 16, 2015
+### Friday, October 16, 2015  
+* *Dasymetric Tesselation*, Walter Kent Treichel [[Slides](https://speakerdeck.com/nvkelso/dasymetric-tessellaton)]  
 * *Am I Rent Stabilized?*, [Chris Henrick](https://twitter.com/chrislhenrick) [[Slides](http://clhenrick.io/presentations/am-i-rent-stabilized), [GitHub](https://github.com/clhenrick/am-i-rent-stabilized), [Website](https://amirentstabilized.com)]
-* *[Big History, Little History: Cartography in the Twentieth Century](#big-history-little-history-cartography-in-the-twentieth-century-mark-monmonier)*, Mark Monmonier
-* *[Of Crocodiles and Tea Garden Managers: Mapping Interactions of an Earlier Era](#of-crocodiles-and-tea-garden-managers-mapping-interactions-of-an-earlier-era-leo-dillon)*, Leo Dillon
+* *[Big History, Little History: Cartography in the Twentieth Century](#big-history-little-history-cartography-in-the-twentieth-century-mark-monmonier)*, Mark Monmonier [[Slides](https://speakerdeck.com/nvkelso/big-history-little-history-cartography-in-the-twentieth-century)]  
+* *[Of Crocodiles and Tea Garden Managers: Mapping Interactions of an Earlier Era](#of-crocodiles-and-tea-garden-managers-mapping-interactions-of-an-earlier-era-leo-dillon)*, Leo Dillon [[Slides](https://speakerdeck.com/nvkelso/of-crocodiles-and-tea-garden-managers-mapping-interactions-of-an-earlier-era)]  
 * *[Improving ArcGIS mapping workflows with Adobe’s Creative Cloud Applications](#improving-arcgis-mapping-workflows-with-adobes-creative-cloud-applications-sarah-bell--clint-loveman)*, [Sarah Bell](http://www.twitter.com/cerebellumaps) and [Clint Loveman](http://www.twitter.com/c_loveman)  
 * *[Drupalized Web Maps](#drupalized-web-maps-tim-stallmann)*, [Tim Stallmann](https://twitter.com/t_stallmann)  
 * *[Planning for Automated Labeling of U.S. Routes with Multiple Shields and Names](#planning-for-automated-labeling-of-us-routes-with-multiple-shields-and-names-cynthia-a-brewer)*, Cynthia A. Brewer
 * *[Cartography Driven Data Collection](#cartography-driven-data-collection-mamata-akella)*, [Mamata Akella](https://twitter.com/mamataakella)  
-* *[Geographic Education in a Modern World](#geographic-education-in-a-modern-world-panel-discussion)*, Panel Discussion
+* *[Geographic Education in a Modern World](#geographic-education-in-a-modern-world-panel-discussion)*, Panel Discussion  
+* *Evaluating the Effectiveness of Illuminated and Shadowed Contour Lines*, James Eynard [[Slides](https://speakerdeck.com/nvkelso/evaluating-the-effectiveness-of-illuminated-and-shadowed-contour-lines)]  
+* *Improving the Representation of Major Landforms in Analytical Relief Shading*, Brooke Marston [[Slides](https://speakerdeck.com/nvkelso/improving-the-representation-of-major-landforms-in-analytical-relief-shading)]  
+* *Benefits and Challenges of the Modern Web Mapping Paradigm*, Kris Johnson [[Slides](http://slides.com/krisjohnson/deck#)]  
 * *Data Processing Workflow for the National Geographic World Atlas Mobile App*, [Steve Gifford](https://twitter.com/mousebirdc) [[Slides](http://www.slideshare.net/mousebird/data-processing-workflow-for-the-national-geographic-world-atlas-mobile-app)]  
 * *The Cartographic Discourse of Human Interactions: A Brief Introduction to the Work of Gunnar Olsson*, [Christine Bush](https://twitter.com/bumblemaps) [[Paper](https://ideaspeak.files.wordpress.com/2015/10/cbush_go_nacis2015.pdf), [Summary](http://ideaspeak.us/you-are-here)]  
 * *[From the Twitters](#from-the-twitters-the-interwebs)*, The Interwebs
@@ -759,17 +770,17 @@ Photo Credit: [Sam Matthews](http://www.twitter.com/vancematthews)
 * Dynamic cartography
 * Multi-mode institutions (academic cartography)
 
-### Six themes: (*need slides*)
+### Six themes:  
 1. Diverse impacts of mapping on a society  
 2. Overhead imaging  
-3. ...  
-4. ...  
-5. ...  
-6. ...  
+3. The electronic transition    
+4. Maps and Warfare    
+5. The Paradox of Globalized Practices and Customized Content    
+6. Maps as tools of Public Administration    
 
-### Books to read:
+### Further Reading:
 * *Computational geography as a new modality* by Suane Marble
-* *Cartogaphy in the Twentieth century*
+* *Cartogaphy in the Twentieth century* edited by Mark Monmonier  
 
 ## *Of Crocodiles and Tea Garden Managers: Mapping Interactions of an Earlier Era*, Leo Dillon
 
