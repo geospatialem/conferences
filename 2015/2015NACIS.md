@@ -59,6 +59,7 @@
 * *[Planning for Automated Labeling of U.S. Routes with Multiple Shields and Names](#planning-for-automated-labeling-of-us-routes-with-multiple-shields-and-names-cynthia-a-brewer)*, Cynthia A. Brewer
 * *[Cartography Driven Data Collection](#cartography-driven-data-collection-mamata-akella)*, [Mamata Akella](https://twitter.com/mamataakella)  
 * *[Geographic Education in a Modern World](#geographic-education-in-a-modern-world-panel-discussion)*, Panel Discussion  
+* *How to Hire or Be Hired*, Panel Discussion [[Slides](https://speakerdeck.com/nvkelso/a-jobs-panel-how-to-hire-or-be-hired), [Summary](http://tolomaps.tumblr.com/post/131735916683/how-to-hire-or-be-hired-a-jobs-panel-nacis2015)]  
 * *Evaluating the Effectiveness of Illuminated and Shadowed Contour Lines*, James Eynard [[Slides](https://speakerdeck.com/nvkelso/evaluating-the-effectiveness-of-illuminated-and-shadowed-contour-lines)]  
 * *Improving the Representation of Major Landforms in Analytical Relief Shading*, Brooke Marston [[Slides](https://speakerdeck.com/nvkelso/improving-the-representation-of-major-landforms-in-analytical-relief-shading)]  
 * *Benefits and Challenges of the Modern Web Mapping Paradigm*, Kris Johnson [[Slides](http://slides.com/krisjohnson/deck#)]  
