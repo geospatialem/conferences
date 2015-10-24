@@ -913,7 +913,7 @@ Photo Credit: [Kitty Hurley](http://www.twitter.com/geospatialem)
 3. [Mike Foster](http://www.twitter.com/mjfoster83)
 4. [Katie Kowalsky](http://www.twitter.com/katiekowalsky)
 5. [Mōno Simeone](https://twitter.com/monosim)
-6. Matt Wilson
+6. [Matt Wilson](https://twitter.com/wilsonism)  
 
 ### 1. What is the relationship between cartography and geography?  
  * Cartography and geography is a spectrum.  
