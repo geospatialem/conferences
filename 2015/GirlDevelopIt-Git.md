@@ -95,7 +95,12 @@ A parallel version of a repo. `master` is GitHub's default branch. **A branch is
 `git checkout master`: Checkout the `master` branch.  
 
 ### Delete a Branch
-`git branch -d [branch-name-here]`
+
+**Origin Remote**:  
+`git push origin :[branch-name-here]`  
+
+**Locally**:  
+`git branch -d [branch-name-here]`  
 
 ### Merge a Branch
 a.k.a. collaboration at its best!
