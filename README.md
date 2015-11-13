@@ -13,6 +13,6 @@ Learn to Program and Analyze Data with Python. Develop programs to gather, clean
 
 4. <img src="https://cloud.githubusercontent.com/assets/5023024/10469596/28626068-71cc-11e5-930d-dc6d5a3944f7.png" width="25" height="25")> [NACIS 2015](/2015/2015NACIS.md) ([website](http://www.nacis.org)): The North American Cartographic Information Society, founded in 1980, is an organization comprised of specialists from private, academic, and government organizations whose common interest lies in facilitating communication in the map information community. This is the annual meeting with the theme *Mapping Interactions*. The conference took place at The Depot Renaissance Hotel in Minneapolis, Minnesota from October 14-17, 2015.
 
-5. 2. <img src="https://cloud.githubusercontent.com/assets/5023024/10260841/9d4cb9b8-6944-11e5-8987-a7d1493b5812.jpeg" width="25" height"25"> [Girl Develop It: Photoshop](/2015/GirlDevelopIt-Photoshop.md) ([website](https://www.girldevelopit.com/chapters/minneapolis)):  
+5. <img src="https://cloud.githubusercontent.com/assets/5023024/10260841/9d4cb9b8-6944-11e5-8987-a7d1493b5812.jpeg" width="25" height"25"> [Girl Develop It: Photoshop](/2015/GirlDevelopIt-Photoshop.md) ([website](https://www.girldevelopit.com/chapters/minneapolis)):  
 A non-profit organization that exists to provide affordable and judgment-free opportunities for women interested in learning web and software development. Photoshop took place at White House Custom Colour in Eagan, Minnesota on November 14, 2015.
 
