@@ -8,12 +8,21 @@
 
 ## Vocabulary
 * **_PSD:_** File extension for Photoshop files.  
-* **_Raster:_** stuff  
-* **_Vector:_** stuff  
-* **_Pixel:_** stuff
-* **_Smart Guides:_** Align items more effectively in design.
-* **_Background_**: stuff
-* **_Layer Mask:_** stuff
+* **_Raster:_**  
+  * Dot-based    
+  * Dots = pixels (sometimes)    
+  * Cannot resize without quality loss    
+  * GIF, JPG, PNG    
+  * Photoshop  
+* **_Vector:_**  
+  * Math-based (!)  
+  * Uses geometry to create graphics  
+  * Infinitely resize or scale while maintaining quality  
+  * SVG  
+  * Illustrator  
+* **_Pixel:_** Short form of two words, "picture element".  They are the building blocks of any digital photo or image.  
+* **_Smart Guides:_** Align items more effectively while designing.
+* **_Layer Mask:_** The capability to selectively modify the opacity (transparency) of the layer.  
 * **_Link:_** stuff
 * **_Layer Group_**: stuff
 * **_Smart Objects:_**: stuff
@@ -24,6 +33,9 @@
 ![shortcuts-1](https://cloud.githubusercontent.com/assets/5023024/11164448/16e0b3a0-8ab6-11e5-8c38-07db418a1f0f.png)
 
 ![shortcuts-2](https://cloud.githubusercontent.com/assets/5023024/11164449/16ec10f6-8ab6-11e5-9ed9-524dd0f2f144.png)
+
+## Raster vs. Vector
+![raster-vs-vector](https://cloud.githubusercontent.com/assets/5023024/11166959/c8841af0-8b12-11e5-8311-c1d2ebbf07f0.png)
 
 ## File Types
 1. **PNG:**
@@ -47,4 +59,8 @@ Check out the [full infographic](http://www.whoishostingthis.com/blog/2014/12/06
 * [Export artboards, layers, and more](https://helpx.adobe.com/photoshop/using/export-artboards-layers.html), help article
 
 ## Embedded and Linked images
-* [Resource](https://forums.adobe.com/thread/1398884) 
+* [Resource](https://forums.adobe.com/thread/1398884)
+
+## Layer Mask
+
+![layer-mask](http://designshack.net/wp-content/uploads/masking101-3.jpg)
