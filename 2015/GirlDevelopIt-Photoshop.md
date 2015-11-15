@@ -7,10 +7,12 @@
 * [Presentation Slides](https://docs.google.com/presentation/d/1ggeVIvIU1zH0fcW5HAW6msI_pToQReHyTeV6Vkzy0YY)
 
 ## Vocabulary
-* **_PSD:_** File extension for Photoshop files.  
+* **_PSD:_** File extension for Photoshop files.
+* **_Photoshop Elements_**: A good tool for photography, not as elaborate at Photoshop.  
 * **_Raster:_** Dot/pixel-based graphics. Raster graphics cannot resize without quality loss. Photoshop uses raster graphics. Most commonly, rasters are in GIF, JPG, or PNG formats.     
 * **_Vector:_**  Math-based, and uses geometry to create graphics. Infinitely resize or scale while maintaining a graphic's quality. Illustrator uses vector graphics. Most commonly, vectors are in SVG formats.  
 * **_Pixel:_** Short form of two words, "picture element".  They are the building blocks of any digital photo or image.  
+* **_Duplicate layer:_** A copy/duplicate of the original. **Note:** This is a best practice in Photoshop to keep existing files and edited files separated. Make this part of your workflow!
 * **_Smart Guides:_** Align items more effectively while designing.
 * **_Layer Mask:_** The capability to selectively modify the opacity (transparency) of the layer.  
 * **_Layer adjustments_**: Apply color and tonal adjustments to an image without permanently changing pixel values.
@@ -19,9 +21,15 @@
 ![raster-vs-vector](https://cloud.githubusercontent.com/assets/5023024/11166959/c8841af0-8b12-11e5-8311-c1d2ebbf07f0.png)
 
 ## Shortcuts
+When in doubt, try the `Shift` or `⌘` keys.  
+
 ![shortcuts-1](https://cloud.githubusercontent.com/assets/5023024/11164448/16e0b3a0-8ab6-11e5-8c38-07db418a1f0f.png)
 
 ![shortcuts-2](https://cloud.githubusercontent.com/assets/5023024/11164449/16ec10f6-8ab6-11e5-9ed9-524dd0f2f144.png)
+
+## Print vs. Web
+* **Print**: CMYK  
+* **Web**: RGB  
 
 ## File Types
 1. **PNG:**
@@ -63,10 +71,16 @@ Check out the [full infographic](http://www.whoishostingthis.com/blog/2014/12/06
 
 ### Magic wand
 * Check out the `Sample size` drop-down menu
+* Check out the `Tolerance` to select more/less within your project.
 * Use `Reselect/Deselect`
+* `Shift` adds a selection
+* Utilize the `Select inverse` option
 
+### Remove an area
+`Alt/option` + `-`
 
 ### Lasso
+Erasing is destructive, ensure you have made a duplicate layer, and/or are using an embedded image before proceeding.
 * **Magnetic Lasso:** Differentiate between a person's head with a landscape background
 * **Polygonal Lasso:** POLYGONS!
 
@@ -96,6 +110,7 @@ Check out the [full infographic](http://www.whoishostingthis.com/blog/2014/12/06
   * Paths  
   * Pixel layers  
   * Create shapes with the pen tool, and save custom shapes by clicking on the shape `Define custom shape`.  
+  * To create a circle, click and hold to go along a curve.
 * **Path selection**  
 
 ## Layers and Layer Panels
@@ -125,16 +140,19 @@ Linked images are linked directly back to the original file. Any changes to the 
 * However, smart objects cannot be used in Photoshop until they are **rasterized** (you can always convert back). To rasterize, click `rasterize` on the smart object layer.
 
 ## Layer Styles
-Also known as effects (e.g. color overlay/glow)
+Also known as effects (e.g. color overlay, glow, etc.)
 
 ## Layer Mask
-![layer-mask](http://designshack.net/wp-content/uploads/masking101-3.jpg)
+Layer masks are based on the opacity of brush effects.
 
-Workflow:
+### Workflow:
 1. Open image
 2. Embed another image
-3. Ensure black is the primary color (white would show the entire image)
+3. Ensure black is the primary color (white would show the entire image as-is).
 4. Paint!
+
+For example:  
+![layer-mask](http://designshack.net/wp-content/uploads/masking101-3.jpg)
 
 ## Filters
 Filter gallery contains a large majority of major filters, mostly artsy. The filter menu has a more comprehensive list of filters. You can also apply multiple filters and drag them around in your project.
