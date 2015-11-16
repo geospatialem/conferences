@@ -31,19 +31,23 @@ When in doubt, try the `Shift` or `⌘` keys.
 * **Print**: CMYK  
 * **Web**: RGB  
 
-## File Types
-1. **PNG:**
-  * Transparency
-  * Higher quality
-  * PNG8: Similar to GIF
-  * PNG24: Many colors, larger images
-2. **JPEG/JPG:**
-  * Complex algorithm for file compression
-  * Best use: still images, photos, complexity
-3. **GIF:**
+## File Types for Web
+1. **PNG:** PNG files allow transparency to be set on a scale between opaque and completely transparent, allowing for a faded, translucent look. Some older browsers may have trouble supporting PNG files because of alpha-channels. PNG images are of higher quality. *Best Uses:* Web images such as logos that involve transparency and fading, images in the middle of the editing process, and complex images like photographs if file size is not an issue.
+  * **PNG-8:** Very similar to GIF - even smaller than GIF files with 256 colors and 1-bit transparency.
+  * **PNG-24:** 24-bit color, similar to JPEG - Can include over 16 million colors. Lossless compression means larger files than JPEG.  
+
+2. **JPEG/JPG:** A standard file format of digital cameras and web pages that can display millions of colors - although does not allow transparency. *Best Uses:* Still images, Real-world photos, and complex coloring/shading of light and dark.
+  * Uses a very complex compression algorithm to reduce file size
+  * Let image details be “forgotten” and then fill in when displayed
+Called “lossy” compression for the lost data.
+  * Use when a small file size is more important than maximum quality.
+
+3. **GIF:** Uses 256 indexed colors through dithering, a process where two pixel colors combine to make one to reduce number of colors needed, also using lossless compression. Fewer colors means files start even smaller than JPEG. *Best Uses:* Web graphics with few colors, small icons, animations, and simple images.
+  * Progressive loading shows a low-quality version first and then better detail is added.
+  * Can be animated
+  * Allows for single-bit transparency - one color can be chosen to be transparent.
   * Lower number of colors
   * Reuses colors throughout the image
-  * Best use: few colors, animations
 
 ![file-types](https://cloud.githubusercontent.com/assets/5023024/11164816/442405c8-8ac1-11e5-9301-2d459fd5a373.png)
 Check out the [full infographic](http://www.whoishostingthis.com/blog/2014/12/06/jpeg-gif-png/).  
@@ -63,8 +67,10 @@ Check out the [full infographic](http://www.whoishostingthis.com/blog/2014/12/06
 * Zoom out: `⌘` +`-`
 
 ### Rulers/Grids
+* `Preferences → Units and Rulers...`
 * `⌘` +`R`
-* 1170 is the most commonly used
+* 960/1170 are the most commonly used
+* There is a Bootstrap Flexible Column Grid!
 
 ### Guides
 `View → Snap to`
