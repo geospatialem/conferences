@@ -31,7 +31,7 @@ When in doubt, try the `Shift` or `⌘` keys.
 * **Print**: CMYK  
 * **Web**: RGB  
 
-## File Types for Web
+## File Types for Web [[Resource](http://www.espressographics.com/text/fileformats.html)]
 1. **PNG:** PNG files allow transparency to be set on a scale between opaque and completely transparent, allowing for a faded, translucent look. Some older browsers may have trouble supporting PNG files because of alpha-channels. PNG images are of higher quality. *Best Uses:* Web images such as logos that involve transparency and fading, images in the middle of the editing process, and complex images like photographs if file size is not an issue.
   * **PNG-8:** Very similar to GIF - even smaller than GIF files with 256 colors and 1-bit transparency.
   * **PNG-24:** 24-bit color, similar to JPEG - Can include over 16 million colors. Lossless compression means larger files than JPEG.  
