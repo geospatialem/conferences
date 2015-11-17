@@ -191,10 +191,21 @@ Linked images are linked directly back to the original file. Any changes to the 
 * However, smart objects cannot be used in Photoshop until they are **rasterized** (you can always convert back). To rasterize, click `rasterize` on the smart object layer.
 
 ## Layer Styles
-Also known as effects (e.g. color overlay, glow, etc.)
+* Also known as effects (e.g. color overlay, glow, etc.).
+* Layer styles can be applied to any object on its own layer by navigating to the bottom of the layers panel and selecting one of the layer styles found under the `fx` icon menu.
+* The layer style will be applied to the entirety of that layer, even if it is added to or edited.
+* Hold `alt` to copy and duplicate layer styles.
+* Combine, duplicate, and/or edit effects to change the appearance of a layer without permanently changing it.
+
+## Layer Adjustments
+Apply to a layer, and a new layer is created where any & all layer under the adjustment layer is affected. Useful for tweaking artwork to see how a slightly different tone or contrast might work, without making a permanent change. When you create an adjustment layer, a blank layer mask is also created with it. By brushing on black to the layer mask you can add and remove elements of it, creating some interesting effects in the process.
 
 ## Layer Mask
-Layer masks are based on the opacity of brush effects.
+Layer masks (where mask = transparency) are based on the opacity/transparency of a layer based on brush effects. Where layer opacity controls the transparency of the entire layer at once, a mask gives you more precise controls over very specific areas. For instance, if you want the entire layer to be at 30%, you would lower the opacity, or if you want only one portion of a layer to be at 30%, you could use a mask. Layer masks are a good way to hide information, instead of erasing (*which you should never do*).
+
+For example:
+![layer-mask](https://cloud.githubusercontent.com/assets/5023024/11202346/caac13be-8cac-11e5-84c1-1b566f1f468b.png)
+
 
 ### Workflow:
 1. Open image
