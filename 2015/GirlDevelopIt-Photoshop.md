@@ -12,10 +12,13 @@
 * **_Raster:_** Dot/pixel-based graphics. Raster graphics cannot resize without quality loss. Photoshop uses raster graphics. Most commonly, rasters are in GIF, JPG, or PNG formats.     
 * **_Vector:_**  Math-based, and uses geometry to create graphics. Infinitely resize or scale while maintaining a graphic's quality. Illustrator uses vector graphics. Most commonly, vectors are in SVG formats.  
 * **_Pixel:_** Short form of two words, "picture element".  They are the building blocks of any digital photo or image.  
-* **_Duplicate layer:_** A copy/duplicate of the original. **Note:** This is a best practice in Photoshop to keep existing files and edited files separated. Make this part of your workflow!
-* **_Smart Guides:_** Align items more effectively while designing.
+* **_Duplicate Layer:_** A copy/duplicate of the original. **Note:** This is a best practice in Photoshop to keep existing files and edited files separated. Make this part of your workflow!
+* **_Smart Guides:_** Align items more effectively while designing. The new smart guides display the spaces between your element, on by default, and show themselves when needed!  
 * **_Layer Mask:_** The capability to selectively modify the opacity (transparency) of the layer.  
-* **_Layer adjustments_**: Apply color and tonal adjustments to an image without permanently changing pixel values.
+* **_Adjustment Layer:_** Apply color and tonal adjustments to an image without permanently changing pixel values.
+* **_Layer Style:_** Apply effects to a layer. Click the eye to turn it on/off. Double-click `effects` to open the `Layer Styles` options.
+* **_Layer Mask:_** Allows you to show/reveal portions of an image.
+* **_Smart Object:_** A special layer type/container that can hold one, or multiple layers, vectors for Illustrator, raw files, video, 3D or many other types of objects (similar to a div).
 
 ## Raster vs. Vector
 ![raster-vs-vector](https://cloud.githubusercontent.com/assets/5023024/11166959/c8841af0-8b12-11e5-8311-c1d2ebbf07f0.png)
@@ -53,8 +56,11 @@ Called “lossy” compression for the lost data.
 Check out the [full infographic](http://www.whoishostingthis.com/blog/2014/12/06/jpeg-gif-png/).  
 
 ## Saving a File
+* `File → Save As`
+* `File → Export`
 * `⌘` +`S`
-* `Save for Web` (*Legacy in Photoshop CC*), but recommended for optimization.
+* `Save for Web` (*Legacy in Photoshop CC*), but recommended for optimization (load time).
+![save-for-web](https://cloud.githubusercontent.com/assets/5023024/11200162/24b0df20-8c99-11e5-82b1-d06496b779bd.png)
 * [Export artboards, layers, and more](https://helpx.adobe.com/photoshop/using/export-artboards-layers.html), help article
 
 ## Key tools
@@ -62,9 +68,15 @@ Check out the [full infographic](http://www.whoishostingthis.com/blog/2014/12/06
 ### Exporting
 * Leave the color profile as-is
 
+### Undo
+`⌘` + `Z`
+
 ### Zoom
 * Zoom in: `⌘` +`+`
 * Zoom out: `⌘` +`-`
+
+### Move
+* `⌘` +`M`
 
 ### Rulers/Grids
 * `Preferences → Units and Rulers...`
@@ -73,7 +85,9 @@ Check out the [full infographic](http://www.whoishostingthis.com/blog/2014/12/06
 * There is a Bootstrap Flexible Column Grid!
 
 ### Guides
-`View → Snap to`
+* `View → Snap to`
+* `Preferences → Grids, Guides & Slices`
+* `⌘` +`K`
 
 ### Magic wand
 * Check out the `Sample size` drop-down menu
@@ -81,6 +95,9 @@ Check out the [full infographic](http://www.whoishostingthis.com/blog/2014/12/06
 * Use `Reselect/Deselect`
 * `Shift` adds a selection
 * Utilize the `Select inverse` option
+
+### Direct Selection
+`⌘` + `A`
 
 ### Remove an area
 `Alt/option` + `-`
@@ -95,9 +112,10 @@ Erasing is destructive, ensure you have made a duplicate layer, and/or are using
 ### Crop
 * Photoshop remembers your settings, be sure to clear the settings, if necessary.
 * Utilize different ruler/grid types.
-#### Workflow:  
-1. Crop the image to the extent desired.  
-2. Change the image size to fit the need.  
+#### Workflow:
+1. Change the image size.  
+2. Crop the image to the extent desired.  
+3. Change the canvas size to fit the need.  
 
 ### Image size `Image → Image size`  
 
@@ -119,11 +137,22 @@ Erasing is destructive, ensure you have made a duplicate layer, and/or are using
   * To create a circle, click and hold to go along a curve.
 * **Path selection**  
 
-## Layers and Layer Panels
+## Foreground / Background Colors
+Very useful for creating masks. Press `D` to change the foreground and background colors to their default values of black and white, and `X` to switch the current colors.
+
+### Fill a selection/layer:
+* Foreground: `⌘`` + 'delete`
+* Background: `option/alt` + `delete`
+
+## Layers and Layer Panels [[Resource](http://photoshopcafe.com/tutorials/layers/intro.htm)]
 * **Best Practices:** Copy the original image, and keep the background layer locked.
-* **Layer mask:** Useful to remove content without deleting (do **_not_** delete content from the original file).
+* **Layer mask:** Useful to remove content without deleting (do **_not_** delete content from the original file). Allows you to show/reveal portions of an image.
 * **Link layers** together by combining two, or more layers and `link` them. This will keep the layers in sync with each other.
 * **Layer Groups** group individual layers together. If you highlight the group, the group will respond similar to linked layers.
+
+![layer-panel](https://cloud.githubusercontent.com/assets/5023024/11200906/1cbe626e-8c9f-11e5-8916-160b7efcc465.png)
+
+![layer-panel-two](https://cloud.githubusercontent.com/assets/5023024/11200947/81770c38-8c9f-11e5-815a-054c1d25b299.png)
 
 ## Image Canvas Size
 * **_Good for banners!_**
@@ -131,13 +160,29 @@ Erasing is destructive, ensure you have made a duplicate layer, and/or are using
 * The anchor is based on where you want it to **expand**.
 * If you make the canvas size smaller than the current image size, it will crop the image.
 
+## Pixels and Smart Objects
+
+### Pixels
+Fully editable, allowing drawing, painting, and/or filling them with colors, or erasing pixels. However, erasing “destroys” pixels, try to use a layer mask instead.
+
+
+### Smart Objects
+An embedded file that appears in its own layer, distinguished by an icon that overlays the thumbnail. They are linked to a source file (e.g., an Illustrator file, JPEG, GIF or other Photoshop file). If you make changes to the source file, the Smart Object layer will also be updated with those changes.
+
+![smart-object](http://ak.picdn.net/assets/newsletter/241/smart2.jpg)
+
 ## Embedded and Linked images [[Resource](https://forums.adobe.com/thread/1398884)]
 
 ### Linked images
 Linked images are linked directly back to the original file. Any changes to the linked image will reflect back to the original file.
 
+*Note*: Linked images can be lost, because their file location can’t be moved without re-linking. If you move the image files the links won’t work anymore, you’ll have to re-link to the new file location, or keep your linked files in the same folder as your .psd.
+
+
 ### Embedded Images
 * Once embedded, click `enter`/`return`. The image is considered a *smart object*, meaning it can be edited within Photoshop, and will not alter the original image.
+* Become a part of the Photoshop file, where it won’t get lost, but increases the size of the Photoshop file.
+
 
 ### Place
 * Adjusts to one set of margins currently displayed in the document (either horizontal or vertical).
@@ -161,7 +206,7 @@ For example:
 ![layer-mask](http://designshack.net/wp-content/uploads/masking101-3.jpg)
 
 ## Filters
-Filter gallery contains a large majority of major filters, mostly artsy. The filter menu has a more comprehensive list of filters. You can also apply multiple filters and drag them around in your project.
+The filter gallery contains a large majority of major filters, mostly artsy. The filter menu has a more comprehensive list of filters. You can also apply multiple filters and drag them around in your project.
 
 ## Type
 * Point text vs. Paragraph text
