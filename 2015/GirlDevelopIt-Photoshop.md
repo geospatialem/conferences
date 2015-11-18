@@ -133,8 +133,6 @@ Erasing is destructive, ensure you have made a duplicate layer, and/or are using
   * Vector-based  
   * Paths  
   * Pixel layers  
-  * Create shapes with the pen tool, and save custom shapes by clicking on the shape `Define custom shape`.  
-  * To create a circle, click and hold to go along a curve.
 * **Path selection**  
 
 ## Foreground / Background Colors
@@ -217,7 +215,43 @@ For example:
 ![layer-mask](http://designshack.net/wp-content/uploads/masking101-3.jpg)
 
 ## Filters
-The filter gallery contains a large majority of major filters, mostly artsy. The filter menu has a more comprehensive list of filters. You can also apply multiple filters and drag them around in your project.
+
+### Filter Gallery
+The filter gallery contains a large majority of major filters, mostly artsy. The filter menu has a more comprehensive list of filters. You can also apply multiple filters and drag them around in your project, and see a preview of many of the special effects filters. Apply multiple filters, turn on/off filter effects, reset options for a filter, and change the order in which filters are applied.
+
+You can use filters to clean up or retouch your photos, apply special art effects that give your image the appearance of a sketch or impressionistic painting, or create unique transformations using distortions and lighting effects.
+
+### Smart Filters
+Smart Filters, applied to Smart Objects, let you use filters non-destructively. Smart Filters are stored as layer effects in the `Layers` panel and can be re-adjusted at any time, working from the original image data contained in the Smart Object.
+
+## Shapes
+
+### Making Shapes
+The Shape Tool `U` gives you access to standard geometric shapes as well as more complex presets with the `Custom Shape` setting.
+
+* Size, proportion, origin and pixel-snapping, lie hidden inside the drop-down next to the custom shape button in the tool’s property bar.
+* Color can be set easily with a double click on the layer!
+* Try the pen tool to create custom shapes
+
+### Custom Shapes
+* Select a shape tool or a Pen tool.
+* Create shapes with the pen tool, and make sure `Shape` is chosen from the `Options` bar menu.
+* To choose the color of the shape, click the `Color Swatch` in the `Options` bar, and choose a color from the Color Picker.
+* Save custom shapes by clicking on the shape `Define custom shape`.
+
+### The Pen Tool
+* Simple to use but difficult to master - **_[Practice](http://bezier.method.ac/)_**!
+* It provides a precise method for creating paths, but requires an experienced hand to plot naturally flown curves.
+
+A Few Tips & Tricks:
+* Try to use as few points as possible
+* Less is more!
+* Choose between a `Path` or `Shape`
+* Try the `Rubber Band` option, to help you set anchor points with a preview
+* The `shift` key can be your friend.
+
+### Circles
+* To create a circle, click and hold to go along a curve.
 
 ## Type
 * Point text vs. Paragraph text
