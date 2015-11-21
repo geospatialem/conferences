@@ -67,6 +67,10 @@ Check out the [full infographic](http://www.whoishostingthis.com/blog/2014/12/06
 
 ### Exporting
 * Leave the color profile as-is
+* Export a Photoshop document/art boards in it `Select File → Export →  Quick Export As...`
+* Export selected layers, layer groups, or artboards
+  * In the `Layers` panel, select the layers, layer groups, or art boards you want to export as image assets.
+  * As a result, one image asset is generated per layer, layer group, or art board selected.
 
 ### Undo
 `⌘` + `Z`
@@ -254,27 +258,82 @@ A Few Tips & Tricks:
 * To create a circle, click and hold to go along a curve.
 
 ## Type
-* Point text vs. Paragraph text
+Type is the Photoshop tool to create vector outlines to define the symbols of a typeface. The keyboard shortcut of this is the letter `T` with four options:
+1. Horizontal Type
+2. Vertical Type
+3. Horizontal Type Mask
+4. Vertical Type Mask (similar to layer masks!)
+
+### Creating a Type Layer
+* Point text (canvas) vs. Paragraph text (click/drag text frame)
+  * Right-click to convert a Point type layer into a Paragraph
 * Crisp/Sharp
 * Change text orientation (e.g. horizontal → vertical)
 * Faux typing (imitated font uses, like italic)
-* **Copy CSS**: `Layer → Copy CSS` You can remove `z-index` and `position` as they relate directly to Photoshop. **_(P.S. This is amazing!)_**   
+* **Copy CSS**: `Layer → Copy CSS` You can remove `z-index` and `position` as they relate directly to Photoshop. Use the simple copy CSS command. **_(P.S. This is amazing!)_**   
+
+```css
+.LayerName {
+  font-size: 50px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+  left: 420.703px;
+  top: 289.275px;
+  z-index: 71;
+}
+```
+
+### Editing a Type Layer
+You can resize, rotate and transform the type layer. Basic Formatting options include:
+* Font Family & Style
+* Size
+* Color
+* Faux Bold, Faux Italics, All Caps, etc.
+* Scaling & Baseline Shift
+* Set the Anti-aliasing Method
+* Leading & Kerning
+* Basic Paragraph Settings
 
 ## Blending Modes and opacity
-* Normal
-* Multiply (this one is *sweet*)
-* Darken
-* Screen
-* Soft Light
-* Overlay
-* Lighten
-* Contrast
-* Inversion
-* Cancellation
-* Component
+Layer blend modes give us different ways for a layer to interact with, or "blend" with, the layer or layers below it.
+
+Without layer blend modes, the only real way we have of blending layers together is by reducing the opacity/fill of a layer, which usually doesn't give us very interesting results. Blending modes are useful when editing, retouching and restoring photos.
+
+### Normal
+As-is.
+
+### Multiply
+This one is *sweet*! Multiply darkens the lower layer based on the darkness of the upper layer. No part of the image will get lighter. Any applied tone darker than white darkens the lower layer. White becomes transparent.
+
+### Darken
+Darken compares each pixel value of the upper layer to its counterpart's pixel value of the lower layer and chooses the darker of the two to display.
+
+### Screen
+Screen brightens by lightning the lower layer based on the lightness of the upper layer. The result is always lighter, and makes it a good mode for correcting exposure in photos that are too dark.
+
+### Soft Light
+Soft Light will multiply the dark tones and screen the light tones.
+
+### Overlay
+Overlay multiplies the light colors and screens the dark colors.
+
+### Lighten
+
+### Contrast
+
+### Inversion
+
+### Cancellation
+
+### Component
 
 ## Layer comps
-Store everything to revert back, if needed. Particularly useful for different webpages, text levels, or prototypes.
+Store everything to revert back, if needed. **Particularly useful for different webpages, text levels, or prototypes.** Using layer comps, you can create, manage, and view multiple versions of a layout in a single Photoshop file. You are creating a snapshot of your layers palette for easy reference later. Designers often create multiple compositions (or comps) of a page layout to show clients, and for ease of the development team!
 
 ### Saving
 The following attribution is saved with Layer comps:
