@@ -14,10 +14,9 @@
 * **_Pixel:_** Short form of two words, "picture element".  They are the building blocks of any digital photo or image.  
 * **_Duplicate Layer:_** A copy/duplicate of the original. **Note:** This is a best practice in Photoshop to keep existing files and edited files separated. Make this part of your workflow!
 * **_Smart Guides:_** Align items more effectively while designing. The new smart guides display the spaces between your element, on by default, and show themselves when needed!  
-* **_Layer Mask:_** The capability to selectively modify the opacity (transparency) of the layer.  
+* **_Layer Mask:_** The capability to selectively modify the opacity (transparency) of the layer. Allows you to show/reveal portions of an image.  
 * **_Adjustment Layer:_** Apply color and tonal adjustments to an image without permanently changing pixel values.
-* **_Layer Style:_** Apply effects to a layer. Click the eye to turn it on/off. Double-click `effects` to open the `Layer Styles` options.
-* **_Layer Mask:_** Allows you to show/reveal portions of an image.
+* **_Layer Style:_** Apply effects to a layer. Click the eye to turn it on/off. Double-click `effects` to open the `Layer Styles` options.  
 * **_Smart Object:_** A special layer type/container that can hold one, or multiple layers, vectors for Illustrator, raw files, video, 3D or many other types of objects (similar to a div).
 
 ## Raster vs. Vector
@@ -206,7 +205,7 @@ Apply to a layer, and a new layer is created where any & all layer under the adj
 Layer masks (where mask = transparency) are based on the opacity/transparency of a layer based on brush effects. Where layer opacity controls the transparency of the entire layer at once, a mask gives you more precise controls over very specific areas. For instance, if you want the entire layer to be at 30%, you would lower the opacity, or if you want only one portion of a layer to be at 30%, you could use a mask. Layer masks are a good way to hide information, instead of erasing (*which you should never do*).
 
 For example:
-![layer-mask](https://cloud.githubusercontent.com/assets/5023024/11202346/caac13be-8cac-11e5-84c1-1b566f1f468b.png)
+![layer-mask](https://cloud.githubusercontent.com/assets/5023024/11321581/b262efb6-908b-11e5-8083-5c2c29bdb44f.png)
 
 
 ### Workflow:
