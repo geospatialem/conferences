@@ -16,3 +16,5 @@ Learn to Program and Analyze Data with Python. Develop programs to gather, clean
 5. <img src="https://cloud.githubusercontent.com/assets/5023024/10260841/9d4cb9b8-6944-11e5-8987-a7d1493b5812.jpeg" width="25" height"25"> [Girl Develop It: Photoshop](/2015/GirlDevelopIt-Photoshop.md) ([website](https://www.girldevelopit.com/chapters/minneapolis)):  
 A non-profit organization that exists to provide affordable and judgment-free opportunities for women interested in learning web and software development. Photoshop took place at White House Custom Colour in Eagan, Minnesota on November 14, 2015.
 
+6. <img src="https://cdn-production.codecademy.com/assets/logo/logo--dark-blue-ac069c03cf75e3cb300995028104f92e.svg" width="100" height="25"> [Codecademy: Learn the Command Line](/2015/Codecademy-CommandLine.md) ([website](https://www.codecademy.com/learn/learn-the-command-line)):
+Learn how to use the command line to manipulate data and automate tasks. Course taken online November 22, 2015.
