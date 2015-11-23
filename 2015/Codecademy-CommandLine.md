@@ -1,4 +1,4 @@
-# Command Line
+# Codecademy: Learn the Command Line
 
 <img src="https://cdn-production.codecademy.com/assets/logo/logo--dark-blue-ac069c03cf75e3cb300995028104f92e.svg" width="100" height="25">  Learn how to use the command line to manipulate data and automate tasks
 
