@@ -102,6 +102,18 @@ A parallel version of a repo. `master` is GitHub's default branch. **A branch is
 **Locally**:  
 `git branch -d [branch-name-here]`  
 
+### Delete the Master (`master`) branch, and add a GitHub pages (`gh-pages`) branch  
+1. Create the *gh-pages* branch locally (your machine), and switch to the branch:  
+`git checkout -b gh-pages`  
+2. Push the *gh-pages* branch to the origin (on GitHub):
+`git push origin gh-pages`  
+3. Add the remote, or connection, between your origin and local copies:  
+`git remote add gh-pages`  
+4. Delete the origin *master* branch (on GitHub):  
+`git push origin :master`  
+5. Delete the *master* branch locally (on your machine):  
+`git branch -d master`  
+
 ### Merge a Branch
 a.k.a. collaboration at its best!
 
