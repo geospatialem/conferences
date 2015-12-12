@@ -105,7 +105,7 @@ A parallel version of a repo. `master` is GitHub's default branch. **A branch is
 ### Delete the Master (`master`) branch, and add a GitHub pages (`gh-pages`) branch  
 1. Create the *gh-pages* branch locally (your machine), and switch to the branch:  
 `git checkout -b gh-pages`  
-2. Push the *gh-pages* branch to the origin (on GitHub):
+2. Push the *gh-pages* branch to the origin (on GitHub):  
 `git push origin gh-pages`  
 3. Add the remote, or connection, between your origin and local copies:  
 `git remote add gh-pages`  
