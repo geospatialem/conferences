@@ -17,7 +17,7 @@
 * **_Branch_**: A parallel version of a repo.
 * **_Master_**: Default branch name on GitHub.
 * **_Remote_**: Version of a repo on GitHub.
-* **_Fetch_**: Get the latest changes from an online repo without merging.
+* **_Fetch_**: Get the latest changes from an online repo without merging (`git fetch`).
 * **_Pull_**: Fetch and merge from the remote repo.
 * **_Push_**: Send commits to the remote repo.
 * **_Fork_**: A personal copy of another user's repo.
@@ -43,6 +43,16 @@ Benefits include: collaborative environment, and the ability to track changes ov
 ### Types
 * Centralized
 * Distributed (e.g. GitHub)
+
+## Clone a Repo
+### Straight up
+`git clone [remote-location]`
+
+### Rename the clone
+`git clone [remote-location] [clone-name]`
+
+### Project remotes
+`git remote -v`
 
 ## How To Make a Repo
 
