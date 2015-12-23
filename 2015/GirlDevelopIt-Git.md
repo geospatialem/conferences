@@ -129,13 +129,26 @@ a.k.a. collaboration at its best!
 
 1. **Checkout the Branch** `git checkout master`. The branch you checkout will be the one you will be merging your changes to.
 
-2. **Merge a Different Branch**: `git merge [branch-name-here]`. The branch you merge is what will be added to the branch you have checked out! **_WOOT!_** P.S. `git rebase` also works, but was not covered during our session.
+2. **Merge a Different Branch**: `git merge [branch-name-here]`. The branch you merge is what will be added to the branch you have checked out! **_WOOT!_** P.S. `git rebase` also works, but was not covered during our session.  
 
 ### Branch Conflicts
-Git will make you resolve conflicts before merging. When you try and run a merge and run into conflicts your file will change to show you the conflicts in your file(s). From here, edit them as you wish for them to appear. Then use `git commit -m '[your message goes here]'` to commit the changes. **_Hooray!_**
+Git will make you resolve conflicts before merging. When you try and run a merge and run into conflicts your file will change to show you the conflicts in your file(s). From here, edit them as you wish for them to appear. Then use `git commit -m '[your message goes here]'` to commit the changes. **_Hooray!_**  
 
 ## Fork/Forking
-Use/Contribute to a repo owned by someone else. Forking creates a personal copy in your account of someone else's repo. A fork makes it easy for you to modify the code, and for contributions, if the owner chooses to accept your changes.
+Use/Contribute to a repo owned by someone else. Forking creates a personal copy in your account of someone else's repo. A fork makes it easy for you to modify the code, and for contributions, if the owner chooses to accept your changes.  
+
+### Update a fork  
+Add the remote, call it "upstream":  
+`git remote add upstream https://github.com/whoever/whatever.git`  
+
+Fetch all the branches of that remote into remote-tracking branches, such as upstream/master:  
+`git fetch upstream`  
+
+ Make sure that you're on your master branch:  
+`git checkout master`  
+
+Rewrite your master branch so that any commits of yours that aren't already in upstream/master are replayed on top of that other branch:  
+`git rebase upstream/master`  
 
 ## Pull Requests
 After forking and cloning, any changes you push will go to **your local repo** (not the original repo you forked). However, you can contribute back to the original repo by submitting a pull request to the owner.
