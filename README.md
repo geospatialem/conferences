@@ -1,7 +1,7 @@
 # Notes from Conferences
 Below is a list of notes compiled by [Kitty Hurley](http://www.twitter.com/geospatialem) from various conferences.
 
-## 2015  
+## [2015](/2015)  
 * <img src="https://cloud.githubusercontent.com/assets/5023024/13376293/23385fde-dd7e-11e5-83a5-e3f9fe117854.png" alt="Code Academy Logo" width="100" height="20">
  [Codecademy: Learn the Command Line](/2015/Codecademy-CommandLine.md) ([website](https://www.codecademy.com/learn/learn-the-command-line)):
 Learn how to use the command line to manipulate data and automate tasks. Course taken online November 22, 2015.
