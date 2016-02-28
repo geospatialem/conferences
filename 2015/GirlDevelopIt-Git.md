@@ -97,7 +97,7 @@ A parallel version of a repo. `master` is GitHub's default branch. **A branch is
 3. Merge in a branch when you are ready, and after you have verified it works (usually back to the `master` branch).
 
 ### Create a Branch
-`git checkout -b`  
+`git checkout -b <branch-name-here>`  
 `git status` will tell you the branch that you are in.
 
 ### Switch Branches
