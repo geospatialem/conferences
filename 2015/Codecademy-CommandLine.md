@@ -1,6 +1,6 @@
 # Codecademy: Learn the Command Line
 
-<img src="https://cdn-production.codecademy.com/assets/logo/logo--dark-blue-ac069c03cf75e3cb300995028104f92e.svg" width="100" height="25">  Learn how to use the command line to manipulate data and automate tasks
+<img src="https://cloud.githubusercontent.com/assets/5023024/13376293/23385fde-dd7e-11e5-83a5-e3f9fe117854.png" width="100" height="20">  Learn how to use the command line to manipulate data and automate tasks
 
 # Navigate the File System
 A filesystem organizes a computer's files and directories into a tree structure. It starts with the root directory.
