@@ -1,5 +1,10 @@
-# Notes from Conferences
+# Notes from Conferences and Courses
 Below is a list of notes compiled by [Kitty Hurley](http://www.twitter.com/geospatialem) from various conferences.
+
+## [2016](/2016)
+* <img src="https://cloud.githubusercontent.com/assets/5023024/10260841/9d4cb9b8-6944-11e5-8987-a7d1493b5812.jpeg" alt="GDI logo" width="25" height"25"> [Girl Develop It: Intermediate JavaScript](/2016/GirlDevelopIt-IntermediateJavascript.md) ([website](https://www.girldevelopit.com/chapters/minneapolis)):  
+A non-profit organization that exists to provide affordable and judgment-free opportunities for women interested in learning web and software development. Intermediate JavaScript took place at White House Custom Colour in Eden Prairie, Minnesota on May 14, 2016.
+
 
 ## [2015](/2015)  
 * <img src="https://cloud.githubusercontent.com/assets/5023024/13376293/23385fde-dd7e-11e5-83a5-e3f9fe117854.png" alt="Code Academy Logo" width="100" height="20">
