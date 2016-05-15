@@ -4,6 +4,6 @@
 
 ## Course Instructors:  
 * [Amy Gebhardt](https://twitter.com/amlyhamm/), [[Saturday slides](http://amlyhamm.com/gdi/intermediate_javascript)]
-* [Tamara Temple](https://twitter.com/tamouse), [[Sunday slides](https://gdiminneapolis.github.io/js-201-module-supplement/)]
+* [Tamara Temple](https://twitter.com/tamouse), [[Sunday slides](https://gdiminneapolis.github.io/js-201-module-supplement/), [Notes](https://gdiminneapolis.github.io/js-201-module-supplement/print.html)]
 
 _Content coming soon!_
