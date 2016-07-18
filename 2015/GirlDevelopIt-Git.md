@@ -107,7 +107,7 @@ A parallel version of a repo. `master` is GitHub's default branch. **A branch is
 ### Delete a Branch
 
 **Origin Remote**:  
-`git push origin :[branch-name-here]`  
+`git push origin :[branch-name-here]` (e.g. `git push origin :master`)  
 
 **Locally**:  
 `git branch -d [branch-name-here]`  
