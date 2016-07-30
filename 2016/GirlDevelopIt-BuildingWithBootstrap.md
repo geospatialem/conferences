@@ -41,7 +41,7 @@ http://getbootstrap.com/css/#images
 *Additional content goes here*  
 
 ## Placeholder images  
-* [Placeholder.it](http://placeholder.it) (e.g. http://placehold.it/200x200)  
+* [Placehold.it](http://placehold.it) (e.g. http://placehold.it/200x200)  
 * [Place Kitten](http://placekitten.com) (e.g. http://placekitten.com/200/200)   
 
 ## Buttons  
