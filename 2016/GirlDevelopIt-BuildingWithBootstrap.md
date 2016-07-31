@@ -138,8 +138,11 @@ See the [documentation](http://getbootstrap.com/css/#images) for more informatio
 
 ## Placeholder Images  
 Some awesome resources to use placeholder images include:  
-* [Placehold.it](http://placehold.it) (e.g. http://placehold.it/200x200)  
-* [Place Kitten](http://placekitten.com) (e.g. http://placekitten.com/200/200)   
+**[Placehold.it](http://placehold.it)** (e.g.   http://placehold.it/200x200):  
+<img width="197" alt="Placeholdit example" src="https://cloud.githubusercontent.com/assets/5023024/17279204/414a0e16-5734-11e6-8a58-e0b9e245448d.png">  
+
+**[PlaceKitten.com](http://placekitten.com)** (e.g. http://placekitten.com/200/200):     
+<img width="197" alt="Placekitten.com example" src="https://cloud.githubusercontent.com/assets/5023024/17279195/1a75e79c-5734-11e6-89ea-738e0983543b.png">  
 
 ## Buttons  
 The button class .`btn` can be used on `<button/>`, `<input/>`, or `<a/>` elements.  
