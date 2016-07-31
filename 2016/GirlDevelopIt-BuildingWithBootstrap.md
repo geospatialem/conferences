@@ -2,8 +2,12 @@
 
 <img src="https://cloud.githubusercontent.com/assets/5023024/10260841/9d4cb9b8-6944-11e5-8987-a7d1493b5812.jpeg" width="25" height"25"> [Girl Develop It](https://www.girldevelopit.com/chapters/minneapolis) is a non-profit organization that exists to provide affordable and judgment-free opportunities for women interested in learning web and software development. Through in-person classes and community support, Girl Develop It helps women of diverse backgrounds achieve their technology goals and build confidence in their careers and their every day lives.  
 
-## Course Instructors:  
+## Course Instructor:  
 Claire O'Neill, [[Slides](https://gdiminneapolis.github.io/building-with-bootstrap)]  
+
+## Awesome Text Editor Tidbits  
+* Scroll to line #: `control` + `G`.  
+* Edit multiple lines in Atom/Sublime: `⌘/command` + Click line(s).  
 
 ## Definitions  
 * **Front-end Framework**: A collection of flexible, production-ready HTML, CSS, and JavaScript that we can use when we develop websites and applications.   
@@ -131,7 +135,7 @@ For example:
 <img src="images/responsive-image.jpg" alt="An example of a responsive image" class="img-responsive">   
 
 <!-- Example of a responsive image given a circular shape -->  
-<img src="images/responsive-circle.jpg" alt="An example of a responsive circlular image" class="img-responsive img-circle">    
+<img src="images/responsive-circle.jpg" alt="An example of a responsive circular image" class="img-responsive img-circle">    
 ```  
 
 See the [documentation](http://getbootstrap.com/css/#images) for more information.  
@@ -160,12 +164,177 @@ For example:
 
 See the [documentation](http://getbootstrap.com/css/#buttons) for more information.  
 
-## Text Placeholders  
+## Navbar  
+**Class example:**   
+* Add a `<nav>` with the classes `navbar` and `navbar-default` inside a `<header>` element.  
+* Add a `.container-fluid` to the `nav`.  
+* Add a toggle button within the `nav` for mobile devices. Then add the `div` that has the classes `collapse navbar-collapse`, including the `<ul>`, and paste it as a sibling of the toggle button.  
+* Finally, add three list items (`<li>`) with a link (`<a>`) inside each for the page sections to be used later.  
+
+
+```html  
+<header class="text-center"><!--center the text of an element with a header-->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+
+      <!--Hamburger menu button-->
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span><!--Screen reader only-->
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button><!--/Hamburger menu button-->
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <!--Note: It **MUST** have same id tag as the data-target above to join them together-->
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#nav1">Navigation Item #1</a></li>
+          <li><a href="#nav2">Navigation Item #2</a></li>
+          <li><a href="#nav3">Navigation Item #3</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+</header>
+```  
+
+## Webpage Section  
+
+### Text Placeholders  
 Some awesome resources to use placeholder text include:  
 * [Loren Ipsum](http://www.lorenipsum.com)  
 * [Hipsum](http://hipsum.co)    
-* [Cupcake Ipsum](http://cupcakeipsum.com)    
+* [Cupcake Ipsum](http://cupcakeipsum.com)   
 
-## Awesome Text Editor Tidbits  
-* Scroll to line #: `control` + `G`.  
-* Edit multiple lines in Atom/Sublime: `⌘/command` + Click line(s).  
+```html  
+<!--Webpage section example-->
+<section id="section-example">
+	<div class="container">
+			<div class="row">
+				<div class="col-md-3"><!--title-->
+					<h2>Section Example</h2>
+				</div>
+				<div class="col-md-9">
+					<div class="row">
+					<div class="col-sm-8">
+						<img src="http://placekitten.com/g/300/300" class="img-responsive img-circle" alt="Responsive kitten circular image">
+						<p>Drinking vinegar celiac paleo everyday carry locavore bushwick wolf. Leggings cliche fap, 3 wolf moon
+							mlkshk YOLO +1 venmo keytar tousled drinking vinegar actually.</p>
+					</div>
+					<div class="col-sm-4">
+						<!--<ul>--><!--Unordered & Styled list-->
+						<ul class="list-unstyled"><!--Unordered & Unstyled list-->
+							<li><span class="glyphicon glyphicon-phone" aria-hidden="true"></span>###-###-###</li>
+							<li><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>mailme@mail.com</li>
+							<li><span class="glyphicon glyphicon-globe" aria-hidden="true"></span>Location</li>
+						</ul>
+					</div>
+				</div>
+				</div>
+			</div>
+	</div>
+</section><!--/Webpage section example-->
+```
+
+```html  
+<!-- Webpage section example with similar elements -->
+<section id="section-similiar-elements-example">
+  <div class="container"><!--Bootstrap container-->
+      <div class="row"><!--Bootstrap row-->
+        <div class="col-md-3"><!--Section title-->
+          <h2>Section Example with Similar Elements</h2>
+        </div><!--/Section title-->
+        <div class="col-md-9"><!--Sub-section containing similar elements-->          
+          <div class="row"><!--Item #1-->
+            <div class="col-md-3"><!--Header #1-->
+              <h5>Header #1</h5>
+            </div><!--/Header #1-->
+            <div class="col-md-9"><!--Supporting content #1-->
+              <h3>Sub-header #1</h3>
+              <h4>Supporting sub-header #1</h4>
+              <p>Supporting content #1</p>
+            </div>
+          </div><!--/Item #1-->      
+          <div class="row"><!--Item #2-->
+            <div class="col-md-3"><!--Header #2-->
+              <h5>Header #2</h5>
+            </div><!--/Header #2-->
+            <div class="col-md-9"><!--Supporting content #2-->
+              <h3>Sub-header #2</h3>
+              <h4>Supporting sub-header #2</h4>
+              <p>Supporting content #2</p>
+            </div>
+          </div><!--/Item #2-->
+        </div><!--/Sub-section containing similar elements-->
+      </div><!--/Bootstrap row-->
+  </div><!--/Bootstrap container-->
+</section><!--/Webpage section example with similar elements-->
+```
+
+## Progress Bars  
+
+```html  
+<!-- 100% progress bar example -->
+<div class="progress">
+  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"><!--The aria values are read to a screen reader, the width shows it visually-->
+    <span class="sr-only">100% progress</span><!--Screen reader value-->
+  </div>
+</div>
+
+<!-- 60% progress bar example -->
+<div class="progress">
+  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"><!--The aria values are read to a screen reader, the width shows it visually-->
+    <span class="sr-only">60% progress</span><!--Screen reader value-->
+  </div>
+</div>
+```
+
+## Thumbnails  
+Make an image a thumbnail using the `img-thumbnail` class.  
+
+For example:  
+
+```html  
+<!--Responsive thumbnail example that is 1/3 the screen until small devices (100%). -->
+<div class="col-sm-4">
+  <img src="http://placekitten.com/g/800/800" class="img-responsive img-thumbnail" alt="Responsive thumbnail example">
+  <h4>Responsive Thumbnail Example</h4><!--Thumbnail title-->
+  <h5>Supporting text here</h5><!--Thumbnail details-->
+</div>
+```  
+
+## Footer  
+
+```html  
+<footer><!--Footer-->  
+ <div class="container text-center"><!--Center the div on the page-->  
+   <small>&copy; 2016</small><!--Copyright text-->  
+ </div><!--/div-->  
+</footer><!--/Footer-->  
+```    
+
+## Scrollspy  
+Scrollspy targets the links inside an element selected. One of the easiest and fastest ways to do that is to use an element’s ID.  For example, Scrollspy can enhance your webpage's navigation like so:  
+
+![scrollspy-example](https://cloud.githubusercontent.com/assets/5023024/17279690/c0234a16-5740-11e6-83a6-a5e76d11f3db.gif)  
+
+To initialize Scrollspy, the jQuery and Bootstrap libraries must be added to your .html file and the following JavaScript must be added:  
+
+```javascript  
+//Enable scrollspy using jQuery  
+$('body').scrollspy({ //Use the html body in most cases (some exceptions apply)  
+  target: '#navbar' //Target the element for Scrollspy to use (e.g. navbar)  
+});  
+```  
+
+You can also add an `offset` option using the number of pixels you'd like to "offset" from the default pixels, like so:  
+```javascript  
+$('body').scrollspy({ //Use the html body in most cases (some exceptions apply)  
+  target: '#navbar',//Target the element for Scrollspy to use (e.g. navbar)  
+  offset: 150 //Pixels to offset from top when calculating position of scroll.  
+});  
+```  
+
+See the [documentation](http://getbootstrap.com/javascript/#scrollspy) for more information.
