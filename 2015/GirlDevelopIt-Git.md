@@ -89,6 +89,31 @@ P.S. **_AMAZING!_**
 Copy from Terminal and/or GitHub website, then run the following in Terminal:  
 `git revert [commit-hash-here]`  
 
+### Merge error  
+A merge error is where you have made changes to the repo but conflicting changes exist locally. For example, if you committed changes to the repo, and want to pull them locally but the changes would override your local copy.  
+
+During a merge error, you'll receive the following message:  
+```  
+error: Your local changes to the following files would be overwritten by merge:  
+  <List-Of-Files>  
+Please, commit your changes or stash them before you can merge.  
+Aborting  
+```  
+
+To resolve the conflict(s), you have three options:  
+
+#### Option 1: Commit the change  
+Type `git commit -m "My message"`  
+
+#### Option 2: Stash it  
+Stashing acts as a stack, where you can push changes, and you pop them in reverse order.  
+
+1. To stash type: `git stash`  
+2. Do the merge, and then pull the stash: `git stash pop`  
+
+#### Option 3: Discard the local changes   
+Using `git reset --hard`  
+
 ## Branches
 A parallel version of a repo. `master` is GitHub's default branch. **A branch is a new ending to a novel.** Also, think of branches like components of a tree, like a tree branch!  
 
