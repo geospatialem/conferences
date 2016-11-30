@@ -23,7 +23,8 @@
 * **_Fork_**: A personal copy of another user's repo.
 * **_Pull Request_**: Push your local changes to another user's repo, in hopes they will pull your code request to their repo to benefit others!
 * **_Touch_**: Creates a new file (e.g. `touch .gitignore`).
-* **_SSH Keys_**: Like a fingerprint, adds extra security to your GitHub account.
+* **_SSH Keys_**: Like a fingerprint, adds extra security to your GitHub account.  
+* **_Tags_**: Used for creating stable releases.  
 
 ## Shortcuts
 * Hit the `^` arrow to get the last run command in Terminal.
@@ -178,4 +179,48 @@ Rewrite your master branch so that any commits of yours that aren't already in u
 ## Pull Requests
 After forking and cloning, any changes you push will go to **your local repo** (not the original repo you forked). However, you can contribute back to the original repo by submitting a pull request to the owner.
 
-There is also a way for you to commit your changes **and** submit a pull request simultaneously using some awesome Git commands. Check out the GitHub Help section for more information on this awesomeness.
+There is also a way for you to commit your changes **and** submit a pull request simultaneously using some awesome Git commands. Check out the GitHub Help section for more information on this awesomeness.  
+
+## Tags  
+Tags are used for creating stable releases. 
+
+### List Tags  
+```
+git tag
+```  
+
+To view a list of tags, in alphabetical order, run:
+```
+git tag -1
+```  
+To view tag details (not applicable to lightweight tags), run:
+```
+git show v1.0.0 
+```
+
+### Creating Tags
+To create a tag, first, ensure that you're following the tag naming convention, for example 1.0.0.
+
+Annotated tags are stored as full objects in the Git database. They are checksummed; contain the tagger name, email, and date; have a tagging message; and can be signed and verified with GNU Privacy Guard (GPG). It’s generally recommended that you create annotated tags so you can have all this information; but if you want a temporary tag or for some reason don’t want to keep the other information, lightweight tags are available too. 
+
+To create an annotated tag run the following:  
+```
+git tag -a v1.0.0 -m 'version 1.0.0'
+```  
+
+To create a lightweight tag, run the following:  
+```
+git tag v1.0.0-lw
+```  
+
+### Push the Tag
+Once the tag is created, push the tag to the master repo by appending the `--tags` flag, like so:
+```
+git push --tags
+```  
+
+### Check the Tags  
+To check and confirm remote tags run:  
+```
+git tag -1
+```  
