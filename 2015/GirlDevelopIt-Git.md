@@ -224,3 +224,15 @@ To check and confirm remote tags run:
 ```
 git tag -1
 ```  
+## Removing files
+
+```
+git rm <file-name>
+```
+
+### Removing weird file names  
+When removing file names with quotes (e.g. `"` or `'`), such as `"tatn\303\207\302\242us"` perform the following:  
+```
+git rm tatn*
+```
+This will remove all of the files matching the pattern defined, in this case with `tatn`. [More information](http://stackoverflow.com/questions/23808611/git-checkout-remove-file-with-special-characters/23809099#23809099).
