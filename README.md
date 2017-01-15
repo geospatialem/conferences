@@ -1,5 +1,8 @@
 # Notes from Conferences and Courses
-Below is a list of notes compiled by [Kitty Hurley](http://www.twitter.com/geospatialem) from various conferences.
+Below is a list of notes compiled by [Kitty Hurley](http://www.twitter.com/geospatialem) from various conferences.  
+
+## [2017](/2017)  
+*Coming soon!*
 
 ## [2016](/2016)  
 * <img src="https://cloud.githubusercontent.com/assets/5023024/10260841/9d4cb9b8-6944-11e5-8987-a7d1493b5812.jpeg" alt="GDI logo" width="25" height"25"> [Girl Develop It: Stylin' with Sass!](/2016/GirlDevelopIt-StylinWithSass.md) ([website](https://www.girldevelopit.com/chapters/minneapolis)):  
