@@ -235,4 +235,10 @@ When removing file names with quotes (e.g. `"` or `'`), such as `"tatn\303\207\3
 ```
 git rm tatn*
 ```
-This will remove all of the files matching the pattern defined, in this case with `tatn`. [More information](http://stackoverflow.com/questions/23808611/git-checkout-remove-file-with-special-characters/23809099#23809099).
+This will remove all of the files matching the pattern defined, in this case with `tatn`. [More information](http://stackoverflow.com/questions/23808611/git-checkout-remove-file-with-special-characters/23809099#23809099).  
+
+## Check files diff from origin (before git push)  
+Check the files that will be pushed using Git by running the following command with the origin's branch name:  
+```
+git diff --stat --cached origin/<branchName>
+```  
