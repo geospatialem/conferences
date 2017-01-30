@@ -124,7 +124,13 @@ A parallel version of a repo. `master` is GitHub's default branch. **A branch is
 
 ### Create a Branch
 `git checkout -b <branch-name-here>`  
-`git status` will tell you the branch that you are in.
+`git status` will tell you the branch that you are in.  
+
+### Create a Branch from a Specified Branch (not master)  
+`git checkout -b <new-branch-name-here> <already-created-branch>`  
+
+Once you are ready to commit, do your normal commit messages, then run the following to push to the same named branch:  
+`git push origin <new-branch-name-here>`
 
 ### Switch Branches
 `git branch`: See all branches in the repo.   
