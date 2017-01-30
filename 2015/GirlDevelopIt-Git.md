@@ -166,6 +166,16 @@ a.k.a. collaboration at its best!
 ### Branch Conflicts
 Git will make you resolve conflicts before merging. When you try and run a merge and run into conflicts your file will change to show you the conflicts in your file(s). From here, edit them as you wish for them to appear. Then use `git commit -m '[your message goes here]'` to commit the changes. **_Hooray!_**  
 
+### Merge edits from master to a working branch  
+
+1. Checkout the branch you are working in: `git checkout <working-branch-name>`  
+
+2. Get up-to-date with the origin `git fetch origin`  
+
+3. Merge in the changes on the master branch. `git merge origin/master`  
+
+If any conflicts arise, Git will tell you and you will be able to edit them as they present themselves. Once you are satisfied do a commit message and push, as you normally would. You can do the third step above to verify your edits are the same as the master once completed.  
+
 ## Fork/Forking
 Use/Contribute to a repo owned by someone else. Forking creates a personal copy in your account of someone else's repo. A fork makes it easy for you to modify the code, and for contributions, if the owner chooses to accept your changes.  
 
