@@ -5,5 +5,9 @@
 ## Course Instructor:  
 [Sarah Bourne](https://twitter.com/sarahebourne), [[Slides](<slidesLink>)] *slide link coming soon*  
 
-## Header  
-* Initial content  
+## The old accessibility way  
+We used to ignore it, leave it as-is, or say *I'll get to it later*...  
+
+Which equated to:  
+* **Winners**: nobody :frowning:  
+* **Losers**: everybody :frowning:  
