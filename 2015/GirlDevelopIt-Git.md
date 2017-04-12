@@ -1,6 +1,6 @@
 # Git: Girl Develop It, October 2015 (Blomington, Minn.)
 
-<img src="https://cloud.githubusercontent.com/assets/5023024/10260841/9d4cb9b8-6944-11e5-8987-a7d1493b5812.jpeg" width="25" height"25"> [Girl Develop It](https://www.girldevelopit.com/chapters/minneapolis) is a non-profit organization that exists to provide affordable and judgment-free opportunities for women interested in learning web and software development. Through in-person classes and community support, Girl Develop It helps women of diverse backgrounds achieve their technology goals and build confidence in their careers and their every day lives.
+<img src="https://cloud.githubusercontent.com/assets/5023024/10260841/9d4cb9b8-6944-11e5-8987-a7d1493b5812.jpeg" width="25"> [Girl Develop It](https://www.girldevelopit.com/chapters/minneapolis) is a non-profit organization that exists to provide affordable and judgment-free opportunities for women interested in learning web and software development. Through in-person classes and community support, Girl Develop It helps women of diverse backgrounds achieve their technology goals and build confidence in their careers and their every day lives.
 
 ## Introductions
 * Presenter: [Amy Gebhardt](http://www.twitter.com/amlyhamm)
@@ -198,7 +198,7 @@ After forking and cloning, any changes you push will go to **your local repo** (
 There is also a way for you to commit your changes **and** submit a pull request simultaneously using some awesome Git commands. Check out the GitHub Help section for more information on this awesomeness.  
 
 ## Tags  
-Tags are used for creating stable releases. 
+Tags are used for creating stable releases.
 
 ### List Tags  
 ```
@@ -211,13 +211,13 @@ git tag -1
 ```  
 To view tag details (not applicable to lightweight tags), run:
 ```
-git show v1.0.0 
+git show v1.0.0
 ```
 
 ### Creating Tags
 To create a tag, first, ensure that you're following the tag naming convention, for example 1.0.0.
 
-Annotated tags are stored as full objects in the Git database. They are checksummed; contain the tagger name, email, and date; have a tagging message; and can be signed and verified with GNU Privacy Guard (GPG). It’s generally recommended that you create annotated tags so you can have all this information; but if you want a temporary tag or for some reason don’t want to keep the other information, lightweight tags are available too. 
+Annotated tags are stored as full objects in the Git database. They are checksummed; contain the tagger name, email, and date; have a tagging message; and can be signed and verified with GNU Privacy Guard (GPG). It’s generally recommended that you create annotated tags so you can have all this information; but if you want a temporary tag or for some reason don’t want to keep the other information, lightweight tags are available too.
 
 To create an annotated tag run the following:  
 ```
