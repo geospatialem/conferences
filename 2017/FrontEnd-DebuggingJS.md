@@ -1,6 +1,6 @@
 # Debugging JavaScript, April 2017 (Minneapolis, Minn.)  
 
-<img src="https://cloud.githubusercontent.com/assets/5023024/24884789/b5862bb8-1e10-11e7-9c1c-53b5cadb89ef.png" width="45" height"45" alt="Front End Masters logo"> [Front End Masters](http://mn.gov)  
+<img src="https://cloud.githubusercontent.com/assets/5023024/24884789/b5862bb8-1e10-11e7-9c1c-53b5cadb89ef.png" width="45" alt="Front End Masters logo"> [Front End Masters](http://mn.gov)  
 
 ## Course Instructor:  
 [Todd H Gardner](https://twitter.com/toddhgardner)  
@@ -380,6 +380,6 @@ Lower the risk of change (e.g. pacemaker software vs. low hit web application). 
 Abstraction ↓ **Simplicity** ↑ Duplication
 
 ### Generic Architecture
-Request → The doer thing → Widgetizer → Enterprise-ready Cylinder _or_ 
+Request → The doer thing → Widgetizer → Enterprise-ready Cylinder _or_
 
 Request → The doer thing → Powerful cloud → Enterprise-ready Cylinder
