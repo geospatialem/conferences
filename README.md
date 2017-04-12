@@ -2,8 +2,8 @@
 Below is a list of notes compiled by [Kitty Hurley](http://www.twitter.com/geospatialem) from various conferences.  
 
 ## [2017](/2017)  
-* <img src="https://cloud.githubusercontent.com/assets/5023024/24884789/b5862bb8-1e10-11e7-9c1c-53b5cadb89ef.png" alt="Front End Masters logo" width="45" height"45"> [Debugging JavaScript](/2017/FrontEnd-DebuggingJS.md) ([website](https://frontendmasters.com)):  Debugging JavaScript took place in Minneapolis, Minnesota on April 7, 2017.  
-* <img src="https://www.mn.gov/portal/assets/justified-logo_tcm1077-265308.jpg" alt="State of Minnesota logo" width="25" height"25"> [Advanced IT Accessibility for Applications and Web Interfaces](/2017/StateMN-AdvAccessibility.md) ([website](https://www.mn.gov)): Advanced IT Accessibility for Applications and Web Interfaces took place in St. Paul, Minnesota on January 27, 2017.
+* <img src="https://cloud.githubusercontent.com/assets/5023024/24884789/b5862bb8-1e10-11e7-9c1c-53b5cadb89ef.png" alt="Front End Masters logo" width="45"> [Debugging JavaScript](/2017/FrontEnd-DebuggingJS.md) ([website](https://frontendmasters.com)):  Debugging JavaScript took place in Minneapolis, Minnesota on April 7, 2017.  
+* <img src="https://www.mn.gov/portal/assets/justified-logo_tcm1077-265308.jpg" alt="State of Minnesota logo" width="25"> [Advanced IT Accessibility for Applications and Web Interfaces](/2017/StateMN-AdvAccessibility.md) ([website](https://www.mn.gov)): Advanced IT Accessibility for Applications and Web Interfaces took place in St. Paul, Minnesota on January 27, 2017.
 
 
 ## [2016](/2016)  
