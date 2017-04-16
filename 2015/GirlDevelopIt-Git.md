@@ -176,6 +176,16 @@ Git will make you resolve conflicts before merging. When you try and run a merge
 
 If any conflicts arise, Git will tell you and you will be able to edit them as they present themselves. Once you are satisfied do a commit message and push, as you normally would. You can do the third step above to verify your edits are the same as the master once completed.  
 
+### Checkout a remote branch  
+If a branch exists remotely, go out to Git and **fetch** it, then checkout the branch. 
+
+This is useful when you have an issue/error within the branch, in which you can delete your local copy, fetch the branches from the remote, and checkout the repo version of the branch. Hooray!
+
+```
+git fetch
+git checkout [branch-name-here]
+```
+
 ## Fork/Forking
 Use/Contribute to a repo owned by someone else. Forking creates a personal copy in your account of someone else's repo. A fork makes it easy for you to modify the code, and for contributions, if the owner chooses to accept your changes.  
 
