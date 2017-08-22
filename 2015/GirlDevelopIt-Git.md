@@ -250,6 +250,15 @@ To check and confirm remote tags run:
 ```
 git tag -1
 ```  
+
+### Deleting Tags
+```
+# Delete local tag
+git tag -d v1.0.0
+# Delete remote tag on Gitlab/Github
+git push origin :refs/tags/v1.0.0
+```
+
 ## Removing files
 
 ```
