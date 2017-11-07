@@ -122,6 +122,10 @@ A parallel version of a repo. `master` is GitHub's default branch. **A branch is
 2. `master` branch is left alone when doing large changes. Changes are normally merged into the `master` when completed.
 3. Merge in a branch when you are ready, and after you have verified it works (usually back to the `master` branch).
 
+### Fetch All Branches  
+Get all branches on the remote.  
+`git fetch --all`  
+
 ### Create a Branch
 `git checkout -b <branch-name-here>`  
 `git status` will tell you the branch that you are in.  
