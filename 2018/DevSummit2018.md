@@ -3,7 +3,7 @@
 <img src="https://user-images.githubusercontent.com/5023024/37805637-78080310-2e09-11e8-8d33-6f174f2f9aa3.gif" alt="Esri logo" width="60" height="25"> [Esri Developer Summit](http://www.esri.com) is designed to show you how to build cutting-edge apps using advanced mapping technology from Esri. At DevSummit you will be the first to see new tools for geo-enabling your apps to get pro tips from the developers who made them.  
 
 ## Tuesday, March 6, 2018
-* [Plenary](#plenary-multiple-esri-staff), Multiple Esri staff    
+* [Plenary](#plenary-multiple-esri-staff), Multiple Esri staff [[Video Playlist](https://www.youtube.com/playlist?list=PLaPDDLTCmy4aE-073hhwZQplvJ8MmKZCe)]    
 * [Navigating Your Way Through the ArcGIS API for JavaScript Sessions](#navigating-your-way-through-the-arcgis-api-for-javascript-sessions-multiple-esri-staff), Multiple Esri staff [[Blog post](http://esriurl.com/webdev2018devsummit)]      
 * [Using ArcGIS REST JS and REST APIs](#using-arcgis-rest-js-and-rest-apis---john-gravois-dave-bouwman-and-tom-wayson), [John Gravois](https://twitter.com/jgravois), [Dave Bouwman](https://twitter.com/dbouwman) and [Tom Wayson](https://twitter.com/tomwayson) [[Slides](https://tomwayson.github.io/devsummit-2018/arcgis-rest-js.html), [Repo](https://github.com/Esri/arcgis-rest-js), [Website](https://esri.github.io/arcgis-rest-js)]  
 * [Tracking User Engagement for Feedback and Quality with Telemtry.js](#tracking-user-engagement-for-feedback-and-quality-with-telemtryjs-markham-shofner-and-daniel-fenton), [Markham Shofner](https://twitter.com/markhamshofner) and [Daniel Fenton](https://twitter.com/dmfenton) [[NPM package](https://www.npmjs.com/package/@esri/telemetry)]
@@ -11,7 +11,8 @@
 * [ArcGIS API for JS Programming Patterns and API Fundamentals](#arcgis-api-for-js-programming-patterns-and-api-fundamentals-matt-driscoll-and-rene-rubalcava), [Matt Driscoll](https://twitter.com/driskull) and [Renè Rubalcava](https://twitter.com/odoenet) [[Slides](https://odoe.github.io/presentations/2018-PS-DevSummit/jsapi4-patterns-fundamentals)]
 
 ## Wednesday, March 7, 2018
-* Keynote, [Joseph Sirosh]()
+* [AI and Geo Keynote](#ai-and-geo-keynote-joseph-sirosh), [Joseph Sirosh](https://twitter.com/josephsirosh) [[Video](https://www.youtube.com/watch?v=x-hVkgBHkT8&index=27&t=0s&list=PLaPDDLTCmy4aE-073hhwZQplvJ8MmKZCe)]  
+
 ## Thursday, March 8, 2018  
 ## Friday, March 9, 2018
 
@@ -917,7 +918,22 @@ webmap.load()
 
 ## Wednesday, March 7, 2018
 
-### Name of Presentation
+### AI and Geo Keynote, Joseph Sirosh
+#### How Does AI Help?
+1. Understanding  
+2. Reasoning  
+3. Interacting  
+
+Ingest → Enrich → Explore (continuous)
+
+#### Apps  
+* Tells blind whats in front of them ($ amount, # of people in meeting, etc.)
+* Autistic deaf can take photos of items and convert to text. Can speak back to parents.  
+
+#### Resources
+* [JFK Files](https://jfkfiles2.azurewebsites.net)  
+* [Azure AI Gallery](https://azure.com/ai)
+* [AI School](https://aischool.microsoft.com)
 
 ## Thursday, March 8, 2018
 
