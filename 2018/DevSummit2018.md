@@ -4,10 +4,10 @@
 
 ## Tuesday, March 6, 2018
 * [Plenary](#plenary-multiple-esri-staff), Multiple Esri staff    
-* [Navigating Your Way Through the ArcGIS API for JavaScript Sessions]((#navigating-your-way-through-the-arcgis-api-for-javaScript-sessions-multiple-esri-staff), Multiple Esri staff    
-* [Using ArcGIS REST JS and REST APIs](#using-arcgis-rest-js-and-rest-apis-john-gravois-dave-bouwman-and-tom-wayson), [John Gravois](https://twitter.comjgravois), [Dave Bouwman](https://twitter.com/dbouwman) and [Tom Wayson](https://twitter.com/tomwayson) [[Slides](https://tomwayson.github.io/devsummit-2018/arcgis-rest-js.html), [Repo](https://github.com/Esri/arcgis-rest-js), [Website](https://esri.github.io/arcgis-rest-js)]  
-* [Tracking User Engagement for Feedback and Quality with Telemtry.js](#tracking-user-engagement-for-feedback-and-quality-with-telemtry-js-markham-shofner-and-daniel-fenton), [Markham Shofner](https://twitter.com/markhamshofner) and [Daniel Fenton](https://twitter.com/dmfenton) [[NPM package](https://www.npmjs.com/package/@esri/telemetry)]
-* [Develop with Confidence: CT/CI/CD](#develop-with-confidence-ct-ci-cd-idi-eradiri), [Idi Eradiri](https://github.com/joppa27)    
+* [Navigating Your Way Through the ArcGIS API for JavaScript Sessions](#navigating-your-way-through-the-arcgis-api-for-javascript-sessions-multiple-esri-staff), Multiple Esri staff [[Blog post](http://esriurl.com/webdev2018devsummit)]      
+* [Using ArcGIS REST JS and REST APIs](#using-arcgis-rest-js-and-rest-apis---john-gravois-dave-bouwman-and-tom-wayson), [John Gravois](https://twitter.comjgravois), [Dave Bouwman](https://twitter.com/dbouwman) and [Tom Wayson](https://twitter.com/tomwayson) [[Slides](https://tomwayson.github.io/devsummit-2018/arcgis-rest-js.html), [Repo](https://github.com/Esri/arcgis-rest-js), [Website](https://esri.github.io/arcgis-rest-js)]  
+* [Tracking User Engagement for Feedback and Quality with Telemtry.js](#tracking-user-engagement-for-feedback-and-quality-with-telemtryjs-markham-shofner-and-daniel-fenton), [Markham Shofner](https://twitter.com/markhamshofner) and [Daniel Fenton](https://twitter.com/dmfenton) [[NPM package](https://www.npmjs.com/package/@esri/telemetry)]
+* [Develop with Confidence: CT/CI/CD](#develop-with-confidence-ctcicd-idi-eradiri), [Idi Eradiri](https://github.com/joppa27)    
 * [ArcGIS API for JS Programming Patterns and API Fundamentals](#arcgis-api-for-js-programming-patterns-and-api-fundamentals-matt-driscoll-and-rene-rubalcava), [Matt Driscoll](https://twitter.com/driskull) and [Renè Rubalcava](https://twitter.com/odoenet) [[Slides](https://odoe.github.io/presentations/2018-PS-DevSummit/jsapi4-patterns-fundamentals)]
 
 # Wednesday, March 7, 2018
@@ -17,7 +17,7 @@
 
 ## Tuesday, March 6, 2018
 
-### Plenary - Multiple Esri Staff  
+### Plenary, Multiple Esri staff  
 1. Zillow housing data from Living Atlas [[Video](https://www.youtube.com/watch?v=RP3rk_fcc3Y&list=PLaPDDLTCmy4aE-073hhwZQplvJ8MmKZCe&index=5), [GitHub](http://ycabon.github.io/2018-devsummit-plenary)]
   * Also can be downloaded from [Zillow's research site](https://www.zillow.com/research/data/).  
 2. Mobile 3D [[Video](https://www.youtube.com/watch?v=XqbBY3iXyaU&index=8&list=PLaPDDLTCmy4aE-073hhwZQplvJ8MmKZCe)]
@@ -42,7 +42,7 @@
   * Encrypted Python tools (Source code hidden when shipped)
 10. Offline maps (working with Maps) [[Video](https://www.youtube.com/watch?v=3q-JoOkW4Vo&list=PLaPDDLTCmy4aE-073hhwZQplvJ8MmKZCe&index=23)]  
 
-### Navigating Your Way Through the ArcGIS API for JavaScript Sessions - Multiple Esri Staff [[Blog post](http://esriurl.com/webdev2018devsummit)]  
+### Navigating Your Way Through the ArcGIS API for JavaScript Sessions, Multiple Esri staff   
 1. What's new *
 2. 2D Visualization *
 3. Tips & Tricks Debugging *  
