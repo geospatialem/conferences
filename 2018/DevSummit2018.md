@@ -1,18 +1,19 @@
 # Esri Developer Summit 2018 (Palm Springs, Cali.)
 
-<img src="https://user-images.githubusercontent.com/5023024/37805637-78080310-2e09-11e8-8d33-6f174f2f9aa3.gif" alt="Esri logo" width="75" height="25"> [Esri Developer Summit](http://www.nacis.org) is designed to show you how to build cutting-edge apps using advanced mapping technology from Esri. At DevSummit you will be the first to see new tools for geo-enabling your apps to get pro tips from the developers who made them.  
+<img src="https://user-images.githubusercontent.com/5023024/37805637-78080310-2e09-11e8-8d33-6f174f2f9aa3.gif" alt="Esri logo" width="60" height="25"> [Esri Developer Summit](http://www.esri.com) is designed to show you how to build cutting-edge apps using advanced mapping technology from Esri. At DevSummit you will be the first to see new tools for geo-enabling your apps to get pro tips from the developers who made them.  
 
 ## Tuesday, March 6, 2018
 * [Plenary](#plenary-multiple-esri-staff), Multiple Esri staff    
 * [Navigating Your Way Through the ArcGIS API for JavaScript Sessions](#navigating-your-way-through-the-arcgis-api-for-javascript-sessions-multiple-esri-staff), Multiple Esri staff [[Blog post](http://esriurl.com/webdev2018devsummit)]      
-* [Using ArcGIS REST JS and REST APIs](#using-arcgis-rest-js-and-rest-apis---john-gravois-dave-bouwman-and-tom-wayson), [John Gravois](https://twitter.comjgravois), [Dave Bouwman](https://twitter.com/dbouwman) and [Tom Wayson](https://twitter.com/tomwayson) [[Slides](https://tomwayson.github.io/devsummit-2018/arcgis-rest-js.html), [Repo](https://github.com/Esri/arcgis-rest-js), [Website](https://esri.github.io/arcgis-rest-js)]  
+* [Using ArcGIS REST JS and REST APIs](#using-arcgis-rest-js-and-rest-apis---john-gravois-dave-bouwman-and-tom-wayson), [John Gravois](https://twitter.com/jgravois), [Dave Bouwman](https://twitter.com/dbouwman) and [Tom Wayson](https://twitter.com/tomwayson) [[Slides](https://tomwayson.github.io/devsummit-2018/arcgis-rest-js.html), [Repo](https://github.com/Esri/arcgis-rest-js), [Website](https://esri.github.io/arcgis-rest-js)]  
 * [Tracking User Engagement for Feedback and Quality with Telemtry.js](#tracking-user-engagement-for-feedback-and-quality-with-telemtryjs-markham-shofner-and-daniel-fenton), [Markham Shofner](https://twitter.com/markhamshofner) and [Daniel Fenton](https://twitter.com/dmfenton) [[NPM package](https://www.npmjs.com/package/@esri/telemetry)]
 * [Develop with Confidence: CT/CI/CD](#develop-with-confidence-ctcicd-idi-eradiri), [Idi Eradiri](https://github.com/joppa27)    
 * [ArcGIS API for JS Programming Patterns and API Fundamentals](#arcgis-api-for-js-programming-patterns-and-api-fundamentals-matt-driscoll-and-rene-rubalcava), [Matt Driscoll](https://twitter.com/driskull) and [Renè Rubalcava](https://twitter.com/odoenet) [[Slides](https://odoe.github.io/presentations/2018-PS-DevSummit/jsapi4-patterns-fundamentals)]
 
-# Wednesday, March 7, 2018
-# Thursday, March 8, 2018  
-# Friday, March 9, 2018
+## Wednesday, March 7, 2018
+* Keynote, [Joseph Sirosh]()
+## Thursday, March 8, 2018  
+## Friday, March 9, 2018
 
 
 ## Tuesday, March 6, 2018

@@ -1,5 +1,8 @@
 # Notes from Conferences and Courses
-Below is a list of notes compiled by [Kitty Hurley](http://www.twitter.com/geospatialem) from various conferences.  
+Below is a list of notes compiled by [Kitty Hurley](http://www.twitter.com/geospatialem) from various conferences.
+
+## [2018](/2018)  
+* <img src="https://user-images.githubusercontent.com/5023024/37805637-78080310-2e09-11e8-8d33-6f174f2f9aa3.gif" alt="Esri logo" width="60" height="25"> [Esri Developer Summit](/2018/DevSummit2018.md) ([website](http://www.esri.com)): The international Esri Developer Summit took place in Palm Springs, California from March 6-9, 2018.   
 
 ## [2017](/2017)  
 * <img src="https://user-images.githubusercontent.com/5023024/29584936-f0d0eaa2-874a-11e7-9ce3-751be3aa9b67.png" alt="FOSS4G Boston logo" width="45"> [FOSS4G 2017](/2017/FOSS4G2017.md) ([website](http://2017.foss4g.org)): The international
