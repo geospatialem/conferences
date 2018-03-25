@@ -2,13 +2,13 @@
 
 <img src="https://user-images.githubusercontent.com/5023024/37805637-78080310-2e09-11e8-8d33-6f174f2f9aa3.gif" alt="Esri logo" width="75" height="25"> [Esri Developer Summit](http://www.nacis.org) is designed to show you how to build cutting-edge apps using advanced mapping technology from Esri. At DevSummit you will be the first to see new tools for geo-enabling your apps to get pro tips from the developers who made them.  
 
-# Tuesday, March 6, 2018
-## Plenary - Multiple Esri Staff  
-## Navigating Your Way Through the ArcGIS API for JavaScript Sessions  
-## Using ArcGIS REST JS & REST APIs  
-## Tracking User Engagement for Feedback and Quality with Telemtry.js  
-## Develop with Confidence: CT/CI/CD  
-## ArcGIS API for JS Programming Patterns & API Fundamentals
+## Tuesday, March 6, 2018
+* [Plenary](#plenary-multiple-esri-staff), Multiple Esri staff    
+* [Navigating Your Way Through the ArcGIS API for JavaScript Sessions]((#navigating-your-way-through-the-arcgis-api-for-javaScript-sessions-multiple-esri-staff), Multiple Esri staff    
+* [Using ArcGIS REST JS and REST APIs](#using-arcgis-rest-js-and-rest-apis-john-gravois-dave-bouwman-and-tom-wayson), [John Gravois](https://twitter.comjgravois), [Dave Bouwman](https://twitter.com/dbouwman) and [Tom Wayson](https://twitter.com/tomwayson) [[Slides](https://tomwayson.github.io/devsummit-2018/arcgis-rest-js.html), [Repo](https://github.com/Esri/arcgis-rest-js), [Website](https://esri.github.io/arcgis-rest-js)]  
+* [Tracking User Engagement for Feedback and Quality with Telemtry.js](#tracking-user-engagement-for-feedback-and-quality-with-telemtry-js-markham-shofner-and-daniel-fenton), [Markham Shofner](https://twitter.com/markhamshofner) and [Daniel Fenton](https://twitter.com/dmfenton) [[NPM package](https://www.npmjs.com/package/@esri/telemetry)]
+* [Develop with Confidence: CT/CI/CD](#develop-with-confidence-ct-ci-cd-idi-eradiri), [Idi Eradiri](https://github.com/joppa27)    
+* [ArcGIS API for JS Programming Patterns and API Fundamentals](#arcgis-api-for-js-programming-patterns-and-api-fundamentals-matt-driscoll-and-rene-rubalcava), [Matt Driscoll](https://twitter.com/driskull) and [Renè Rubalcava](https://twitter.com/odoenet) [[Slides](https://odoe.github.io/presentations/2018-PS-DevSummit/jsapi4-patterns-fundamentals)]
 
 # Wednesday, March 7, 2018
 # Thursday, March 8, 2018  
@@ -62,8 +62,7 @@
 17. Integrate with Portal/AGOL
 18. JS: The Road Ahead *  
 
-### Using ArcGIS REST JS & REST APIs - [John Gravois](https://twitter.comjgravois), [Dave Bouwman](https://twitter.com/dbouwman) & [Tom Wayson](https://twitter.com/tomwayson) [[Slides](https://tomwayson.github.io/devsummit-2018/arcgis-rest-js.html), [Repo](https://github.com/Esri/arcgis-rest-js), [Website](https://esri.github.io/arcgis-rest-js)]
-
+### Using ArcGIS REST JS and REST APIs - John Gravois, Dave Bouwman, and Tom Wayson  
 * Written in Typescript  
 * Small and lightweight  
 
@@ -86,7 +85,7 @@ See https://github.com/Esri/arcgis-rest-js/tree/master/demos
 * [feature-service-browser](https://github.com/Esri/arcgis-rest-js/tree/master/demos/feature-service-browser)
 
 
-### Tracking User Engagement for Feedback and Quality with Telemtry.js - [Markham Shofner](https://twitter.com/markhamshofner) & [Daniel Fenton](https://twitter.com/dmfenton) [[NPM package](https://www.npmjs.com/package/@esri/telemetry)]    
+### Tracking User Engagement for Feedback and Quality with Telemtry.js, Markham Shofner and Daniel Fenton     
 #### Installation  
 Source code coming soon to GitHub  
 ```
@@ -122,8 +121,7 @@ Anonymize user base, since it goes back to Google Analytics.
   * Raw data out of Google Analytics  
 
 
-### Develop with Confidence: CT/CI/CD - [Idi Eradiri](https://github.com/joppa27)    
-
+### Develop with Confidence: CT/CI/CD, Idi Eradiri    
 #### Continuous Integration (CI)  
 * Feature branch up-to-date with mainline branch.
 * e.g. A GitHub update between local and repo up (up-to-date)
@@ -169,7 +167,7 @@ Build → Test * → Deploy
 * Patience - give team time to adapt to a change in the process.  
 
 
-### ArcGIS API for JS Programming Patterns & API Fundamentals - [Matt Driscoll](https://twitter.com/driskull) & [Renè Rubalcava](https://twitter.com/odoenet) [[Slides](https://odoe.github.io/presentations/2018-PS-DevSummit/jsapi4-patterns-fundamentals)]
+### ArcGIS API for JS Programming Patterns and API Fundamentals, Matt Driscoll and Rene Rubalcava  
 
 #### Fundamentals
 * Map and view   
