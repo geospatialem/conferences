@@ -25,6 +25,7 @@
 * **_Touch_**: Creates a new file (e.g. `touch .gitignore`).
 * **_SSH Keys_**: Like a fingerprint, adds extra security to your GitHub account.  
 * **_Tags_**: Used for creating stable releases.  
+* **_Cherry Picking_**: Choose a commit from one branch and apply it to another.
 
 ## Shortcuts
 * Hit the `^` arrow to get the last run command in Terminal.
@@ -281,3 +282,40 @@ Check the files that will be pushed using Git by running the following command w
 ```
 git diff --stat --cached origin/<branchName>
 ```  
+
+## Cherry Picking 
+Cherry picking is great if we have changes from a specific commit in another branch that we'd like to bring into our current branch, without merging everything from the other branch.
+
+Check the log of commits on the current branch:
+```
+$> git log --oneline
+
+43388fe Initial commit
+```
+
+Check the log of commits against a different branch, and get the commit SHA-1 from the git log (e.g., `5536108`).
+```
+$> git log <branch-name> --oneline
+
+5536108 Add climate summary report
+4c4b0f9 (tag: v0.0.1) Update basemap
+43388fe Initial commit
+```
+
+Next, we'll use the commit SHA-1 to copy into the current branch.
+```
+$> git cherry-pick 5536108
+```
+
+Let's check the log to see the commit history to make sure the `5536108` commit comes into our branch. Note that the cherry-picked commit will be listed on the top (unlike if we rebase to changes on top of it).
+```
+$> git log --oneline
+
+5536108 Add climate summary report
+43388fe Initial commit
+```
+
+
+
+
+
