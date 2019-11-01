@@ -26,7 +26,8 @@
 * **_SSH Keys_**: Like a fingerprint, adds extra security to your GitHub account.  
 * **_Tags_**: Used for creating stable releases.  
 * **_Cherry Picking_**: Choose a commit from one branch and apply it to another.
-* **_Blame_**: A versatile troubleshooting utility that has extensive usage options, displaying  author metadata attached to specific committed lines in a file.  
+* **_Blame_**: A versatile troubleshooting utility that has extensive usage options, displaying  author metadata attached to specific committed lines in a file. 
+* **_Bisect_**: Use a binary search to find the commit that introduced a bug.  
 
 ## Shortcuts
 * Hit the `^` arrow to get the last run command in Terminal.
@@ -336,4 +337,45 @@ git log --diff-filter=D -- <filename>
 # We can use git blame from one commit before (using "^") 
 git blame <commit SHA-1>^ -- <filename>
 ```
+
+## Git Bisect  
+`git bisect` helps determine where in history something changed, especially over a large timeframe. Maybe a bug :bug: was introduced last month, but going through every commit would be too time-consuming.
+
+To run `git bisect` we need a commit range, perhaps the latest commit and to determine a date we know the code was functioning properly, so we'll run git log to get an idea of where we want our range for the bisect.
+
+```
+$> git log --oneline
+
+b8e1a56 Remove Java
+331024e Provide support and contacts
+88f6e28 Add help link
+43388fe Initial commit
+
+$> git bisect start b8e1a56 43388fe
+```
+
+Let's test the file...
+
+```
+$> cat index.html
+
+# The information we had in the index.html is there, so we'll mark this as Bad. 
+# As we continue, Git continues to move backward in time.
+
+$> git bisect bad
+Bisecting: 0 revisions left to test after this (roughly 0 steps)
+[88f6e2864bd0829c71654f1d19096f436a66ce07] Add help link
+
+# Now the next commit history will open
+$> cat index.html
+
+# The information we had in the index.html file isn't here, so we'll mark this as Good
+$> git bisect good
+
+331024e3b1c500b4a30e5975636399bb6542d5f4 is the first bad commit
+commit 331024e3b1c500b4a30e5975636399bb6542d5f4
+```
+
+`git bisect` has helped us figure out that the offender was introduced in the `331024e` commit. We can even perform manual tests to see if our commit is good, such as loading a webpage, or leveraging automated tests.  
+
 
