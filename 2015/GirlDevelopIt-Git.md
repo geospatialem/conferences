@@ -26,6 +26,7 @@
 * **_SSH Keys_**: Like a fingerprint, adds extra security to your GitHub account.  
 * **_Tags_**: Used for creating stable releases.  
 * **_Cherry Picking_**: Choose a commit from one branch and apply it to another.
+* **_Blame_**: A versatile troubleshooting utility that has extensive usage options, displaying  author metadata attached to specific committed lines in a file.  
 
 ## Shortcuts
 * Hit the `^` arrow to get the last run command in Terminal.
@@ -315,7 +316,24 @@ $> git log --oneline
 43388fe Initial commit
 ```
 
+## Git Blame  
+If you come across some questionable code, how can we tell who the last person who touched it was? `git blame` can help us troubleshoot. `git blame` can also accept line numbers or regular expressions to limit blaming to a range of lines or specific function, rather than blaming the entire file.  
 
+```
+$> git blame <filename>
+```  
 
+`git blame` also has some useful arguements, such as:
+  * Ignoring whitespace, `-w`
+  * Detecting moved or copied lines, `-M`, and   
+  * Detecting moved or copied lines from other files in the commit `-C`  
 
+```
+# Let's find the commit where the file was deleted
+git log --diff-filter=D -- <filename>
+
+# Now that we know the commit where the file was deleted
+# We can use git blame from one commit before (using "^") 
+git blame <commit SHA-1>^ -- <filename>
+```
 
