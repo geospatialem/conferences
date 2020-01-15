@@ -338,6 +338,30 @@ git log --diff-filter=D -- <filename>
 git blame <commit SHA-1>^ -- <filename>
 ```
 
+## Git Reset/Rebase
+You can change multiple commit messages to modify a commit that is farther back in your history using `git reset` or `git rebase`. 
+
+The rebase command has some awesome options available in its --interactive (or -i) mode, and one of the most widely used is the ability to squash commits. What this does is take smaller commits and combine them into larger ones, which could be useful if you’re wrapping up the day’s work or if you just want to package your changes differently. We’re going to go over how you can do this easily.
+
+**Note:** Only do this on commits that haven’t been pushed an external repository. If others have based work off of the commits that you’re going to delete, plenty of conflicts can occur, aka **do not rewrite your history if it’s been shared with others.**
+
+### Two commits (most recent commits)  
+If there are only two commits you want to merge, and they are the "most recent two", the following commands can be used to combine the two commits into one:
+```
+git reset --soft "HEAD^"
+git commit --amend
+```
+
+### Multiple commits
+If there are multiple commits, you can use `git rebase -i` to squash two commits into one.
+
+### Specific commits
+Use `git rebase -i <after-this-commit>` and replace "pick" on the second and subsequent commits with "squash" or "fixup", as described in [the manual](https://git-scm.com/docs/git-rebase#_interactive_mode).
+
+In this example, `<after-this-commit>` is either the SHA1 hash or the relative location from the HEAD of the current branch from which commits are analyzed for the rebase command. 
+
+For example, if the user wishes to view 5 commits from the current HEAD in the past the command is `git rebase -i HEAD~5`.  
+
 ## Git Bisect  
 `git bisect` helps determine where in history something changed, especially over a large timeframe. Maybe a bug :bug: was introduced last month, but going through every commit would be too time-consuming.
 
